@@ -1,0 +1,336 @@
+    1  sudo apt update
+    2  clear
+    3  ip 
+    4  clear
+    5  ip a
+    6  clear
+    7  ifconfig
+    8  clea
+    9  clear
+   10  sudo apt install net-tools
+   11  cleear
+   12  cleaer
+   13  clear
+   14  ifconfig
+   15  clear
+   16  hostname -I
+   17  ping www.hola.es
+   18  ping hola.com
+   19  clear
+   20  ping /c 4 google.com
+   21  clear
+   22  ping -c google.com
+   23  ping -c google.coclearm
+   24  clear
+   25  ping -c 4 google.com
+   26  ping -c 4 hola.com
+   27  clear
+   28  su root
+   29  ls
+   30  ls -la
+   31  su root
+   32  ip a
+   33  clear
+   34  sudo nano /etc/network/interfaces
+   35  ip a
+   36  clear
+   37  ip a > ./memoria/linux/network/config_red.txt
+   38  clear
+   39  ip a > ./memoria/linux/network/config_red.txt
+   40  mkdir -p memoria/{linux,unix,windows}
+   41  cd memoria/linux/
+   42  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   43  cd ../unix/
+   44  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   45  cd ../windows/
+   46  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   47  cd ../../
+   48  ip a > ./memoria/linux/network/config_red.txt
+   49  history > ./memoria/linux/network/historylinux.txt
+   50  sudo journal --since "1 hour ago" | grep -i network > ./memoria/linux/network/linux.log
+   51  sudo journalctl --since "1 hour ago" | grep -i network > ./memoria/linux/network/linux.log
+   52  clera
+   53  clear
+   54  sudo nano /etc/network/interfaces
+   55  clear
+   56  sudo systemctl restart networking
+   57  ip a
+   58  ip a > ./memoria/linux/network/config_red_final.txt 
+   59  journalctl -u networking --since "1 hour ago" > ./memoria/linux/network/linux.log
+   60  clear
+   61  sudo apt update
+   62  clear
+   63  sudo apt install openssh-server
+   64  clear
+   65  sudo nano /etc/ssh/sshd_config
+   66  sudo systemctl start sshd
+   67  sudo systemctl enable sshd
+   68  sudo apt list oppenssh-server
+   69  sudo apt install aponss-server -y
+   70  sudo apt install openssh-server -y
+   71  sudo systemctl status ssh
+   72  sudo systemctl enable ssh
+   73  sudo systemctl start ssh
+   74  ss -tunlp | grep ssh
+   75  sudo systemctl status sshd
+   76  clear
+   77  mkdir -p /root/memoria/linux/ssh/
+   78  clear
+   79  su root
+   80  SU ROOT
+   81  clear
+   82  su root
+   83  clear
+   84  ip a > ./memoria/linux/ssh/networ_config.txt
+   85  history > ./memoria/linux/ssh/historylinux.txt
+   86  journalctl -u networking --since "1 hour ago" > ./memoria/linux/network/linux.log
+   87  clear
+   88  ssh-keygen -t rsa -b 4096
+   89  clear
+   90  ss -tunlp | grep ssh
+   91  sudo cat /var/log/auth.log | grep sshd
+   92  sudo nano /etc/ssh/sshd_config
+   93  sudo systemctl restart ssh
+   94  clear
+   95  ssh-keygen -t rsa -b 4096
+   96  ssh-copy-id nick@192.168.24.41
+   97  CLEAR
+   98  clear
+   99  ssh nick@192.168.24.41
+  100  sudo mkdir -p /root/memoria/linux/vnc_rdp/
+  101  su root
+  102  clear
+  103  cñear
+  104  clear
+  105  scp archivo.xt nick@192.168.21.41:/home/nick/
+  106  sftp nick@192.168.24.41
+  107  clear
+  108  sudo cp /etc/ssh/sshd_config /root/memoria/linux/ssh/
+  109  clear
+  110  sudo apt update
+  111  clear
+  112  sudo apt install isc-dhcp-server
+  113  clear
+  114  sudo apt-get updage
+  115  sudo apt-get update
+  116  sudo apt-get upgrade
+  117  sudo apt install isc-dhcp-server
+  118  ping 8.8.8.8
+  119  sudo apt update --fix-missing
+  120  clear
+  121  ping 8.8.8.8
+  122  sudo nano /etc/network/interfaces
+  123  sudo systemctl restart networking.service 
+  124  su 
+  125  clear
+  126  ee /etc/network/interfaces
+  127  vi /etc/network/interfaces
+  128  nano /etc/network/interfaces
+  129  cat /etc/network/interfaces
+  130  scp /etc/prueba.txt ramaj@192.168.56.123:046404 /Users/ramaj
+  131  scp /etc/prueba.txt ramaj@192.168.56.123:046404 /Windows
+  132  scp /etc/prueba.txt ramaj@192.168.56.123:046404 /
+  133  scp /etc/prueba.txt ramaj@192.168.56.123:046404 \
+  134  scp /etc/prueba.txt ramaj@192.168.56.123:046404 \Users\ramaj
+  135  scp /etc/prueba.txt ramaj@192.168.56.123:046404 \Users
+  136  ssudo apt update
+  137  sudo apt install xfce4 xfce4-goodies
+  138  sudo apt install tigervnc-standalone-server tigervnc-common
+  139  sudo apt install xdp
+  140  sudo apt install xrdp
+  141  clear
+  142  vncserver
+  143  echo "archivo de preba" > test.txt
+  144  scp test.txt nick@192.168.24.41:~/
+  145  sftp nick@192.168.24.41
+  146  exit
+  147  ping 8.8.8.8
+  148  clear
+  149  sudo apt install xserver-xorg-core xorgxrdp
+  150  clear
+  151  sudo nano /etc/xrdp/xrdp.ini
+  152  sudo nano /etc/xrdp/startwm.sh
+  153  sudo nano /etc/gdm3/custom.conf 
+  154  sudo systemctl restart gm3
+  155  sudo systemctl restart gdm3
+  156  clear
+  157  sudo systemctl restart netwoeking
+  158  sudo systemctl restart networking
+  159  clera
+  160  clear
+  161  sudo apt update
+  162  reboot
+  163  sudo reboot
+  164  sudo apt install apache2 php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+  165  sudo mkdir -p /var/www/wordpress.practica
+  166  sudo mkdir -p /var/www/joomla.practica
+  167  clear
+  168  sudo nano /etc/apache2/sites-available/wordpress.practica.conf
+  169  sudo nano /etc/apache2/sites-available/joomla.practica.conf
+  170  clear
+  171  cd /tmp/
+  172  wget https://wordpress.org/latest.tar.gz
+  173  tar xzvf latest.tar.gz 
+  174  sudo cp -R wordpress/* /var/www/wordpress.practica/
+  175  sudo chown -R www-data:www-data /var/www/wordpress.practica
+  176  sudo chmod -R 755 /var/www/wordpress.practica
+  177  clear
+  178  cd
+  179  sudo mysql -u root
+  180  clear
+  181  sudo reboot
+  182  ping 192.168.24.1
+  183  vncserver
+  184  nano ~/.vnc/xstartup 
+  185  sudo nano ~/.vnc/xstartup 
+  186  vncserer -geometry 1280x700
+  187  vncserver -geometry 1280x700
+  188  clear
+  189  sudo apt update
+  190  sudo apt install -y tightsvncserver xfe4 xfce4-goodies
+  191  sudo apt install -y tightsvncserver xfce4 xfce4-goodies
+  192  sudo apt install -y tightvncserver xfce4 xfce4-goodies
+  193  history > ./memoria/linux/vnc_rdp/vnc_history.txt
+  194  vncserver
+  195  vncserver -kill _1
+  196  vncserver -kill :1
+  197  sudo nano ~/.vnc/xstartup 
+  198  cmhmod +x ~/.vnc/xstartup 
+  199  sudo cmhmod +x ~/.vnc/xstartup 
+  200  sudo nano ~/.vnc/xstartup 
+  201  sudo cmhmod +x ~/.vnc/xstartup 
+  202  sudo nano ~/.vnc/xstartup 
+  203  sudo chmod +x ~/.vnc/xstartup 
+  204  vncserver -geometry 1920x1080 :1
+  205  vncserver -kill :1
+  206  rm -rf ~/.vnc
+  207  sudo apt purge tightvncserver xfce4 xfce4-goodies
+  208  sudo apt autoremove
+  209  sudo apt update
+  210  ping 8.8.8.8
+  211  reboot
+  212  sudo reboot
+  213  sudo apt update
+  214  sudo apt install -y tightvncserver xfce4 xfce4-goodies
+  215  mkdir ~/.vnc
+  216  sudo nano ~/.vnc/xstartup 
+  217  chmod +x ~/.vnc/xstartup
+  218  sudo chmod +x ~/.vnc/xstartup
+  219  clear
+  220  vncserver -geometry 1024x768 -depth 24 :1
+  221  ps aux | grep vnc
+  222  sudo ufw allow 5901
+  223  vncserver
+  224  sudo apt install -y xrdp
+  225  sudo systemctl enable xrdp
+  226  sudo systemctl start xrdp
+  227  sudo systemctl status xrdp
+  228  sudo ufw allow 3389
+  229  sudo grep -R "xrdp"
+  230  sudo reboot
+  231  sudo grep -R "xrdp"
+  232  sudo chmod 644 /etc/xrdp/cert.pem
+  233  sudo chmod 644 /etc/xrdp/key.pem 
+  234  sudo chown root:root /etc/xrdp/*.pem
+  235  sudo nano /etc/xrdp/xrdp.ini 
+  236  sudo nano /etc/xrdp/startwm.sh 
+  237  sudo systemctl restart xrdp
+  238  sudo systemctl restart xrdp-sesman
+  239  sudo systemctl status xrdp
+  240  clear
+  241  /srv/samba_share/
+  242  cd /srv/samba_share/
+  243  ls
+  244  touch hola.txt
+  245  clear
+  246  CD
+  247  dc
+  248  reboot
+  249  sudo reboot
+  250  grep -r "Out" /etc/cups/cups-pdf.conf 
+  251  sudo chown -R $USER:$USER ~/PDF
+  252  sudo chmod 700 ~/PDF
+  253  sudo systemctl status cups
+  254  sudo nano /etc/cups/cupsd.conf
+  255  sudo systemctl restart cups
+  256  sudo ufw status
+  257  sudo systemctl start ufw
+  258  sudo ufw status
+  259  ping 8.8.8.8
+  260  sudo ufw enable
+  261  sudo ufw status
+  262  sudo ufw allow 631/tcp
+  263  sudo ufw allow 631/udp
+  264  ufw status
+  265  sudo ufw status
+  266  sudo apt-get install --reinstall cups-pdf
+  267  sudo systemctl restart cups
+  268  sudo mkdir -p /var/spool/cups-pdf/ANONYMOUS/
+  269  sudo chown -R root:root /var/spool/cups-pdf/
+  270  sudo chown -R root:root /var/spool/cups-pdf
+  271  sudo chmod -R 777 /var/spool/cups-pdf/ANONYMOUS/
+  272  sudo chmod -R 777 /var/spool/cups-pdf/ANONYMOUS
+  273  sudo nano /etc/cups/cups-pdf.conf 
+  274  sudo tail -f /var/log/cups/error_log
+  275  sudo ufw status
+  276  sudo cupsctl --share-printers
+  277  sudo cupsctl --remote-any
+  278  sudo systemctl restart cups
+  279  sudo ufw allow from 192.168.24.0/24 to any port 631
+  280  cd ~/PDF/
+  281  ls
+  282  cd
+  283  cd /home/nick/PDF/
+  284  ls
+  285  cd /var/spool/cups-pdf/ANONYMOUS/
+  286  ls
+  287  sudo apt update
+  288  reboot
+  289  sudo reboot
+  290  sudo apt update
+  291  sudo apt install ic-dhcp-server
+  292  sudo apt install isc-dhcp-server
+  293  sudo nano /etc/default/isc-dhcp-server 
+  294  ip a
+  295  sudo nano /etc/default/isc-dhcp-server 
+  296  sudo nano /etc/dhcp/dhcpd.conf
+  297  sudo systemctl restart isc-dhcp-server.service 
+  298  sudo systemctl restart isc-dhcp-server
+  299  sudo nano /etc/dhcp/dhcpd.conf
+  300  sudo systemctl restart isc-dhcp-server
+  301  sudo nano /etc/dhcp/dhcpd.conf
+  302  sudo systemctl restart isc-dhcp-server
+  303  sudo systemctl status isc-dhcp-server.service 
+  304  clear
+  305  sudo apt update
+  306  sudo reboot
+  307  sudo apt update
+  308  sudo apt install bind9 bind9utils
+  309  sudo nano /etc/bind/named.conf.local
+  310  sudo mkdir /etc/bind/zones
+  311  cd /etc/bind/zones/
+  312  sudo nano /etc/bind/zones/db.asir.local
+  313  sudo nano /etc/bind/zones/db.192.168.24
+  314  sudo nano /etc/bind/named.conf.options 
+  315  sudo systemctl restart bind9
+  316  sudo erboot
+  317  sudo reboot
+  318  sudo apt update
+  319  sudo apt install bind9 bind9utils
+  320  sudo nano /etc/bind/named.conf.local
+  321  sudo mkdir /etc/bind/zones
+  322  cd /etc/bind/zones
+  323  # Zona directa
+  324  sudo nano /etc/bind/zones/db.asir.local
+  325  sudo nano /etc/bind/zones/db.192.168.24
+  326  sudo nano /etc/bind/named.conf.options
+  327  sudo systemctl restart bind9
+  328  clear
+  329  sudo named-checkconf
+  330  sudo named-checkzone asir.local /etc/bind/zones/db.asir.local
+  331  clear
+  332  nslookup www.asir.local
+  333  nslookup -type=PTR 192.168.24.41
+  334  cd
+  335  cat ./memoria/unix/nfs_samba/
+  336  history > ./memoria/linux/dns/historylinux.txt

@@ -1,0 +1,14 @@
+Nov 16 08:15:23 freenas ctld[1234]: Loading configuration from /etc/ctl.conf
+Nov 16 08:15:24 freenas ctld[1234]: Initialized CTL backend
+Nov 16 08:15:25 freenas kernel: iscsi: new target (1), id=0
+Nov 16 08:15:25 freenas kernel: iSCSI target configured: iqn.2024-11.local.freenas:target0
+Nov 16 08:15:26 freenas ctld[1234]: Created LUN 0: type=block, size=50G
+Nov 16 08:15:27 freenas kernel: Created virtual device /dev/ctl/target0/lun0
+Nov 16 08:32:45 freenas ctld[1234]: New connection from initiator iqn.2024-11.local.linux:initiator1 (192.168.24.41)
+Nov 16 08:32:46 freenas kernel: iSCSI login from initiator iqn.2024-11.local.linux:initiator1
+Nov 16 08:32:47 freenas ctld[1234]: Successfully authenticated initiator
+Nov 16 09:45:12 freenas kernel: iSCSI: I/O request on LUN 0: Write 64KB
+Nov 16 09:45:13 freenas kernel: iSCSI: I/O completion on LUN 0: Success
+Nov 16 15:23:45 freenas ctld[1234]: New connection from initiator iqn.2024-11.local.windows:initiator1 (192.168.24.43)
+Nov 16 15:23:46 freenas kernel: iSCSI login from initiator iqn.2024-11.local.windows:initiator1
+Nov 16 15:23:47 freenas ctld[1234]: Successfully authenticated initiator

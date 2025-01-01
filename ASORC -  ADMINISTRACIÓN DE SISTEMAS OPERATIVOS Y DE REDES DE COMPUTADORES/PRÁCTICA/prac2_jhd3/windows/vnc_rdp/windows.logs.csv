@@ -1,0 +1,1183 @@
+﻿Nivel,Fecha y hora,Origen,Id. del evento,Categoría de la tarea
+Información,17/11/2024 17:12:40,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 17:12:30,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 17:10:24,Service Control Manager,7036,Ninguno,"El servicio Windows Installer entró en estado ""detenido""."
+Información,17/11/2024 17:09:44,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 17:09:39,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 17:08:18,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 17:07:47,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 17:06:18,Service Control Manager,7036,Ninguno,"El servicio Agente de directiva IPsec entró en estado ""en ejecución""."
+Información,17/11/2024 17:04:44,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 17:04:42,Service Control Manager,7036,Ninguno,"El servicio TightVNC Server entró en estado ""en ejecución""."
+Información,17/11/2024 17:04:41,Service Control Manager,7045,Ninguno,"Se instaló un servicio en el sistema.
+
+Nombre del servicio:  TightVNC Server
+Nombre del archivo del servicio:  ""C:\Program Files\TightVNC\tvnserver.exe"" -service
+Tipo de servicio:  servicio de modo usuario
+Tipo de inicio de servicio:  inicio automático
+Cuenta de servicio:  LocalSystem"
+Información,17/11/2024 17:04:03,Service Control Manager,7036,Ninguno,"El servicio Windows Installer entró en estado ""en ejecución""."
+Información,17/11/2024 17:04:02,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 17:03:56,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 17:01:05,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""detenido""."
+Información,17/11/2024 16:58:55,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 16:58:13,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 16:56:36,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 16:51:02,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 16:49:36,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""detenido""."
+Información,17/11/2024 16:49:23,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""detenido""."
+Información,17/11/2024 16:45:46,Service Control Manager,7036,Ninguno,"El servicio Proveedor de instantáneas de software de Microsoft entró en estado ""detenido""."
+Información,17/11/2024 16:44:28,Service Control Manager,7036,Ninguno,"El servicio OpenSSH Authentication Agent entró en estado ""en ejecución""."
+Información,17/11/2024 16:44:27,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio OpenSSH Authentication Agent se cambió de deshabilitado a inicio automático.
+Información,17/11/2024 16:44:04,Service Control Manager,7036,Ninguno,"El servicio OpenSSH SSH Server entró en estado ""en ejecución""."
+Información,17/11/2024 16:43:53,Service Control Manager,7036,Ninguno,"El servicio Bitvise SSH Server entró en estado ""detenido""."
+Error,17/11/2024 16:43:28,Service Control Manager,7034,Ninguno,El servicio OpenSSH SSH Server se terminó de manera inesperada. Esto ha sucedido 2 veces.
+Información,17/11/2024 16:43:28,Service Control Manager,7036,Ninguno,"El servicio OpenSSH SSH Server entró en estado ""en ejecución""."
+Error,17/11/2024 16:43:23,Service Control Manager,7030,Ninguno,"El servicio OpenSSH SSH Server ha sido marcado como servicio interactivo. Sin embargo, el sistema está configurado para no permitir servicios interactivos. Este servicio puede tener un funcionamiento incorrecto."
+Información,17/11/2024 16:43:23,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio OpenSSH SSH Server se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 16:43:20,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""detenido""."
+Error,17/11/2024 16:43:05,Service Control Manager,7034,Ninguno,El servicio OpenSSH SSH Server se terminó de manera inesperada. Esto ha sucedido 1 veces.
+Información,17/11/2024 16:43:05,Service Control Manager,7036,Ninguno,"El servicio OpenSSH SSH Server entró en estado ""en ejecución""."
+Información,17/11/2024 16:42:45,Service Control Manager,7036,Ninguno,"El servicio Instantáneas de volumen entró en estado ""detenido""."
+Información,17/11/2024 16:42:20,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 16:39:46,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 16:39:45,Service Control Manager,7036,Ninguno,"El servicio Proveedor de instantáneas de software de Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 16:39:45,Service Control Manager,7036,Ninguno,"El servicio Instantáneas de volumen entró en estado ""en ejecución""."
+Información,17/11/2024 16:38:56,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 16:38:45,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""detenido""."
+Información,17/11/2024 16:38:43,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de transferencia inteligente en segundo plano (BITS) se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 16:38:20,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""en ejecución""."
+Información,17/11/2024 16:38:13,Microsoft-Windows-WindowsUpdateClient,44,Agente de Windows Update,Windows Update comenzó a descargar una actualización.
+Información,17/11/2024 16:37:57,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 16:37:56,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 16:37:46,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 16:37:21,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 16:36:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""en ejecución""."
+Información,17/11/2024 16:36:34,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de transferencia inteligente en segundo plano (BITS) se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 16:35:34,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""detenido""."
+Información,17/11/2024 16:35:33,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""en ejecución""."
+Información,17/11/2024 16:33:47,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""detenido""."
+Información,17/11/2024 16:33:46,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 16:33:46,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""en ejecución""."
+Información,17/11/2024 16:28:00,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""detenido""."
+Información,17/11/2024 16:27:17,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 16:21:57,Service Control Manager,7036,Ninguno,"El servicio Bitvise SSH Server entró en estado ""en ejecución""."
+Información,17/11/2024 16:21:33,Service Control Manager,7045,Ninguno,"Se instaló un servicio en el sistema.
+
+Nombre del servicio:  Bitvise SSH Server
+Nombre del archivo del servicio:  ""C:\Program Files\Bitvise SSH Server\BvSshServer.exe""
+Tipo de servicio:  servicio de modo usuario
+Tipo de inicio de servicio:  inicio automático
+Cuenta de servicio:  LocalSystem"
+Información,17/11/2024 16:20:49,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""detenido""."
+Información,17/11/2024 16:20:47,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""en ejecución""."
+Información,17/11/2024 16:20:25,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 16:20:24,Service Control Manager,7036,Ninguno,"El servicio Bitvise SSH Server entró en estado ""detenido""."
+Información,17/11/2024 16:20:22,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""detenido""."
+Información,17/11/2024 16:20:16,Service Control Manager,7036,Ninguno,"El servicio Información de la aplicación entró en estado ""en ejecución""."
+Información,17/11/2024 16:17:46,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 16:14:04,Service Control Manager,7036,Ninguno,"El servicio Bitvise SSH Server entró en estado ""en ejecución""."
+Información,17/11/2024 16:12:39,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 16:12:30,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""detenido""."
+Información,17/11/2024 16:12:30,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de transferencia inteligente en segundo plano (BITS) se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 16:11:42,Service Control Manager,7045,Ninguno,"Se instaló un servicio en el sistema.
+
+Nombre del servicio:  Bitvise SSH Server
+Nombre del archivo del servicio:  ""C:\Program Files\Bitvise SSH Server\BvSshServer.exe""
+Tipo de servicio:  servicio de modo usuario
+Tipo de inicio de servicio:  inicio automático
+Cuenta de servicio:  LocalSystem"
+Información,17/11/2024 16:11:34,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 16:10:35,Service Control Manager,7036,Ninguno,"El servicio Proveedor de instantáneas de software de Microsoft entró en estado ""detenido""."
+Información,17/11/2024 16:09:52,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 16:09:09,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 16:08:45,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 16:08:39,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 16:08:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""en ejecución""."
+Información,17/11/2024 16:08:30,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 16:08:05,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de transferencia inteligente en segundo plano (BITS) se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 16:07:42,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""detenido""."
+Información,17/11/2024 16:07:39,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 16:07:35,Service Control Manager,7036,Ninguno,"El servicio Instantáneas de volumen entró en estado ""detenido""."
+Información,17/11/2024 16:07:23,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 16:07:10,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""detenido""."
+Información,17/11/2024 16:07:04,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""en ejecución""."
+Información,17/11/2024 16:06:46,Service Control Manager,7036,Ninguno,"El servicio Servicio Informe de errores de Windows entró en estado ""detenido""."
+Información,17/11/2024 16:06:23,Microsoft-Windows-WindowsUpdateClient,44,Agente de Windows Update,Windows Update comenzó a descargar una actualización.
+Información,17/11/2024 16:06:23,Microsoft-Windows-WindowsUpdateClient,44,Agente de Windows Update,Windows Update comenzó a descargar una actualización.
+Información,17/11/2024 16:06:23,Microsoft-Windows-WindowsUpdateClient,44,Agente de Windows Update,Windows Update comenzó a descargar una actualización.
+Información,17/11/2024 16:06:23,Microsoft-Windows-WindowsUpdateClient,44,Agente de Windows Update,Windows Update comenzó a descargar una actualización.
+Información,17/11/2024 16:06:18,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 16:06:05,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 16:05:21,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:59,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:46,Service Control Manager,7036,Ninguno,"El servicio Servicio Informe de errores de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:44,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:43,Service Control Manager,7036,Ninguno,"El servicio Conexiones de red entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:41,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:40,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:39,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:39,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:30,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Advertencia,17/11/2024 16:04:27,Microsoft-Windows-HttpEvent,15301,Ninguno,Configuración de certificado SSL creada por un proceso de admin. para el extremo: [::]:5990.
+Advertencia,17/11/2024 16:04:27,Microsoft-Windows-HttpEvent,15301,Ninguno,Configuración de certificado SSL creada por un proceso de admin. para el extremo: 0.0.0.0:5990.
+Información,17/11/2024 16:04:26,Microsoft-Windows-HttpEvent,15007,Ninguno,Se agregó correctamente una reserva de espacio de nombres identificado por el prefijo URL https://*:5990/.
+Información,17/11/2024 16:04:26,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 16:04:26,Service Control Manager,7036,Ninguno,"El servicio Proveedor de instantáneas de software de Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:26,Service Control Manager,7036,Ninguno,"El servicio Instantáneas de volumen entró en estado ""en ejecución""."
+Información,17/11/2024 16:04:23,Service Control Manager,7036,Ninguno,"El servicio Windows Standards-Based Storage Management entró en estado ""detenido""."
+Información,17/11/2024 16:03:55,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 16:03:53,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 16:02:55,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 15:58:36,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""detenido""."
+Información,17/11/2024 15:58:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""detenido""."
+Información,17/11/2024 15:58:35,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de transferencia inteligente en segundo plano (BITS) se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 15:57:17,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 15:56:05,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 15:55:08,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 15:55:06,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:43,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""detenido""."
+Información,17/11/2024 15:54:42,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario del portapapeles_ef01e entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:42,Service Control Manager,7036,Ninguno,"El servicio Administrador de configuración de dispositivos entró en estado ""detenido""."
+Información,17/11/2024 15:54:41,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""en ejecución""."
+Advertencia,17/11/2024 15:54:34,User32,1076,Ninguno,"El motivo facilitado por el usuario WIN-1I8FL1H3DE7\Administrador para el último apagado inesperado del equipo es el siguiente: Otros (no planeado)
+Código de motivo: 0xa000000
+ Id. del problema: 
+ Cadena de comprobación de errores: 
+ Comentario: 
+"
+Información,17/11/2024 15:54:32,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:25,Service Control Manager,7036,Ninguno,"El servicio Servicio FrameServer de la Cámara de Windows entró en estado ""detenido""."
+Información,17/11/2024 15:54:25,Service Control Manager,7036,Ninguno,"El servicio Monitor del servidor de marco de la Cámara de Windows entró en estado ""detenido""."
+Información,17/11/2024 15:54:13,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Advertencia,17/11/2024 15:54:13,Microsoft-Windows-DistributedCOM,10016,Ninguno,"La configuración de permisos específico de la aplicación no concede el permiso Iniciar Local para la aplicación de servidor COM con CLSID 
+{21B896BF-008D-4D01-A27B-26061B960DD7}
+ y APPID 
+{03E09F3B-DCE4-44FE-A9CF-82D050827E1C}
+ al usuario WIN-1I8FL1H3DE7\Administrador con SID (S-1-5-21-3913609670-1573943343-4193902504-500) en la dirección LocalHost (con LRPC) que se ejecuta en el contenedor de aplicaciones con SID No disponible (No disponible). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes."
+Información,17/11/2024 15:54:13,Service Control Manager,7036,Ninguno,"El servicio Servicio de repositorio de estado entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:11,Service Control Manager,7036,Ninguno,"El servicio Servicio de Panel de escritura a mano y teclado táctil entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:11,Service Control Manager,7036,Ninguno,"El servicio Administrador de cuentas web entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:10,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario de plataforma de dispositivos conectados_ef01e entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:10,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario de notificaciones de inserción de Windows_ef01e entró en estado ""en ejecución""."
+Información,17/11/2024 15:54:09,Microsoft-Windows-Winlogon,7001,(1101),Notificación de inicio de sesión de usuario para el Programa para la mejora de la experiencia del usuario
+Información,17/11/2024 15:53:55,Service Control Manager,7036,Ninguno,"El servicio Servicio FrameServer de la Cámara de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 15:53:55,Service Control Manager,7036,Ninguno,"El servicio Monitor del servidor de marco de la Cámara de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 15:53:55,Service Control Manager,7036,Ninguno,"El servicio Administrador de configuración de dispositivos entró en estado ""en ejecución""."
+Información,17/11/2024 15:53:55,Service Control Manager,7036,Ninguno,"El servicio Servicio Administrador de funcionalidad de acceso entró en estado ""en ejecución""."
+Información,17/11/2024 15:53:54,Microsoft-Windows-Kernel-Power,566,(268),"La sesión del sistema ha pasado de 1 a 3. 
+
+motivo: 4"
+Información,17/11/2024 15:52:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de detección automática de proxy web WinHTTP entró en estado ""en ejecución""."
+Información,17/11/2024 15:49:36,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""detenido""."
+Información,17/11/2024 15:44:59,Service Control Manager,7036,Ninguno,"El servicio Servicio de detección automática de proxy web WinHTTP entró en estado ""detenido""."
+Información,17/11/2024 15:38:07,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 15:37:36,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 15:27:27,Service Control Manager,7036,Ninguno,"El servicio Windows Installer entró en estado ""detenido""."
+Información,17/11/2024 15:22:28,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 15:22:27,Service Control Manager,7036,Ninguno,"El servicio Windows Installer entró en estado ""en ejecución""."
+Información,17/11/2024 15:17:40,Microsoft-Windows-Kernel-Power,566,(268),"La sesión del sistema ha pasado de 0 a 1. 
+
+motivo: 4"
+Información,17/11/2024 15:17:31,Service Control Manager,7036,Ninguno,"El servicio Registro remoto entró en estado ""detenido""."
+Información,17/11/2024 15:14:41,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 15:14:41,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""detenido""."
+Información,17/11/2024 15:12:39,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 15:10:44,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""detenido""."
+Información,17/11/2024 15:10:41,Service Control Manager,7036,Ninguno,"El servicio Servicio de repositorio de estado entró en estado ""detenido""."
+Información,17/11/2024 15:10:10,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 15:09:44,Service Control Manager,7036,Ninguno,"El servicio Servicio Orquestador de actualizaciones entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:44,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:43,Service Control Manager,7036,Ninguno,"El servicio Servicio de registro de acceso de usuarios entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:40,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:40,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:40,Service Control Manager,7036,Ninguno,"El servicio Servicio de almacenamiento entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:40,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:39,Service Control Manager,7036,Ninguno,"El servicio Servicio Asistente para la compatibilidad de programas entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:39,Service Control Manager,7036,Ninguno,"El servicio Coordinador de transacciones distribuidas entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:39,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:38,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""detenido""."
+Información,17/11/2024 15:09:38,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:36,Service Control Manager,7036,Ninguno,"El servicio Servicio de directivas de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de plataforma de dispositivos conectados entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:35,Service Control Manager,7036,Ninguno,"El servicio Aislamiento de claves CNG entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""en ejecución""."
+Información,17/11/2024 15:09:26,Service Control Manager,7036,Ninguno,"El servicio WPDBusEnum entró en estado ""detenido""."
+Información,17/11/2024 15:08:51,Service Control Manager,7036,Ninguno,"El servicio DsmSvc entró en estado ""detenido""."
+Información,17/11/2024 15:08:06,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 15:07:48,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T14:07:48.245931100Z de ‎2024‎-‎11‎-‎17T14:07:48.201593900Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2504)."
+Información,17/11/2024 15:07:48,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 15:07:48,Microsoft-Windows-Time-Service,35,Ninguno,"El servicio de hora está sincronizando la hora del sistema con el origen de la hora time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123) con el id. de referencia 494637363. El número de capa local actual es 4."
+Información,17/11/2024 15:07:48,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T14:07:48.180838500Z de ‎2024‎-‎11‎-‎17T14:07:45.576386800Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2504)."
+Información,17/11/2024 15:07:48,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 15:07:48,Microsoft-Windows-DHCP-Server,1043,Ninguno,Se ha determinado que el servicio DHCP/BINL de la máquina local está autorizado para iniciarse.  Ahora está sirviendo a clientes.
+Información,17/11/2024 15:07:39,Service Control Manager,7036,Ninguno,"El servicio DHCPServer entró en estado ""en ejecución""."
+Advertencia,17/11/2024 15:07:39,Microsoft-Windows-DHCP-Server,10020,Ninguno,"Este equipo tiene al menos una dirección IPv6 asignada dinámicamente. Para conseguir un funcionamiento fiable del servidor DHCPv6, es recomendable usar solo direcciones IPv6 estáticas."
+Información,17/11/2024 15:07:36,Service Control Manager,7036,Ninguno,"El servicio Servicio de inspección de red de Antivirus de Microsoft Defender entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:36,SNMP,1001,Ninguno,El servicio SNMP se ha iniciado correctamente.
+Error,17/11/2024 15:07:35,Microsoft-Windows-DHCP-Server,1036,Ninguno,El servidor DHCP no pudo crear o buscar el grupo local de Administradores de DHCP en este equipo. El código de error está en los datos.
+Error,17/11/2024 15:07:35,Microsoft-Windows-DHCP-Server,1035,Ninguno,El servicio DHCP no pudo crear o buscar el grupo local de usuarios de DHCP en este equipo. El código de error está en los datos.
+Información,17/11/2024 15:07:32,Service Control Manager,7036,Ninguno,"El servicio Publicación de recurso de detección de función entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:31,Service Control Manager,7036,Ninguno,"El servicio NcbService entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:31,Service Control Manager,7036,Ninguno,"El servicio WinRM entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:31,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 15:07:31,Service Control Manager,7036,Ninguno,"El servicio StateRepository entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:31,Service Control Manager,7036,Ninguno,"El servicio DiagTrack entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:31,Microsoft-Windows-WinRM,10148,Ninguno,"El servicio WinRM está escuchando solicitudes de WS-Management. 
+
+ Acción del usuario 
+ Use el siguiente comando para ver las direcciones IP específicas en las que WinRM está escuchando:
+
+winrm enumerate winrm/config/listener"
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio W3SVC entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio DNS entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio Host de proveedor de detección de función entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Service Control Manager,7026,Ninguno,"El siguiente controlador de inicio del sistema o de inicio del arranque no se cargó: 
+dam"
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio WpnService entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio WAS entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Service Control Manager,7036,Ninguno,"El servicio LanmanServer entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:30,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio DsmSvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio Winmgmt entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio TrkWks entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio NfsClnt entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio WinDefend entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio W32Time entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio WLMS entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio mpssvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Service Control Manager,7036,Ninguno,"El servicio SysMain entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio RemoteRegistry entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio SNMP entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:29,Microsoft-Windows-WAS,5211,Ninguno,El servicio de activación de procesos de Windows (WAS) se inició en el modo 'Classic' con 'ConfigurationSystem'
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio iphlpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio AppHostSvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio simptcp entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio Spooler entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:28,Service Control Manager,7036,Ninguno,"El servicio CryptSvc entró en estado ""en ejecución""."
+Error,17/11/2024 15:07:28,SNMP,1500,Ninguno,El servicio SNMP detectó un error al tener acceso a la clave del Registro SYSTEM\CurrentControlSet\Services\SNMP\Parameters\TrapConfiguration.
+Información,17/11/2024 15:07:27,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'SmbBandwidthLimitFilter' (10.0, ‎1991‎-‎03‎-‎13T14:14:02.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio SamSs entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio BFE entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio netprofm entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio Wcmsvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio UserManager entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio LanmanWorkstation entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio NlaSvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio WinHttpAutoProxySvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio Dnscache entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:26,Service Control Manager,7036,Ninguno,"El servicio ShellHWDetection entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:25,Service Control Manager,7036,Ninguno,"El servicio Schedule entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:25,Service Control Manager,7036,Ninguno,"El servicio Dhcp entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:25,Microsoft-Windows-DHCPv6-Client,51046,Service State Event,Servicio de cliente DHCPv6 iniciado
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio SENS entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 15:07:24,Microsoft-Windows-Dhcp-Client,50103,Evento de estado de servicio,El cliente DHCPv4 registró una la notificación de apagado
+Información,17/11/2024 15:07:24,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio FontCache entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio DispBrokerDesktopSvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio nsi entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio EventSystem entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio ProfSvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio gpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio EventLog entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio Themes entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:24,Service Control Manager,7036,Ninguno,"El servicio WPDBusEnum entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'bindflt' (10.0, ‎2051‎-‎03‎-‎04T04:45:47.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'storqosflt' (10.0, ‎2051‎-‎09‎-‎21T13:40:20.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,1,Ninguno,"Filtro de sistema de archivos 'CldFlt' (Versión 10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente descargado."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'luafv' (10.0, ‎2068‎-‎10‎-‎11T23:22:37.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:23,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'wcifs' (10.0, ‎2088‎-‎12‎-‎15T12:51:43.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:23,Service Control Manager,7036,Ninguno,"El servicio CoreMessagingRegistrar entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:23,Service Control Manager,7036,Ninguno,"El servicio TimeBrokerSvc entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:23,Service Control Manager,7036,Ninguno,"El servicio lmhosts entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:22,Service Control Manager,7036,Ninguno,"El servicio SystemEventsBroker entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:22,Service Control Manager,7036,Ninguno,"El servicio BrokerInfrastructure entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:22,Service Control Manager,7036,Ninguno,"El servicio LSM entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:22,Service Control Manager,7036,Ninguno,"El servicio RpcSs entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:22,Service Control Manager,7036,Ninguno,"El servicio RpcEptMapper entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:22,Service Control Manager,7036,Ninguno,"El servicio DcomLaunch entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:21,Service Control Manager,7036,Ninguno,"El servicio Power entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:21,Service Control Manager,7036,Ninguno,"El servicio PlugPlay entró en estado ""en ejecución""."
+Información,17/11/2024 15:07:21,Microsoft-Windows-Directory-Services-SAM,16983,Ninguno,"El administrador de cuentas de seguridad está registrando eventos de resumen periódicos para clientes remotos que llaman un cambio de contraseña heredada o establecen métodos RPC. 
+
+ Para más información, consulte https://go.microsoft.com/fwlink/?linkid=2150956.
+"
+Información,17/11/2024 15:07:21,Microsoft-Windows-Directory-Services-SAM,16977,Ninguno,"El dominio está configurado con las siguientes opciones de configuración relacionadas con la longitud mínima de la contraseña.
+
+MinimumPasswordLength: 0
+
+RelaxMinimumPasswordLengthLimits: 0
+
+MinimumPasswordLengthAudit: -1
+
+Para obtener más información, consulta https://go.microsoft.com/fwlink/?LinkId=2097191.
+"
+Información,17/11/2024 15:07:21,Microsoft-Windows-Directory-Services-SAM,16962,Ninguno,"Se están restringiendo las llamadas remotas a la base de datos SAM mediante el descriptor de seguridad predeterminado: O:SYG:SYD:(A;;RC;;;BA).
+Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkId=787651."
+Información,17/11/2024 15:07:20,Microsoft-Windows-Wininit,14,Ninguno,"Configuración de Credential Guard: 0x0, 0"
+Información,17/11/2024 15:07:19,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 15:07:17,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-505c0f000000} (\Device\HarddiskVolume3) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 15:07:17,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 15:07:17,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 15:07:16,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 1 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 15:07:16,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 0 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 15:07:15,Microsoft-Windows-Kernel-Power,172,(203),Estado de conectividad en modo de espera: Disconnected. Motivo: NIC compliance
+Crítico,17/11/2024 15:07:15,Microsoft-Windows-Kernel-Power,41,(63),"Se reinició el sistema sin apagarlo limpiamente primero. Este error puede producirse si el sistema dejó de responder, se bloqueó o se interrumpió el suministro eléctrico de forma inesperada."
+Información,17/11/2024 15:07:15,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-100000000000} (\Device\HarddiskVolume1) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 15:07:15,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'npsvctrig' (10.0, ‎2015‎-‎04‎-‎02T11:42:38.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:09,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'FileCrypt' (10.0, ‎2088‎-‎05‎-‎24T07:57:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:07,Microsoft-Windows-Ntfs,98,Ninguno,Volumen C: (\Device\HarddiskVolume2) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 15:07:07,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'WdFilter' (10.0, ‎2044‎-‎02‎-‎10T20:09:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:07,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'Wof' (10.0, ‎2008‎-‎09‎-‎17T19:19:58.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 15:07:07,Microsoft-Windows-HAL,16,Ninguno,Se ha inicializado el informe de errores IOMMU.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-General,20,(6),"Se ha actualizado la configuración del segundo intercalar. 
+Motivo: Leap second data initialized from registry during boot
+Segundos intercalares habilitados: true
+Nuevo recuento de segundos intercalares: 0
+Antiguo recuento de segundos intercalares: 0"
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-Boot,32,(58),Bootmgr esperó la entrada del usuario durante 0 ms.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-Boot,18,(57),Existen 0x1 opciones de arranque en este sistema.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-Boot,27,(33),El tipo de arranque fue 0x0.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-Boot,25,(32),La directiva del menú de arranque fue 0x0.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-Boot,20,(31),El último estado correcto de apagado fue false. El último estado correcto de arranque fue true.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-Boot,153,(62),La seguridad basada en virtualización (directivas: 0) es disabled.
+Información,17/11/2024 15:07:06,Microsoft-Windows-Kernel-General,12,(1),El sistema operativo se inició a la hora del sistema ‎2024‎-‎11‎-‎17T14:07:06.500000000Z.
+Información,17/11/2024 15:07:24,EventLog,6013,Ninguno,El tiempo límite del sistema es de 17 segundos.
+Información,17/11/2024 15:07:24,EventLog,6005,Ninguno,Se inició el servicio de Registro de eventos.
+Información,17/11/2024 15:07:24,EventLog,6009,Ninguno,Microsoft (R) Windows (R) 10.00. 20348  Multiprocessor Free.
+Error,17/11/2024 15:07:24,EventLog,6008,Ninguno,El cierre anterior del sistema a las 14:20:19 del ‎17/‎11/‎2024 resultó inesperado.
+Información,17/11/2024 14:20:33,Microsoft-Windows-Kernel-Power,566,(268),"La sesión del sistema ha pasado de 0 a 1. 
+
+motivo: 3"
+Información,17/11/2024 14:12:15,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 14:11:12,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 14:10:47,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""detenido""."
+Información,17/11/2024 14:10:24,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 14:09:40,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""detenido""."
+Información,17/11/2024 14:07:18,Service Control Manager,7036,Ninguno,"El servicio Servicio de transferencia inteligente en segundo plano (BITS) entró en estado ""en ejecución""."
+Información,17/11/2024 14:07:18,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de transferencia inteligente en segundo plano (BITS) se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 14:06:25,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 14:06:16,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 14:06:15,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""detenido""."
+Información,17/11/2024 14:06:14,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Elevation Service (MicrosoftEdgeElevationService) entró en estado ""en ejecución""."
+Información,17/11/2024 14:06:11,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio Asistente para la compatibilidad de programas se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 14:05:21,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""detenido""."
+Información,17/11/2024 14:04:20,Service Control Manager,7036,Ninguno,"El servicio Servicio Informe de errores de Windows entró en estado ""detenido""."
+Información,17/11/2024 14:04:16,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 14:03:55,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 14:02:42,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 14:02:20,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 14:02:20,Service Control Manager,7036,Ninguno,"El servicio Servicio Informe de errores de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 14:01:15,Service Control Manager,7036,Ninguno,"El servicio Proveedor de instantáneas de software de Microsoft entró en estado ""detenido""."
+Información,17/11/2024 14:01:04,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 14:00:39,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 14:00:33,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 13:59:01,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 13:58:15,Service Control Manager,7036,Ninguno,"El servicio Instantáneas de volumen entró en estado ""detenido""."
+Información,17/11/2024 13:57:45,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:55:31,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""detenido""."
+Información,17/11/2024 13:55:15,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 13:55:15,Service Control Manager,7036,Ninguno,"El servicio Proveedor de instantáneas de software de Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 13:55:15,Service Control Manager,7036,Ninguno,"El servicio Instantáneas de volumen entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:56,Service Control Manager,7036,Ninguno,"El servicio Servicio de publicación World Wide Web entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:56,Service Control Manager,7036,Ninguno,"El servicio Servicio WAS (Windows Process Activation Service) entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:56,Microsoft-Windows-WAS,5211,Ninguno,El servicio de activación de procesos de Windows (WAS) se inició en el modo 'Classic' con 'ConfigurationSystem'
+Información,17/11/2024 13:54:55,Service Control Manager,7036,Ninguno,"El servicio Asistente de host para aplicaciones entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:32,Service Control Manager,7036,Ninguno,"El servicio Servicio Informe de errores de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:54:29,Microsoft-Windows-DHCP-Server,1043,Ninguno,Se ha determinado que el servicio DHCP/BINL de la máquina local está autorizado para iniciarse.  Ahora está sirviendo a clientes.
+Información,17/11/2024 13:54:23,Service Control Manager,7036,Ninguno,"El servicio Servidor DNS entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:23,Service Control Manager,7036,Ninguno,"El servicio Servidor DHCP entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:12,Service Control Manager,7036,Ninguno,"El servicio Base de datos interna de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:08,SNMP,1001,Ninguno,El servicio SNMP se ha iniciado correctamente.
+Información,17/11/2024 13:54:05,Service Control Manager,7036,Ninguno,"El servicio Editor de VSS de la base de datos interna de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:05,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'SmbBandwidthLimitFilter' (10.0, ‎1991‎-‎03‎-‎13T14:14:02.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:54:05,Service Control Manager,7036,Ninguno,"El servicio Cliente para NFS entró en estado ""en ejecución""."
+Información,17/11/2024 13:54:04,Service Control Manager,7036,Ninguno,"El servicio Servicio SNMP entró en estado ""en ejecución""."
+Error,17/11/2024 13:54:04,SNMP,1500,Ninguno,El servicio SNMP detectó un error al tener acceso a la clave del Registro SYSTEM\CurrentControlSet\Services\SNMP\Parameters\TrapConfiguration.
+Información,17/11/2024 13:54:01,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:52:30,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 13:52:28,Service Control Manager,7036,Ninguno,"El servicio Servicio Informe de errores de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:51:58,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio por solicitud a inicio automático.
+Información,17/11/2024 13:50:57,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""detenido""."
+Información,17/11/2024 13:50:39,Service Control Manager,7036,Ninguno,"El servicio Preparación de aplicaciones entró en estado ""detenido""."
+Información,17/11/2024 13:50:28,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 13:50:16,Service Control Manager,7036,Ninguno,"El servicio Registro remoto entró en estado ""detenido""."
+Información,17/11/2024 13:50:00,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:49:57,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 13:49:57,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""en ejecución""."
+Información,17/11/2024 13:49:56,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 13:49:27,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 13:48:02,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 13:47:17,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 13:46:24,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""detenido""."
+Información,17/11/2024 13:43:23,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""detenido""."
+Información,17/11/2024 13:42:50,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 13:42:47,Service Control Manager,7036,Ninguno,"El servicio Información de la aplicación entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:33,Service Control Manager,7036,Ninguno,"El servicio Servicio enumerador de dispositivos portátiles entró en estado ""detenido""."
+Información,17/11/2024 13:42:24,Service Control Manager,7036,Ninguno,"El servicio Servicio Orquestador de actualizaciones entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:23,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:23,Service Control Manager,7036,Ninguno,"El servicio Servicio de registro de acceso de usuarios entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:21,Service Control Manager,7036,Ninguno,"El servicio Conexiones de red entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:19,Service Control Manager,7036,Ninguno,"El servicio Servicio de almacenamiento entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:19,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:19,Service Control Manager,7036,Ninguno,"El servicio Coordinador de transacciones distribuidas entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:18,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""detenido""."
+Información,17/11/2024 13:42:18,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:18,Service Control Manager,7036,Ninguno,"El servicio Servicio Asistente para la compatibilidad de programas entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:17,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 13:42:17,Service Control Manager,7036,Ninguno,"El servicio Servicio de directivas de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 13:41:34,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 13:41:31,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 13:41:26,Service Control Manager,7036,Ninguno,"El servicio DsmSvc entró en estado ""detenido""."
+Información,17/11/2024 13:41:23,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:23,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:23,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:17,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:17,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.CapturePicker_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:16,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Win32WebViewHost_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:16,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.LockApp_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:14,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.ECApp_8wekyb3d8bbwe\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:14,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.CredDialogHost_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:13,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.AccountsControl_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:13,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.AsyncTextService_8wekyb3d8bbwe\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:10,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\E2A4F912-2574-4A75-9BB0-0D023378592B_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:10,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\c5e2524a-ea46-4f67-841f-6a9465d9d515_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:10,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:10,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\1527c705-839a-4832-9118-54d4Bd6a0c89_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:08,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:04,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:04,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Windows.CBSPreview_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:04,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Windows.PrintDialog_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:41:04,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Advertencia,17/11/2024 13:41:04,User32,1076,Ninguno,"El motivo facilitado por el usuario WIN-1I8FL1H3DE7\Administrador para el último apagado inesperado del equipo es el siguiente: Otros (no planeado)
+Código de motivo: 0xa000000
+ Id. del problema: 
+ Cadena de comprobación de errores: 
+ Comentario: 
+"
+Información,17/11/2024 13:41:00,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario del portapapeles_251ea entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:50,Service Control Manager,7036,Ninguno,"El servicio Servicio de inspección de red de Antivirus de Microsoft Defender entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:40,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:39,Service Control Manager,7036,Ninguno,"El servicio Preparación de aplicaciones entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:39,Service Control Manager,7036,Ninguno,"El servicio Servicio de plataforma de dispositivos conectados entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:37,Service Control Manager,7036,Ninguno,"El servicio Aislamiento de claves CNG entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:37,Service Control Manager,7036,Ninguno,"El servicio Servicio Administrador de funcionalidad de acceso entró en estado ""en ejecución""."
+Advertencia,17/11/2024 13:40:37,Microsoft-Windows-DistributedCOM,10016,Ninguno,"La configuración de permisos específico de la aplicación no concede el permiso Iniciar Local para la aplicación de servidor COM con CLSID 
+{21B896BF-008D-4D01-A27B-26061B960DD7}
+ y APPID 
+{03E09F3B-DCE4-44FE-A9CF-82D050827E1C}
+ al usuario WIN-1I8FL1H3DE7\Administrador con SID (S-1-5-21-3913609670-1573943343-4193902504-500) en la dirección LocalHost (con LRPC) que se ejecuta en el contenedor de aplicaciones con SID No disponible (No disponible). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes."
+Información,17/11/2024 13:40:36,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:35,Service Control Manager,7036,Ninguno,"El servicio Servicio de Panel de escritura a mano y teclado táctil entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:35,Service Control Manager,7036,Ninguno,"El servicio Administrador de cuentas web entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:34,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario de plataforma de dispositivos conectados_251ea entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:34,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario de notificaciones de inserción de Windows_251ea entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:34,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:40:34.015875600Z de ‎2024‎-‎11‎-‎17T12:40:34.005338600Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2320)."
+Información,17/11/2024 13:40:34,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:40:34,Microsoft-Windows-Time-Service,35,Ninguno,"El servicio de hora está sincronizando la hora del sistema con el origen de la hora time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123) con el id. de referencia 494637363. El número de capa local actual es 4."
+Información,17/11/2024 13:40:34,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:40:33.999395500Z de ‎2024‎-‎11‎-‎17T12:40:31.358372600Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2320)."
+Información,17/11/2024 13:40:34,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:40:29,Microsoft-Windows-Winlogon,7001,(1101),Notificación de inicio de sesión de usuario para el Programa para la mejora de la experiencia del usuario
+Información,17/11/2024 13:40:18,Service Control Manager,7036,Ninguno,"El servicio Publicación de recurso de detección de función entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:17,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 13:40:16,Service Control Manager,7036,Ninguno,"El servicio NcbService entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:16,Service Control Manager,7036,Ninguno,"El servicio DiagTrack entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:16,Service Control Manager,7036,Ninguno,"El servicio Host de proveedor de detección de función entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:16,Service Control Manager,7036,Ninguno,"El servicio WinRM entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:16,Service Control Manager,7036,Ninguno,"El servicio Servicio de repositorio de estado entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:16,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:15,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 13:40:15,Service Control Manager,7036,Ninguno,"El servicio LanmanServer entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:16,Microsoft-Windows-WinRM,10148,Ninguno,"El servicio WinRM está escuchando solicitudes de WS-Management. 
+
+ Acción del usuario 
+ Use el siguiente comando para ver las direcciones IP específicas en las que WinRM está escuchando:
+
+winrm enumerate winrm/config/listener"
+Información,17/11/2024 13:40:15,Service Control Manager,7036,Ninguno,"El servicio WinDefend entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:15,Service Control Manager,7036,Ninguno,"El servicio W32Time entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:15,Service Control Manager,7026,Ninguno,"El siguiente controlador de inicio del sistema o de inicio del arranque no se cargó: 
+dam"
+Información,17/11/2024 13:40:15,Service Control Manager,7036,Ninguno,"El servicio Servicio del sistema de notificaciones de inserción de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:15,Service Control Manager,7036,Ninguno,"El servicio mpssvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:14,Service Control Manager,7036,Ninguno,"El servicio TrkWks entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:14,Service Control Manager,7036,Ninguno,"El servicio Winmgmt entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:14,Service Control Manager,7036,Ninguno,"El servicio SysMain entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:14,Service Control Manager,7036,Ninguno,"El servicio WLMS entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:13,Service Control Manager,7036,Ninguno,"El servicio RemoteRegistry entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:13,Service Control Manager,7036,Ninguno,"El servicio Spooler entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:13,Service Control Manager,7036,Ninguno,"El servicio CryptSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:13,Service Control Manager,7036,Ninguno,"El servicio iphlpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio DsmSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio SamSs entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio BFE entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio netprofm entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio LanmanWorkstation entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio Wcmsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:11,Service Control Manager,7036,Ninguno,"El servicio UserManager entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:10,Service Control Manager,7036,Ninguno,"El servicio NlaSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:10,Service Control Manager,7036,Ninguno,"El servicio WinHttpAutoProxySvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:09,Service Control Manager,7036,Ninguno,"El servicio Dnscache entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:09,Service Control Manager,7036,Ninguno,"El servicio ShellHWDetection entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:08,Service Control Manager,7036,Ninguno,"El servicio Schedule entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:08,Service Control Manager,7036,Ninguno,"El servicio Dhcp entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:07,Service Control Manager,7036,Ninguno,"El servicio SENS entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:06,Microsoft-Windows-DHCPv6-Client,51046,Service State Event,Servicio de cliente DHCPv6 iniciado
+Información,17/11/2024 13:40:06,Service Control Manager,7036,Ninguno,"El servicio FontCache entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:05,Service Control Manager,7036,Ninguno,"El servicio DispBrokerDesktopSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:05,Service Control Manager,7036,Ninguno,"El servicio EventSystem entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:05,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 13:40:05,Microsoft-Windows-Dhcp-Client,50103,Evento de estado de servicio,El cliente DHCPv4 registró una la notificación de apagado
+Información,17/11/2024 13:40:05,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 13:40:05,Service Control Manager,7036,Ninguno,"El servicio ProfSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:04,Service Control Manager,7036,Ninguno,"El servicio gpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:04,Service Control Manager,7036,Ninguno,"El servicio Themes entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:04,Service Control Manager,7036,Ninguno,"El servicio nsi entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:04,Service Control Manager,7036,Ninguno,"El servicio WPDBusEnum entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:03,Service Control Manager,7036,Ninguno,"El servicio EventLog entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:03,Service Control Manager,7036,Ninguno,"El servicio CoreMessagingRegistrar entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:03,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'bindflt' (10.0, ‎2051‎-‎03‎-‎04T04:45:47.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:40:03,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'storqosflt' (10.0, ‎2051‎-‎09‎-‎21T13:40:20.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:40:03,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:40:03,Microsoft-Windows-FilterManager,1,Ninguno,"Filtro de sistema de archivos 'CldFlt' (Versión 10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente descargado."
+Información,17/11/2024 13:40:03,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:40:02,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'luafv' (10.0, ‎2068‎-‎10‎-‎11T23:22:37.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:40:02,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'wcifs' (10.0, ‎2088‎-‎12‎-‎15T12:51:43.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:40:01,Service Control Manager,7036,Ninguno,"El servicio lmhosts entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:01,Service Control Manager,7036,Ninguno,"El servicio TimeBrokerSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:00,Service Control Manager,7036,Ninguno,"El servicio SystemEventsBroker entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:00,Service Control Manager,7036,Ninguno,"El servicio BrokerInfrastructure entró en estado ""en ejecución""."
+Información,17/11/2024 13:40:00,Service Control Manager,7036,Ninguno,"El servicio LSM entró en estado ""en ejecución""."
+Información,17/11/2024 13:39:59,Service Control Manager,7036,Ninguno,"El servicio RpcSs entró en estado ""en ejecución""."
+Información,17/11/2024 13:39:59,Service Control Manager,7036,Ninguno,"El servicio RpcEptMapper entró en estado ""en ejecución""."
+Información,17/11/2024 13:39:59,Service Control Manager,7036,Ninguno,"El servicio DcomLaunch entró en estado ""en ejecución""."
+Información,17/11/2024 13:39:59,Service Control Manager,7036,Ninguno,"El servicio Power entró en estado ""en ejecución""."
+Información,17/11/2024 13:39:58,Service Control Manager,7036,Ninguno,"El servicio PlugPlay entró en estado ""en ejecución""."
+Información,17/11/2024 13:39:58,Microsoft-Windows-Directory-Services-SAM,16983,Ninguno,"El administrador de cuentas de seguridad está registrando eventos de resumen periódicos para clientes remotos que llaman un cambio de contraseña heredada o establecen métodos RPC. 
+
+ Para más información, consulte https://go.microsoft.com/fwlink/?linkid=2150956.
+"
+Información,17/11/2024 13:39:58,Microsoft-Windows-Directory-Services-SAM,16977,Ninguno,"El dominio está configurado con las siguientes opciones de configuración relacionadas con la longitud mínima de la contraseña.
+
+MinimumPasswordLength: 0
+
+RelaxMinimumPasswordLengthLimits: 0
+
+MinimumPasswordLengthAudit: -1
+
+Para obtener más información, consulta https://go.microsoft.com/fwlink/?LinkId=2097191.
+"
+Información,17/11/2024 13:39:58,Microsoft-Windows-Directory-Services-SAM,16962,Ninguno,"Se están restringiendo las llamadas remotas a la base de datos SAM mediante el descriptor de seguridad predeterminado: O:SYG:SYD:(A;;RC;;;BA).
+Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkId=787651."
+Información,17/11/2024 13:39:57,Microsoft-Windows-Wininit,14,Ninguno,"Configuración de Credential Guard: 0x0, 0"
+Información,17/11/2024 13:39:55,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:39:52,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-505c0f000000} (\Device\HarddiskVolume3) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:39:51,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 13:39:51,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 13:39:51,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 1 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 13:39:51,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 0 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 13:39:49,Microsoft-Windows-Kernel-Power,172,(203),Estado de conectividad en modo de espera: Disconnected. Motivo: NIC compliance
+Crítico,17/11/2024 13:39:49,Microsoft-Windows-Kernel-Power,41,(63),"Se reinició el sistema sin apagarlo limpiamente primero. Este error puede producirse si el sistema dejó de responder, se bloqueó o se interrumpió el suministro eléctrico de forma inesperada."
+Información,17/11/2024 13:39:48,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-100000000000} (\Device\HarddiskVolume1) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:39:48,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'npsvctrig' (10.0, ‎2015‎-‎04‎-‎02T11:42:38.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:39:47,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'FileCrypt' (10.0, ‎2088‎-‎05‎-‎24T07:57:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:39:36,Microsoft-Windows-Ntfs,98,Ninguno,Volumen C: (\Device\HarddiskVolume2) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:39:35,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'WdFilter' (10.0, ‎2044‎-‎02‎-‎10T20:09:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:39:35,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'Wof' (10.0, ‎2008‎-‎09‎-‎17T19:19:58.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:39:25,Microsoft-Windows-HAL,16,Ninguno,Se ha inicializado el informe de errores IOMMU.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-General,20,(6),"Se ha actualizado la configuración del segundo intercalar. 
+Motivo: Leap second data initialized from registry during boot
+Segundos intercalares habilitados: true
+Nuevo recuento de segundos intercalares: 0
+Antiguo recuento de segundos intercalares: 0"
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-Boot,32,(58),Bootmgr esperó la entrada del usuario durante 0 ms.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-Boot,18,(57),Existen 0x1 opciones de arranque en este sistema.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-Boot,27,(33),El tipo de arranque fue 0x0.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-Boot,25,(32),La directiva del menú de arranque fue 0x0.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-Boot,20,(31),El último estado correcto de apagado fue false. El último estado correcto de arranque fue true.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-Boot,153,(62),La seguridad basada en virtualización (directivas: 0) es disabled.
+Información,17/11/2024 13:40:03,EventLog,6013,Ninguno,El tiempo límite del sistema es de 38 segundos.
+Información,17/11/2024 13:40:03,EventLog,6005,Ninguno,Se inició el servicio de Registro de eventos.
+Información,17/11/2024 13:40:03,EventLog,6009,Ninguno,Microsoft (R) Windows (R) 10.00. 20348  Multiprocessor Free.
+Error,17/11/2024 13:40:03,EventLog,6008,Ninguno,El cierre anterior del sistema a las 13:38:32 del ‎17/‎11/‎2024 resultó inesperado.
+Información,17/11/2024 13:39:24,Microsoft-Windows-Kernel-General,12,(1),El sistema operativo se inició a la hora del sistema ‎2024‎-‎11‎-‎17T12:39:24.500000000Z.
+Información,17/11/2024 13:36:48,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:36:48,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:35:48,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""en ejecución""."
+Información,17/11/2024 13:35:44,Microsoft-Windows-WindowsUpdateClient,44,Agente de Windows Update,Windows Update comenzó a descargar una actualización.
+Información,17/11/2024 13:35:26,Service Control Manager,7036,Ninguno,"El servicio Servicio de asociación de dispositivos entró en estado ""detenido""."
+Información,17/11/2024 13:35:09,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 13:35:05,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:34:40,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 13:34:39,Service Control Manager,7036,Ninguno,"El servicio Administrador de configuración de dispositivos entró en estado ""detenido""."
+Información,17/11/2024 13:33:53,Service Control Manager,7036,Ninguno,"El servicio Administrador de configuración de dispositivos entró en estado ""en ejecución""."
+Información,17/11/2024 13:33:53,Service Control Manager,7036,Ninguno,"El servicio Servicio de asociación de dispositivos entró en estado ""en ejecución""."
+Información,17/11/2024 13:33:51,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 13:32:52,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 13:32:09,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""detenido""."
+Información,17/11/2024 13:30:34,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""en ejecución""."
+Información,17/11/2024 13:28:42,Service Control Manager,7036,Ninguno,"El servicio Registro remoto entró en estado ""detenido""."
+Información,17/11/2024 13:28:29,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""detenido""."
+Información,17/11/2024 13:27:42,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""detenido""."
+Información,17/11/2024 13:27:36,Service Control Manager,7036,Ninguno,"El servicio Servicio de configuración de red entró en estado ""detenido""."
+Información,17/11/2024 13:26:59,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""detenido""."
+Información,17/11/2024 13:26:36,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""detenido""."
+Información,17/11/2024 13:24:05,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:23:28,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""en ejecución""."
+Información,17/11/2024 13:23:24,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""en ejecución""."
+Información,17/11/2024 13:22:55,Service Control Manager,7036,Ninguno,"El servicio Administrador de configuración de dispositivos entró en estado ""detenido""."
+Información,17/11/2024 13:22:43,Service Control Manager,7036,Ninguno,"El servicio Conexiones de red entró en estado ""en ejecución""."
+Información,17/11/2024 13:22:42,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""detenido""."
+Información,17/11/2024 13:22:42,Service Control Manager,7036,Ninguno,"El servicio Microsoft Edge Update Service (edgeupdate) entró en estado ""en ejecución""."
+Información,17/11/2024 13:22:11,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 13:22:04,Service Control Manager,7036,Ninguno,"El servicio Microsoft Passport entró en estado ""detenido""."
+Información,17/11/2024 13:22:03,Service Control Manager,7036,Ninguno,"El servicio Servicio enumerador de dispositivos portátiles entró en estado ""detenido""."
+Información,17/11/2024 13:21:47,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario del portapapeles_df4ef entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:42,Service Control Manager,7036,Ninguno,"El servicio Servicio Orquestador de actualizaciones entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:38,Service Control Manager,7036,Ninguno,"El servicio Servicio de registro de acceso de usuarios entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:38,Service Control Manager,7036,Ninguno,"El servicio Publicación de recurso de detección de función entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:35,Service Control Manager,7036,Ninguno,"El servicio Host de proveedor de detección de función entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:33,Service Control Manager,7036,Ninguno,"El servicio Información de la aplicación entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:22,Service Control Manager,7036,Ninguno,"El servicio Coordinador de transacciones distribuidas entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:13,Service Control Manager,7036,Ninguno,"El servicio Servicio Asistente para la compatibilidad de programas entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:13,Service Control Manager,7036,Ninguno,"El servicio Host de sistema de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:12,Service Control Manager,7036,Ninguno,"El servicio Servicio de directivas de diagnóstico entró en estado ""en ejecución""."
+Información,17/11/2024 13:21:06,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:21:00,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:20:53,Service Control Manager,7036,Ninguno,"El servicio Servicio de inscripción de administración de dispositivos entró en estado ""detenido""."
+Error,17/11/2024 13:20:52,Service Control Manager,7030,Ninguno,"El servicio Extensiones y notificaciones de impresora ha sido marcado como servicio interactivo. Sin embargo, el sistema está configurado para no permitir servicios interactivos. Este servicio puede tener un funcionamiento incorrecto."
+Información,17/11/2024 13:20:52,Service Control Manager,7045,Ninguno,"Se instaló un servicio en el sistema.
+
+Nombre del servicio:  Extensiones y notificaciones de impresora
+Nombre del archivo del servicio:  %SystemRoot%\system32\svchost.exe -k print
+Tipo de servicio:  servicio de modo usuario
+Tipo de inicio de servicio:  inicio por solicitud
+Cuenta de servicio:  LocalSystem"
+Información,17/11/2024 13:20:50,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Users\Administrador\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Settings\settings.dat se borró mediante la actualización de 3 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:20:45,Service Control Manager,7036,Ninguno,"El servicio Servicio de inscripción de administración de dispositivos entró en estado ""en ejecución""."
+Advertencia,17/11/2024 13:20:36,Microsoft-Windows-DistributedCOM,10016,Ninguno,"La configuración de permisos específico de la aplicación no concede el permiso Activación Local para la aplicación de servidor COM con CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ y APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ al usuario WIN-1I8FL1H3DE7\Administrador con SID (S-1-5-21-3913609670-1573943343-4193902504-500) en la dirección LocalHost (con LRPC) que se ejecuta en el contenedor de aplicaciones con SID No disponible (No disponible). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes."
+Información,17/11/2024 13:20:19,Service Control Manager,7036,Ninguno,"El servicio sppsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:20:07,Service Control Manager,7036,Ninguno,"El servicio Servicio de plataforma de dispositivos conectados entró en estado ""en ejecución""."
+Advertencia,17/11/2024 13:20:07,Microsoft-Windows-DistributedCOM,10016,Ninguno,"La configuración de permisos específico de la aplicación no concede el permiso Iniciar Local para la aplicación de servidor COM con CLSID 
+{21B896BF-008D-4D01-A27B-26061B960DD7}
+ y APPID 
+{03E09F3B-DCE4-44FE-A9CF-82D050827E1C}
+ al usuario WIN-1I8FL1H3DE7\Administrador con SID (S-1-5-21-3913609670-1573943343-4193902504-500) en la dirección LocalHost (con LRPC) que se ejecuta en el contenedor de aplicaciones con SID No disponible (No disponible). Este permiso de seguridad se puede modificar mediante la herramienta administrativa Servicios de componentes."
+Información,17/11/2024 13:20:05,Service Control Manager,7036,Ninguno,"El servicio Servicio de Panel de escritura a mano y teclado táctil entró en estado ""en ejecución""."
+Información,17/11/2024 13:20:05,Service Control Manager,7036,Ninguno,"El servicio Administrador de cuentas web entró en estado ""en ejecución""."
+Información,17/11/2024 13:20:04,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario de plataforma de dispositivos conectados_df4ef entró en estado ""en ejecución""."
+Información,17/11/2024 13:20:04,Service Control Manager,7036,Ninguno,"El servicio Servicio de usuario de notificaciones de inserción de Windows_df4ef entró en estado ""en ejecución""."
+Información,17/11/2024 13:20:03,Microsoft-Windows-GroupPolicy,1501,Ninguno,La configuración de directiva de grupo del usuario se procesó correctamente. No se detectaron cambios desde el último procesamiento correcto de la directiva de grupo.
+Información,17/11/2024 13:19:57,Microsoft-Windows-Winlogon,7001,(1101),Notificación de inicio de sesión de usuario para el Programa para la mejora de la experiencia del usuario
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de Windows Insider se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio WalletService se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Conexión compartida a Internet (ICS) se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de datos del sensor se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Administrador de pagos y NFC/SE se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de enumeración de dispositivos de tarjeta inteligente se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de administración de radio se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio PushToInstall de Windows se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Administrador de mapas descargados se cambió de inicio automático a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Asignador de detección de topologías de nivel de vínculo se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de geolocalización se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio GraphicsPerfSvc se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Servicio de enrutamiento de mensajes de inserción del Protocolo de aplicación inalámbrica (WAP) de administración de dispositivos se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio DevicePicker se cambió de inicio por solicitud a deshabilitado.
+Información,17/11/2024 13:19:54,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de ActiveX (AxInstSV) se cambió de inicio por solicitud a deshabilitado.
+Advertencia,17/11/2024 13:19:50,Microsoft-Windows-NDIS,10400,Ninguno,"La interfaz de red ""Intel(R) PRO/1000 MT Desktop Adapter"" ha comenzado su restablecimiento. Habrá una interrupción momentánea de la conectividad de red mientras se restablece el hardware. Motivo: The network driver detected that its hardware has stopped responding to commands. Esta interfaz de red se ha restablecido 2 veces desde la última vez que se inicializó."
+Información,17/11/2024 13:19:49,Service Control Manager,7036,Ninguno,"El servicio Servicio Administrador de funcionalidad de acceso entró en estado ""en ejecución""."
+Advertencia,17/11/2024 13:19:45,Microsoft-Windows-NDIS,10400,Ninguno,"La interfaz de red ""Intel(R) PRO/1000 MT Desktop Adapter"" ha comenzado su restablecimiento. Habrá una interrupción momentánea de la conectividad de red mientras se restablece el hardware. Motivo: The network driver did not respond to an OID request in a timely fashion. Esta interfaz de red se ha restablecido 1 veces desde la última vez que se inicializó."
+Información,17/11/2024 13:19:43,Service Control Manager,7036,Ninguno,"El servicio Servicio de administrador de licencias de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:43,Microsoft-Windows-TPM-WMI,1281,Ninguno,Este evento desencadena la generación de identificadores de dispositivos TBS.
+Información,17/11/2024 13:19:43,Service Control Manager,7036,Ninguno,"El servicio Administrador de credenciales entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:43,Service Control Manager,7036,Ninguno,"El servicio Microsoft Passport entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:36,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Windows\AppCompat\Programs\Amcache.hve se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:19:35,Service Control Manager,7036,Ninguno,"El servicio Aislamiento de claves CNG entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:35,Service Control Manager,7036,Ninguno,"El servicio Ayudante para el inicio de sesión de cuenta Microsoft entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:32,Service Control Manager,7036,Ninguno,"El servicio Servicio de inspección de red de Antivirus de Microsoft Defender entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:30,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\Windows\system32\Config\Elam se borró mediante la actualización de 1 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:19:21,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""detenido""."
+Información,17/11/2024 13:19:20,Service Control Manager,7036,Ninguno,"El servicio Servicio de licencia de cliente (ClipSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:19,Service Control Manager,7036,Ninguno,"El servicio Windows Update entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:19,Service Control Manager,7036,Ninguno,"El servicio Servicio de almacenamiento entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:18,Service Control Manager,7036,Ninguno,"El servicio Optimización de distribución entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:18,Service Control Manager,7036,Ninguno,"El servicio Servicio de Windows Update Medic entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:18,Service Control Manager,7036,Ninguno,"El servicio Servicio de administración de radio entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:17,Service Control Manager,7036,Ninguno,"El servicio Asistente para la conectividad de red entró en estado ""detenido""."
+Información,17/11/2024 13:19:15,Microsoft-Windows-GroupPolicy,1500,Ninguno,La configuración de directiva de grupo del equipo se procesó correctamente. No se detectaron cambios desde el último procesamiento correcto de la directiva de grupo.
+Información,17/11/2024 13:19:14,Service Control Manager,7036,Ninguno,"El servicio sppsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:19:11,Service Control Manager,7040,Ninguno,El tipo de inicio del servicio Instalador de módulos de Windows se cambió de inicio automático a inicio por solicitud.
+Información,17/11/2024 13:19:06,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:19:06.334384000Z de ‎2024‎-‎11‎-‎17T12:19:06.334384000Z.
+
+Motivo del cambio: System time adjusted to the new time zone.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\oobe\msoobe.exe' (PID 1140)."
+Información,17/11/2024 13:19:06,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:19:03,Service Control Manager,7045,Ninguno,"Se instaló un servicio en el sistema.
+
+Nombre del servicio:  Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
+Nombre del archivo del servicio:  ""C:\Program Files (x86)\Microsoft\Edge\Application\86.0.622.38\elevation_service.exe""
+Tipo de servicio:  servicio de modo usuario
+Tipo de inicio de servicio:  inicio por solicitud
+Cuenta de servicio:  LocalSystem"
+Información,17/11/2024 13:18:55,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:49,Service Control Manager,7036,Ninguno,"El servicio edgeupdate entró en estado ""detenido""."
+Información,17/11/2024 13:18:49,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:18:49.471459800Z de ‎2024‎-‎11‎-‎17T12:18:49.467933500Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 1180)."
+Información,17/11/2024 13:18:49,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:18:49,Microsoft-Windows-Time-Service,35,Ninguno,"El servicio de hora está sincronizando la hora del sistema con el origen de la hora time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123) con el id. de referencia 494637363. El número de capa local actual es 4."
+Información,17/11/2024 13:18:49,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:18:49.454024200Z de ‎2024‎-‎11‎-‎17T12:18:42.062749900Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 1180)."
+Información,17/11/2024 13:18:49,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:18:40,Service Control Manager,7036,Ninguno,"El servicio Preparación de aplicaciones entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:40,Service Control Manager,7036,Ninguno,"El servicio WinRM entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:39,Service Control Manager,7036,Ninguno,"El servicio Servicio de repositorio de estado entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:39,Microsoft-Windows-WinRM,10148,Ninguno,"El servicio WinRM está escuchando solicitudes de WS-Management. 
+
+ Acción del usuario 
+ Use el siguiente comando para ver las direcciones IP específicas en las que WinRM está escuchando:
+
+winrm enumerate winrm/config/listener"
+Información,17/11/2024 13:18:37,Service Control Manager,7036,Ninguno,"El servicio DiagTrack entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:37,Service Control Manager,7036,Ninguno,"El servicio LanmanServer entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:37,Service Control Manager,7036,Ninguno,"El servicio Servicio del sistema de notificaciones de inserción de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio WinDefend entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio edgeupdate entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio TrkWks entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7026,Ninguno,"El siguiente controlador de inicio del sistema o de inicio del arranque no se cargó: 
+dam"
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio mpssvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio Winmgmt entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio SysMain entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:36,Service Control Manager,7036,Ninguno,"El servicio WLMS entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:35,Service Control Manager,7036,Ninguno,"El servicio RemoteRegistry entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:34,Service Control Manager,7036,Ninguno,"El servicio iphlpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:33,Service Control Manager,7036,Ninguno,"El servicio CryptSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:33,Service Control Manager,7036,Ninguno,"El servicio Spooler entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:32,Service Control Manager,7036,Ninguno,"El servicio TrustedInstaller entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:31,Service Control Manager,7036,Ninguno,"El servicio SamSs entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:31,Service Control Manager,7036,Ninguno,"El servicio BFE entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:31,Service Control Manager,7036,Ninguno,"El servicio NcbService entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:31,Service Control Manager,7036,Ninguno,"El servicio LanmanWorkstation entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:31,Service Control Manager,7036,Ninguno,"El servicio Wcmsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:30,Service Control Manager,7036,Ninguno,"El servicio WinHttpAutoProxySvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:30,Service Control Manager,7036,Ninguno,"El servicio FontCache entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:30,Service Control Manager,7036,Ninguno,"El servicio ShellHWDetection entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:30,Service Control Manager,7036,Ninguno,"El servicio UserManager entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio DsmSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio SENS entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio Schedule entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio ProfSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio gpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio EventSystem entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:29,Service Control Manager,7036,Ninguno,"El servicio TimeBrokerSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:28,Service Control Manager,7036,Ninguno,"El servicio netprofm entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:28,Service Control Manager,7036,Ninguno,"El servicio WPDBusEnum entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'bindflt' (10.0, ‎2051‎-‎03‎-‎04T04:45:47.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'storqosflt' (10.0, ‎2051‎-‎09‎-‎21T13:40:20.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,1,Ninguno,"Filtro de sistema de archivos 'CldFlt' (Versión 10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente descargado."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'luafv' (10.0, ‎2068‎-‎10‎-‎11T23:22:37.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:18:28,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'wcifs' (10.0, ‎2088‎-‎12‎-‎15T12:51:43.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:18:28,Service Control Manager,7036,Ninguno,"El servicio NlaSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:27,Service Control Manager,7036,Ninguno,"El servicio Dnscache entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:27,Service Control Manager,7036,Ninguno,"El servicio Themes entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:27,Service Control Manager,7036,Ninguno,"El servicio lmhosts entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:26,Service Control Manager,7036,Ninguno,"El servicio Dhcp entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:25,Microsoft-Windows-DHCPv6-Client,51046,Service State Event,Servicio de cliente DHCPv6 iniciado
+Información,17/11/2024 13:18:25,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 13:18:25,Microsoft-Windows-Dhcp-Client,50103,Evento de estado de servicio,El cliente DHCPv4 registró una la notificación de apagado
+Información,17/11/2024 13:18:25,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 13:18:25,Service Control Manager,7036,Ninguno,"El servicio BrokerInfrastructure entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:24,Service Control Manager,7036,Ninguno,"El servicio nsi entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:24,Service Control Manager,7036,Ninguno,"El servicio W32Time entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:24,Service Control Manager,7036,Ninguno,"El servicio EventLog entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:14,Service Control Manager,7036,Ninguno,"El servicio DispBrokerDesktopSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:13,Service Control Manager,7036,Ninguno,"El servicio CoreMessagingRegistrar entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:12,Service Control Manager,7036,Ninguno,"El servicio NetSetupSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:12,Service Control Manager,7036,Ninguno,"El servicio DeviceInstall entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:12,Service Control Manager,7036,Ninguno,"El servicio SystemEventsBroker entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:12,Service Control Manager,7036,Ninguno,"El servicio sppsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Service Control Manager,7036,Ninguno,"El servicio LSM entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Service Control Manager,7036,Ninguno,"El servicio RpcSs entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Service Control Manager,7036,Ninguno,"El servicio RpcEptMapper entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Service Control Manager,7036,Ninguno,"El servicio DcomLaunch entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Service Control Manager,7036,Ninguno,"El servicio Power entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Service Control Manager,7036,Ninguno,"El servicio PlugPlay entró en estado ""en ejecución""."
+Información,17/11/2024 13:18:11,Microsoft-Windows-Directory-Services-SAM,16983,Ninguno,"El administrador de cuentas de seguridad está registrando eventos de resumen periódicos para clientes remotos que llaman un cambio de contraseña heredada o establecen métodos RPC. 
+
+ Para más información, consulte https://go.microsoft.com/fwlink/?linkid=2150956.
+"
+Información,17/11/2024 13:18:11,Microsoft-Windows-Directory-Services-SAM,16977,Ninguno,"El dominio está configurado con las siguientes opciones de configuración relacionadas con la longitud mínima de la contraseña.
+
+MinimumPasswordLength: 0
+
+RelaxMinimumPasswordLengthLimits: 0
+
+MinimumPasswordLengthAudit: -1
+
+Para obtener más información, consulta https://go.microsoft.com/fwlink/?LinkId=2097191.
+"
+Información,17/11/2024 13:18:10,Microsoft-Windows-Directory-Services-SAM,16962,Ninguno,"Se están restringiendo las llamadas remotas a la base de datos SAM mediante el descriptor de seguridad predeterminado: O:SYG:SYD:(A;;RC;;;BA).
+Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkId=787651."
+Información,17/11/2024 13:18:09,Microsoft-Windows-Wininit,14,Ninguno,"Configuración de Credential Guard: 0x0, 0"
+Información,17/11/2024 13:18:05,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:18:03,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-505c0f000000} (\Device\HarddiskVolume3) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:18:01,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 13:18:01,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 13:18:01,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 1 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 13:18:01,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 0 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 13:17:59,Microsoft-Windows-Kernel-Power,172,(203),Estado de conectividad en modo de espera: Disconnected. Motivo: NIC compliance
+Información,17/11/2024 13:17:59,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-100000000000} (\Device\HarddiskVolume1) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:17:59,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'npsvctrig' (10.0, ‎2015‎-‎04‎-‎02T11:42:38.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:17:57,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'FileCrypt' (10.0, ‎2088‎-‎05‎-‎24T07:57:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:17:47,Microsoft-Windows-Ntfs,98,Ninguno,Volumen C: (\Device\HarddiskVolume2) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:17:47,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'WdFilter' (10.0, ‎2044‎-‎02‎-‎10T20:09:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:17:47,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'Wof' (10.0, ‎2008‎-‎09‎-‎17T19:19:58.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:17:46,Microsoft-Windows-HAL,16,Ninguno,Se ha inicializado el informe de errores IOMMU.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-General,20,(6),"Se ha actualizado la configuración del segundo intercalar. 
+Motivo: Leap second data initialized from registry during boot
+Segundos intercalares habilitados: true
+Nuevo recuento de segundos intercalares: 0
+Antiguo recuento de segundos intercalares: 0"
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-Boot,32,(58),Bootmgr esperó la entrada del usuario durante 0 ms.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-Boot,18,(57),Existen 0x1 opciones de arranque en este sistema.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-Boot,27,(33),El tipo de arranque fue 0x0.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-Boot,25,(32),La directiva del menú de arranque fue 0x0.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-Boot,20,(31),El último estado correcto de apagado fue true. El último estado correcto de arranque fue true.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-Boot,153,(62),La seguridad basada en virtualización (directivas: 0) es disabled.
+Información,17/11/2024 13:17:46,Microsoft-Windows-Kernel-General,12,(1),El sistema operativo se inició a la hora del sistema ‎2024‎-‎11‎-‎17T12:17:45.500000000Z.
+Información,17/11/2024 13:17:20,Microsoft-Windows-Kernel-General,13,(2),El sistema operativo se está cerrando a la hora del sistema ‎2024‎-‎11‎-‎17T12:17:20.252944700Z.
+Información,17/11/2024 13:17:18,Microsoft-Windows-Kernel-Power,109,(103),"El administrador de energía del kernel inició una transición de apagado.
+
+Motivo del apagado: Kernel API"
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Programador de tareas entró en estado ""detenido""."
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Registro de eventos de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:18:24,EventLog,6013,Ninguno,El tiempo límite del sistema es de 38 segundos.
+Información,17/11/2024 13:18:24,EventLog,6005,Ninguno,Se inició el servicio de Registro de eventos.
+Información,17/11/2024 13:18:24,EventLog,6009,Ninguno,Microsoft (R) Windows (R) 10.00. 20348  Multiprocessor Free.
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Administración remota de Windows (WS-Management) entró en estado ""detenido""."
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Cliente DHCP entró en estado ""detenido""."
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Servicio de detección automática de proxy web WinHTTP entró en estado ""detenido""."
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Servicio de repositorio de estado entró en estado ""detenido""."
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Cliente de seguimiento de vínculos distribuidos entró en estado ""detenido""."
+Información,17/11/2024 13:17:14,Microsoft-Windows-Dhcp-Client,50037,Evento de estado de servicio,Servicio cliente DHCPv4 detenido. Valor de la marca ShutDown: 1
+Información,17/11/2024 13:17:14,Microsoft-Windows-DHCPv6-Client,51057,Service State Event,La parada del servicio del cliente DHCPv6 está casi lista. El recuento de referencia de contexto DHCP es 1
+Información,17/11/2024 13:17:14,Microsoft-Windows-DHCPv6-Client,51057,Service State Event,La parada del servicio del cliente DHCPv6 está casi lista. El recuento de referencia de contexto DHCP es 1
+Información,17/11/2024 13:17:14,Service Control Manager,7036,Ninguno,"El servicio Optimizar unidades entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Servicio de perfil de usuario entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Protección de software entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Administrador de conexiones de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Instrumental de administración de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Administrador de configuración de dispositivos entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Plug and Play entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Servicio de caché de fuentes de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Microsoft-Windows-DHCPv6-Client,51047,Service State Event,Servicio de cliente DHCPv6 detenido. El valor de la marca ShutDown es 1
+Información,17/11/2024 13:17:13,Microsoft-Windows-Dhcp-Client,50106,Evento de estado de servicio,DHCPv4 está esperando a que se detenga el servicio DHCPv6
+Información,17/11/2024 13:17:13,Microsoft-Windows-Dhcp-Client,50105,Evento de estado de servicio,El cliente DHCPv4 ProcessDHCPRequestForever recibió TERMINATE_EVENT
+Información,17/11/2024 13:17:13,Microsoft-Windows-Dhcp-Client,50104,Evento de estado de servicio,El cliente DHCPv4 recibió una notificación de apagado
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio SysMain entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Hora de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:17:13.569416500Z de ‎2024‎-‎11‎-‎17T12:17:13.555833500Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2208)."
+Información,17/11/2024 13:17:13,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Servicio de supervisión de licencias de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""detenido""."
+Información,17/11/2024 13:17:13,EventLog,6006,Ninguno,Se detuvo el servicio de Registro de eventos.
+Advertencia,17/11/2024 13:17:13,Microsoft-Windows-WinRM,10149,Ninguno,"El servicio WinRM no está escuchando solicitudes de WS-Management. 
+
+ Acción del usuario 
+ Si no detuvo el servicio de forma intencionada, use el siguiente comando para ver la configuración de WinRM:
+
+winrm enumerate winrm/config/listener"
+Información,17/11/2024 13:17:13,Service Control Manager,7036,Ninguno,"El servicio Experiencias del usuario y telemetría asociadas entró en estado ""detenido""."
+Información,17/11/2024 13:17:12,Service Control Manager,7036,Ninguno,"El servicio Instalador de módulos de Windows entró en estado ""detenido""."
+Información,17/11/2024 13:17:12,Service Control Manager,7036,Ninguno,"El servicio Cliente de directiva de grupo entró en estado ""detenido""."
+Información,17/11/2024 13:17:12,Service Control Manager,7036,Ninguno,"El servicio Servicio de instalación de dispositivos entró en estado ""detenido""."
+Información,17/11/2024 13:17:12,User32,1074,Ninguno,"El proceso C:\Windows\system32\winlogon.exe (MINWINPC) inició el Reinicio del equipo WIN-1I8FL1H3DE7 en nombre del usuario NT AUTHORITY\SYSTEM por el siguiente motivo: Sistema operativo: actualización (planeada)
+ Código de motivo: 0x80020003
+ Tipo de apagado: Reinicio
+ Comentario: "
+Información,17/11/2024 13:17:09,Microsoft-Windows-Setup,2004,Información sobre el sistema operativo,Se registró correctamente la información del sistema operativo
+Información,17/11/2024 13:17:09,Microsoft-Windows-Setup,2003,Información sobre la instalación,Se registró correctamente la información del programa de instalación
+Información,17/11/2024 13:16:58,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:16:58.989310900Z de ‎2024‎-‎11‎-‎17T12:16:58.980333600Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2208)."
+Información,17/11/2024 13:16:58,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:16:58,Microsoft-Windows-Time-Service,35,Ninguno,"El servicio de hora está sincronizando la hora del sistema con el origen de la hora time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123) con el id. de referencia 494637363. El número de capa local actual es 4."
+Información,17/11/2024 13:16:58,Microsoft-Windows-Kernel-General,1,(5),"La hora del sistema se cambió a ‎2024‎-‎11‎-‎17T12:16:58.980333600Z de ‎2024‎-‎11‎-‎17T12:16:42.228628900Z.
+
+Motivo del cambio: An application or system component changed the time.
+Proceso: '\Device\HarddiskVolume2\Windows\System32\svchost.exe' (PID 2208)."
+Información,17/11/2024 13:16:58,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:16:42,Microsoft-Windows-Time-Service,37,Ninguno,"El proveedor de hora NtpClient está recibiendo datos de hora  válidos desde time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Información,17/11/2024 13:16:40,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-505c0f000000} (\Device\HarddiskVolume3) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:16:38,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-505c0f000000} (\Device\HarddiskVolume3) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:16:29,Service Control Manager,7036,Ninguno,"El servicio Optimizar unidades entró en estado ""en ejecución""."
+Información,17/11/2024 13:16:26,Service Control Manager,7036,Ninguno,"El servicio Disco virtual entró en estado ""en ejecución""."
+Información,17/11/2024 13:16:26,Virtual Disk Service,3,Ninguno,Servicio iniciado.
+Información,17/11/2024 13:16:22,Service Control Manager,7036,Ninguno,"El servicio sppsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:16:19,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:18,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.UI.Xaml.2.2_2.21909.17002.0_x64__8wekyb3d8bbwe\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:17,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Windows.PrintDialog_6.2.1.0_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:17,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\windows.immersivecontrolpanel_10.0.4.1000_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:16,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Windows.CBSPreview_10.0.19580.1000_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:15,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\MicrosoftWindows.Client.CBS_120.27512.10351.0_x64__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:14,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.XGpuEjectDialog_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:14,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.StartMenuExperienceHost_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:13,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.ShellExperienceHost_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:12,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.SecHealthUI_10.0.20348.1_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:12,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Search_1.15.0.20348_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:11,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.PinningConfirmationDialog_1000.20348.1.0_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:10,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.PeopleExperienceHost_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:10,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.OOBENetworkConnectionFlow_10.0.19581.1000_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:09,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.OOBENetworkCaptivePortal_10.0.19580.1000_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:09,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.NarratorQuickStart_10.0.20348.1_neutral_neutral_8wekyb3d8bbwe\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:08,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.CloudExperienceHost_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:08,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.CapturePicker_10.0.19580.1000_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:07,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Windows.Apprep.ChxApp_1000.20348.1.0_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:07,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.Win32WebViewHost_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:06,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.LockApp_10.0.20348.1_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:06,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.ECApp_10.0.20348.1_neutral__8wekyb3d8bbwe\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:05,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.CredDialogHost_10.0.19595.1001_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:04,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.BioEnrollment_10.0.19585.1001_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:04,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.AsyncTextService_10.0.20348.1_neutral__8wekyb3d8bbwe\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:03,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.AccountsControl_10.0.20348.1_neutral__cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:03,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:02,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\F46D4000-FD22-4DB4-AC8E-4E1DDDE828FE_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:01,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\E2A4F912-2574-4A75-9BB0-0D023378592B_10.0.19640.1000_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:01,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.20348.1_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:16:00,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \??\C:\ProgramData\Microsoft\Windows\AppRepository\Packages\1527c705-839a-4832-9118-54d4Bd6a0c89_10.0.19640.1000_neutral_neutral_cw5n1h2txyewy\ActivationStore.dat se borró mediante la actualización de 0 claves y la creación de 0 páginas modificadas.
+Información,17/11/2024 13:15:59,Service Control Manager,7036,Ninguno,"El servicio Servicio de implementación de AppX (AppXSVC) entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:57,Service Control Manager,7036,Ninguno,"El servicio Aplicación auxiliar de NetBIOS sobre TCP/IP entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:55,Service Control Manager,7036,Ninguno,"El servicio edgeupdate entró en estado ""detenido""."
+Información,17/11/2024 13:15:55,Service Control Manager,7036,Ninguno,"El servicio WinRM entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:55,Microsoft-Windows-WinRM,10148,Ninguno,"El servicio WinRM está escuchando solicitudes de WS-Management. 
+
+ Acción del usuario 
+ Use el siguiente comando para ver las direcciones IP específicas en las que WinRM está escuchando:
+
+winrm enumerate winrm/config/listener"
+Información,17/11/2024 13:15:54,Service Control Manager,7036,Ninguno,"El servicio DiagTrack entró en estado ""en ejecución""."
+Advertencia,17/11/2024 13:15:53,Microsoft-Windows-Time-Service,134,Ninguno,"NtpClient no pudo establecer un sistema del mismo nivel manual para usar como origen de la hora debido a un error de resolución de DNS en 'time.windows.com,0x8'. NtpClient lo intentará de nuevo dentro de 15 minutos y doblará el intervalo de reintento en adelante. Error: Host desconocido. (0x80072AF9)"
+Información,17/11/2024 13:15:53,Service Control Manager,7036,Ninguno,"El servicio Servicio de repositorio de estado entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:53,Service Control Manager,7045,Ninguno,"Se instaló un servicio en el sistema.
+
+Nombre del servicio:  Controlador de adaptador NDIS 6 Intel(R) PRO/1000
+Nombre del archivo del servicio:  \SystemRoot\System32\drivers\E1G6032E.sys
+Tipo de servicio:  controlador de modo kernel
+Tipo de inicio de servicio:  inicio por solicitud
+Cuenta de servicio:  "
+Información,17/11/2024 13:15:52,Service Control Manager,7036,Ninguno,"El servicio LanmanServer entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:52,Service Control Manager,7036,Ninguno,"El servicio Servicio del sistema de notificaciones de inserción de Windows entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:53,Workstation,3261,Ninguno,El equipo se ha unido correctamente al grupo de trabajo 'WORKGROUP'.
+Información,17/11/2024 13:15:52,Service Control Manager,7026,Ninguno,"El siguiente controlador de inicio del sistema o de inicio del arranque no se cargó: 
+dam"
+Información,17/11/2024 13:15:52,Service Control Manager,7036,Ninguno,"El servicio edgeupdate entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:52,Service Control Manager,7036,Ninguno,"El servicio mpssvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:52,Service Control Manager,7036,Ninguno,"El servicio WinDefend entró en estado ""en ejecución""."
+Advertencia,17/11/2024 13:15:51,Microsoft-Windows-Time-Service,134,Ninguno,"NtpClient no pudo establecer un sistema del mismo nivel manual para usar como origen de la hora debido a un error de resolución de DNS en 'time.windows.com,0x8'. NtpClient lo intentará de nuevo dentro de 15 minutos y doblará el intervalo de reintento en adelante. Error: Host desconocido. (0x80072AF9)"
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio W32Time entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio UserManager entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio Winmgmt entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio WLMS entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio RemoteRegistry entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio SysMain entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio TrkWks entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:51,Service Control Manager,7036,Ninguno,"El servicio CryptSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:50,Service Control Manager,7036,Ninguno,"El servicio TrustedInstaller entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:50,Service Control Manager,7036,Ninguno,"El servicio iphlpsvc entró en estado ""detenido""."
+Información,17/11/2024 13:15:50,Service Control Manager,7036,Ninguno,"El servicio Spooler entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio SamSs entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio BFE entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio Wcmsvc entró en estado ""en ejecución""."
+Error,17/11/2024 13:15:49,Service Control Manager,7023,Ninguno,"El servicio netprofm se cerró con el siguiente error: 
+El dispositivo no está listo."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio netprofm entró en estado ""detenido""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio LanmanWorkstation entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio Schedule entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio WinHttpAutoProxySvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:49,Service Control Manager,7036,Ninguno,"El servicio NlaSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:48,Service Control Manager,7036,Ninguno,"El servicio TimeBrokerSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:48,Service Control Manager,7036,Ninguno,"El servicio Dnscache entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:48,Service Control Manager,7036,Ninguno,"El servicio FontCache entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:48,Service Control Manager,7036,Ninguno,"El servicio ShellHWDetection entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:47,Service Control Manager,7036,Ninguno,"El servicio Dhcp entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:47,Service Control Manager,7036,Ninguno,"El servicio SENS entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:47,Microsoft-Windows-DHCPv6-Client,51046,Service State Event,Servicio de cliente DHCPv6 iniciado
+Información,17/11/2024 13:15:47,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 13:15:47,Microsoft-Windows-Dhcp-Client,50103,Evento de estado de servicio,El cliente DHCPv4 registró una la notificación de apagado
+Información,17/11/2024 13:15:47,Microsoft-Windows-Dhcp-Client,50036,Evento de estado de servicio,Servicio cliente DHCPv4 iniciado
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio EventSystem entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio ProfSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio gpsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio Themes entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio nsi entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'bindflt' (10.0, ‎2051‎-‎03‎-‎04T04:45:47.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio EventLog entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'storqosflt' (10.0, ‎2051‎-‎09‎-‎21T13:40:20.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,1,Ninguno,"Filtro de sistema de archivos 'CldFlt' (Versión 10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente descargado."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'CldFlt' (10.0, ‎2074‎-‎11‎-‎09T16:03:12.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio WPDBusEnum entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'luafv' (10.0, ‎2068‎-‎10‎-‎11T23:22:37.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:15:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'wcifs' (10.0, ‎2088‎-‎12‎-‎15T12:51:43.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:15:46,Service Control Manager,7036,Ninguno,"El servicio DsmSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:46,Microsoft-Windows-Kernel-General,16,Ninguno,El historial de accesos en el subárbol \SystemRoot\System32\Config\BBI se borró mediante la actualización de 1 claves y la creación de 1 páginas modificadas.
+Información,17/11/2024 13:15:45,Service Control Manager,7036,Ninguno,"El servicio BrokerInfrastructure entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:44,Microsoft-Windows-Directory-Services-SAM,16977,Ninguno,"El dominio está configurado con las siguientes opciones de configuración relacionadas con la longitud mínima de la contraseña.
+
+MinimumPasswordLength: 0
+
+RelaxMinimumPasswordLengthLimits: 0
+
+MinimumPasswordLengthAudit: -1
+
+Para obtener más información, consulta https://go.microsoft.com/fwlink/?LinkId=2097191.
+"
+Información,17/11/2024 13:15:37,Service Control Manager,7036,Ninguno,"El servicio DispBrokerDesktopSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:31,Service Control Manager,7036,Ninguno,"El servicio CoreMessagingRegistrar entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:29,Service Control Manager,7036,Ninguno,"El servicio NetSetupSvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:28,Service Control Manager,7036,Ninguno,"El servicio DeviceInstall entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:28,Service Control Manager,7036,Ninguno,"El servicio SystemEventsBroker entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:28,Service Control Manager,7036,Ninguno,"El servicio sppsvc entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:26,Service Control Manager,7036,Ninguno,"El servicio LSM entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:25,Service Control Manager,7036,Ninguno,"El servicio RpcSs entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:24,Service Control Manager,7036,Ninguno,"El servicio DcomLaunch entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:24,Service Control Manager,7036,Ninguno,"El servicio RpcEptMapper entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:14,Service Control Manager,7036,Ninguno,"El servicio Power entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:14,Service Control Manager,7036,Ninguno,"El servicio PlugPlay entró en estado ""en ejecución""."
+Información,17/11/2024 13:15:13,Microsoft-Windows-Directory-Services-SAM,16983,Ninguno,"El administrador de cuentas de seguridad está registrando eventos de resumen periódicos para clientes remotos que llaman un cambio de contraseña heredada o establecen métodos RPC. 
+
+ Para más información, consulte https://go.microsoft.com/fwlink/?linkid=2150956.
+"
+Información,17/11/2024 13:15:13,Microsoft-Windows-Directory-Services-SAM,16977,Ninguno,"El dominio está configurado con las siguientes opciones de configuración relacionadas con la longitud mínima de la contraseña.
+
+MinimumPasswordLength: 0
+
+RelaxMinimumPasswordLengthLimits: 0
+
+MinimumPasswordLengthAudit: -1
+
+Para obtener más información, consulta https://go.microsoft.com/fwlink/?LinkId=2097191.
+"
+Información,17/11/2024 13:15:13,Microsoft-Windows-Directory-Services-SAM,16962,Ninguno,"Se están restringiendo las llamadas remotas a la base de datos SAM mediante el descriptor de seguridad predeterminado: O:SYG:SYD:(A;;RC;;;BA).
+Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkId=787651."
+Información,17/11/2024 13:15:08,Microsoft-Windows-Wininit,14,Ninguno,"Configuración de Credential Guard: 0x0, 0"
+Información,17/11/2024 13:15:02,Microsoft-Windows-Kernel-General,24,(11),La información de zona horaria se actualizó con el motivo de salida 0. La diferencia de zona horaria actual es -60.
+Información,17/11/2024 13:14:57,Microsoft-Windows-Kernel-Power,521,(220),Cambio de número de baterías
+Información,17/11/2024 13:14:57,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 1 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 13:14:57,Microsoft-Windows-Kernel-Processor-Power,55,(47),"El procesador 0 en el grupo 0 expone las siguientes funciones de administración de energía:
+
+Tipo de estado inactivo: Estados de inactividad (C) de ACPI (estados 1)
+
+Tipo de estado de rendimiento: Ninguno
+Frecuencia nominal (MHz): 1190
+Porcentaje de rendimiento máximo: 100
+Porcentaje de rendimiento mínimo: 100
+Porcentaje de limitación mínimo: 100"
+Información,17/11/2024 13:14:56,Microsoft-Windows-Kernel-Power,172,(203),Estado de conectividad en modo de espera: Disconnected. Motivo: NIC compliance
+Información,17/11/2024 13:14:55,Microsoft-Windows-Ntfs,98,Ninguno,Volumen \\?\Volume{886d0df8-0000-0000-0000-100000000000} (\Device\HarddiskVolume1) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:14:55,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'npsvctrig' (10.0, ‎2015‎-‎04‎-‎02T11:42:38.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:14:54,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'FileCrypt' (10.0, ‎2088‎-‎05‎-‎24T07:57:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:14:47,Microsoft-Windows-Ntfs,98,Ninguno,Volumen C: (\Device\HarddiskVolume2) es correcto. No se requiere ninguna acción.
+Información,17/11/2024 13:14:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'WdFilter' (10.0, ‎2044‎-‎02‎-‎10T20:09:52.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:14:46,Microsoft-Windows-FilterManager,6,Ninguno,"Filtro de sistema de archivos 'Wof' (10.0, ‎2008‎-‎09‎-‎17T19:19:58.000000000Z) correctamente cargado y registrado con el administrador de filtros."
+Información,17/11/2024 13:14:45,Microsoft-Windows-HAL,16,Ninguno,Se ha inicializado el informe de errores IOMMU.
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-General,20,(6),"Se ha actualizado la configuración del segundo intercalar. 
+Motivo: Leap second data initialized from registry during boot
+Segundos intercalares habilitados: true
+Nuevo recuento de segundos intercalares: 0
+Antiguo recuento de segundos intercalares: 0"
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-Boot,32,(58),Bootmgr esperó la entrada del usuario durante 0 ms.
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-Boot,18,(57),Existen 0x1 opciones de arranque en este sistema.
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-Boot,27,(33),El tipo de arranque fue 0x0.
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-Boot,25,(32),La directiva del menú de arranque fue 0x0.
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-Boot,153,(62),La seguridad basada en virtualización (directivas: 0) es disabled.
+Información,17/11/2024 13:14:45,Microsoft-Windows-Kernel-General,12,(1),El sistema operativo se inició a la hora del sistema ‎2024‎-‎11‎-‎17T12:14:45.500000000Z.
+Información,17/11/2024 13:15:46,EventLog,6005,Ninguno,Se inició el servicio de Registro de eventos.
+Información,17/11/2024 13:15:46,EventLog,6009,Ninguno,Microsoft (R) Windows (R) 10.00. 20348  Multiprocessor Free.

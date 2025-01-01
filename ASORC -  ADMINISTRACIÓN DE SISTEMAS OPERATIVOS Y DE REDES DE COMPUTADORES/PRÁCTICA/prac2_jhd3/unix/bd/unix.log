@@ -1,0 +1,44 @@
+/var/log/messages:Nov 16 00:40:43 freebsd pkg[3396]: postgresql14-client-14.13 installed
+/var/log/messages:Nov 16 00:40:46 freebsd pkg[3396]: postgresql14-server-14.13 installed
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-1] 2024-11-16 00:48:11.773 CET [3533] ERROR:  syntax error at or near "clear" at character 1
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-2] 2024-11-16 00:48:11.773 CET [3533] STATEMENT:  clear
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-3] 	CREATE TABLE usuarios (
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-4] 	    id SERIAL PRIMARY KEY,
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-5] 	    nombre VARCHAR(50),
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-6] 	    email VARCHAR(100)
+/var/log/messages:Nov 16 00:48:11 freebsd postgres[3533]: [7-7] 	);
+/var/log/userlog:2024-11-16 00:40:43 [nickhernd:groupadd] postgres(770)
+/var/log/userlog:2024-11-16 00:40:43 [nickhernd:useradd] postgres(770):postgres(770):PostgreSQL Daemon:/var/db/postgres:/bin/sh
+/var/log/httpd-access.log:192.168.24.1 - - [16/Nov/2024:00:50:50 +0100] "GET /test_db.php HTTP/1.1" 200 844
+/var/log/messages:Nov 16 00:22:08 freebsd pkg[2513]: php83-8.3.12 installed
+/var/log/messages:Nov 16 00:22:16 freebsd pkg[2513]: php83-pdo-8.3.12 installed
+/var/log/messages:Nov 16 00:22:17 freebsd pkg[2513]: php83-dom-8.3.12 installed
+/var/log/messages:Nov 16 00:22:30 freebsd pkg[2513]: php83-pdo_sqlite-8.3.12 installed
+/var/log/messages:Nov 16 00:22:30 freebsd pkg[2513]: php83-simplexml-8.3.12 installed
+/var/log/messages:Nov 16 00:22:30 freebsd pkg[2513]: php83-xmlreader-8.3.12 installed
+/var/log/messages:Nov 16 00:22:30 freebsd pkg[2513]: php83-sqlite3-8.3.12 installed
+/var/log/messages:Nov 16 00:22:32 freebsd pkg[2513]: php83-xmlwriter-8.3.12 installed
+/var/log/messages:Nov 16 00:22:32 freebsd pkg[2513]: php83-tokenizer-8.3.12 installed
+/var/log/messages:Nov 16 00:22:32 freebsd pkg[2513]: php83-iconv-8.3.12 installed
+/var/log/messages:Nov 16 00:22:32 freebsd pkg[2513]: php83-filter-8.3.12 installed
+/var/log/messages:Nov 16 00:22:32 freebsd pkg[2513]: php83-session-8.3.12 installed
+/var/log/messages:Nov 16 00:22:32 freebsd pkg[2513]: php83-phar-8.3.12 installed
+/var/log/messages:Nov 16 00:22:34 freebsd pkg[2513]: php83-opcache-8.3.12 installed
+/var/log/messages:Nov 16 00:22:34 freebsd pkg[2513]: php83-posix-8.3.12 installed
+/var/log/messages:Nov 16 00:22:34 freebsd pkg[2513]: php83-ctype-8.3.12 installed
+/var/log/messages:Nov 16 00:22:35 freebsd pkg[2513]: php83-xml-8.3.12 installed
+/var/log/messages:Nov 16 00:22:35 freebsd pkg[2513]: php83-ldap-8.3.12 installed
+/var/log/messages:Nov 16 00:22:37 freebsd pkg[2513]: php83-bz2-8.3.12 installed
+/var/log/messages:Nov 16 00:22:37 freebsd pkg[2513]: php83-fileinfo-8.3.12 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-zlib-8.3.12 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-curl-8.3.12 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-pecl-imagick-3.7.0_4 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-mbstring-8.3.12 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-pdo_mysql-8.3.12 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-extensions-1.0 installed
+/var/log/messages:Nov 16 00:22:38 freebsd pkg[2513]: php83-mysqli-8.3.12 installed
+/var/log/messages:Nov 16 00:22:45 freebsd pkg[2513]: php83-gd-8.3.12 installed
+/var/log/messages:Nov 16 00:22:45 freebsd pkg[2513]: php83-zip-8.3.12 installed
+/var/log/messages:Nov 16 00:22:45 freebsd pkg[2513]: php83-intl-8.3.12 installed
+/var/log/messages:Nov 16 00:40:48 freebsd pkg[3396]: mod_php83-8.3.12 installed
+/var/log/messages:Nov 16 00:22:37 freebsd pkg[2513]: apache24-2.4.62 installed

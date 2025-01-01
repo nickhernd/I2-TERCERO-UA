@@ -1,0 +1,25 @@
+# /var/named/reverse.zone
+###############################################################################
+# Reverse Zone Configuration
+###############################################################################
+
+$TTL 86400
+@       IN      SOA     ns1.freebsd.local. admin.freebsd.local. (
+                2024111601      ; Serial
+                3600           ; Refresh
+                1800           ; Retry
+                604800         ; Expire
+                86400 )        ; Minimum TTL
+
+; Name servers
+@       IN      NS      ns1.freebsd.local.
+@       IN      NS      ns2.freebsd.local.
+
+; PTR records
+42      IN      PTR     ns1.freebsd.local.
+42      IN      PTR     ns2.freebsd.local.
+42      IN      PTR     www.freebsd.local.
+42      IN      PTR     git.freebsd.local.
+42      IN      PTR     nextcloud.freebsd.local.
+42      IN      PTR     ldap.freebsd.local.
+42      IN      PTR     print.freebsd.local.

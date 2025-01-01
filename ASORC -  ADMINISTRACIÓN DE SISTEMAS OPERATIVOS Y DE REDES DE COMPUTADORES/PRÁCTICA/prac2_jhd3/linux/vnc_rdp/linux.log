@@ -1,0 +1,181 @@
+/var/log/dpkg.log:2024-11-02 19:48:03 install tigervnc-common:amd64 <none> 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 status half-installed tigervnc-common:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 status unpacked tigervnc-common:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 install tigervnc-standalone-server:amd64 <none> 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 status half-installed tigervnc-standalone-server:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 status unpacked tigervnc-standalone-server:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 install tigervnc-tools:amd64 <none> 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:03 status half-installed tigervnc-tools:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status unpacked tigervnc-tools:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 configure tigervnc-tools:amd64 1.12.0+dfsg-8 <none>
+/var/log/dpkg.log:2024-11-02 19:48:04 status unpacked tigervnc-tools:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status half-configured tigervnc-tools:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status installed tigervnc-tools:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 configure tigervnc-common:amd64 1.12.0+dfsg-8 <none>
+/var/log/dpkg.log:2024-11-02 19:48:04 status unpacked tigervnc-common:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status half-configured tigervnc-common:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status installed tigervnc-common:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 configure tigervnc-standalone-server:amd64 1.12.0+dfsg-8 <none>
+/var/log/dpkg.log:2024-11-02 19:48:04 status unpacked tigervnc-standalone-server:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status half-configured tigervnc-standalone-server:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-02 19:48:04 status installed tigervnc-standalone-server:amd64 1.12.0+dfsg-8
+/var/log/dpkg.log:2024-11-14 03:01:35 install xrdp:amd64 <none> 0.9.21.1-1
+/var/log/dpkg.log:2024-11-14 03:01:35 status half-installed xrdp:amd64 0.9.21.1-1
+/var/log/dpkg.log:2024-11-14 03:01:35 status unpacked xrdp:amd64 0.9.21.1-1
+/var/log/dpkg.log:2024-11-14 03:01:35 install xorgxrdp:amd64 <none> 1:0.9.19-1
+/var/log/dpkg.log:2024-11-14 03:01:35 status half-installed xorgxrdp:amd64 1:0.9.19-1
+/var/log/dpkg.log:2024-11-14 03:01:35 status unpacked xorgxrdp:amd64 1:0.9.19-1
+/var/log/dpkg.log:2024-11-14 03:01:35 configure xrdp:amd64 0.9.21.1-1 <none>
+/var/log/dpkg.log:2024-11-14 03:01:35 status unpacked xrdp:amd64 0.9.21.1-1
+/var/log/dpkg.log:2024-11-14 03:01:36 status half-configured xrdp:amd64 0.9.21.1-1
+/var/log/dpkg.log:2024-11-14 03:01:39 status installed xrdp:amd64 0.9.21.1-1
+/var/log/dpkg.log:2024-11-14 03:01:39 configure xorgxrdp:amd64 1:0.9.19-1 <none>
+/var/log/dpkg.log:2024-11-14 03:01:39 status unpacked xorgxrdp:amd64 1:0.9.19-1
+/var/log/dpkg.log:2024-11-14 03:01:39 status half-configured xorgxrdp:amd64 1:0.9.19-1
+/var/log/dpkg.log:2024-11-14 03:01:39 status installed xorgxrdp:amd64 1:0.9.19-1
+/var/log/xrdp.log:[20241114-03:01:38] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-03:01:40] [INFO ] starting xrdp with pid 4604
+/var/log/xrdp.log:[20241114-03:01:40] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-03:11:15] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-03:11:17] [INFO ] starting xrdp with pid 717
+/var/log/xrdp.log:[20241114-03:11:17] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-03:16:15] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-03:16:18] [INFO ] starting xrdp with pid 748
+/var/log/xrdp.log:[20241114-03:16:18] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:01:28] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:01:30] [INFO ] starting xrdp with pid 728
+/var/log/xrdp.log:[20241114-04:01:30] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:33:16] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:33:18] [INFO ] starting xrdp with pid 740
+/var/log/xrdp.log:[20241114-04:33:18] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:37:59] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:38:01] [INFO ] starting xrdp with pid 742
+/var/log/xrdp.log:[20241114-04:38:01] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:49:18] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-04:49:20] [INFO ] starting xrdp with pid 746
+/var/log/xrdp.log:[20241114-04:49:20] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:09:56] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:09:58] [INFO ] starting xrdp with pid 781
+/var/log/xrdp.log:[20241114-08:09:58] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:24:56] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:24:58] [INFO ] starting xrdp with pid 763
+/var/log/xrdp.log:[20241114-08:24:58] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:32:47] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:32:49] [INFO ] starting xrdp with pid 5269
+/var/log/xrdp.log:[20241114-08:32:49] [INFO ] xrdp_listen_pp done
+/var/log/xrdp.log:[20241114-08:36:53] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+/var/log/xrdp.log:[20241114-08:36:53] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+/var/log/xrdp.log:[20241114-08:36:53] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+/var/log/xrdp.log:[20241114-08:36:53] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+/var/log/xrdp.log:[20241114-08:36:53] [ERROR] libxrdp_force_read: header read error
+/var/log/xrdp.log:[20241114-08:36:53] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+/var/log/xrdp.log:[20241114-08:36:53] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+/var/log/xrdp.log:[20241114-08:36:53] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+/var/log/xrdp.log:[20241114-08:36:53] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+/var/log/xrdp.log:[20241114-08:36:55] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+/var/log/xrdp.log:[20241114-08:36:55] [WARN ] Cannot accept TLS connections because certificate or private key file is not readable. certificate file: [/etc/xrdp/cert.pem], private key file: [/etc/xrdp/key.pem]
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x07], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+/var/log/xrdp.log:[20241114-08:36:55] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+/var/log/xrdp.log:[20241114-08:36:55] [INFO ] Loading keymap file /etc/xrdp/km-0000040a.ini
+/var/log/xrdp.log:[20241114-08:37:38] [INFO ] xrdp_wm_log_msg: sesman connect ok
+/var/log/xrdp.log:[20241114-08:37:40] [INFO ] xrdp_wm_log_msg: login failed for user nickhernd
+/var/log/xrdp.log:[20241114-08:37:56] [INFO ] xrdp_wm_log_msg: sesman connect ok
+/var/log/xrdp.log:[20241114-08:37:59] [INFO ] xrdp_wm_log_msg: login failed for user nickhernd
+/var/log/xrdp.log:[20241114-08:38:09] [INFO ] xrdp_wm_log_msg: sesman connect ok
+/var/log/xrdp.log:[20241114-08:38:10] [INFO ] xrdp_wm_log_msg: login failed for user root
+/var/log/xrdp.log:[20241114-08:38:16] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+/var/log/xrdp.log:[20241114-08:38:16] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+/var/log/xrdp.log:[20241114-08:38:16] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+/var/log/xrdp.log:[20241114-08:38:16] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+/var/log/xrdp.log:[20241114-08:38:16] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: run with --install /usr/bin/vncpasswd vncpasswd /usr/bin/tigervncpasswd 80 --slave /usr/share/man/man1/vncpasswd.1.gz vncpasswd.1.gz /usr/share/man/man1/tigervncpasswd.1.gz
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: link group vncpasswd updated to point to /usr/bin/tigervncpasswd
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: run with --install /usr/bin/vncconfig vncconfig /usr/bin/tigervncconfig 80 --slave /usr/share/man/man1/vncconfig.1.gz vncconfig.1.gz /usr/share/man/man1/tigervncconfig.1.gz
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: link group vncconfig updated to point to /usr/bin/tigervncconfig
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: run with --install /usr/bin/vncserver vncserver /usr/bin/tigervncserver 80 --slave /usr/share/man/man1/vncserver.1.gz vncserver.1.gz /usr/share/man/man1/tigervncserver.1.gz
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: link group vncserver updated to point to /usr/bin/tigervncserver
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: run with --install /usr/bin/Xvnc Xvnc /usr/bin/Xtigervnc 80 --slave /usr/share/man/man1/Xvnc.1.gz Xvnc.1.gz /usr/share/man/man1/Xtigervnc.1.gz
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: link group Xvnc updated to point to /usr/bin/Xtigervnc
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: run with --install /usr/sbin/vncsession vncsession /usr/sbin/tigervncsession 80 --slave /usr/share/man/man8/vncsession.8.gz vncsession.8.gz /usr/share/man/man8/tigervncsession.8.gz
+/var/log/alternatives.log:update-alternatives 2024-11-02 19:48:04: link group vncsession updated to point to /usr/sbin/tigervncsession
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/boot.log:         Starting [0;1;39mxrdp-sesman.service[0m - xrdp session manager...
+/var/log/boot.log:[[0;32m  OK  [0m] Started [0;1;39mxrdp-sesman.service[0m - xrdp session manager.
+/var/log/boot.log:         Starting [0;1;39mxrdp.service[0m - xrdp daemon...
+/var/log/dpkg.log.1:2024-10-03 11:07:17 install libvncclient1:amd64 <none> 0.9.14+dfsg-1
+/var/log/dpkg.log.1:2024-10-03 11:07:17 status half-installed libvncclient1:amd64 0.9.14+dfsg-1
+/var/log/dpkg.log.1:2024-10-03 11:07:17 status unpacked libvncclient1:amd64 0.9.14+dfsg-1
+/var/log/dpkg.log.1:2024-10-03 11:07:20 configure libvncclient1:amd64 0.9.14+dfsg-1 <none>
+/var/log/dpkg.log.1:2024-10-03 11:07:20 status unpacked libvncclient1:amd64 0.9.14+dfsg-1
+/var/log/dpkg.log.1:2024-10-03 11:07:20 status half-configured libvncclient1:amd64 0.9.14+dfsg-1
+/var/log/dpkg.log.1:2024-10-03 11:07:20 status installed libvncclient1:amd64 0.9.14+dfsg-1
+/var/log/xrdp-sesman.log:[20241114-03:01:38] [INFO ] starting xrdp-sesman with pid 4594
+/var/log/xrdp-sesman.log:[20241114-03:11:15] [INFO ] starting xrdp-sesman with pid 690
+/var/log/xrdp-sesman.log:[20241114-03:16:15] [INFO ] starting xrdp-sesman with pid 706
+/var/log/xrdp-sesman.log:[20241114-04:01:28] [INFO ] starting xrdp-sesman with pid 695
+/var/log/xrdp-sesman.log:[20241114-04:33:16] [INFO ] starting xrdp-sesman with pid 697
+/var/log/xrdp-sesman.log:[20241114-04:37:58] [INFO ] starting xrdp-sesman with pid 706
+/var/log/xrdp-sesman.log:[20241114-04:49:17] [INFO ] starting xrdp-sesman with pid 709
+/var/log/xrdp-sesman.log:[20241114-08:09:55] [INFO ] starting xrdp-sesman with pid 720
+/var/log/xrdp-sesman.log:[20241114-08:24:55] [INFO ] starting xrdp-sesman with pid 716
+/var/log/xrdp-sesman.log:[20241114-08:32:47] [INFO ] starting xrdp-sesman with pid 5259
+/var/log/apt/term.log:Selecting previously unselected package tigervnc-common.
+/var/log/apt/term.log:Preparing to unpack .../tigervnc-common_1.12.0+dfsg-8_amd64.deb ...
+/var/log/apt/term.log:Unpacking tigervnc-common (1.12.0+dfsg-8) ...
+/var/log/apt/term.log:Selecting previously unselected package tigervnc-standalone-server.
+/var/log/apt/term.log:Preparing to unpack .../tigervnc-standalone-server_1.12.0+dfsg-8_amd64.deb ...
+/var/log/apt/term.log:Unpacking tigervnc-standalone-server (1.12.0+dfsg-8) ...
+/var/log/apt/term.log:Selecting previously unselected package tigervnc-tools.
+/var/log/apt/term.log:Preparing to unpack .../tigervnc-tools_1.12.0+dfsg-8_amd64.deb ...
+/var/log/apt/term.log:Unpacking tigervnc-tools (1.12.0+dfsg-8) ...
+/var/log/apt/term.log:Setting up tigervnc-tools (1.12.0+dfsg-8) ...
+/var/log/apt/term.log:update-alternatives: using /usr/bin/tigervncpasswd to provide /usr/bin/vncpasswd (vncpasswd) in auto mode
+/var/log/apt/term.log:Setting up tigervnc-common (1.12.0+dfsg-8) ...
+/var/log/apt/term.log:update-alternatives: using /usr/bin/tigervncconfig to provide /usr/bin/vncconfig (vncconfig) in auto mode
+/var/log/apt/term.log:Setting up tigervnc-standalone-server (1.12.0+dfsg-8) ...
+/var/log/apt/term.log:update-alternatives: using /usr/bin/tigervncserver to provide /usr/bin/vncserver (vncserver) in auto mode
+/var/log/apt/term.log:update-alternatives: using /usr/bin/Xtigervnc to provide /usr/bin/Xvnc (Xvnc) in auto mode
+/var/log/apt/term.log:update-alternatives: using /usr/sbin/tigervncsession to provide /usr/sbin/vncsession (vncsession) in auto mode
+/var/log/apt/term.log:Selecting previously unselected package xrdp.
+/var/log/apt/term.log:Preparing to unpack .../xrdp_0.9.21.1-1_amd64.deb ...
+/var/log/apt/term.log:Unpacking xrdp (0.9.21.1-1) ...
+/var/log/apt/term.log:Selecting previously unselected package xorgxrdp.
+/var/log/apt/term.log:Preparing to unpack .../xorgxrdp_1%3a0.9.19-1_amd64.deb ...
+/var/log/apt/term.log:Unpacking xorgxrdp (1:0.9.19-1) ...
+/var/log/apt/term.log:Setting up xrdp (0.9.21.1-1) ...
+/var/log/apt/term.log:ssl_gen_key_xrdp1 ok
+/var/log/apt/term.log:saving to /etc/xrdp/rsakeys.ini
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/xrdp-sesman.service → /lib/systemd/system/xrdp-sesman.service.
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/xrdp.service → /lib/systemd/system/xrdp.service.
+/var/log/apt/term.log:Setting up xorgxrdp (1:0.9.19-1) ...
+/var/log/apt/history.log:Commandline: apt install tigervnc-standalone-server tigervnc-common
+/var/log/apt/history.log:Install: tigervnc-common:amd64 (1.12.0+dfsg-8), tigervnc-standalone-server:amd64 (1.12.0+dfsg-8), libfile-readbackwards-perl:amd64 (1.06-2, automatic), tigervnc-tools:amd64 (1.12.0+dfsg-8, automatic)
+/var/log/apt/history.log:Commandline: apt install xrdp
+/var/log/apt/history.log:Install: xrdp:amd64 (0.9.21.1-1), xorgxrdp:amd64 (1:0.9.19-1, automatic)
+/var/log/apt/history.log:Commandline: apt install xserver-xorg-core xorgxrdp

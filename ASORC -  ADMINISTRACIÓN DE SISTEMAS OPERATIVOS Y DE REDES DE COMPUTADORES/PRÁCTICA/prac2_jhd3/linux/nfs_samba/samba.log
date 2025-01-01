@@ -1,0 +1,48 @@
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   libsm6 libsmbclient libsmbios-c2 libsnapd-glib-2-1 libsnappy1v5 libsndfile1
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   python3-pysimplesoap python3-requests python3-six python3-smbc
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   smbclient antiword docx2txt imagemagick tor docbook docbook-dsssl
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   libsasl2-modules-sql lm-sensors serdi sg3-utils sidplay-base libsmbios-doc
+/var/log/installer/syslog:Oct  3 07:31:31 in-target:   libsm6 libsmbclient libsmbios-c2 libsnapd-glib-2-1 libsnappy1v5 libsndfile1
+/var/log/installer/syslog:Oct  3 07:31:31 in-target:   python3-smbc python3-software-properties python3-speechd python3-uno
+/var/log/installer/syslog:Oct  3 07:39:49 in-target: Get:814 http://deb.debian.org/debian bookworm/main amd64 libsmbios-c2 amd64 2.4.3-1 [74.7 kB]
+/var/log/installer/syslog:Oct  3 07:40:10 in-target: Get:923 http://deb.debian.org/debian bookworm/main amd64 libsmbclient amd64 2:4.17.12+dfsg-0+deb12u1 [82.9 kB]
+/var/log/installer/syslog:Oct  3 07:43:01 in-target: Get:1352 http://deb.debian.org/debian bookworm/main amd64 python3-smbc amd64 1.0.23-2+b4 [19.1 kB]
+/var/log/installer/syslog:Oct  3 07:45:04 in-target: Selecting previously unselected package libsmbios-c2.^M
+/var/log/installer/syslog:Oct  3 07:45:04 in-target: Preparing to unpack .../0667-libsmbios-c2_2.4.3-1_amd64.deb ...^M
+/var/log/installer/syslog:Oct  3 07:45:04 in-target: Unpacking libsmbios-c2 (2.4.3-1) ...^M
+/var/log/installer/syslog:Oct  3 07:45:16 in-target: Selecting previously unselected package libsmbclient:amd64.^M
+/var/log/installer/syslog:Oct  3 07:45:16 in-target: Preparing to unpack .../0781-libsmbclient_2%3a4.17.12+dfsg-0+deb12u1_amd64.deb ...^M
+/var/log/installer/syslog:Oct  3 07:45:16 in-target: Unpacking libsmbclient:amd64 (2:4.17.12+dfsg-0+deb12u1) ...^M
+/var/log/installer/syslog:Oct  3 07:46:27 in-target: Selecting previously unselected package python3-smbc.^M
+/var/log/installer/syslog:Oct  3 07:46:27 in-target: Preparing to unpack .../1253-python3-smbc_1.0.23-2+b4_amd64.deb ...^M
+/var/log/installer/syslog:Oct  3 07:46:27 in-target: Unpacking python3-smbc (1.0.23-2+b4) ...^M
+/var/log/installer/syslog:Oct  3 07:46:41 in-target: Setting up libsmbios-c2 (2.4.3-1) ...^M
+/var/log/installer/syslog:Oct  3 07:47:07 in-target: Setting up libsmbclient:amd64 (2:4.17.12+dfsg-0+deb12u1) ...^M
+/var/log/installer/syslog:Oct  3 07:47:09 in-target: Setting up python3-smbc (1.0.23-2+b4) ...^M
+/var/log/dpkg.log.1:2024-10-03 09:45:04 install libsmbios-c2:amd64 <none> 2.4.3-1
+/var/log/dpkg.log.1:2024-10-03 09:45:04 status half-installed libsmbios-c2:amd64 2.4.3-1
+/var/log/dpkg.log.1:2024-10-03 09:45:04 status unpacked libsmbios-c2:amd64 2.4.3-1
+/var/log/dpkg.log.1:2024-10-03 09:45:16 install libsmbclient:amd64 <none> 2:4.17.12+dfsg-0+deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:45:16 status half-installed libsmbclient:amd64 2:4.17.12+dfsg-0+deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:45:16 status unpacked libsmbclient:amd64 2:4.17.12+dfsg-0+deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:46:27 install python3-smbc:amd64 <none> 1.0.23-2+b4
+/var/log/dpkg.log.1:2024-10-03 09:46:27 status half-installed python3-smbc:amd64 1.0.23-2+b4
+/var/log/dpkg.log.1:2024-10-03 09:46:27 status unpacked python3-smbc:amd64 1.0.23-2+b4
+/var/log/dpkg.log.1:2024-10-03 09:46:41 configure libsmbios-c2:amd64 2.4.3-1 <none>
+/var/log/dpkg.log.1:2024-10-03 09:46:41 status unpacked libsmbios-c2:amd64 2.4.3-1
+/var/log/dpkg.log.1:2024-10-03 09:46:41 status half-configured libsmbios-c2:amd64 2.4.3-1
+/var/log/dpkg.log.1:2024-10-03 09:46:41 status installed libsmbios-c2:amd64 2.4.3-1
+/var/log/dpkg.log.1:2024-10-03 09:47:07 configure libsmbclient:amd64 2:4.17.12+dfsg-0+deb12u1 <none>
+/var/log/dpkg.log.1:2024-10-03 09:47:07 status unpacked libsmbclient:amd64 2:4.17.12+dfsg-0+deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:47:07 status half-configured libsmbclient:amd64 2:4.17.12+dfsg-0+deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:47:07 status installed libsmbclient:amd64 2:4.17.12+dfsg-0+deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:47:09 configure python3-smbc:amd64 1.0.23-2+b4 <none>
+/var/log/dpkg.log.1:2024-10-03 09:47:09 status unpacked python3-smbc:amd64 1.0.23-2+b4
+/var/log/dpkg.log.1:2024-10-03 09:47:09 status half-configured python3-smbc:amd64 1.0.23-2+b4
+/var/log/dpkg.log.1:2024-10-03 09:47:09 status installed python3-smbc:amd64 1.0.23-2+b4
+/var/log/samba/smbd.log:[2024/11/14 04:18:05.641100,  0] ../../source3/smbd/server.c:1741(main)
+/var/log/samba/smbd.log:  smbd version 4.17.12-Debian started.
+/var/log/samba/log.smbd:[2024/11/14 04:07:17.392752,  0] ../../source3/smbd/server.c:1741(main)
+/var/log/samba/log.smbd:  smbd version 4.17.12-Debian started.
+/var/log/apt/term.log:Creating config file /etc/samba/smb.conf with new version
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/smbd.service → /lib/systemd/system/smbd.service.

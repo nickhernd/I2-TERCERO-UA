@@ -1,0 +1,15 @@
+dn: uid=usuario1,ou=usuarios,dc=midominio,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: usuario1
+sn: Apellido
+givenName: Nombre
+cn: usuario1
+displayName: Usuario Prueba
+uidNumber: 10000
+gidNumber: 10000
+userPassword: {SSHA}contraseña_cifrada
+loginShell: /bin/bash
+homeDirectory: /home/usuario1
+mail: usuario1@midominio.local

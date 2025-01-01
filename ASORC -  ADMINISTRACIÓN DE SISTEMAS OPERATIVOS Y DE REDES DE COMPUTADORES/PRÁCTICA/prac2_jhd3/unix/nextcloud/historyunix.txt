@@ -1,0 +1,16 @@
+  141 git clone /git/project.git
+  142 cd project
+  143 touch README.md
+  144 git commit -m "initial commit"
+  145 git push
+  146 mkdir -p /memoria/unix/git/ficheros_configuracion
+  147 cp /etc/gitconfig /memoria/unix/git/ficheros_configuracion/
+  148 cp -r /git/project.git/config /memoria/unix/git/ficheros_configuracion/
+  149 history > /memoria/unix/git/historyunix.txt
+  150 grep -R "git" /var/log/* > /memoria/unix/git/unix.log
+  151 mkdir -p /memoria/unix/nextcloud/ficheros_configuracion
+  152 cp /usr/local/etc/apache24/httpd.conf /memoria/unix/nextcloud/ficheros_configuracion/
+  153 cp /usr/local/etc/apache24/Includes/nextcloud.conf /memoria/unix/nextcloud/ficheros_configuracion/
+  154 cp /usr/local/etc/php.ini /memoria/unix/nextcloud/ficheros_configuracion/
+  155 cp /usr/local/etc/php-fpm.conf /memoria/unix/nextcloud/ficheros_configuracion/
+  156 cp /usr/local/etc/mysql/my.cnf /memoria/unix/nextcloud/ficheros_configuracion/

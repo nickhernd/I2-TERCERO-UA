@@ -1,0 +1,596 @@
+% Configuración
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage[T1]{fontenc}
+
+\lstset{
+	basicstyle=\ttfamily,
+	breaklines=true,
+	literate={á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+	{α}{{\ensuremath{\alpha}}}1 {β}{{\ensuremath{\beta}}}1
+	{∞}{{\ensuremath{\infty}}}1
+	{≤}{{$\leq$}}1
+}
+
+%----------------------------------------------------------------------------------------------------------------------
+
+\title{Sistemas Inteligentes}
+\author{Jaime Hernández Delgado\\
+@nickhernd}
+\date{Curso 2024-2025}
+
+\begin{document}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	
+	\chapter{Estrategias de Búsqueda}
+	
+	\section{Introducción a las Estrategias de Búsqueda en IA}
+	
+	La \textbf{búsqueda} es un componente fundamental en la Inteligencia Artificial (IA). Se utiliza para resolver una amplia gama de problemas, desde la planificación de rutas hasta la toma de decisiones complejas. Las estrategias de búsqueda nos permiten explorar eficientemente un espacio de estados para encontrar soluciones óptimas o satisfactorias a problemas dados.
+	
+	Algunas aplicaciones comunes de las estrategias de búsqueda incluyen:
+	
+	\begin{itemize}
+		\item Problemas de búsqueda en rutas (por ejemplo, navegación GPS)
+		\item Planificación de líneas aéreas
+		\item Optimización de rutas en redes de computadores
+		\item Resolución de problemas turísticos (planificación de itinerarios)
+		\item El problema del viajante de comercio
+		\item Distribución VLSI (diseño de circuitos integrados)
+		\item Navegación de robots
+		\item Secuenciación para el ensamblaje automático
+		\item Diseño de proteínas
+		\item Búsqueda en Internet
+	\end{itemize}
+	
+	\section{Especificación de Problemas}
+	
+	Para resolver un problema mediante búsqueda, es necesario definir varios elementos clave:
+	
+	\begin{enumerate}
+		\item \textbf{Espacio de estados}: Es el conjunto de todas las posibles configuraciones o situaciones del problema.
+		\item \textbf{Estado inicial}: Es el punto de partida de la búsqueda.
+		\item \textbf{Estado(s) meta}: Son las configuraciones que consideramos soluciones al problema.
+		\item \textbf{Reglas de transformación}: Son las acciones que nos permiten pasar de un estado a otro.
+	\end{enumerate}
+	
+	El proceso de búsqueda se puede visualizar como la exploración de un árbol (árbol de búsqueda) o, en general, un grafo. Es importante notar que la búsqueda completa del espacio de estados suele ser inviable para problemas reales debido a su tamaño exponencial. Por ejemplo, en un espacio de tamaño $10^{20}$, la búsqueda exhaustiva sería impracticable.
+	
+	\subsection{Sistemas de Producción (SP)}
+	
+	Los \textbf{Sistemas de Producción} son una forma de formalizar los problemas de búsqueda de estados. Propuestos por Post en 1943, un Sistema de Producción se define como una terna (BH, RP, EC):
+	
+	\begin{itemize}
+		\item \textbf{BH (Base de Hechos)}: Conjunto de representaciones de uno o más estados por los que atraviesa el problema. Constituye la estructura de datos global.
+		\item \textbf{RP (Reglas de Producción)}: Conjunto de operadores para la transformación de los estados del problema. Cada regla tiene dos partes: precondiciones y postcondiciones.
+		\item \textbf{EC (Estrategia de Control)}: Determina el conjunto de reglas aplicables mediante un proceso de pattern-matching y resuelve conflictos entre varias reglas a aplicar mediante el filtrado.
+	\end{itemize}
+	
+	El algoritmo básico de un Sistema de Producción se puede expresar como:
+	
+	\begin{verbatim}
+		Algoritmo SP(BH0, RP, EC)
+		BH = BH0
+		repetir
+		R = Aplicables(BH)
+		Ri = Seleccionar(R)
+		BH = Ri(BH)
+		hasta CondicionesTerminación(BH)
+	\end{verbatim}
+	
+	\section{Estrategias de Búsqueda Básicas}
+	
+	Las estrategias de búsqueda básicas se pueden clasificar en dos categorías principales:
+	
+	\subsection{Estrategias Irrevocables}
+	
+	Las estrategias irrevocables, también conocidas como de \textbf{descenso por gradiente}, tienen las siguientes características:
+	
+	\begin{itemize}
+		\item No permiten la vuelta atrás.
+		\item Mantienen una frontera unitaria.
+		\item Requieren suficiente conocimiento local.
+		\item Asumen que las equivocaciones solo alargan la búsqueda.
+		\item Buscan optimalidad global a partir de la local.
+	\end{itemize}
+	
+	En estas estrategias, se utiliza una función de evaluación $f()$ que proporciona un mínimo (o máximo) en el estado final. La selección de la regla a aplicar se basa en la optimización local de esta función.
+	
+	\subsection{Estrategias Tentativas}
+	
+	Las estrategias tentativas pueden ser de dos tipos:
+	
+	\begin{itemize}
+		\item \textbf{Multi-camino}: Mantienen múltiples estados de vuelta atrás.
+		\item \textbf{Mono-camino}: Mantienen un único estado de vuelta atrás.
+	\end{itemize}
+	
+	Estas estrategias se dividen a su vez en:
+	
+	\subsubsection{No Informadas}
+	
+	\begin{itemize}
+		\item \textbf{Búsqueda en profundidad}: Explora el nodo más profundo del árbol de búsqueda.
+		\item \textbf{Búsqueda en anchura}: Explora todos los nodos de un nivel antes de pasar al siguiente.
+		\item \textbf{Coste uniforme}: Selecciona el nodo con menor coste acumulado desde el nodo inicial.
+	\end{itemize}
+	
+	\subsubsection{Informadas}
+	
+	Las estrategias informadas utilizan una función heurística $h(n)$ que estima el coste desde un nodo hasta el objetivo. La función de evaluación general es:
+	
+	\[ f(n) = g(n) + h(n) \]
+	
+	donde $g(n)$ es el coste real desde el nodo inicial hasta $n$, y $h(n)$ es la estimación heurística desde $n$ hasta el objetivo.
+	
+	\section{Búsqueda Heurística}
+	
+	La búsqueda heurística es fundamental en la IA para abordar problemas complejos. Se basa en el uso de funciones heurísticas para guiar la búsqueda hacia soluciones prometedoras.
+	
+	\subsection{Conceptos Básicos}
+	
+	\begin{itemize}
+		\item \textbf{Completitud}: Un algoritmo es completo si encuentra una solución cuando esta existe.
+		\item \textbf{Admisibilidad}: Un algoritmo es admisible si encuentra la solución óptima.
+		\item \textbf{Dominación}: Un algoritmo A1 domina a A2 si todo nodo expandido por A1 también es expandido por A2.
+		\item \textbf{Optimalidad}: Un algoritmo es óptimo si es dominante sobre todos los algoritmos del conjunto.
+	\end{itemize}
+	
+	\subsection{Algoritmo A*}
+	
+	El algoritmo A* es uno de los más populares en búsqueda heurística. Su función de evaluación es:
+	
+	\[ f^*(n) = g^*(n) + h^*(n) \]
+	
+	donde:
+	\begin{itemize}
+		\item $g^*(n)$ es el coste real del camino más corto desde el nodo inicial $s$ hasta $n$.
+		\item $h^*(n)$ es el coste real del camino más corto desde $n$ hasta cualquier estado solución.
+		\item $f^*(n)$ es el coste del camino más corto desde el nodo inicial hasta un nodo solución pasando por $n$.
+	\end{itemize}
+	
+	Una función heurística $h(n)$ se considera admisible si:
+	
+	\[ h(n) \leq h^*(n) \quad \forall n \]
+	
+	Un algoritmo A que utiliza una función heurística admisible se denomina algoritmo A*.
+	
+	\section{Implementación en Python}
+	
+	A continuación, se presenta un ejemplo simple de implementación del algoritmo de búsqueda en anchura en Python:
+	
+	\begin{lstlisting}[language=Python]
+from collections import deque
+
+def bfs(graph, start, goal):
+queue = deque([[start]])
+visited = set([start])
+
+while queue:
+path = queue.popleft()
+node = path[-1]
+
+if node == goal:
+return path
+
+for neighbor in graph[node]:
+if neighbor not in visited:
+visited.add(neighbor)
+new_path = list(path)
+new_path.append(neighbor)
+queue.append(new_path)
+
+return None
+
+# Ejemplo de uso
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B', 'F'],
+    'F': ['C', 'E']
+}
+
+print(bfs(graph, 'A', 'F'))  # Output: ['A', 'C', 'F']
+	\end{lstlisting}
+	
+	\section{Comparación de Estrategias}
+	
+	La siguiente tabla compara las principales características de las estrategias de búsqueda discutidas:
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|l|c|c|c|}
+			\hline
+			\textbf{Estrategia} & \textbf{Completa} & \textbf{Óptima} & \textbf{Complejidad Espacial} \\
+			\hline
+			Profundidad & No & No & $O(bm)$ \\
+			Anchura & Sí & Sí & $O(b^d)$ \\
+			Coste Uniforme & Sí & Sí & $O(b^{C^*/\varepsilon})$ \\
+			A* & Sí & Sí & $O(b^d)$ \\
+			\hline
+		\end{tabular}
+		\caption{Comparación de estrategias de búsqueda}
+		\label{tab:comparison}
+	\end{table}
+	
+	Donde b es el factor de ramificación, d es la profundidad de la solución más superficial, m es la profundidad máxima del espacio de estado y C* es el coste de la solución óptima.
+	
+	\section{Técnicas Complementarias}
+	
+	Existen varias técnicas complementarias para mejorar la eficiencia de la búsqueda:
+	
+	\begin{itemize}
+		\item \textbf{Uso de movimientos de libro}: Utilizar conocimiento precomputado para ciertas fases del problema (por ejemplo, aperturas en ajedrez).
+		\item \textbf{Espera del reposo}: Evitar el efecto horizonte continuando la búsqueda si se detectan cambios drásticos en la evaluación.
+		\item \textbf{Técnica de bajada progresiva}: Recorrer nodos por niveles y devolver la mejor solución encontrada hasta el momento si se alcanza el límite de tiempo.
+		\item \textbf{Poda heurística}: Reducir el factor de ramificación desarrollando solo los mejores movimientos de cada nivel.
+		\item \textbf{Continuación heurística}: Seleccionar un subconjunto de nodos terminales para desarrollar búsquedas más profundas.
+	\end{itemize}
+	
+	\section{Conclusiones}
+	
+	Las estrategias de búsqueda son una herramienta fundamental en la IA para resolver problemas complejos. La elección de la estrategia adecuada depende de las características específicas del problema y de los recursos disponibles. El uso de heurísticas y técnicas complementarias puede mejorar significativamente la eficiencia de la búsqueda, permitiendo abordar problemas de gran escala en tiempos razonables.
+	
+	\chapter{Búsqueda en Juegos y Satisfacción de Restricciones}
+	
+	\section{Introducción a la Búsqueda en Juegos}
+	
+	La búsqueda en juegos es un área fundamental de la Inteligencia Artificial (IA) que se centra en desarrollar algoritmos capaces de tomar decisiones óptimas en entornos competitivos. Los juegos proporcionan un marco ideal para estudiar la toma de decisiones en situaciones de incertidumbre y con información imperfecta.
+	
+	\subsection{Historia y Evolución}
+	
+	La historia de la IA en juegos está marcada por hitos significativos:
+	
+	\begin{itemize}
+		\item \textbf{1950}: Alan Turing propone el "Test de Turing" y desarrolla el primer programa de ajedrez.
+		\item \textbf{1956}: Arthur Samuel crea un programa de damas capaz de aprender.
+		\item \textbf{1997}: Deep Blue de IBM derrota al campeón mundial de ajedrez, Garry Kasparov.
+		\item \textbf{2016}: AlphaGo de DeepMind vence al campeón mundial de Go, Lee Sedol.
+		\item \textbf{2017}: AlphaZero domina ajedrez, go y shogi, aprendiendo solo mediante autojuego.
+	\end{itemize}
+	
+	\subsection{Complejidad Computacional en Juegos}
+	
+	Los juegos de estrategia presentan una complejidad computacional enorme:
+	
+	\begin{itemize}
+		\item \textbf{Ajedrez}: Aproximadamente $10^{120}$ posiciones posibles.
+		\item \textbf{Go}: Alrededor de $10^{170}$ posiciones posibles.
+		\item Factor de ramificación medio en ajedrez: 35 movimientos por turno.
+		\item Profundidad media de una partida de ajedrez: 80 movimientos.
+	\end{itemize}
+	
+	Esta complejidad hace imposible una búsqueda exhaustiva, requiriendo estrategias más sofisticadas.
+	
+	\section{Representación de Juegos como Problemas de Búsqueda}
+	
+	Para abordar los juegos como problemas de búsqueda, se definen los siguientes elementos:
+	
+	\begin{itemize}
+		\item \textbf{Estado}: Representación completa del tablero en un momento dado.
+		\item \textbf{Jugadores}: Típicamente MAX (que busca maximizar la puntuación) y MIN (que busca minimizarla).
+		\item \textbf{Acciones}: Movimientos legales desde un estado dado.
+		\item \textbf{Modelo de Transición}: Cómo cambia el estado tras realizar una acción.
+		\item \textbf{Test Terminal}: Determina si el juego ha terminado.
+		\item \textbf{Función de Utilidad}: Asigna un valor numérico a los estados terminales.
+	\end{itemize}
+	
+	\section{Algoritmo MiniMax}
+	
+	El algoritmo MiniMax es la base de muchas estrategias de búsqueda en juegos. Su funcionamiento se basa en la alternancia entre los jugadores MAX y MIN.
+	
+	\subsection{Principio de Funcionamiento}
+	
+	\begin{enumerate}
+		\item Generar el árbol de juego hasta una profundidad predefinida.
+		\item Evaluar los nodos hoja usando una función de evaluación.
+		\item Propagar los valores hacia arriba en el árbol:
+		\begin{itemize}
+			\item Nodos MAX: seleccionar el máximo valor de los hijos.
+			\item Nodos MIN: seleccionar el mínimo valor de los hijos.
+		\end{itemize}
+		\item La raíz elige la acción que lleva al mayor valor.
+	\end{enumerate}
+	
+	\subsection{Implementación en Pseudocódigo}
+	
+	\begin{verbatim}
+		funcion minimax(nodo, profundidad, esMaximizador)
+		si profundidad = 0 o nodo es terminal entonces
+		retornar valor_heuristico(nodo)
+		si esMaximizador entonces
+		valor = -infinito
+		para cada hijo de nodo hacer
+		valor = max(valor, minimax(hijo, profundidad-1, falso))
+		retornar valor
+		sino
+		valor = +infinito
+		para cada hijo de nodo hacer
+		valor = min(valor, minimax(hijo, profundidad-1, verdadero))
+		retornar valor
+	\end{verbatim}
+	
+	\section{Poda Alfa-Beta}
+	
+	La poda alfa-beta es una mejora significativa del algoritmo MiniMax, reduciendo el número de nodos evaluados sin afectar el resultado final.
+	
+	\subsection{Principio de Funcionamiento}
+	
+	\begin{itemize}
+		\item \textbf{$\alpha$}: El mejor valor encontrado para MAX en el camino actual.
+		\item \textbf{$\beta$}: El mejor valor encontrado para MIN en el camino actual.
+		\item Se poda una rama cuando se determina que no puede influir en la decisión final.
+	\end{itemize}
+	
+	\subsection{Implementación en Pseudocódigo}
+	
+\begin{lstlisting}[mathescape=true]
+    función alfa_beta(nodo, profundidad, $\alpha$, $\beta$, esMaximizador)
+    si profundidad = 0 o nodo es terminal entonces
+    retornar valor_heurístico(nodo)
+    si esMaximizador entonces
+    valor = -$\infty$
+    para cada hijo de nodo hacer
+    valor = max(valor, alfa_beta(hijo, profundidad-1, $\alpha$, $\beta$, falso))
+    $\alpha$ = max($\alpha$, valor)
+    si $\beta$ ≤ $\alpha$ entonces
+    romper  // Poda $\beta$
+    retornar valor
+    sino
+    valor = +$\infty$
+    para cada hijo de nodo hacer
+    valor = min(valor, alfa_beta(hijo, profundidad-1, $\alpha$, $\beta$, verdadero))
+    $\beta$ = min($\beta$, valor)
+    si $\beta$ ≤ $\alpha$ entonces
+    romper  // Poda $\alpha$
+    retornar valor
+\end{lstlisting}
+	
+	\section{Técnicas Avanzadas en Búsqueda de Juegos}
+	
+	\subsection{Tablas de Transposición}
+	
+	Almacenan estados ya evaluados para evitar recálculos en posiciones repetidas.
+	
+	\subsection{Búsqueda con Profundización Iterativa}
+	
+	Incrementa gradualmente la profundidad de búsqueda, combinando las ventajas de la búsqueda en anchura y en profundidad.
+	
+	\subsection{Movimientos de Apertura}
+	
+	Utilizan bibliotecas de jugadas iniciales predefinidas para mejorar el rendimiento en las primeras etapas del juego.
+	
+	\subsection{Función de Evaluación}
+	
+	Diseñar una buena función de evaluación es crucial. Debe capturar aspectos importantes del juego como:
+	\begin{itemize}
+		\item Material (piezas en el tablero)
+		\item Posición (control del centro, estructuras de peones)
+		\item Movilidad (número de movimientos disponibles)
+		\item Seguridad del rey
+	\end{itemize}
+	
+	\section{Juegos con Información Imperfecta}
+	
+	Algunos juegos, como el póker o el bridge, involucran información oculta o aleatoriedad. Estos requieren técnicas adicionales:
+	
+	\begin{itemize}
+		\item \textbf{Árboles de Expectiminimax}: Incorporan nodos de azar para manejar eventos aleatorios.
+		\item \textbf{Muestreo de Monte Carlo}: Simula múltiples partidas para estimar el valor de las acciones.
+	\end{itemize}
+	
+	\section{Satisfacción de Restricciones (CSP)}
+	
+	Los problemas de satisfacción de restricciones son una clase importante de problemas en IA, que a menudo se resuelven mediante técnicas de búsqueda.
+	
+	\subsection{Definición Formal}
+	
+	Un CSP se define por:
+	\begin{itemize}
+		\item Un conjunto de variables $X = \{X_1, ..., X_n\}$
+		\item Dominios para cada variable $D_i = \{v_1, ..., v_k\}$
+		\item Un conjunto de restricciones $C$ que limitan los valores que las variables pueden tomar simultáneamente
+	\end{itemize}
+	
+	\subsection{Técnicas de Resolución}
+	
+	\subsubsection{Backtracking}
+	
+	Asigna valores a las variables secuencialmente, retrocediendo cuando encuentra una inconsistencia.
+	
+	\subsubsection{Forward Checking}
+	
+	Mantiene una lista de valores legales para variables no asignadas, actualizándola con cada asignación.
+	
+	\subsubsection{Propagación de Restricciones}
+	
+	Utiliza las restricciones para reducir los dominios de las variables antes y durante la búsqueda.
+	
+	\subsubsection{Ordenación de Variables y Valores}
+	
+	Estrategias heurísticas para decidir qué variable asignar a continuación y en qué orden probar los valores.
+	
+	\section{Aplicaciones Prácticas}
+	
+	Las técnicas de búsqueda en juegos y CSP tienen numerosas aplicaciones:
+	
+	\begin{itemize}
+		\item Planificación y scheduling
+		\item Diseño de circuitos
+		\item Asignación de recursos
+		\item Configuración de productos
+		\item Diagnóstico médico
+		\item Procesamiento del lenguaje natural
+	\end{itemize}
+	
+	\section{Tendencias Actuales y Futuras}
+	
+	\begin{itemize}
+		\item Integración de técnicas de aprendizaje profundo con búsqueda tradicional
+		\item Desarrollo de algoritmos más eficientes para juegos de gran escala
+		\item Aplicación de técnicas de juegos a problemas del mundo real
+		\item Exploración de juegos con múltiples agentes y objetivos complejos
+	\end{itemize}
+	
+	\section{Conclusiones}
+	
+	La búsqueda en juegos y la satisfacción de restricciones son áreas fundamentales de la IA que han impulsado avances significativos en algoritmos y heurísticas. Aunque los juegos como el ajedrez y el go han sido "resueltos" en cierta medida por la IA, quedan desafíos importantes en juegos más complejos y en la aplicación de estas técnicas a problemas del mundo real. El futuro promete una integración más profunda de estas técnicas clásicas con métodos de aprendizaje automático modernos.
+
+ \chapter{Búsqueda en problemas de Satisfacción de Restricciones}
+\section{Búsqueda en problemas de Satisfacción de Restricciones}
+
+\subsection{Definición y Conceptos Básicos}
+
+Los Problemas de Satisfacción de Restricciones (CSPs) son una clase fundamental de problemas en inteligencia artificial. Un CSP se define formalmente como una tripleta $(V, D, \rho)$, donde:
+
+\begin{itemize}
+    \item $V = \{V_1, V_2, ..., V_n\}$ es un conjunto de variables.
+    \item $D = \{D_1, D_2, ..., D_n\}$ es un conjunto de dominios finitos para cada variable.
+    \item $\rho = \{\rho_1, \rho_2, ..., \rho_m\}$ es un conjunto de restricciones definidas sobre subconjuntos de variables.
+\end{itemize}
+
+El objetivo de un CSP es encontrar una asignación de valores a todas las variables que satisfaga todas las restricciones. 
+
+\subsubsection{Ejemplo: Coloreado de Mapas}
+Un ejemplo clásico de CSP es el problema de colorear un mapa utilizando un número limitado de colores, de manera que ningún par de regiones adyacentes tenga el mismo color.
+
+\begin{itemize}
+    \item Variables: Las regiones del mapa.
+    \item Dominios: Los colores disponibles (por ejemplo, \{rojo, verde, azul\}).
+    \item Restricciones: Regiones adyacentes deben tener colores diferentes.
+\end{itemize}
+
+\subsection{Representación de CSPs}
+
+Los CSPs se pueden representar gráficamente como redes de restricciones, donde:
+
+\begin{itemize}
+    \item Los nodos representan variables.
+    \item Las aristas representan las restricciones entre variables.
+\end{itemize}
+
+Esta representación permite visualizar la estructura del problema y aplicar técnicas de teoría de grafos para su resolución.
+
+\subsection{Métodos de Resolución}
+
+\subsubsection{Generación y Prueba}
+Este es el método más simple pero menos eficiente. 
+
+\textbf{Algoritmo:}
+\begin{enumerate}
+    \item Generar una asignación completa de valores a todas las variables.
+    \item Comprobar si la asignación satisface todas las restricciones.
+    \item Si satisface, devolver la solución. Si no, volver al paso 1.
+\end{enumerate}
+
+\textbf{Complejidad:} $O(d^n)$, donde $d$ es el tamaño del dominio más grande y $n$ es el número de variables.
+
+\subsubsection{Backtracking}
+El algoritmo de backtracking mejora la eficiencia construyendo una solución de forma incremental.
+
+\textbf{Algoritmo:}
+\begin{enumerate}
+    \item Seleccionar una variable no asignada.
+    \item Asignar un valor del dominio de la variable.
+    \item Si la asignación es consistente, recurrir para la siguiente variable.
+    \item Si se detecta una inconsistencia o no quedan valores en el dominio, retroceder (backtrack) a la variable anterior.
+\end{enumerate}
+
+\textbf{Mejoras:}
+\begin{itemize}
+    \item Backjumping: Retroceder directamente a la variable causante del conflicto.
+    \item Backmarking: Mantener un registro de los conflictos para evitar chequeos redundantes.
+\end{itemize}
+
+\subsubsection{Forward Checking (FC)}
+El Forward Checking es una mejora sobre el backtracking que realiza cierta propagación de restricciones.
+
+\textbf{Algoritmo:}
+\begin{enumerate}
+    \item Al asignar un valor a una variable, actualizar los dominios de las variables futuras.
+    \item Eliminar valores incompatibles con la asignación actual.
+    \item Si algún dominio queda vacío, retroceder inmediatamente.
+\end{enumerate}
+
+\textbf{Ventaja:} Detecta fallos antes que el backtracking puro, reduciendo el espacio de búsqueda.
+
+\subsubsection{Propagación de Restricciones}
+Esta técnica transforma el problema en otro equivalente pero más sencillo.
+
+\textbf{Algoritmo AC-3 (Arc Consistency):}
+\begin{enumerate}
+    \item Inicializar una cola con todos los arcos del grafo de restricciones.
+    \item Mientras la cola no esté vacía:
+    \begin{itemize}
+        \item Seleccionar y eliminar un arco (Xi, Xj) de la cola.
+        \item Revisar el arco, eliminando valores inconsistentes del dominio de Xi.
+        \item Si se modifica el dominio de Xi, añadir a la cola todos los arcos (Xk, Xi) donde Xk ≠ Xj.
+    \end{itemize}
+\end{enumerate}
+
+\textbf{Complejidad:} $O(ed^3)$, donde $e$ es el número de arcos y $d$ el tamaño del dominio más grande.
+
+\subsubsection{Algoritmos Híbridos}
+Combinan técnicas de búsqueda con inferencia.
+
+\textbf{Ejemplo: Maintaining Arc Consistency (MAC)}
+\begin{itemize}
+    \item Combina backtracking con AC-3.
+    \item Después de cada asignación, aplica AC-3 para propagar las restricciones.
+    \item Más efectivo que FC en problemas con restricciones densas.
+\end{itemize}
+
+\subsection{Heurísticas}
+
+Las heurísticas pueden mejorar significativamente la eficiencia de la búsqueda en CSPs.
+
+\subsubsection{Ordenación de Variables}
+\begin{itemize}
+    \item MRV (Minimum Remaining Values): Elegir la variable con el dominio más pequeño.
+    \item Degree heuristic: Elegir la variable que está involucrada en el mayor número de restricciones.
+\end{itemize}
+
+\subsubsection{Ordenación de Valores}
+\begin{itemize}
+    \item Least Constraining Value: Elegir el valor que deja más opciones para las variables futuras.
+\end{itemize}
+
+\subsection{Aplicaciones Prácticas}
+
+Los CSPs tienen numerosas aplicaciones en el mundo real:
+
+\begin{itemize}
+    \item Planificación y programación de horarios
+    \item Asignación de recursos
+    \item Diseño de circuitos
+    \item Diagnóstico médico
+    \item Configuración de productos
+\end{itemize}
+
+\subsection{Conclusión}
+
+La elección del método de resolución para un CSP depende de las características específicas del problema, como su tamaño, la densidad de las restricciones y la estructura de la red. En la práctica, los algoritmos más eficientes suelen combinar búsqueda con propagación de restricciones y utilizan heurísticas inteligentes para guiar la búsqueda.
+
+\newpage
+
+\input{04_Introduccion_sistemas_expertos}
+
+	
+		
+		
+\end{document}

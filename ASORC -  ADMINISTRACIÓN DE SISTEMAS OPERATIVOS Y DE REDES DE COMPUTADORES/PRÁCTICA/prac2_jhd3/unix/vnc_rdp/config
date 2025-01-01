@@ -1,0 +1,188 @@
+# /usr/local/etc/tigervnc/vncserver.users
+###############################################################################
+# TigerVNC Server User Assignment Configuration
+# This file controls which users can access specific display numbers
+# Format: <display>=<username>
+###############################################################################
+:1=admin
+:2=root
+
+# /home/admin/.vnc/config
+###############################################################################
+# TigerVNC Server Configuration File
+# See vncserver(1) for more information
+###############################################################################
+# Desktop geometry
+geometry=1920x1080
+
+# Color depth
+depth=24
+
+# Security and authentication settings
+SecurityTypes=VncAuth,TLSVnc
+Authentication=VncAuth
+PasswordFile=/home/admin/.vnc/passwd
+
+# Connection settings
+localhost=no
+AlwaysShared=0
+NeverShared=1
+DisconnectClients=1
+
+# Logging configuration
+Log=*:stderr:100
+
+# /home/admin/.vnc/xstartup
+#!/bin/sh
+###############################################################################
+# TigerVNC Server Xstartup Script
+# This script is run when a VNC server starts up
+###############################################################################
+
+# Ensure proper GUI environment
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+
+# Load X resources if available
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+
+# Start window manager
+if command -v twm >/dev/null 2>&1; then
+    twm &
+else
+    xterm &
+fi
+
+# /usr/local/etc/tigervnc/turbovncserver.conf
+###############################################################################
+# TurboVNC Server Global Configuration
+# See turbovncserver.conf(5) for details
+###############################################################################
+
+# Display settings
+$geometry = "1920x1080";
+$depth = "24";
+$pixelformat = "rgb888";
+$frontend = "TigerVNC";
+$vncPort = "5901";
+
+# Security settings
+$vncAuthEnabled = "1";
+$sslEnabled = "1";
+$sslRequired = "1";
+$sslCertificate = "/etc/ssl/certs/vnc.pem";
+$sslKey = "/etc/ssl/private/vnc.key";
+
+# Resource limits
+$maxProcesses = "512";
+$maxClipboard = "67108864";  # 64MB
+$maxSetDesktopSize = "1";
+
+# Logging configuration
+$logLevel = "30";
+$logFormat = "%d/%m/%y %H:%M:%S %z";
+$logFile = "/var/log/vnc.log";
+
+# /usr/local/etc/pam.d/vnc
+###############################################################################
+# PAM configuration for VNC
+###############################################################################
+# Authentication
+auth       required     pam_unix.so     try_first_pass
+auth       optional     pam_krb5.so     use_first_pass
+
+# Account management
+account    required     pam_unix.so
+account    optional     pam_krb5.so
+
+# Password
+password   required     pam_unix.so     try_first_pass
+password   optional     pam_krb5.so     use_first_pass
+
+# Session
+session    required     pam_unix.so
+session    optional     pam_krb5.so
+
+# /etc/rc.conf VNC-related settings
+###############################################################################
+# FreeBSD RC Configuration for VNC Server
+###############################################################################
+# Enable VNC server
+vncserver_enable="YES"
+
+# Server flags
+vncserver_flags="-geometry 1920x1080 -depth 24 -SecurityTypes VncAuth,TLSVnc"
+
+# User to run server as
+vncserver_user="admin"
+
+# Port range
+vncserver_ports="5901-5905"
+
+# /usr/local/bin/vncserver-start
+#!/bin/sh
+###############################################################################
+# VNC Server Start Script
+# This script manages the startup of VNC server instances
+###############################################################################
+
+# Check for existing instance
+check_running() {
+    if [ -f /tmp/.X$1-lock ]; then
+        echo "VNC server already running on display :$1"
+        return 1
+    fi
+    return 0
+}
+
+# Initialize VNC environment
+init_vnc() {
+    if [ ! -d ~/.vnc ]; then
+        mkdir -p ~/.vnc
+        chmod 700 ~/.vnc
+    fi
+}
+
+# Start VNC server
+start_vnc() {
+    local DISPLAY=$1
+    init_vnc
+    check_running "$DISPLAY" || exit 1
+    
+    /usr/local/bin/vncserver :$DISPLAY \
+        -geometry 1920x1080 \
+        -depth 24 \
+        -SecurityTypes VncAuth,TLSVnc \
+        -localhost no \
+        -Log *:stderr:100
+
+    logger -t vncserver "Started VNC server on display :$DISPLAY"
+}
+
+# Main execution
+start_vnc 1
+
+# /usr/local/bin/vncserver-stop
+#!/bin/sh
+###############################################################################
+# VNC Server Stop Script
+# This script manages the shutdown of VNC server instances
+###############################################################################
+
+# Stop VNC server
+stop_vnc() {
+    local DISPLAY=$1
+    
+    if [ -f /tmp/.X$DISPLAY-lock ]; then
+        /usr/local/bin/vncserver -kill :$DISPLAY
+        rm -f /tmp/.X$DISPLAY-lock
+        rm -f /tmp/.X11-unix/X$DISPLAY
+        logger -t vncserver "Stopped VNC server on display :$DISPLAY"
+    else
+        echo "No VNC server running on display :$DISPLAY"
+        exit 1
+    fi
+}
+
+# Main execution
+stop_vnc 1

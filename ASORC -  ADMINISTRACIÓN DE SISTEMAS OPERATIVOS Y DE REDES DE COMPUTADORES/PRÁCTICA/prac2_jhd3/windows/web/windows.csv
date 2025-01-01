@@ -1,0 +1,1094 @@
+﻿Nivel,Fecha y hora,Origen,Id. del evento,Categoría de la tarea
+Información,18/11/2024 16:02:08,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:08Z. Motivo: RulesEngine.
+Información,18/11/2024 16:01:37,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:41:46,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:46Z. Motivo: RulesEngine.
+Información,18/11/2024 15:41:15,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:36:11,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:09Z. Motivo: RulesEngine.
+Información,18/11/2024 15:34:27,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:33:47,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:47Z. Motivo: RulesEngine.
+Información,18/11/2024 15:33:16,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Advertencia,18/11/2024 15:31:21,BvSshServer,4097,Ninguno,"event
+  time: 2024-11-18 15:31:21.837444 +0100
+  app: BvSshServer 9.39
+  type: Warning
+  name: W_SYSTEM_MONITOR_HIGH_CPU_USAGE
+  desc: High system-wide CPU usage detected.
+  parameters
+    thresholdPercent: 90
+    usagePercent: 100
+"
+Información,18/11/2024 15:23:30,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:30Z. Motivo: RulesEngine.
+Información,18/11/2024 15:22:27,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:20:13,Microsoft-Windows-LoadPerf,1000,Ninguno,Se cargaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro en la sección de datos contienen los nuevos valores de los índices asignados a este servicio.
+Información,18/11/2024 15:20:13,Microsoft-Windows-LoadPerf,1001,Ninguno,Se quitaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro contienen los nuevos valores de las entradas del Registro Último contador y Última ayuda del sistema.
+Información,18/11/2024 15:17:33,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:33Z. Motivo: RulesEngine.
+Información,18/11/2024 15:17:02,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:14:37,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:37Z. Motivo: RulesEngine.
+Información,18/11/2024 15:14:05,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:14:00,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:00Z. Motivo: RulesEngine.
+Información,18/11/2024 15:13:12,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,18/11/2024 15:13:10,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:<explicit>"
+Información,18/11/2024 15:13:09,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC se inició con la configuración siguiente: Configuración de seguridad (desactivada = 0 y activada = 1): Permitir administrador remoto = 0, Clientes de red = 0, Comunicación con el administrador de transacciones:  Permitir transacciones entrantes = 0, Permitir transacciones salientes = 0, Protocolo Internet de transacciones (TIP) = 0,  Habilitar transacciones XA = 0,  Habilitar transacciones de SNA LU 6.2 = 1,  Seguridad de las comunicaciones MSDTC = Se requiere autenticación mutua, Cuenta = NT AUTHORITY\NetworkService,  Detección de exclusión del firewall = 0 Puente de transacciones instalado = 0 Filtrar eventos duplicados = 1"
+Información,18/11/2024 15:13:08,edgeupdate,0,Ninguno,Service stopped.
+Información,18/11/2024 15:12:05,edgeupdate,0,Ninguno,Service stopped.
+Información,18/11/2024 15:12:03,Microsoft-Windows-Security-SPP,903,Ninguno,"Se detuvo el servicio de protección de software.
+"
+Información,18/11/2024 15:12:03,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2024-11-19T14:11:03Z. Motivo: TBL.
+Información,18/11/2024 15:12:03,Windows Error Reporting,1001,Ninguno,"Depósito con errores , tipo 0
+Nombre de evento: crashpad_log
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: MicrosoftEdgeUpdate.exe
+P2: 1.3.195.35
+P3: PostOOBEDiagnostics_4
+P4: 0x80040827
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\ProgramData\Microsoft\EdgeUpdate\Log\MicrosoftEdgeUpdate.log
+\\?\C:\Windows\TEMP\msedge_installer.log
+
+Es posible que estos archivos estén disponibles aquí:
+
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 07af4e1d-bc98-4c2b-8fd6-d70343088509
+Estado del informe: 268697600
+Depósito con algoritmo hash: 
+GUID de archivo .cab: 0"
+Información,18/11/2024 15:12:03,Windows Error Reporting,1001,Ninguno,"Depósito con errores 1766359317290759307, tipo 5
+Nombre de evento: crashpad_log
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: MicrosoftEdgeUpdate.exe
+P2: 1.3.195.35
+P3: PostOOBEDiagnostics_4
+P4: 0x80040827
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\ProgramData\Microsoft\EdgeUpdate\Log\MicrosoftEdgeUpdate.log
+\\?\C:\Windows\TEMP\msedge_installer.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.57b45a88-fc2b-4213-92c2-9ee5f01d8d36.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e132cd9a-d95f-4a3a-9470-016920a4f27d.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.835aac89-9649-4cc4-8746-6224e590387b.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2615b4ad-0f8a-4384-8514-2ac6b10e6a43.tmp.txt
+
+Es posible que estos archivos estén disponibles aquí:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_MicrosoftEdgeUpd_f26c81455f639878049876c8cb326f0bc21b547_00000000_07af4e1d-bc98-4c2b-8fd6-d70343088509
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 07af4e1d-bc98-4c2b-8fd6-d70343088509
+Estado del informe: 268435456
+Depósito con algoritmo hash: eee2612637694ee418835e70c4d1348b
+GUID de archivo .cab: 0"
+Información,18/11/2024 15:11:55,Soda PDF Desktop 14,0,Ninguno,La operación se completó correctamente. 
+Información,18/11/2024 15:11:30,Microsoft-Windows-WMI,5617,Ninguno,Los subsistemas del servicio Instrumental de administración de Windows se inicializaron correctamente
+Información,18/11/2024 15:11:23,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación.
+Información,18/11/2024 15:11:18,Microsoft-Windows-Winlogon,6003,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación crítico.
+Información,18/11/2024 15:11:15,Microsoft-Windows-WMI,5611,Ninguno,El servicio Instrumental de administración de Windows detectó un cierre del sistema incoherente.
+Información,18/11/2024 15:11:13,Microsoft-Windows-Security-SPP,902,Ninguno,"Se inició el servicio de protección de software.
+10.0.20348.587"
+Información,18/11/2024 15:11:13,Microsoft-Windows-Security-SPP,1037,Ninguno,Tiempo de licencia con límite de tiempo que queda: validity horas 257651 minutos.
+Información,18/11/2024 15:11:13,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 257651)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,18/11/2024 15:11:13,Microsoft-Windows-Security-SPP,1066,Ninguno,"Estado de inicialización para objetos de servicio.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Información,18/11/2024 15:11:13,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Error,18/11/2024 15:11:11,BvSshServer,4097,Ninguno,"event
+  time: 2024-11-18 15:11:11.074468 +0100
+  app: BvSshServer 9.39
+  type: Error
+  name: E_SERVICE_SOCKET_NOT_BOUND
+  desc: Listening socket could not be bound.
+  parameters
+    listenAddress: [::]:22
+    service: SSH
+  result
+    type: WinApi
+    operation: bind() in ListeningSocket::StartListening()
+    code: 10048
+    message: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+  help
+    message:
+      This indicates that another service on this machine may be listening on the same port. Configure either Bitvise SSH Server or the other service to listen on a different port, or deactivate or uninstall the conflicting service.
+"
+Error,18/11/2024 15:11:11,BvSshServer,4097,Ninguno,"event
+  time: 2024-11-18 15:11:10.982938 +0100
+  app: BvSshServer 9.39
+  type: Error
+  name: E_SERVICE_SOCKET_NOT_BOUND
+  desc: Listening socket could not be bound.
+  parameters
+    listenAddress: 0.0.0.0:22
+    service: SSH
+  result
+    type: WinApi
+    operation: bind() in ListeningSocket::StartListening()
+    code: 10048
+    message: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+  help
+    message:
+      This indicates that another service on this machine may be listening on the same port. Configure either Bitvise SSH Server or the other service to listen on a different port, or deactivate or uninstall the conflicting service.
+"
+Información,18/11/2024 15:11:07,Microsoft-Windows-WMI,5615,Ninguno,El servicio Instrumental de administración de Windows se inició correctamente
+Información,18/11/2024 15:11:08,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:TriggerStarted:6"
+Información,18/11/2024 15:11:07,tvnserver,257,Ninguno,Service has been started successfully
+Advertencia,18/11/2024 15:11:07,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento State. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Advertencia,18/11/2024 15:11:07,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento Parameters. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Error,18/11/2024 15:11:05,VSS,8193,Ninguno,"Error del Servicio de instantáneas de volumen: error inesperado al llamar a la rutina RegOpenKeyExW(-2147483646,SYSTEM\CurrentControlSet\Services\VSS\Diag,...). HR = 0x80070005, Acceso denegado.
+. 
+
+Operación:
+   Inicializando el escritor
+
+Contexto:
+   Id. de clase del escritor: {e8132975-6f93-4464-a53e-1050253ae220}
+   Nombre del escritor: System Writer
+   Id. de instancia del escritor: {fb216ebd-a505-42f2-8237-528a37a5919d}"
+Información,18/11/2024 15:10:59,Microsoft-Windows-User Profiles Service,1531,Ninguno,"El Servicio de perfiles de usuario se ha iniciado correctamente. 
+
+"
+Información,17/11/2024 19:07:46,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:45Z. Motivo: RulesEngine.
+Información,17/11/2024 19:07:15,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 19:06:09,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:09Z. Motivo: RulesEngine.
+Información,17/11/2024 19:05:31,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 19:04:02,Microsoft-Windows-LoadPerf,1000,Ninguno,Se cargaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro en la sección de datos contienen los nuevos valores de los índices asignados a este servicio.
+Información,17/11/2024 19:04:01,Microsoft-Windows-LoadPerf,1001,Ninguno,Se quitaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro contienen los nuevos valores de las entradas del Registro Último contador y Última ayuda del sistema.
+Información,17/11/2024 18:59:21,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T17:59:12.613227200Z.
+Información,17/11/2024 18:59:21,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\Users\Administrador\WebPlatformInstaller_x64_en-US.msi. Id. de proceso del cliente: 2456.
+Información,17/11/2024 18:59:21,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: Microsoft Web Platform Installer 5.1. Versión del producto: 5.1.51515.0. Idioma del producto: 1033. Fabricante: Microsoft Corporation. Resultado de la instalación: 0.
+Información,17/11/2024 18:59:21,MsiInstaller,11707,Ninguno,Product: Microsoft Web Platform Installer 5.1 -- Installation completed successfully.
+Información,17/11/2024 18:59:12,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T17:59:12.613227200Z.
+Información,17/11/2024 18:59:11,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\Users\Administrador\WebPlatformInstaller_x64_en-US.msi. Id. de proceso del cliente: 2456.
+Información,17/11/2024 18:58:12,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:12Z. Motivo: RulesEngine.
+Información,17/11/2024 18:57:41,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Advertencia,17/11/2024 18:57:32,BvSshServer,4097,Ninguno,"event
+  time: 2024-11-17 18:57:32.239374 +0100
+  app: BvSshServer 9.39
+  type: Warning
+  name: W_SYSTEM_MONITOR_HIGH_CPU_USAGE
+  desc: High system-wide CPU usage detected.
+  parameters
+    thresholdPercent: 90
+    usagePercent: 97
+"
+Información,17/11/2024 18:57:31,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:<explicit>"
+Información,17/11/2024 18:57:28,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC se inició con la configuración siguiente: Configuración de seguridad (desactivada = 0 y activada = 1): Permitir administrador remoto = 0, Clientes de red = 0, Comunicación con el administrador de transacciones:  Permitir transacciones entrantes = 0, Permitir transacciones salientes = 0, Protocolo Internet de transacciones (TIP) = 0,  Habilitar transacciones XA = 0,  Habilitar transacciones de SNA LU 6.2 = 1,  Seguridad de las comunicaciones MSDTC = Se requiere autenticación mutua, Cuenta = NT AUTHORITY\NetworkService,  Detección de exclusión del firewall = 0 Puente de transacciones instalado = 0 Filtrar eventos duplicados = 1"
+Información,17/11/2024 18:57:24,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 18:56:23,Soda PDF Desktop 14,0,Ninguno,La operación se completó correctamente. 
+Información,17/11/2024 18:56:11,Microsoft-Windows-Security-SPP,903,Ninguno,"Se detuvo el servicio de protección de software.
+"
+Información,17/11/2024 18:56:11,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2024-11-18T17:55:11Z. Motivo: TBL.
+Información,17/11/2024 18:55:36,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación.
+Información,17/11/2024 18:55:35,Microsoft-Windows-Winlogon,6003,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación crítico.
+Información,17/11/2024 18:55:30,Microsoft-Windows-WMI,5617,Ninguno,Los subsistemas del servicio Instrumental de administración de Windows se inicializaron correctamente
+Información,17/11/2024 18:55:26,Microsoft-Windows-Security-SPP,902,Ninguno,"Se inició el servicio de protección de software.
+10.0.20348.587"
+Información,17/11/2024 18:55:26,Microsoft-Windows-Security-SPP,1037,Ninguno,Tiempo de licencia con límite de tiempo que queda: validity horas 258867 minutos.
+Información,17/11/2024 18:55:26,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 0 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 258867)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,17/11/2024 18:55:26,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 18:55:26,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 18:55:25,Microsoft-Windows-Security-SPP,1066,Ninguno,"Estado de inicialización para objetos de servicio.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Información,17/11/2024 18:55:25,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Error,17/11/2024 18:55:24,BvSshServer,4097,Ninguno,"event
+  time: 2024-11-17 18:55:24.531853 +0100
+  app: BvSshServer 9.39
+  type: Error
+  name: E_SERVICE_SOCKET_NOT_BOUND
+  desc: Listening socket could not be bound.
+  parameters
+    listenAddress: [::]:22
+    service: SSH
+  result
+    type: WinApi
+    operation: bind() in ListeningSocket::StartListening()
+    code: 10048
+    message: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+  help
+    message:
+      This indicates that another service on this machine may be listening on the same port. Configure either Bitvise SSH Server or the other service to listen on a different port, or deactivate or uninstall the conflicting service.
+"
+Error,17/11/2024 18:55:24,BvSshServer,4097,Ninguno,"event
+  time: 2024-11-17 18:55:24.480705 +0100
+  app: BvSshServer 9.39
+  type: Error
+  name: E_SERVICE_SOCKET_NOT_BOUND
+  desc: Listening socket could not be bound.
+  parameters
+    listenAddress: 0.0.0.0:22
+    service: SSH
+  result
+    type: WinApi
+    operation: bind() in ListeningSocket::StartListening()
+    code: 10048
+    message: Solo se permite un uso de cada dirección de socket (protocolo/dirección de red/puerto)
+  help
+    message:
+      This indicates that another service on this machine may be listening on the same port. Configure either Bitvise SSH Server or the other service to listen on a different port, or deactivate or uninstall the conflicting service.
+"
+Información,17/11/2024 18:55:23,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:TriggerStarted:6"
+Información,17/11/2024 18:55:21,Microsoft-Windows-WMI,5615,Ninguno,El servicio Instrumental de administración de Windows se inició correctamente
+Información,17/11/2024 18:55:21,tvnserver,257,Ninguno,Service has been started successfully
+Advertencia,17/11/2024 18:55:21,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento State. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Advertencia,17/11/2024 18:55:21,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento Parameters. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Error,17/11/2024 18:55:19,VSS,8193,Ninguno,"Error del Servicio de instantáneas de volumen: error inesperado al llamar a la rutina RegOpenKeyExW(-2147483646,SYSTEM\CurrentControlSet\Services\VSS\Diag,...). HR = 0x80070005, Acceso denegado.
+. 
+
+Operación:
+   Inicializando el escritor
+
+Contexto:
+   Id. de clase del escritor: {e8132975-6f93-4464-a53e-1050253ae220}
+   Nombre del escritor: System Writer
+   Id. de instancia del escritor: {642ec59a-b70a-41ab-96cd-66b8dca91e2c}"
+Información,17/11/2024 18:55:15,Microsoft-Windows-User Profiles Service,1531,Ninguno,"El Servicio de perfiles de usuario se ha iniciado correctamente. 
+
+"
+Información,17/11/2024 18:51:40,Microsoft-Windows-User Profiles Service,1532,Ninguno,"El Servicio de perfiles de usuario se ha detenido. 
+
+"
+Información,17/11/2024 18:51:39,Microsoft-Windows-MSDTC,4111,SVC,Deteniendo el servicio MS DTC.
+Información,17/11/2024 18:51:16,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación.
+Información,17/11/2024 18:51:16,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <WSearch> no estaba disponible para controlar un evento de notificación.
+Información,17/11/2024 18:50:52,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Información,17/11/2024 18:50:40,MsiInstaller,1005,Ninguno,"Windows Installer inició un reinicio del sistema para completar o continuar la configuración de ""Nextcloud""."
+Información,17/11/2024 18:50:40,MsiInstaller,1038,Ninguno,Windows Installer requiere un reinicio del sistema. Nombre del producto: Nextcloud. Versión del producto: 3.14.3.20241031. Idioma del producto: 1033. Fabricante: Nextcloud GmbH. Tipo de reinicio del sistema: 1. Motivo del reinicio: 0.
+Información,17/11/2024 18:50:40,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: Nextcloud. Versión del producto: 3.14.3.20241031. Idioma del producto: 1033. Fabricante: Nextcloud GmbH. Resultado de la instalación: 0.
+Información,17/11/2024 18:50:40,MsiInstaller,11707,Ninguno,Product: Nextcloud -- Installation completed successfully.
+Información,17/11/2024 18:50:02,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T17:48:11.784094200Z.
+Información,17/11/2024 18:50:02,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\Users\Administrador\Downloads\Nextcloud-3.14.3-x64.msi. Id. de proceso del cliente: 4680.
+Información,17/11/2024 18:50:02,MsiInstaller,1038,Ninguno,Windows Installer requiere un reinicio del sistema. Nombre del producto: Nextcloud. Versión del producto: 3.14.3.20241031. Idioma del producto: 1033. Fabricante: Nextcloud GmbH. Tipo de reinicio del sistema: 1. Motivo del reinicio: 2.
+Información,17/11/2024 18:48:11,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T17:48:11.784094200Z.
+Información,17/11/2024 18:48:09,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: MySQL Server 9.1. Versión del producto: 9.1.0. Idioma del producto: 1033. Fabricante: Oracle Corporation. Resultado de la instalación: 1603.
+Información,17/11/2024 18:48:09,MsiInstaller,11708,Ninguno,Product: MySQL Server 9.1 -- Installation failed.
+Error,17/11/2024 18:48:08,MsiInstaller,10005,Ninguno,Product: MySQL Server 9.1 -- This application requires Visual Studio 2019 x64 Redistributable. Please install the Redistributable then run this installer again.
+Información,17/11/2024 18:48:03,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\Users\Administrador\Downloads\Nextcloud-3.14.3-x64.msi. Id. de proceso del cliente: 4680.
+Información,17/11/2024 18:47:13,Microsoft-Windows-Search-ProfileNotify,5,Ninguno,"El servicio Windows Search creó una configuración predeterminada para el nuevo usuario 'IIS APPPOOL\.NET v4.5' .
+"
+Información,17/11/2024 18:46:59,Microsoft-Windows-Search-ProfileNotify,5,Ninguno,"El servicio Windows Search creó una configuración predeterminada para el nuevo usuario 'IIS APPPOOL\.NET v4.5 Classic' .
+"
+Información,17/11/2024 18:39:39,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 1 - ‎2024‎-‎11‎-‎17T17:39:39.708396300Z.
+Información,17/11/2024 18:39:39,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 1 - ‎2024‎-‎11‎-‎17T17:39:39.443738000Z.
+Información,17/11/2024 18:38:23,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:23Z. Motivo: RulesEngine.
+Información,17/11/2024 18:37:52,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 18:36:42,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <OU=Go Daddy Class 2 Certification Authority, O=""The Go Daddy Group, Inc."", C=US>, huella digital Sha1: <2796BAE63F1801E277261BA0D77770028F20EEE4>."
+Información,17/11/2024 18:30:38,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, S=Greater Manchester, C=GB>, huella digital Sha1: <D1EB23A46D17D68FD92564C2F1F1601764D8E349>."
+Información,17/11/2024 18:11:11,ESENT,103,General,"netsh (6520,T,97) El motor de base de datos detuvo la instancia (0). 
+ 
+Cierre con problemas: 0 
+ 
+Secuencia interna de intervalos: 
+[1] 0.000004 +J(0)
+[2] 0.000012 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[3] 0.000003 +J(0) +M(C:0K, Fs:2, WS:8K # 0K, PF:0K # 0K, P:0K)
+[4] 0.000002 +J(0)
+[5] 0.032178 -0.020829 (5) WT +J(0) +M(C:0K, Fs:6, WS:16K # 0K, PF:0K # 0K, P:0K)
+[6] 0.000016 +J(0)
+[7] 0.000005 +J(0)
+[8] 0.043246 -0.004651 (11) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:4042/2) +M(C:0K, Fs:4, WS:-20K # 0K, PF:-24K # 0K, P:-24K)
+[9] 0.004197 -0.000649 (1) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:66/1) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[10] 0.002163 +J(0)
+[11] 0.007177 -0.000859 (2) WT +J(0)
+[12] 0.000038 +J(0) +M(C:0K, Fs:0, WS:-4K # 0K, PF:-4K # 0K, P:-4K)
+[13] 0.001054 +J(0)
+[14] 0.000018 +J(0) +M(C:0K, Fs:0, WS:-16K # 0K, PF:-32K # 0K, P:-32K)
+[15] 0.000002 +J(0)."
+Información,17/11/2024 18:11:11,ESENT,326,General,"netsh (6520,D,50) Tel motor de base de datos adjuntó una base de datos (1, C:\Windows\system32\dhcp\dhcp.mdb). (Tiempo =0 segundos)  
+ 
+caché guardada:  0 0 
+datos adicionales:  lgposAttach = 00000008:0014:0268,
+dbv = 1568.180.400 (9360) 
+ 
+secuencia de temporización interna:  
+[1] 0.000004 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.001821 -0.000765 (1) WT +J(0) +M(C:0K, Fs:18, WS:8K # 0K, PF:4K # 0K, P:4K)
+[3] 0.020488 -0.004520 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:16, WS:56K # 0K, PF:104K # 0K, P:104K)
+[4] 0.002657 +J(0)
+[5] -
+[6] -
+[7] -
+[8] 0.004372 -0.004010 (2) CM -0.003477 (2) WT +J(CM:2, PgRf:2, Rd:4/2, Dy:0/0, Lg:54/1) +M(C:8K, Fs:31, WS:120K # 0K, PF:224K # 0K, P:224K)
+[9] 0.004773 -0.004181 (5) CM -0.003240 (5) WT +J(CM:5, PgRf:23, Rd:0/4, Dy:0/0, Lg:0/0) +M(C:0K, Fs:30, WS:112K # 0K, PF:196K # 0K, P:196K)
+[10] 0.003273 -0.003164 (3) CM -0.002389 (3) WT +J(CM:3, PgRf:40, Rd:0/3, Dy:0/0, Lg:0/0) +M(C:0K, Fs:5, WS:20K # 0K, PF:64K # 0K, P:64K)
+[11] 0.000013 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 0K, PF:0K # 0K, P:0K)
+[12] 0.000018 +J(CM:0, PgRf:36, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[13] 0.0 +J(0)
+[14] 0.0 +J(0)
+[15] 0.000003 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."
+Información,17/11/2024 18:11:11,ESENT,105,General,"netsh (6520,D,0) Tel motor de base de datos inició una nueva instancia (0). (Tiempo =0 segundos)  
+ 
+datos adicionales: 
+  
+ 
+secuencia de temporización interna:  
+[1] 0.000861 +J(0) +M(C:0K, Fs:98, WS:380K # 0K, PF:2316K # 0K, P:2316K)
+[2] 0.000154 +J(0) +M(C:8K, Fs:86, WS:340K # 0K, PF:16K # 0K, P:16K)
+[3] 0.000008 +J(0) +M(C:0K, Fs:3, WS:12K # 0K, PF:64K # 0K, P:64K)
+[4] 0.000050 +J(0) +M(C:0K, Fs:20, WS:80K # 0K, PF:136K # 0K, P:136K)
+[5] 0.001754 +J(0) +M(C:0K, Fs:58, WS:228K # 0K, PF:476K # 0K, P:476K)
+[6] 0.003605 +J(0) +M(C:0K, Fs:19, WS:76K # 0K, PF:12K # 0K, P:12K)
+[7] 0.014352 -0.008971 (3) WT +J(0) +M(C:0K, Fs:275, WS:1096K # 0K, PF:1028K # 0K, P:1028K)
+[8] -
+[9] -
+[10] -
+[11] -
+[12] -
+[13] 0.031037 -0.009175 (4) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:616/1) +M(C:0K, Fs:6, WS:-1008K # 0K, PF:-1024K # 0K, P:-1024K)
+[14] 0.000020 +J(0)
+[15] 0.000034 +J(0) +M(C:0K, Fs:16, WS:64K # 0K, PF:64K # 0K, P:64K)
+[16] 0.003535 -0.000407 (1) WT +J(0) +M(C:0K, Fs:3, WS:4K # 0K, PF:0K # 0K, P:0K)."
+Información,17/11/2024 18:11:11,ESENT,102,General,"netsh (6520,P,98) El motor de base de datos (10.00.20348.0000) inicia una nueva instancia (0)."
+Información,17/11/2024 18:11:11,ESENT,103,General,"netsh (6520,T,97) El motor de base de datos detuvo la instancia (0). 
+ 
+Cierre con problemas: 0 
+ 
+Secuencia interna de intervalos: 
+[1] 0.000004 +J(0)
+[2] 0.000012 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[3] 0.000003 +J(0) +M(C:0K, Fs:2, WS:8K # 0K, PF:0K # 0K, P:0K)
+[4] 0.000002 +J(0)
+[5] 0.024655 -0.008662 (6) WT +J(0) +M(C:0K, Fs:6, WS:16K # 0K, PF:0K # 0K, P:0K)
+[6] 0.000023 +J(0)
+[7] 0.000006 +J(0)
+[8] 0.045711 -0.004224 (11) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:4042/2) +M(C:0K, Fs:4, WS:-20K # 0K, PF:-24K # 0K, P:-24K)
+[9] 0.004546 -0.001594 (1) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:66/1) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[10] 0.001809 +J(0)
+[11] 0.005179 -0.000908 (2) WT +J(0)
+[12] 0.000038 +J(0) +M(C:0K, Fs:0, WS:-4K # 0K, PF:-4K # 0K, P:-4K)
+[13] 0.001236 +J(0)
+[14] 0.000019 +J(0) +M(C:0K, Fs:0, WS:-16K # 0K, PF:-32K # 0K, P:-32K)
+[15] 0.000002 +J(0)."
+Información,17/11/2024 18:11:11,ESENT,326,General,"netsh (6520,D,50) Tel motor de base de datos adjuntó una base de datos (1, C:\Windows\system32\dhcp\dhcp.mdb). (Tiempo =0 segundos)  
+ 
+caché guardada:  0 0 
+datos adicionales:  lgposAttach = 00000008:0011:0268,
+dbv = 1568.180.400 (9360) 
+ 
+secuencia de temporización interna:  
+[1] 0.000004 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.005030 -0.003908 (1) WT +J(0) +M(C:0K, Fs:18, WS:8K # 0K, PF:4K # 0K, P:4K)
+[3] 0.022969 -0.005379 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:15, WS:52K # 0K, PF:104K # 0K, P:104K)
+[4] 0.003717 +J(0)
+[5] -
+[6] -
+[7] -
+[8] 0.002150 -0.001866 (2) CM -0.001462 (2) WT +J(CM:2, PgRf:2, Rd:4/2, Dy:0/0, Lg:54/1) +M(C:8K, Fs:31, WS:120K # 0K, PF:224K # 0K, P:224K)
+[9] 0.004953 -0.004512 (4) CM -0.002592 (4) WT +J(CM:4, PgRf:23, Rd:0/4, Dy:0/0, Lg:0/0) +M(C:0K, Fs:30, WS:112K # 0K, PF:196K # 0K, P:196K)
+[10] 0.007130 -0.006897 (3) CM -0.005503 (3) WT +J(CM:3, PgRf:40, Rd:0/3, Dy:0/0, Lg:0/0) +M(C:0K, Fs:5, WS:20K # 0K, PF:64K # 0K, P:64K)
+[11] 0.000735 -0.000700 (1) CM -0.000583 (1) WT +J(CM:1, PgRf:1, Rd:0/1, Dy:0/0, Lg:0/0) +M(C:0K, Fs:4, WS:16K # 0K, PF:0K # 0K, P:0K)
+[12] 0.000024 +J(CM:0, PgRf:36, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[13] 0.0 +J(0)
+[14] 0.0 +J(0)
+[15] 0.000004 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)."
+Información,17/11/2024 18:11:11,ESENT,105,General,"netsh (6520,D,0) Tel motor de base de datos inició una nueva instancia (0). (Tiempo =0 segundos)  
+ 
+datos adicionales: 
+  
+ 
+secuencia de temporización interna:  
+[1] 0.003189 +J(0) +M(C:0K, Fs:97, WS:376K # 0K, PF:2316K # 0K, P:2316K)
+[2] 0.000412 +J(0) +M(C:8K, Fs:91, WS:360K # 0K, PF:16K # 0K, P:16K)
+[3] 0.000011 +J(0) +M(C:0K, Fs:3, WS:12K # 0K, PF:64K # 0K, P:64K)
+[4] 0.000188 +J(0) +M(C:0K, Fs:19, WS:76K # 0K, PF:136K # 0K, P:136K)
+[5] 0.002203 +J(0) +M(C:0K, Fs:42, WS:164K # 0K, PF:476K # 0K, P:476K)
+[6] 0.010546 +J(0) +M(C:0K, Fs:35, WS:140K # 0K, PF:12K # 0K, P:12K)
+[7] 0.018697 -0.009951 (3) WT +J(0) +M(C:0K, Fs:275, WS:1096K # 0K, PF:1028K # 0K, P:1028K)
+[8] -
+[9] -
+[10] -
+[11] -
+[12] -
+[13] 0.024437 -0.006284 (4) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:616/1) +M(C:0K, Fs:6, WS:-1008K # 0K, PF:-1024K # 0K, P:-1024K)
+[14] 0.000018 +J(0)
+[15] 0.000060 +J(0) +M(C:0K, Fs:16, WS:64K # 0K, PF:64K # 0K, P:64K)
+[16] 0.001324 -0.000281 (1) WT +J(0) +M(C:0K, Fs:3, WS:4K # 0K, PF:0K # 0K, P:0K)."
+Información,17/11/2024 18:11:11,ESENT,102,General,"netsh (6520,P,98) El motor de base de datos (10.00.20348.0000) inicia una nueva instancia (0)."
+Información,17/11/2024 18:08:20,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:20Z. Motivo: RulesEngine.
+Información,17/11/2024 18:07:49,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 18:03:57,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:57Z. Motivo: RulesEngine.
+Información,17/11/2024 18:03:27,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 18:03:27,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 18:03:25,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 17:53:25,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T16:50:11.611960600Z.
+Información,17/11/2024 17:53:25,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-ocr-tess-module-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:53:25,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: Soda PDF Desktop 14 OCR TESS Module. Versión del producto: 14.0.437.22898. Idioma del producto: 1033. Fabricante: Avanquest Software. Resultado de la instalación: 0.
+Información,17/11/2024 17:53:25,MsiInstaller,11707,Ninguno,Product: Soda PDF Desktop 14 OCR TESS Module -- Installation completed successfully.
+Información,17/11/2024 17:50:11,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T16:50:11.611960600Z.
+Información,17/11/2024 17:50:06,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-ocr-tess-module-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:50:02,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T16:49:14.808592600Z.
+Información,17/11/2024 17:50:02,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-ocr-module-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:50:02,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: Soda PDF Desktop 14 OCR Module. Versión del producto: 14.0.437.22898. Idioma del producto: 1033. Fabricante: Avanquest Software. Resultado de la instalación: 0.
+Información,17/11/2024 17:50:02,MsiInstaller,11707,Ninguno,Product: Soda PDF Desktop 14 OCR Module -- Installation completed successfully.
+Información,17/11/2024 17:49:14,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T16:49:14.808592600Z.
+Información,17/11/2024 17:49:01,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-ocr-module-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:49:00,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T16:48:12.188127100Z.
+Información,17/11/2024 17:49:00,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-edit-module-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:49:00,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: Soda PDF Desktop 14 Edit Module. Versión del producto: 14.0.437.22898. Idioma del producto: 1033. Fabricante: Avanquest Software. Resultado de la instalación: 0.
+Información,17/11/2024 17:49:00,MsiInstaller,11707,Ninguno,Product: Soda PDF Desktop 14 Edit Module -- Installation completed successfully.
+Información,17/11/2024 17:48:12,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T16:48:12.188127100Z.
+Información,17/11/2024 17:48:07,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-edit-module-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:47:51,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T16:46:35.010440900Z.
+Información,17/11/2024 17:47:51,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-startup-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:47:51,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: Soda PDF Desktop 14 View Module. Versión del producto: 14.0.437.22898. Idioma del producto: 1033. Fabricante: Avanquest Software. Resultado de la instalación: 0.
+Información,17/11/2024 17:47:51,MsiInstaller,11707,Ninguno,Product: Soda PDF Desktop 14 View Module -- Installation completed successfully.
+Información,17/11/2024 17:47:49,Soda PDF Desktop 14,0,Ninguno,La operación se completó correctamente. 
+Información,17/11/2024 17:46:35,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T16:46:35.010440900Z.
+Información,17/11/2024 17:46:22,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\ProgramData\Soda PDF Desktop 14\Installation\soda-desktop14-startup-14.0.437.22898-x64.msi. Id. de proceso del cliente: 3876.
+Información,17/11/2024 17:45:55,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=ISRG Root X1, O=Internet Security Research Group, C=US>, huella digital Sha1: <CABD2A79A1076A31F21D253635CB039D4329A5E8>."
+Información,17/11/2024 17:45:54,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE>, huella digital Sha1: <B1BC968BD4F49D622AA89A81F2150152A41D829C>."
+Información,17/11/2024 17:45:43,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Información,17/11/2024 17:45:39,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=Entrust Root Certification Authority - G2, OU=""(c) 2009 Entrust, Inc. - for authorized use only"", OU=See www.entrust.net/legal-terms, O=""Entrust, Inc."", C=US>, huella digital Sha1: <8CF427FD790C3AD166068DE81E57EFBB932272D4>."
+Información,17/11/2024 17:42:39,Windows Error Reporting,1001,Ninguno,"Depósito con errores 2039724538816565925, tipo 5
+Nombre de evento: WindowsWcpOtherFailure3
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: 10.0.20348.557:3
+P2: wcp\plugins\printadvancedinstaller\dll\setupippai.cpp
+P3: Windows::WCP::SetupIppAI::BasicInstaller::FindElementInCollection
+P4: 1481
+P5: 8002802b
+P6: 0xc20f921d
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.428e2726-0ede-48fb-b2e0-844110f2fbaa.tmp.WERInternalMetadata.xml
+
+Es posible que estos archivos estén disponibles aquí:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_10.0.20348.557_3_c53fd761943ada801eb73fa8bba49459f2c3134_00000000_66a1d55d-9ffc-48a5-abdc-bb42bd04bb47
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 66a1d55d-9ffc-48a5-abdc-bb42bd04bb47
+Estado del informe: 268435456
+Depósito con algoritmo hash: bdf650b4dc4d417e4c4e8ea93fcf12a5
+GUID de archivo .cab: 0"
+Información,17/11/2024 17:42:37,Windows Error Reporting,1001,Ninguno,"Depósito con errores , tipo 0
+Nombre de evento: WindowsWcpOtherFailure3
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: 10.0.20348.557:3
+P2: wcp\plugins\printadvancedinstaller\dll\setupippai.cpp
+P3: Windows::WCP::SetupIppAI::BasicInstaller::FindElementInCollection
+P4: 1481
+P5: 8002802b
+P6: 0xc20f921d
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\Windows\Logs\CBS\CBS.log
+\\?\C:\Windows\servicing\Sessions\Sessions.xml
+\\?\C:\Windows\servicing\Sessions\31144207_2173723168.xml
+\\?\C:\Windows\WinSxs\pending.xml
+\\?\C:\Windows\system32\LogFiles\Scm\SCM.EVM
+\\?\C:\Windows\Logs\Cbs\FilterList.log
+
+Es posible que estos archivos estén disponibles aquí:
+
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 66a1d55d-9ffc-48a5-abdc-bb42bd04bb47
+Estado del informe: 262148
+Depósito con algoritmo hash: 
+GUID de archivo .cab: 0"
+Información,17/11/2024 17:42:37,Windows Error Reporting,1001,Ninguno,"Depósito con errores , tipo 0
+Nombre de evento: WindowsWcpOtherFailure3
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: 10.0.20348.557:3
+P2: wcp\plugins\printadvancedinstaller\dll\setupippai.cpp
+P3: Windows::WCP::SetupIppAI::BasicInstaller::FindElementInCollection
+P4: 1481
+P5: 8002802b
+P6: 0xc20f921d
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+
+Es posible que estos archivos estén disponibles aquí:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.20348.557_3_c53fd761943ada801eb73fa8bba49459f2c3134_00000000_66a1d55d-9ffc-48a5-abdc-bb42bd04bb47
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 66a1d55d-9ffc-48a5-abdc-bb42bd04bb47
+Estado del informe: 4
+Depósito con algoritmo hash: 
+GUID de archivo .cab: 0"
+Información,17/11/2024 17:38:19,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:19Z. Motivo: RulesEngine.
+Información,17/11/2024 17:37:49,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 17:37:49,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 17:37:48,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 17:30:20,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Información,17/11/2024 17:25:46,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Información,17/11/2024 17:23:43,Microsoft-Windows-Management-UI,2316,Machine Picker Active Directory Initialize.,"Active Directory Initialize Error: System.DirectoryServices.ActiveDirectory.ActiveDirectoryObjectNotFoundException: El equipo local no está unido a un dominio o no se puede establecer contacto con el dominio.
+   en System.DirectoryServices.ActiveDirectory.Domain.GetComputerDomain()
+   en Microsoft.Management.UI.Primitives.ActiveDirectoryWrapperFactory.GetComputerDomain()
+   en Microsoft.Management.UI.Primitives.ActiveDirectoryNavigationItemFactory.CreateInternal(Object state)"
+Información,17/11/2024 17:08:18,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:18Z. Motivo: RulesEngine.
+Información,17/11/2024 17:07:47,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 17:07:45,tvnserver,257,Ninguno,The client 192.168.24.1 has disconnected
+Información,17/11/2024 17:06:46,tvnserver,257,Ninguno,Authentication passed by 192.168.24.1
+Información,17/11/2024 17:05:24,MsiInstaller,1033,Ninguno,Windows Installer instaló el producto. Nombre del producto: TightVNC. Versión del producto: 2.8.85.0. Idioma del producto: 1033. Fabricante: GlavSoft LLC.. Resultado de la instalación: 0.
+Información,17/11/2024 17:05:24,MsiInstaller,11707,Ninguno,Product: TightVNC -- Installation completed successfully.
+Información,17/11/2024 17:05:22,Microsoft-Windows-RestartManager,10001,Ninguno,Finalizando sesión 0 iniciada ‎2024‎-‎11‎-‎17T16:04:36.439292900Z.
+Información,17/11/2024 17:05:22,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: C:\Users\Administrador\Downloads\tightvnc-2.8.85-gpl-setup-64bit.msi. Id. de proceso del cliente: 6544.
+Información,17/11/2024 17:04:42,tvnserver,257,Ninguno,Service has been started successfully
+Información,17/11/2024 17:04:36,Microsoft-Windows-RestartManager,10000,Ninguno,Iniciando sesión 0 - ‎2024‎-‎11‎-‎17T16:04:36.439292900Z.
+Información,17/11/2024 17:04:36,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: C:\Users\Administrador\Downloads\tightvnc-2.8.85-gpl-setup-64bit.msi. Id. de proceso del cliente: 6544.
+Información,17/11/2024 17:03:48,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3>, huella digital Sha1: <D69B561148F01C77C54578C10926DF5B856976AD>."
+Información,17/11/2024 16:58:55,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:55Z. Motivo: RulesEngine.
+Información,17/11/2024 16:58:14,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 16:58:14,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 16:58:13,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 16:42:45,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Información,17/11/2024 16:38:56,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:55Z. Motivo: RulesEngine.
+Información,17/11/2024 16:37:46,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 16:37:02,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US>, huella digital Sha1: <7E04DE896A3E666D00E687D33FFAD93BE83D349E>."
+Información,17/11/2024 16:21:38,Bitvise Installer,4097,Ninguno,Bitvise SSH Server 9.39 installation completed.
+Información,17/11/2024 16:21:26,Bitvise Installer,4097,Ninguno,Bitvise SSH Server 9.39 installation started.
+Información,17/11/2024 16:12:08,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, S=New Jersey, C=US>, huella digital Sha1: <2B8F1B57330DBBA2D07A6C51F70EE90DDAB9AD8E>."
+Información,17/11/2024 16:11:58,Bitvise Installer,4097,Ninguno,Bitvise SSH Server 9.39 installation completed.
+Información,17/11/2024 16:11:33,Bitvise Installer,4097,Ninguno,Bitvise SSH Server 9.39 installation started.
+Información,17/11/2024 16:08:39,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US>, huella digital Sha1: <0563B8630D62D75ABBC8AB1E4BDFB5A899B24D43>."
+Información,17/11/2024 16:08:30,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:29Z. Motivo: RulesEngine.
+Información,17/11/2024 16:07:45,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 16:07:27,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Información,17/11/2024 16:06:05,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:04Z. Motivo: RulesEngine.
+Información,17/11/2024 16:04:47,Windows Error Reporting,1001,Ninguno,"Depósito con errores 2001656869875323465, tipo 5
+Nombre de evento: RADAR_PRE_LEAK_64
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: msedge.exe
+P2: 131.0.2903.51
+P3: 10.0.20348.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\Users\ADMINI~1\AppData\Local\Temp\RDRC304.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2dcdc036-252d-4725-971b-7f7778996628.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a6916cac-80a0-4d1d-96e5-204a792c7367.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.c721b27e-090b-4551-9a1e-c924f68e1304.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7795983a-6853-4ea2-8b25-df3b139740bf.tmp.txt
+
+Es posible que estos archivos estén disponibles aquí:
+
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 675f193e-95a0-4909-8917-323223d93b26
+Estado del informe: 268435456
+Depósito con algoritmo hash: c15f69f543acc5abebc7505163239249
+GUID de archivo .cab: 0"
+Información,17/11/2024 16:04:42,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 16:04:42,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 16:04:42,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Advertencia,17/11/2024 16:04:25,Microsoft-Windows-WMI,63,Ninguno,"Un proveedor (PS_SmisProvider) se ha registrado en el espacio de nombres del Instrumental de administración de Windows, root\Microsoft\Windows\Storage\SM, para usar la cuenta LocalSystem. Esta cuenta tiene privilegios y el proveedor puede originar una infracción de seguridad si no suplanta correctamente las solicitudes de usuarios."
+Advertencia,17/11/2024 16:04:25,Microsoft-Windows-WMI,63,Ninguno,"Un proveedor (PS_SmisProvider) se ha registrado en el espacio de nombres del Instrumental de administración de Windows, root\Microsoft\Windows\Storage\SM, para usar la cuenta LocalSystem. Esta cuenta tiene privilegios y el proveedor puede originar una infracción de seguridad si no suplanta correctamente las solicitudes de usuarios."
+Error,17/11/2024 16:04:23,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos WMIStorage intentó registrar la consulta ""SELECT * FROM MSFT_SMStorageEvent"" en la que no existe la clase de destino ""MSFT_SMStorageEvent"" en el espacio de nombres //./ROOT/Microsoft/Windows/Storage/SM. Se omitirá la consulta."
+Error,17/11/2024 16:04:23,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""SELECT * FROM MSFT_SMStorageEvent"" en la que no existe la clase de destino ""MSFT_SMStorageEvent"" en el espacio de nombres //./ROOT/Microsoft/Windows/Storage/SM. Se omitirá la consulta."
+Información,17/11/2024 15:54:10,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación.
+Información,17/11/2024 15:54:09,Microsoft-Windows-Winlogon,6003,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación crítico.
+Información,17/11/2024 15:53:35,Microsoft-Windows-CAPI2,4111,Ninguno,"Actualización automática correcta de la lista raíz de terceros con fecha efectiva: ‎martes, ‎14‎ de ‎mayo‎ de ‎2024 17:23:18."
+Información,17/11/2024 15:53:35,Microsoft-Windows-CAPI2,4108,Ninguno,"Eliminación automática correcta de certificado raíz de terceros: sujeto: <OU=Class 3 Public Primary Certification Authority, O=""VeriSign, Inc."", C=US>, huella digital Sha1: <4F65566336DB6598581D584A596C87934D5F2AB4>."
+Información,17/11/2024 15:53:35,Microsoft-Windows-CAPI2,4109,Ninguno,"Actualización automática correcta de propiedad de certificado raíz de terceros: sujeto: <OU=Class 3 Public Primary Certification Authority, O=""VeriSign, Inc."", C=US>, huella digital Sha1: <742C3192E607E424EB4549542BE1BBC53E6174E2>."
+Información,17/11/2024 15:38:07,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:06Z. Motivo: RulesEngine.
+Información,17/11/2024 15:37:36,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 15:22:27,MsiInstaller,1042,Ninguno,Finalizando una transacción de Windows Installer: {BDD79957-5801-4A2D-B09E-852E7FA64D01}. Id. de proceso del cliente: 1628.
+Información,17/11/2024 15:22:27,MsiInstaller,1040,Ninguno,Iniciando una transacción de Windows Installer: {BDD79957-5801-4A2D-B09E-852E7FA64D01}. Id. de proceso del cliente: 1628.
+Información,17/11/2024 15:11:42,Microsoft-Windows-LoadPerf,1000,Ninguno,Se cargaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro en la sección de datos contienen los nuevos valores de los índices asignados a este servicio.
+Información,17/11/2024 15:11:42,Microsoft-Windows-LoadPerf,1001,Ninguno,Se quitaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro contienen los nuevos valores de las entradas del Registro Último contador y Última ayuda del sistema.
+Información,17/11/2024 15:10:10,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:10Z. Motivo: RulesEngine.
+Información,17/11/2024 15:09:40,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 15:09:40,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:<explicit>"
+Información,17/11/2024 15:09:39,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC se inició con la configuración siguiente: Configuración de seguridad (desactivada = 0 y activada = 1): Permitir administrador remoto = 0, Clientes de red = 0, Comunicación con el administrador de transacciones:  Permitir transacciones entrantes = 0, Permitir transacciones salientes = 0, Protocolo Internet de transacciones (TIP) = 0,  Habilitar transacciones XA = 0,  Habilitar transacciones de SNA LU 6.2 = 1,  Seguridad de las comunicaciones MSDTC = Se requiere autenticación mutua, Cuenta = NT AUTHORITY\NetworkService,  Detección de exclusión del firewall = 0 Puente de transacciones instalado = 0 Filtrar eventos duplicados = 1"
+Información,17/11/2024 15:09:38,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 15:08:40,Microsoft-Windows-WMI,5617,Ninguno,Los subsistemas del servicio Instrumental de administración de Windows se inicializaron correctamente
+Información,17/11/2024 15:08:33,Microsoft-Windows-WMI,5611,Ninguno,El servicio Instrumental de administración de Windows detectó un cierre del sistema incoherente.
+Información,17/11/2024 15:08:06,Microsoft-Windows-Security-SPP,903,Ninguno,"Se detuvo el servicio de protección de software.
+"
+Información,17/11/2024 15:08:06,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2024-11-18T14:07:06Z. Motivo: TBL.
+Información,17/11/2024 15:07:33,Microsoft-Windows-Security-SPP,902,Ninguno,"Se inició el servicio de protección de software.
+10.0.20348.587"
+Información,17/11/2024 15:07:33,Microsoft-Windows-Security-SPP,1037,Ninguno,Tiempo de licencia con límite de tiempo que queda: validity horas 259095 minutos.
+Información,17/11/2024 15:07:33,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 259095)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,17/11/2024 15:07:33,Microsoft-Windows-Security-SPP,1066,Ninguno,"Estado de inicialización para objetos de servicio.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Información,17/11/2024 15:07:33,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 15:07:30,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:TriggerStarted:6"
+Información,17/11/2024 15:07:30,Microsoft-Windows-WMI,5615,Ninguno,El servicio Instrumental de administración de Windows se inició correctamente
+Advertencia,17/11/2024 15:07:30,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento State. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Advertencia,17/11/2024 15:07:29,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento Parameters. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Error,17/11/2024 15:07:28,VSS,8193,Ninguno,"Error del Servicio de instantáneas de volumen: error inesperado al llamar a la rutina RegOpenKeyExW(-2147483646,SYSTEM\CurrentControlSet\Services\VSS\Diag,...). HR = 0x80070005, Acceso denegado.
+. 
+
+Operación:
+   Inicializando el escritor
+
+Contexto:
+   Id. de clase del escritor: {e8132975-6f93-4464-a53e-1050253ae220}
+   Nombre del escritor: System Writer
+   Id. de instancia del escritor: {79a2447f-a680-41b6-b0f5-d4f66700229d}"
+Información,17/11/2024 15:07:24,Microsoft-Windows-User Profiles Service,1531,Ninguno,"El Servicio de perfiles de usuario se ha iniciado correctamente. 
+
+"
+Información,17/11/2024 14:16:48,.NET Runtime Optimization Service,1130,Ninguno,.NET Runtime Optimization Service (4.0.30319.0) - Installed from repository: mscorlib
+Información,17/11/2024 14:11:12,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:02Z. Motivo: RulesEngine.
+Información,17/11/2024 14:10:24,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 14:02:21,Windows Error Reporting,1001,Ninguno,"Depósito con errores 1314452627427863605, tipo 5
+Nombre de evento: RADAR_PRE_LEAK_64
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: sqlservr.exe
+P2: 2014.120.5214.6
+P3: 10.0.20348.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\Users\ADMINI~1\AppData\Local\Temp\RDRF6A3.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.76a14853-0a37-48bd-a9c3-85c22117329d.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4b929b1c-78bf-4c70-b8ed-61b72135de83.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.45fe30b6-fd52-431c-90dc-665b0c9a0f51.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.b420ca13-69e5-42b7-bd21-719fb8d18a27.tmp.txt
+
+Es posible que estos archivos estén disponibles aquí:
+
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 5719ca14-1856-43ae-ab65-fb1d0697796d
+Estado del informe: 268435456
+Depósito con algoritmo hash: a674ccca91cd64d6923ddfb34beaac35
+GUID de archivo .cab: 0"
+Información,17/11/2024 14:01:04,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:04Z. Motivo: RulesEngine.
+Información,17/11/2024 14:00:34,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 14:00:34,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 14:00:33,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 13:58:15,VSS,8224,Ninguno,El servicio VSS se está cerrando por un tiempo de espera inactivo. 
+Error,17/11/2024 13:54:51,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos nfscimprov intentó registrar la consulta ""select * from MSFT_NfsShareEvent"" en la que no existe la clase de destino ""MSFT_NfsShareEvent"" en el espacio de nombres //./ROOT/Microsoft/Windows/NFS. Se omitirá la consulta."
+Error,17/11/2024 13:54:51,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""select * from MSFT_NfsShareEvent"" en la que no existe la clase de destino ""MSFT_NfsShareEvent"" en el espacio de nombres //./ROOT/Microsoft/Windows/NFS. Se omitirá la consulta."
+Error,17/11/2024 13:54:48,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos GatewayHealthMonitorProvider intentó registrar la consulta ""select * from MSFT_GatewayHealthEvent"" en la que no existe la clase de destino ""MSFT_GatewayHealthEvent"" en el espacio de nombres //./root/Microsoft/Windows/RemoteAccess/GatewayHealthMonitor. Se omitirá la consulta."
+Error,17/11/2024 13:54:48,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""select * from MSFT_GatewayHealthEvent"" en la que no existe la clase de destino ""MSFT_GatewayHealthEvent"" en el espacio de nombres //./root/Microsoft/Windows/RemoteAccess/GatewayHealthMonitor. Se omitirá la consulta."
+Error,17/11/2024 13:54:47,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos RAServerPSProvider intentó registrar la consulta ""select * from RemoteAccessError"" en la que no existe la clase de destino ""RemoteAccessError"" en el espacio de nombres //./ROOT/Microsoft/Windows/RemoteAccess/Server. Se omitirá la consulta."
+Error,17/11/2024 13:54:47,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""select * from RemoteAccessError"" en la que no existe la clase de destino ""RemoteAccessError"" en el espacio de nombres //./ROOT/Microsoft/Windows/RemoteAccess/Server. Se omitirá la consulta."
+Error,17/11/2024 13:54:44,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos RAMgmtPSProvider intentó registrar la consulta ""select * from RemoteAccessError"" en la que no existe la clase de destino ""RemoteAccessError"" en el espacio de nombres //./ROOT/Microsoft/Windows/RemoteAccess. Se omitirá la consulta."
+Error,17/11/2024 13:54:44,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""select * from RemoteAccessError"" en la que no existe la clase de destino ""RemoteAccessError"" en el espacio de nombres //./ROOT/Microsoft/Windows/RemoteAccess. Se omitirá la consulta."
+Error,17/11/2024 13:54:44,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos BgpServerProvider intentó registrar la consulta ""select * from RouteEvent2"" en la que no existe la clase de destino ""RouteEvent2"" en el espacio de nombres //./root/Microsoft/Windows/RemoteAccess/Routing. Se omitirá la consulta."
+Error,17/11/2024 13:54:44,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos BgpServerProvider intentó registrar la consulta ""select * from RouteEvent"" en la que no existe la clase de destino ""RouteEvent"" en el espacio de nombres //./root/Microsoft/Windows/RemoteAccess/Routing. Se omitirá la consulta."
+Error,17/11/2024 13:54:44,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""select * from RouteEvent2"" en la que no existe la clase de destino ""RouteEvent2"" en el espacio de nombres //./root/Microsoft/Windows/RemoteAccess/Routing. Se omitirá la consulta."
+Error,17/11/2024 13:54:44,Microsoft-Windows-WMI,24,Ninguno,"El proveedor de eventos  intentó registrar la consulta ""select * from RouteEvent"" en la que no existe la clase de destino ""RouteEvent"" en el espacio de nombres //./root/Microsoft/Windows/RemoteAccess/Routing. Se omitirá la consulta."
+Advertencia,17/11/2024 13:54:31,Microsoft-Windows-WMI,63,Ninguno,"Un proveedor (WebAdministrationProvider) se ha registrado en el espacio de nombres del Instrumental de administración de Windows, Root\WebAdministration, para usar la cuenta LocalSystem. Esta cuenta tiene privilegios y el proveedor puede originar una infracción de seguridad si no suplanta correctamente las solicitudes de usuarios."
+Advertencia,17/11/2024 13:54:31,Microsoft-Windows-WMI,63,Ninguno,"Un proveedor (WebAdministrationProvider) se ha registrado en el espacio de nombres del Instrumental de administración de Windows, Root\WebAdministration, para usar la cuenta LocalSystem. Esta cuenta tiene privilegios y el proveedor puede originar una infracción de seguridad si no suplanta correctamente las solicitudes de usuarios."
+Advertencia,17/11/2024 13:54:31,Microsoft-Windows-WMI,63,Ninguno,"Un proveedor (WebAdministrationProvider) se ha registrado en el espacio de nombres del Instrumental de administración de Windows, Root\WebAdministration, para usar la cuenta LocalSystem. Esta cuenta tiene privilegios y el proveedor puede originar una infracción de seguridad si no suplanta correctamente las solicitudes de usuarios."
+Información,17/11/2024 13:54:12,MSSQL$MICROSOFT##WID,3408,Servidor,Se completó la recuperación. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:12,MSSQL$MICROSOFT##WID,17126,Servidor,SQL Server ya está preparado para recibir conexiones de clientes. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:10,MSSQL$MICROSOFT##WID,9688,Servidor,Se ha iniciado el administrador de Service Broker.
+Información,17/11/2024 13:54:10,MSSQL$MICROSOFT##WID,9666,Servidor,El extremo Creación de reflejo de la base de datos está deshabilitado o se ha detenido.
+Información,17/11/2024 13:54:10,MSSQL$MICROSOFT##WID,9666,Servidor,El extremo Service Broker está deshabilitado o se ha detenido.
+Información,17/11/2024 13:54:10,MSSQL$MICROSOFT##WID,17117,Servidor,La base de datos tempdb tiene 1 archivos de datos.
+Información,17/11/2024 13:54:10,MSSQL$MICROSOFT##WID,17137,Servidor,Iniciando la base de datos 'tempdb'.
+Información,17/11/2024 13:54:10,MSSQL$MICROSOFT##WID,17136,Servidor,Borrando la base de datos tempdb.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17137,Servidor,Iniciando la base de datos 'model'.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,958,Servidor,La versión de compilación de la base de datos de recursos es 12.00.5214. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17137,Servidor,Iniciando la base de datos 'msdb'.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17137,Servidor,Iniciando la base de datos 'mssqlsystemresource'.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17199,Servidor,"No se inició la compatibilidad con la conexión de administrador dedicada porque está deshabilitada en esta edición de SQL Server. Si desea utilizar una conexión de administrador dedicada, reinicie el SQL Server mediante una marca de seguimiento 7806. No se requiere ninguna acción por parte del usuario."
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,26048,Servidor,El proveedor de la conexión local del servidor está preparado para aceptar la conexión en [ \\.\pipe\MICROSOFT##WID\tsql\query ].
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,5602,Servidor,La regeneración de la clave maestra de servicio se realizó correctamente.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17108,Servidor,Se actualizó correctamente la directiva de contraseñas.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17663,Servidor,El nombre de servidor es 'WIN-1I8FL1H3DE7\MICROSOFT##WID'. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,19030,Servidor,"Se inició el Id. de seguimiento de SQL 1 con el inicio de sesión ""sa""."
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,33218,Servidor,SQL Server Audit ha iniciado las auditorías. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,33217,Servidor,SQL Server Audit está iniciando las auditorías. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,10981,Servidor,La reconfiguración del regulador de recursos se completó correctamente.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,5604,Servidor,El intento de regeneración de contraseña para SA se realizó correctamente.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,6253,Servidor,Se inicializó la funcionalidad Common Language Runtime (CLR) con la versión de CLR v4.0.30319 de C:\Windows\Microsoft.NET\Framework64\v4.0.30319\.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17137,Servidor,Iniciando la base de datos 'master'.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,49910,Servidor,Métrica de uso de software está deshabilitada.
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17118,Servidor,"Inicialización instantánea de archivos de la base de datos: deshabilitado. Por consideraciones de seguridad y rendimiento, vea el tema ""Inicialización instantánea de archivos de la base de datos"" en Libros en pantalla de SQL Server. Este es un mensaje informativo. No se requiere ninguna acción del usuario."
+Información,17/11/2024 13:54:09,MSSQL$MICROSOFT##WID,17125,Servidor,Utilizando la asignación dinámica de bloqueos. Asignación inicial de 2500 Bloques de bloqueo y 5000 Bloques de propietarios de bloqueo por nodo. Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17811,Servidor,El número máximo de conexiones de administrador dedicadas para esta instancia es '1'
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17152,Servidor,Configuración de nodo: nodo 0: máscara de CPU: 0x0000000000000003:0. Máscara de CPU activa: 0x0000000000000003:0. Este mensaje proporciona una descripción de la configuración de NUMA para este equipo. Es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17107,Servidor,Los contadores Perfmon para fondos y grupos de regulación de recursos están deshabilitados porque no se inicializaron.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,49917,Servidor,Intercalación predeterminada: SQL_Latin1_General_CP1_CI_AS (us_english 1033)
+Error,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,8317,Servidor,No se puede consultar 'First Counter' asociado con la clave del Registro 'HKLM\SYSTEM\CurrentControlSet\Services\MSSQL$MICROSOFT##WID\Performance'. Los contadores de rendimiento de SQL Server están deshabilitados.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,852,Servidor,Usando la memoria convencional en el administrador de memoria.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,49903,Servidor,Se han detectado 4735 MB de RAM. Este es un mensaje informativo; no se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17162,Servidor,Se está iniciando SQL Server con una prioridad base normal (=7). Este es un mensaje meramente informativo. No se requiere ninguna acción por parte del usuario.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17164,Servidor,"SQL Server detectó 1 sockets con 2 núcleos por socket y 2 procesadores lógicos por socket, 2 procesadores lógicos en total; con 2 procesadores lógicos basados en licencias de SQL Server. Este es un mensaje informativo; no se requiere ninguna acción por parte del usuario."
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17115,Servidor,"Parámetros de inicio de la línea de comandos:
+	 -S ""MSWIN8.SQLWID""
+	 -s ""MICROSOFT##WID"""
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17110,Servidor,"Parámetros de inicio del Registro: 
+	 -d C:\Windows\WID\Data\master.mdf
+	 -l C:\Windows\WID\Data\mastlog.ldf
+	 -e C:\Windows\WID\Log\error.log
+	 -K
+	 -T 1617
+	 -w 65535"
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,49904,Servidor,La cuenta de servicio es 'NT SERVICE\MSSQL$MICROSOFT##WID'. Este es un mensaje informativo; no se requiere ninguna acción del usuario.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17111,Servidor,Registrando mensajes de SQL Server en el archivo 'C:\Windows\WID\Log\error.log'.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,15268,Servidor,El modo de autenticación es WINDOWS-ONLY.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,18496,Servidor,"Fabricante del sistema: 'innotek GmbH', modelo del sistema: 'VirtualBox'."
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17104,Servidor,El id. de proceso del servidor es 1368.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17103,Servidor,Todos los derechos reservados.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17101,Servidor,(c) Microsoft Corporation.
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,49916,Servidor,Ajuste de UTC: 1:00
+Información,17/11/2024 13:54:08,MSSQL$MICROSOFT##WID,17069,Servidor,Microsoft SQL Server 2014 (SP2-GDR) (KB4057120) - 12.0.5214.6 (X64) 
+	Jan  9 2018 15:03:12 
+	Copyright (c) Microsoft Corporation
+	Windows Internal Database (64-bit) on Windows NT 6.3 <X64> (Build 20348: ) (Hypervisor)
+
+Información,17/11/2024 13:54:08,Microsoft-Windows-Search-ProfileNotify,5,Ninguno,"El servicio Windows Search creó una configuración predeterminada para el nuevo usuario 'NT SERVICE\MSSQL$MICROSOFT##WID' .
+"
+Error,17/11/2024 13:54:05,VSS,8193,Ninguno,"Error del Servicio de instantáneas de volumen: error inesperado al llamar a la rutina RegOpenKeyExW(-2147483646,SYSTEM\CurrentControlSet\Services\VSS\Diag,...). HR = 0x80070005, Acceso denegado.
+. 
+
+Operación:
+   Inicializando el escritor
+
+Contexto:
+   Id. de clase del escritor: {8d5194e1-e455-434a-b2e5-51296cce67df}
+   Nombre del escritor: WIDWriter
+   Nombre de instancia del escritor: Microsoft SQL Server 2014:SQLWriter
+   Id. de instancia del escritor: {4e718494-034c-4644-80e1-988d0fae7b39}"
+Advertencia,17/11/2024 13:54:05,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento State. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Advertencia,17/11/2024 13:54:05,EvntAgnt,3007,Ninguno,Error al abrir el archivo de registro de evento Parameters. No se procesará el registro. El código devuelto desde OpenEventLog es 87.
+Información,17/11/2024 13:52:32,Desktop Window Manager,9027,Ninguno,El Administrador de ventanas de escritorio registró el puerto de sesión.
+Advertencia,17/11/2024 13:52:32,Dwminit,0,Ninguno,Se cerró el proceso del Administrador de ventanas de escritorio (código de salida del proceso: 0x8898009b; reiniciar recuento: 1; id. del dispositivo de pantalla principal: Microsoft Basic Display Adapter).
+Información,17/11/2024 13:52:32,Windows Error Reporting,1001,Ninguno,"Depósito con errores 1981015871728870133, tipo 4
+Nombre de evento: APPCRASH
+Respuesta: No disponible
+Identificador de archivo .cab: 0
+
+Firma del problema:
+P1: dwm.exe
+P2: 10.0.20348.1
+P3: f69847a5
+P4: StackHash_6feb
+P5: 0.0.0.0
+P6: 00000000
+P7: 8898009b
+P8: PCH_2A_FROM_KERNELBASE+0x000000000013ACF2
+P9: 
+P10: 
+
+Archivos adjuntos:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.d121452d-98f3-4b48-a390-265d02047e4c.tmp.dmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.d1c623b1-2a3f-410e-bf2a-5d16f59c4b62.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e80339bf-d3bc-4dac-8833-3b1b7c8e45b8.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.75d6e2f7-927a-48b2-9b28-f58f184fc5dc.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.6a5a8448-d740-42a0-9257-a43223bd0ddd.tmp.txt
+
+Es posible que estos archivos estén disponibles aquí:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_dwm.exe_af911539c6c4fd777629878d73beda5ddf51c_1c3f833a_cc244329-2de3-47b2-89d5-cb92280a56c4
+
+Símbolo de análisis: 
+Nueva búsqueda de una solución: 0
+Id. de informe: 991a4423-9947-49bc-abc8-b5b90e4398e0
+Estado del informe: 268435456
+Depósito con algoritmo hash: 59d9b51ef6b40c4dfb7dfb7080cf62f5
+GUID de archivo .cab: 0"
+Error,17/11/2024 13:52:28,Application Error,1000,(100),"Nombre de la aplicación con errores: dwm.exe, versión: 10.0.20348.1, marca de tiempo: 0xf69847a5
+Nombre del módulo con errores: unknown, versión: 0.0.0.0, marca de tiempo: 0x00000000
+Código de excepción: 0x8898009b
+Desplazamiento de errores: 0x0000000000000000
+Identificador del proceso con errores: 0x3e8
+Hora de inicio de la aplicación con errores: 0x01db38edd12adb6b
+Ruta de acceso de la aplicación con errores: C:\Windows\system32\dwm.exe
+Ruta de acceso del módulo con errores: unknown
+Identificador del informe: 991a4423-9947-49bc-abc8-b5b90e4398e0
+Nombre completo del paquete con errores: 
+Identificador de aplicación relativa del paquete con errores: "
+Información,17/11/2024 13:50:28,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:21:28Z. Motivo: RulesEngine.
+Información,17/11/2024 13:49:57,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 13:48:50,Microsoft-Windows-Management-UI,2316,Machine Picker Active Directory Initialize.,"Active Directory Initialize Error: System.DirectoryServices.ActiveDirectory.ActiveDirectoryObjectNotFoundException: El equipo local no está unido a un dominio o no se puede establecer contacto con el dominio.
+   en System.DirectoryServices.ActiveDirectory.Domain.GetComputerDomain()
+   en Microsoft.Management.UI.Primitives.ActiveDirectoryWrapperFactory.GetComputerDomain()
+   en Microsoft.Management.UI.Primitives.ActiveDirectoryNavigationItemFactory.CreateInternal(Object state)"
+Información,17/11/2024 13:48:12,Microsoft-Windows-Management-UI,2316,Machine Picker Active Directory Initialize.,"Active Directory Initialize Error: System.DirectoryServices.ActiveDirectory.ActiveDirectoryObjectNotFoundException: El equipo local no está unido a un dominio o no se puede establecer contacto con el dominio.
+   en System.DirectoryServices.ActiveDirectory.Domain.GetComputerDomain()
+   en Microsoft.Management.UI.Primitives.ActiveDirectoryWrapperFactory.GetComputerDomain()
+   en Microsoft.Management.UI.Primitives.ActiveDirectoryNavigationItemFactory.CreateInternal(Object state)"
+Información,17/11/2024 13:44:40,Microsoft-Windows-LoadPerf,1000,Ninguno,Se cargaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro en la sección de datos contienen los nuevos valores de los índices asignados a este servicio.
+Información,17/11/2024 13:44:40,Microsoft-Windows-LoadPerf,1001,Ninguno,Se quitaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro contienen los nuevos valores de las entradas del Registro Último contador y Última ayuda del sistema.
+Información,17/11/2024 13:42:50,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2025-04-16T12:20:50Z. Motivo: RulesEngine.
+Información,17/11/2024 13:42:19,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 13:42:19,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:<explicit>"
+Información,17/11/2024 13:42:19,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC se inició con la configuración siguiente: Configuración de seguridad (desactivada = 0 y activada = 1): Permitir administrador remoto = 0, Clientes de red = 0, Comunicación con el administrador de transacciones:  Permitir transacciones entrantes = 0, Permitir transacciones salientes = 0, Protocolo Internet de transacciones (TIP) = 0,  Habilitar transacciones XA = 0,  Habilitar transacciones de SNA LU 6.2 = 1,  Seguridad de las comunicaciones MSDTC = Se requiere autenticación mutua, Cuenta = NT AUTHORITY\NetworkService,  Detección de exclusión del firewall = 0 Puente de transacciones instalado = 0 Filtrar eventos duplicados = 1"
+Información,17/11/2024 13:42:18,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 13:41:34,Microsoft-Windows-Security-SPP,903,Ninguno,"Se detuvo el servicio de protección de software.
+"
+Información,17/11/2024 13:41:33,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2024-11-18T12:39:33Z. Motivo: TBL.
+Información,17/11/2024 13:41:23,Microsoft-Windows-WMI,5617,Ninguno,Los subsistemas del servicio Instrumental de administración de Windows se inicializaron correctamente
+Información,17/11/2024 13:41:18,Microsoft-Windows-WMI,5611,Ninguno,El servicio Instrumental de administración de Windows detectó un cierre del sistema incoherente.
+Información,17/11/2024 13:40:34,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación.
+Información,17/11/2024 13:40:29,Microsoft-Windows-Winlogon,6003,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación crítico.
+Información,17/11/2024 13:40:20,Microsoft-Windows-Security-SPP,902,Ninguno,"Se inició el servicio de protección de software.
+10.0.20348.587"
+Información,17/11/2024 13:40:20,Microsoft-Windows-Security-SPP,1037,Ninguno,Tiempo de licencia con límite de tiempo que queda: validity horas 259182 minutos.
+Información,17/11/2024 13:40:20,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 259182)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,17/11/2024 13:40:19,Microsoft-Windows-Security-SPP,1066,Ninguno,"Estado de inicialización para objetos de servicio.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Información,17/11/2024 13:40:19,Microsoft-Windows-Security-SPP,16394,Ninguno,La migración de nivel inferior sin conexión se realizó correctamente.
+Información,17/11/2024 13:40:15,Microsoft-Windows-Security-SPP,900,Ninguno,"Se está iniciando el servicio de protección de software.
+Parámetros:TriggerStarted:6"
+Información,17/11/2024 13:40:15,Microsoft-Windows-WMI,5615,Ninguno,El servicio Instrumental de administración de Windows se inició correctamente
+Información,17/11/2024 13:40:05,Microsoft-Windows-User Profiles Service,1531,Ninguno,"El Servicio de perfiles de usuario se ha iniciado correctamente. 
+
+"
+Información,17/11/2024 13:27:42,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 13:23:25,Microsoft-Windows-LoadPerf,1000,Ninguno,Se cargaron correctamente los contadores de rendimiento del servicio WmiApRpl (WmiApRpl). Los datos de registro en la sección de datos contienen los nuevos valores de los índices asignados a este servicio.
+Información,17/11/2024 13:22:42,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 13:22:11,Microsoft-Windows-Security-SPP,903,Ninguno,"Se detuvo el servicio de protección de software.
+"
+Información,17/11/2024 13:22:11,Microsoft-Windows-Security-SPP,16384,Ninguno,El servicio de protección de software se programó correctamente para reiniciarse a las 2024-11-18T12:21:11Z. Motivo: TBL.
+Información,17/11/2024 13:21:41,Microsoft-Windows-Security-SPP,8197,Ninguno,"SLUI.exe se inició con los parámetros de línea de comandos siguientes:
+RuleId=379cccfb-d4e0-48fe-b0f2-0136097be147;Action=CleanupState;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=1d02774d-66ab-4c57-8b14-e254fdce09d4;Trigger=TimerEvent"
+Información,17/11/2024 13:21:41,Microsoft-Windows-Security-SPP,8230,Ninguno,"El motor de reglas reevaluó correctamente la programación.
+Directivas de kernel:
+Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;GraceEndDate=2025/05/16:12:21:40;LastConsumptionReason=0x4004fc04;LastNotificationId=Cleanup;LicenseState=SL_LICENSING_STATUS_LICENSED;PartialProductKey=37CYR;ProductKeyType=Retail:TB:Eval;SkuId=1d02774d-66ab-4c57-8b14-e254fdce09d4;ruleId=379cccfb-d4e0-48fe-b0f2-0136097be147;uxDifferentiator=TIMEBASED_EVAL"
+Información,17/11/2024 13:21:40,Microsoft-Windows-Security-SPP,16388,Ninguno,La hora actual es 2024-11-17T12:21:40Z : 2024-11-17T12:21:40Z.
+Información,17/11/2024 13:21:40,Microsoft-Windows-Security-SPP,8197,Ninguno,"SLUI.exe se inició con los parámetros de línea de comandos siguientes:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=1d02774d-66ab-4c57-8b14-e254fdce09d4;NotificationInterval=1440;Trigger=UserLogon;SessionId=1"
+Información,17/11/2024 13:21:39,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 259200)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,17/11/2024 13:21:39,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 259200)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,17/11/2024 13:21:39,Microsoft-Windows-Security-SPP,1037,Ninguno,Tiempo de licencia con límite de tiempo que queda: validity horas 259200 minutos.
+Información,17/11/2024 13:21:39,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)( 9 0x00000000 180 259200)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+
+"
+Información,17/11/2024 13:21:38,Microsoft-Windows-Security-SPP,1033,Ninguno,"Se excluyeron las directivas porque solo están definidas con el atributo de solo invalidación.
+Nombres de directiva=(Security-SPP-Reserved-EnableNotificationMode) 
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 13:21:38,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-Reserved-LicenseProperties  Prioridad=100
+Información,17/11/2024 13:21:38,Microsoft-Windows-Security-SPP,1036,Ninguno,"Comenzó el período de validez. Minutos de validez=259200, tipo de gracia=9."
+Información,17/11/2024 13:21:35,Microsoft-Windows-Security-SPP,12311,Ninguno,Se ha desencadenado correctamente el cliente MSA para actualizar la licencia de dispositivo
+Información,17/11/2024 13:21:33,Microsoft-Windows-Security-SPP,12304,Ninguno,Vale genuino adquirido correctamente para el Id. de plantilla {99d92734-d682-4d71-983e-d6ec3f16059f}
+Información,17/11/2024 13:21:33,Microsoft-Windows-Security-SPP,12305,Ninguno,Estado genuino establecido en genuino para el Id. de aplicación 55c92734-d682-4d71-983e-d6ec3f16059f
+Información,17/11/2024 13:21:32,Microsoft-Windows-Security-SPP,20489,Ninguno,"Recopilación de datos de validación de copia original finalizada. 
+"
+Información,17/11/2024 13:21:32,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-WriteWauMarker  Prioridad=500
+Información,17/11/2024 13:21:32,Microsoft-Windows-Security-SPP,20482,Ninguno,"Comprobación de mantenimiento superada. 
+"
+Información,17/11/2024 13:21:29,Microsoft-Windows-Security-SPP,20481,Ninguno,"Comprobación de mantenimiento iniciada. 
+"
+Información,17/11/2024 13:21:25,Microsoft-Windows-Security-SPP,20488,Ninguno,"Recopilación de datos de validación de copia original iniciada. 
+"
+Información,17/11/2024 13:21:23,Microsoft-Windows-Security-SPP,1067,Ninguno,"Se estableció la información original para la aplicación. 0x00000000, 1d02774d-66ab-4c57-8b14-e254fdce09d4, SL_ACTIVATION_VALIDATION_IN_PROGRESS.
+"
+Información,17/11/2024 13:21:23,Microsoft-Windows-Security-SPP,1004,Ninguno,"El servicio de protección de software instaló correctamente la licencia.
+Título de la licencia=XrML 2.1 License - {msft:sl/EUL/ACTIVATED/PRIVATE}
+Id. de licencia=f63deb6e-04c3-456d-889d-df17060a0cef"
+Información,17/11/2024 13:21:23,Microsoft-Windows-Security-SPP,1004,Ninguno,"El servicio de protección de software instaló correctamente la licencia.
+Título de la licencia=XrML 2.1 License - {msft:sl/EUL/ACTIVATED/PUBLIC}
+Id. de licencia=bee578c7-afcd-4185-a755-8a41ef83d31b"
+Error,17/11/2024 13:21:23,Microsoft-Windows-Security-SPP,8198,Ninguno,"Error de la activación de licencia (slui.exe) con el siguiente código:
+hr=0xC004E028
+Argumentos de línea de comandos:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=1d02774d-66ab-4c57-8b14-e254fdce09d4;NotificationInterval=1440;Trigger=TimerEvent"
+Información,17/11/2024 13:21:23,Microsoft-Windows-Security-SPP,1013,Ninguno,"La licencia para el usuario final se adquirió correctamente.
+Id. de SKU=1d02774d-66ab-4c57-8b14-e254fdce09d4"
+Información,17/11/2024 13:21:23,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 1], [(?)( 1 0x00000000)( 6 0x00000000 10 14395)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])]
+
+"
+Información,17/11/2024 13:21:22,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 1], [(?)( 1 0x00000000)( 6 0x00000000 10 14395)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])]
+
+"
+Información,17/11/2024 13:21:21,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC se inició con la configuración siguiente: Configuración de seguridad (desactivada = 0 y activada = 1): Permitir administrador remoto = 0, Clientes de red = 0, Comunicación con el administrador de transacciones:  Permitir transacciones entrantes = 0, Permitir transacciones salientes = 0, Protocolo Internet de transacciones (TIP) = 0,  Habilitar transacciones XA = 0,  Habilitar transacciones de SNA LU 6.2 = 1,  Seguridad de las comunicaciones MSDTC = Se requiere autenticación mutua, Cuenta = NT AUTHORITY\NetworkService,  Detección de exclusión del firewall = 0 Puente de transacciones instalado = 0 Filtrar eventos duplicados = 1"
+Información,17/11/2024 13:21:20,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 1 [(0 )(1 )(2 )(3 [0x00000000, 0, 1], [(?)( 1 0x00000000)( 6 0x00000000 10 14395)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])]
+
+"
+Información,17/11/2024 13:21:15,Microsoft-Windows-Security-SPP,8230,Ninguno,"El motor de reglas reevaluó correctamente la programación.
+Directivas de kernel:
+Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;GraceEndDate=2024/11/27:12:16:12;LastConsumptionReason=0x4004f00c;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_IN_GRACE_PERIOD;PartialProductKey=37CYR;ProductKeyType=Retail:TB:Eval;SkuId=1d02774d-66ab-4c57-8b14-e254fdce09d4;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=TIMEBASED_EVAL"
+Información,17/11/2024 13:21:12,Microsoft-Windows-Security-SPP,16388,Ninguno,La hora actual es 2024-11-17T12:21:11Z : 2024-11-17T12:21:12Z.
+Información,17/11/2024 13:21:10,Microsoft-Windows-Security-SPP,8230,Ninguno,"El motor de reglas reevaluó correctamente la programación.
+Directivas de kernel:
+Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;GraceEndDate=2024/11/27:12:16:04;LastConsumptionReason=0x4004f00c;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_IN_GRACE_PERIOD;PartialProductKey=37CYR;ProductKeyType=Retail:TB:Eval;SkuId=1d02774d-66ab-4c57-8b14-e254fdce09d4;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=TIMEBASED_EVAL"
+Información,17/11/2024 13:20:53,Microsoft-Windows-Security-SPP,16388,Ninguno,La hora actual es 2024-11-17T12:20:53Z : 2024-11-17T12:20:53Z.
+Información,17/11/2024 13:20:25,Microsoft-Windows-CAPI2,4113,Ninguno,"La actualización automática de las reglas de PIN se realizó correctamente con fecha de vigencia: ‎jueves, ‎1‎ de ‎junio‎ de ‎2017 0:28:59."
+Información,17/11/2024 13:20:04,Microsoft-Windows-Winlogon,6000,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación.
+Información,17/11/2024 13:20:00,Microsoft-Windows-Search-ProfileNotify,5,Ninguno,"El servicio Windows Search creó una configuración predeterminada para el nuevo usuario 'WIN-1I8FL1H3DE7\Administrador' .
+"
+Información,17/11/2024 13:19:57,Microsoft-Windows-Winlogon,6003,Ninguno,El suscriptor de notificaciones winlogon <SessionEnv> no estaba disponible para controlar un evento de notificación crítico.
+Información,17/11/2024 13:19:44,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US>, huella digital Sha1: <DF3C24F9BFD666761B268073FE06D1CC8D4F82A4>."
+Información,17/11/2024 13:19:36,Microsoft-Windows-CAPI2,4097,Ninguno,"Actualización automática correcta del certificado raíz de terceros: sujeto: <CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US>, huella digital Sha1: <A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436>."
+Información,17/11/2024 13:19:22,Microsoft-Windows-CAPI2,4112,Ninguno,"Actualización automática correcta de la lista de certificados no permitidos con fecha efectiva: ‎lunes, ‎18‎ de ‎septiembre‎ de ‎2023 21:01:08."
+Información,17/11/2024 13:19:14,Microsoft-Windows-WMI,5617,Ninguno,Los subsistemas del servicio Instrumental de administración de Windows se inicializaron correctamente
+Información,17/11/2024 13:18:49,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 13:18:36,Microsoft-Windows-WMI,5615,Ninguno,El servicio Instrumental de administración de Windows se inició correctamente
+Información,17/11/2024 13:18:29,Microsoft-Windows-User Profiles Service,1531,Ninguno,"El Servicio de perfiles de usuario se ha iniciado correctamente. 
+
+"
+Información,17/11/2024 13:18:29,Microsoft-Windows-EventSystem,4625,Ninguno,El subsistema EventSystem suprimirá las entradas duplicadas del registro de eventos durante 86400 segundos. El tiempo de espera de supresión puede controlarse por un valor REG_DWORD llamado SuppressDuplicateDuration en la siguiente clave del Registro: HKLM\Software\Microsoft\EventSystem\EventLog.
+Información,17/11/2024 13:18:28,Microsoft-Windows-Security-SPP,1003,Ninguno,"El servicio de protección de software completó la comprobación del estado de licencias.
+Id. de aplicación=55c92734-d682-4d71-983e-d6ec3f16059f
+Estado de licencias=
+1: 1d02774d-66ab-4c57-8b14-e254fdce09d4, 1, 0 [(0 )(1 )(2 )(3 [0x00000000, 0, 1], [(?)( 1 0x00000000)( 6 0x00000000 10 14398)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])]
+
+"
+Información,17/11/2024 13:18:28,Microsoft-Windows-Security-SPP,1034,Ninguno,Se encontró una definición duplicada de la directiva. Nombre de directiva=Security-SPP-WriteWauMarker  Prioridad=500
+Información,17/11/2024 13:18:27,Microsoft-Windows-Security-SPP,1016,Ninguno,"La prueba de compra se instaló correctamente.
+ACID=1d02774d-66ab-4c57-8b14-e254fdce09d4
+PKeyId=25c8070b-d601-52f1-d9e7-3f22563141e7"
+Información,17/11/2024 13:17:13,Microsoft-Windows-User Profiles Service,1532,Ninguno,"El Servicio de perfiles de usuario se ha detenido. 
+
+"
+Información,17/11/2024 13:16:37,Microsoft-Windows-Defrag,258,Ninguno,El optimizador de almacenamiento completó correctamente reducir en (C:)
+Información,17/11/2024 13:16:00,Microsoft-Windows-WMI,5617,Ninguno,Los subsistemas del servicio Instrumental de administración de Windows se inicializaron correctamente
+Información,17/11/2024 13:15:56,edgeupdate,0,Ninguno,Service stopped.
+Información,17/11/2024 13:15:52,Microsoft-Windows-WMI,5615,Ninguno,El servicio Instrumental de administración de Windows se inició correctamente
+Información,17/11/2024 13:15:46,Microsoft-Windows-User Profiles Service,1531,Ninguno,"El Servicio de perfiles de usuario se ha iniciado correctamente. 
+
+"

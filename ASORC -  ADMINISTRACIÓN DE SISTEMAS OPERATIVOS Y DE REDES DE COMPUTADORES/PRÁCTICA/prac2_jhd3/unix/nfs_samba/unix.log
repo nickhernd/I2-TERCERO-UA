@@ -1,0 +1,125 @@
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+/var/log/bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+/var/log/bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+/var/log/messages:Nov 14 21:39:21 nickhernd pkg[1075]: libnfs-5.0.2_1 installed
+/var/log/bsdinstall_log:DEBUG: smbios.system.maker=[innotek GmbH]
+/var/log/bsdinstall_log:DEBUG: smbios.system.product=[VirtualBox]
+/var/log/bsdinstall_log:DEBUG: smbios.system.version=[1.2]
+/var/log/bsdinstall_log:DEBUG: smbios.planar.maker=[Oracle Corporation]
+/var/log/bsdinstall_log:DEBUG: smbios.planar.product=[VirtualBox]
+/var/log/daemon.log:Nov 15 23:08:42 freebsd smbd[1347]: [2024/11/15 23:08:42.342122,  0] ../../source3/smbd/server.c:1741(main)
+/var/log/daemon.log:Nov 15 23:08:42 freebsd smbd[1347]:   smbd version 4.16.11 started.
+/var/log/daemon.log:Nov 15 23:08:42 freebsd smbd[1347]:   Copyright Andrew Tridgell and the Samba Team 1992-2022
+/var/log/messages:Nov 14 21:32:15 nickhernd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 14 21:32:15 nickhernd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 14 21:32:15 nickhernd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 14 21:32:15 nickhernd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 14 21:32:15 nickhernd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 14 21:46:37 nickhernd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 14 21:46:37 nickhernd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 14 21:46:37 nickhernd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 14 21:46:37 nickhernd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 14 21:46:37 nickhernd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 14 20:51:16 nickhernd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 14 20:51:16 nickhernd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 14 20:51:16 nickhernd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 14 20:51:16 nickhernd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 14 20:51:16 nickhernd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 14 20:59:23 nickhernd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 14 20:59:23 nickhernd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 14 20:59:23 nickhernd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 14 20:59:23 nickhernd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 14 20:59:23 nickhernd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 19:36:49 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 19:36:49 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 19:36:49 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 19:36:49 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 19:36:49 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 19:31:41 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 19:31:41 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 19:31:41 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 19:31:41 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 19:31:41 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 19:40:26 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 19:40:26 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 19:40:26 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 19:40:26 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 19:40:26 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 20:27:58 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 20:27:58 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 20:27:58 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 20:27:58 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 20:27:58 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 21:51:53 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 21:51:53 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 21:51:53 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 21:51:53 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 21:51:53 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 22:23:46 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 22:23:46 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 22:23:46 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 22:23:46 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 22:23:46 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 23:03:52 freebsd kernel: smbios0: <System Management BIOS> at iomem 0xfff60-0xfff7e
+/var/log/messages:Nov 15 23:03:52 freebsd kernel: smbios0: Version: 2.5, BCD Revision: 2.5
+/var/log/messages:Nov 15 23:03:52 freebsd kernel: intsmb0: <Intel PIIX4 SMBUS Interface> irq 23 at device 7.0 on pci0
+/var/log/messages:Nov 15 23:03:52 freebsd kernel: intsmb0: intr IRQ 9 enabled revision 0
+/var/log/messages:Nov 15 23:03:52 freebsd kernel: smbus0: <System Management Bus> on intsmb0
+/var/log/messages:Nov 15 23:08:42 freebsd smbd[1347]: [2024/11/15 23:08:42.342122,  0] ../../source3/smbd/server.c:1741(main)
+/var/log/messages:Nov 15 23:08:42 freebsd smbd[1347]:   smbd version 4.16.11 started.
+/var/log/messages:Nov 15 23:08:42 freebsd smbd[1347]:   Copyright Andrew Tridgell and the Samba Team 1992-2022
+/var/log/samba4/smbd.log:[2024/11/15 23:08:42.342122,  0] ../../source3/smbd/server.c:1741(main)
+/var/log/samba4/smbd.log:  smbd version 4.16.11 started.

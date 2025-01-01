@@ -1,0 +1,16 @@
+   94 pkg info | grep bind
+   95 pkg install -y bind918
+   96 ls -l /usr/local/etc/rc.d/named
+   97 chmod 555 /usr/local/etc/rc.d/named
+   98 service named start
+   99 chown -R bind:bind /usr/local/etc/namedb
+  100 service named start
+  101 CD
+  102 cd
+  103 service named status
+  104 named-checkconf
+  105 named-checkzone midominio.local /usr/local/etc/namedb/master/midominio.local
+  106 named-checkzone 24.168.192.in-addr.arpa /usr/local/etc/namedb/master/24.168.192.in-addr.arpa
+  107 nslookup www.midominio.local 192.168.24.42
+  108 nslookup www.ua.es 192.168.24.42
+  109 mkdir -p /memoria/unix/dns

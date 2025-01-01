@@ -1,0 +1,37 @@
+50 pkg update
+   51 pkg install openssh-server
+   52 sysrc sshd_enable="YES"
+   53 service sshd start
+   54 service sshd status
+   55 ee /etc/rc.conf
+   56 ifconfig
+   57 ping 192.168.24.1
+   58 ee /etc/ssh/sshd_config
+   59 mkdir -p ~/.ssh
+   60 clear
+   61 systemctl status ssh
+   62 systemd status ssh
+   63 sudo service sshd status
+   64 ssh-keygen -lf ~/.ssh/id_rsa
+   65 ls -lf ~/.ssh/
+   66 ssh-keyden -lf ~/.ssh/freebsd_key
+   67 ssh-keygen -lf ~/.ssh/freebsd_key
+   68 touch ~/.ssh/id_rsa
+   69 ssh-keygen -lf ~/.ssh/id_rsa
+   70 ssh-copy-id -i ~/.ssh/id_rsa.pub clera
+   71 clear
+   72 ee /etc/ssh/sshd_config
+   73 systemd status ssh
+   74 ssh-keygen -t rsa -b 4096
+   75 mkdir -p /memoria/unix/ssh
+   76 chmod 700 ~/.ssh
+   77 touch ~/.ssh/authorized_keys
+   78 chmod 600 ~/.ssh/authorized_keys
+   79 ee /etc/ssh/sshd_config
+   80 service sshd restart
+   81 tail -f /var/log/auth.log
+   82 grep -R "sshd" /var/log/* > /memoria/unix/ssh/unix.log
+   83 cp /etc/ssh/sshd_config /memoria/unix/ssh/
+   84 cp ~/.ssh/id_rsa.pub /memoria/unix/ssh/
+   85 cp ~/.ssh/authorized_keys /memoria/unix/ssh/
+   86 history > /memoria/unix/ssh/historyunix.txt

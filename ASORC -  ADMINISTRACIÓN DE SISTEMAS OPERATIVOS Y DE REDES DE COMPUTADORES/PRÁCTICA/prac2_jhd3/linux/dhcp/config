@@ -1,0 +1,98 @@
+# /etc/dhcp/dhcpd.conf
+###############################################################################
+# Global configuration parameters
+###############################################################################
+authoritative;
+ddns-update-style none;
+default-lease-time 600;
+max-lease-time 7200;
+log-facility local7;
+
+# Define subnet and range according to practice requirements
+subnet 192.168.24.0 netmask 255.255.255.0 {
+    range 192.168.24.51 192.168.24.100;
+    option routers 192.168.24.1;
+    option domain-name-servers 192.168.24.41;
+    option domain-name "debian.local";
+    option broadcast-address 192.168.24.255;
+    option subnet-mask 255.255.255.0;
+}
+
+# Reserved addresses (examples)
+host printer1 {
+    hardware ethernet 00:11:22:33:44:55;
+    fixed-address 192.168.24.51;
+    option host-name "printer1";
+}
+
+host workstation1 {
+    hardware ethernet 00:11:22:33:44:66;
+    fixed-address 192.168.24.52;
+    option host-name "workstation1";
+}
+
+# Specific client definitions
+group {
+    use-host-decl-names on;
+    include "/etc/dhcp/fixed-hosts";
+}
+
+# /etc/default/isc-dhcp-server
+###############################################################################
+# Default configuration for DHCP server
+###############################################################################
+# Path to dhcpd's config file
+DHCPDv4_CONF=/etc/dhcp/dhcpd.conf
+DHCPDv6_CONF=/etc/dhcp/dhcpd6.conf
+
+# Path to dhcpd's PID file
+DHCPDv4_PID=/var/run/dhcpd.pid
+DHCPDv6_PID=/var/run/dhcpd6.pid
+
+# Interface configuration
+INTERFACESv4="enp0s3"
+INTERFACESv6=""
+
+# Additional options for more verbose logging as per practice requirements
+OPTIONS="-4 -q -d -cf /etc/dhcp/dhcpd.conf -lf /var/lib/dhcp/dhcpd.leases"
+
+# /etc/dhcp/fixed-hosts
+###############################################################################
+# Fixed host declarations
+###############################################################################
+host server1 {
+    hardware ethernet 00:11:22:33:44:77;
+    fixed-address 192.168.24.53;
+    option host-name "server1";
+}
+
+host server2 {
+    hardware ethernet 00:11:22:33:44:88;
+    fixed-address 192.168.24.54;
+    option host-name "server2";
+}
+
+# /etc/dhcp/dhclient.conf
+###############################################################################
+# DHCP client configuration
+###############################################################################
+timeout 60;
+retry 60;
+reboot 10;
+select-timeout 5;
+initial-interval 2;
+reject 192.168.24.0/24;
+
+# /etc/logrotate.d/isc-dhcp-server
+###############################################################################
+# Log rotation configuration for DHCP server
+###############################################################################
+/var/log/dhcp/dhcpd.log {
+    weekly
+    rotate 12
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 644 root root
+}

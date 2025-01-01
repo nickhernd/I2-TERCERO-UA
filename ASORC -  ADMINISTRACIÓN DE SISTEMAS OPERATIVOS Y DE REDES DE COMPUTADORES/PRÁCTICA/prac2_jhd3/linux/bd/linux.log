@@ -1,0 +1,46 @@
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   librdf-storage-mysql librdf-storage-postgresql librdf-storage-sqlite
+/var/log/dpkg.log:2024-11-14 10:59:41 install mysql-common:all <none> 5.8+1.1.0
+/var/log/dpkg.log:2024-11-14 10:59:41 status half-installed mysql-common:all 5.8+1.1.0
+/var/log/dpkg.log:2024-11-14 10:59:41 status unpacked mysql-common:all 5.8+1.1.0
+/var/log/dpkg.log:2024-11-14 10:59:49 configure mysql-common:all 5.8+1.1.0 <none>
+/var/log/dpkg.log:2024-11-14 10:59:49 status unpacked mysql-common:all 5.8+1.1.0
+/var/log/dpkg.log:2024-11-14 10:59:49 status half-configured mysql-common:all 5.8+1.1.0
+/var/log/dpkg.log:2024-11-14 10:59:49 status installed mysql-common:all 5.8+1.1.0
+/var/log/dpkg.log:2024-11-14 11:00:00 install php8.2-mysql:amd64 <none> 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:00 status half-installed php8.2-mysql:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:01 status unpacked php8.2-mysql:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:01 install php-mysql:all <none> 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:01 status half-installed php-mysql:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:01 status unpacked php-mysql:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:18 configure php8.2-mysql:amd64 8.2.24-1~deb12u1 <none>
+/var/log/dpkg.log:2024-11-14 11:00:18 status unpacked php8.2-mysql:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:18 status half-configured php8.2-mysql:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:20 status installed php8.2-mysql:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:36 configure php-mysql:all 2:8.2+93 <none>
+/var/log/dpkg.log:2024-11-14 11:00:36 status unpacked php-mysql:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:36 status half-configured php-mysql:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:36 status installed php-mysql:all 2:8.2+93
+/var/log/alternatives.log:update-alternatives 2024-11-14 10:59:49: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+/var/log/alternatives.log:update-alternatives 2024-11-14 10:59:49: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+/var/log/alternatives.log:update-alternatives 2024-11-14 10:59:49: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200
+/var/log/alternatives.log:update-alternatives 2024-11-14 10:59:49: link group my.cnf updated to point to /etc/mysql/mariadb.cnf
+/var/log/apt/term.log:Selecting previously unselected package mysql-common.
+/var/log/apt/term.log:Preparing to unpack .../01-mysql-common_5.8+1.1.0_all.deb ...
+/var/log/apt/term.log:Unpacking mysql-common (5.8+1.1.0) ...
+/var/log/apt/term.log:Setting up mysql-common (5.8+1.1.0) ...
+/var/log/apt/term.log:update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+/var/log/apt/term.log:update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+/var/log/apt/term.log:Selecting previously unselected package php8.2-mysql.
+/var/log/apt/term.log:Preparing to unpack .../30-php8.2-mysql_8.2.24-1~deb12u1_amd64.deb ...
+/var/log/apt/term.log:Unpacking php8.2-mysql (8.2.24-1~deb12u1) ...
+/var/log/apt/term.log:Selecting previously unselected package php-mysql.
+/var/log/apt/term.log:Preparing to unpack .../31-php-mysql_2%3a8.2+93_all.deb ...
+/var/log/apt/term.log:Unpacking php-mysql (2:8.2+93) ...
+/var/log/apt/term.log:Setting up php8.2-mysql (8.2.24-1~deb12u1) ...
+/var/log/apt/term.log:Creating config file /etc/php/8.2/mods-available/mysqlnd.ini with new version
+/var/log/apt/term.log:Creating config file /etc/php/8.2/mods-available/mysqli.ini with new version
+/var/log/apt/term.log:Creating config file /etc/php/8.2/mods-available/pdo_mysql.ini with new version
+/var/log/apt/term.log:Setting up php-mysql (2:8.2+93) ...
+/var/log/apt/history.log:Commandline: apt install apache2 mariadb-server libapache2-mod-php php-gd php-mysql php-curl php-mbstring php-intl php-gmp php-bcmath php-xml php-zip php-json
+/var/log/apt/history.log:Install: mariadb-plugin-provider-bzip2:amd64 (1:10.11.6-0+deb12u1, automatic), mariadb-server:amd64 (1:10.11.6-0+deb12u1), php8.2-mysql:amd64 (8.2.24-1~deb12u1, automatic), libdbi-perl:amd64 (1.643-4, automatic), mariadb-client-core:amd64 (1:10.11.6-0+deb12u1, automatic), libdbd-mariadb-perl:amd64 (1.22-1+b1, automatic), galera-4:amd64 (26.4.18-0+deb12u1, automatic), mysql-common:amd64 (5.8+1.1.0, automatic), php-gd:amd64 (2:8.2+93), libapache2-mod-php:amd64 (2:8.2+93), php-common:amd64 (2:93, automatic), mariadb-plugin-provider-lzma:amd64 (1:10.11.6-0+deb12u1, automatic), libapache2-mod-php8.2:amd64 (8.2.24-1~deb12u1, automatic), libsigsegv2:amd64 (2.14-1, automatic), mariadb-server-core:amd64 (1:10.11.6-0+deb12u1, automatic), php8.2-mbstring:amd64 (8.2.24-1~deb12u1, automatic), php8.2-curl:amd64 (8.2.24-1~deb12u1, automatic), php8.2-bcmath:amd64 (8.2.24-1~deb12u1, automatic), php8.2-opcache:amd64 (8.2.24-1~deb12u1, automatic), php-curl:amd64 (2:8.2+93), php8.2-intl:amd64 (8.2.24-1~deb12u1, automatic), php8.2-readline:amd64 (8.2.24-1~deb12u1, automatic), php-intl:amd64 (2:8.2+93), libhtml-template-perl:amd64 (2.97-2, automatic), gawk:amd64 (1:5.2.1-2, automatic), libdaxctl1:amd64 (76.1-1, automatic), php-mbstring:amd64 (2:8.2+93), libterm-readkey-perl:amd64 (2.38-2+b1, automatic), php-gmp:amd64 (2:8.2+93), mariadb-plugin-provider-snappy:amd64 (1:10.11.6-0+deb12u1, automatic), php-mysql:amd64 (2:8.2+93), rsync:amd64 (3.2.7-1, automatic), libconfig-inifiles-perl:amd64 (3.000003-2, automatic), mariadb-common:amd64 (1:10.11.6-0+deb12u1, automatic), php-xml:amd64 (2:8.2+93), php-json:amd64 (2:8.2+93), php-zip:amd64 (2:8.2+93), libzip4:amd64 (1.7.3-1+b1, automatic), libndctl6:amd64 (76.1-1, automatic), libmariadb3:amd64 (1:10.11.6-0+deb12u1, automatic), php-bcmath:amd64 (2:8.2+93), mariadb-client:amd64 (1:10.11.6-0+deb12u1, automatic), mariadb-plugin-provider-lz4:amd64 (1:10.11.6-0+deb12u1, automatic), mariadb-plugin-provider-lzo:amd64 (1:10.11.6-0+deb12u1, automatic), php8.2-gd:amd64 (8.2.24-1~deb12u1, automatic), socat:amd64 (1.7.4.4-2, automatic), pv:amd64 (1.6.20-1, automatic), php8.2-cli:amd64 (8.2.24-1~deb12u1, automatic), php8.2-common:amd64 (8.2.24-1~deb12u1, automatic), php8.2-gmp:amd64 (8.2.24-1~deb12u1, automatic), libpmem1:amd64 (1.12.1-2, automatic), php8.2-xml:amd64 (8.2.24-1~deb12u1, automatic), php8.2-zip:amd64 (8.2.24-1~deb12u1, automatic)
+/var/log/apt/history.log:Commandline: apt install mariadb-server php php-mysql php-cli

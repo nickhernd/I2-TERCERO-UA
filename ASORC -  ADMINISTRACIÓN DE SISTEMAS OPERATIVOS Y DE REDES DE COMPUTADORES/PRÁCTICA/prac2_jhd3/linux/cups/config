@@ -1,0 +1,60 @@
+# /etc/cups/cupsd.conf
+LogLevel debug2
+SystemGroup lpadmin
+Listen localhost:631
+Listen /var/run/cups/cups.sock
+Listen 192.168.24.41:631
+DefaultAuthType Basic
+WebInterface Yes
+ServerName PrintServer
+ServerAdmin root@localhost
+
+<Location />
+  Order allow,deny
+  Allow from 192.168.24.0/24
+  Allow from localhost
+  Require valid-user
+</Location>
+
+<Location /admin>
+  Order allow,deny
+  Allow from 192.168.24.0/24
+  Allow from localhost
+  AuthType Default
+  Require user @SYSTEM
+</Location>
+
+<Location /admin/conf>
+  AuthType Default
+  Require user @SYSTEM
+  Order allow,deny
+  Allow from 192.168.24.0/24
+</Location>
+
+# /etc/cups/printers.conf
+<Printer PDF>
+  UUID urn:uuid:4d6a8d91-3a11-37d8-9c4b-2ee4c5a12345
+  Info Virtual PDF Printer
+  Location Local System
+  DeviceURI cups-pdf:/
+  State Idle
+  StateTime 1700251200
+  ConfigTime 1700251200
+  Type 8425684
+  Accepting Yes
+  Shared Yes
+  JobSheets none none
+  QuotaPeriod 0
+  PageLimit 0
+  KLimit 0
+  OpPolicy default
+  ErrorPolicy retry-job
+</Printer>
+
+# /etc/cups/cups-pdf.conf
+Out ${HOME}/PDF
+AnonDirName /var/spool/cups-pdf/ANONYMOUS
+Grp lpadmin
+Label Debian-PDF
+LogType 3
+Log /var/log/cups/cups-pdf_log

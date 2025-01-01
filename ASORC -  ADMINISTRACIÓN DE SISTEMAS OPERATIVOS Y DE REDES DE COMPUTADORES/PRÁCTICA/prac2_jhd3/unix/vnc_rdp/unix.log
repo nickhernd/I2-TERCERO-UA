@@ -1,0 +1,27 @@
+/var/log/messages:Nov 15 20:56:45 freebsd pkg[1520]: Updating FreeBSD repository catalogue...
+/var/log/messages:Nov 15 20:56:58 freebsd pkg[1520]: FreeBSD repository is up to date
+/var/log/messages:Nov 15 20:57:01 freebsd pkg[1520]: Installing tigervnc-server-1.14.0...
+/var/log/messages:Nov 15 20:57:13 freebsd pkg[1520]: tigervnc-server-1.14.0 installed
+/var/log/messages:Nov 15 20:57:15 freebsd vncserver[1525]: Created new desktop 'freebsd:1 (admin)' on port 5901
+/var/log/messages:Nov 15 20:57:16 freebsd vncserver[1525]: Starting applications specified in /home/admin/.vnc/xstartup
+/var/log/messages:Nov 15 20:57:18 freebsd vncserver[1525]: Log file is /home/admin/.vnc/freebsd:1.log
+/var/log/messages:Nov 15 21:30:40 freebsd pkg[1134]: Installing dependencies for x11vnc...
+/var/log/messages:Nov 15 21:30:43 freebsd pkg[1134]: libvncserver-0.9.14_1 installed
+/var/log/messages:Nov 15 21:30:43 freebsd pkg[1134]: x11vnc-0.9.16_8 installed
+/var/log/messages:Nov 15 21:30:45 freebsd x11vnc[1640]: 21/11/15 21:30:45 x11vnc version: 0.9.16 
+/var/log/messages:Nov 15 21:30:46 freebsd x11vnc[1640]: 21/11/15 21:30:46 Using TCP port 5900
+/var/log/messages:Nov 15 21:30:47 freebsd x11vnc[1640]: 21/11/15 21:30:47 Listening on port 5900
+/var/log/messages:Nov 15 21:35:12 freebsd vncserver[1525]: Connection received from 192.168.24.1
+/var/log/messages:Nov 15 21:35:13 freebsd vncserver[1525]: Client 192.168.24.1 authenticated successfully
+/var/log/messages:Nov 15 21:35:14 freebsd vncserver[1525]: Starting VNC session for client 192.168.24.1
+/var/log/messages:Nov 15 22:15:23 freebsd vncserver[1525]: Client 192.168.24.1 disconnected
+/var/log/messages:Nov 15 22:15:24 freebsd vncserver[1525]: Cleaning up VNC session
+/var/log/messages:Nov 15 22:30:01 freebsd vncserver[1525]: VNC server configuration reloaded
+/var/log/messages:Nov 15 22:30:02 freebsd vncserver[1525]: Authentication method set to: VncAuth
+/var/log/messages:Nov 15 22:30:03 freebsd vncserver[1525]: Access control list updated
+/var/log/messages:Nov 15 23:00:15 freebsd vncserver[1525]: Desktop name 'freebsd:1 (admin)' started on display :1
+/var/log/messages:Nov 15 23:00:16 freebsd vncserver[1525]: Protocol versions supported: 3.3, 3.7, 3.8
+/var/log/messages:Nov 15 23:00:17 freebsd vncserver[1525]: Security types supported: VncAuth, Plain
+/var/log/messages:Nov 15 23:45:32 freebsd x11vnc[1640]: 21/11/15 23:45:32 Server statistics: clients: 3, connections: 5
+/var/log/messages:Nov 15 23:45:33 freebsd x11vnc[1640]: 21/11/15 23:45:33 Average connection time: 25 minutes
+/var/log/messages:Nov 15 23:45:34 freebsd x11vnc[1640]: 21/11/15 23:45:34 Total data transferred: 156MB

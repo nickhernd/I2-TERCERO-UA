@@ -1,0 +1,14 @@
+/var/log/dpkg.log:2024-11-14 10:13:28 install slapd:amd64 <none> 2.5.13+dfsg-5
+/var/log/dpkg.log:2024-11-14 10:13:28 status half-installed slapd:amd64 2.5.13+dfsg-5
+/var/log/dpkg.log:2024-11-14 10:13:29 status unpacked slapd:amd64 2.5.13+dfsg-5
+/var/log/dpkg.log:2024-11-14 10:13:29 configure slapd:amd64 2.5.13+dfsg-5 <none>
+/var/log/dpkg.log:2024-11-14 10:13:29 status unpacked slapd:amd64 2.5.13+dfsg-5
+/var/log/dpkg.log:2024-11-14 10:13:29 status half-configured slapd:amd64 2.5.13+dfsg-5
+/var/log/dpkg.log:2024-11-14 10:13:31 status installed slapd:amd64 2.5.13+dfsg-5
+/var/log/boot.log:         Starting [0;1;39mslapd.service[0m - LSB: OpenLDAP standalone server (Lightweight Directory Access Protocol)...
+/var/log/apt/term.log:Selecting previously unselected package slapd.
+/var/log/apt/term.log:Preparing to unpack .../slapd_2.5.13+dfsg-5_amd64.deb ...
+/var/log/apt/term.log:Unpacking slapd (2.5.13+dfsg-5) ...
+/var/log/apt/term.log:Setting up slapd (2.5.13+dfsg-5) ...
+/var/log/apt/history.log:Commandline: apt install slapd ldap-utils
+/var/log/apt/history.log:Install: libodbc2:amd64 (2.3.11-2+deb12u1, automatic), slapd:amd64 (2.5.13+dfsg-5), ldap-utils:amd64 (2.5.13+dfsg-5)

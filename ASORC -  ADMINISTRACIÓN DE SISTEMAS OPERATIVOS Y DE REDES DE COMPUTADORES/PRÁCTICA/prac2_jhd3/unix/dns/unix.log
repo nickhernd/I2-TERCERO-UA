@@ -1,0 +1,213 @@
+/var/log/Xorg.0.log:[    86.932] (II) config/udev: Adding input device (unnamed) (/dev/vboxguest)
+/var/log/Xorg.0.log:[    86.932] (II) Using input driver 'vboxmouse' for '(unnamed)'
+/var/log/Xorg.0.log:[    86.932] (**) (unnamed): always reports core events
+/var/log/Xorg.0.log:[    86.932] (**) (unnamed): Device: "/dev/vboxguest"
+/var/log/Xorg.0.log:[    86.932] (II) XINPUT: Adding extended input device "(unnamed)" (type: MOUSE, id 10)
+/var/log/Xorg.0.log:[    86.932] (**) (unnamed): (accel) keeping acceleration scheme 1
+/var/log/Xorg.0.log:[    86.932] (**) (unnamed): (accel) acceleration profile 0
+/var/log/Xorg.0.log:[    86.932] (**) (unnamed): (accel) acceleration factor: 2.000
+/var/log/Xorg.0.log:[    86.932] (**) (unnamed): (accel) acceleration threshold: 4
+/var/log/Xorg.0.log:[    86.932] (II) (unnamed): On.
+/var/log/Xorg.0.log.old:[    95.773] (II) config/udev: Adding input device (unnamed) (/dev/vboxguest)
+/var/log/Xorg.0.log.old:[    95.782] (II) Using input driver 'vboxmouse' for '(unnamed)'
+/var/log/Xorg.0.log.old:[    95.782] (**) (unnamed): always reports core events
+/var/log/Xorg.0.log.old:[    95.782] (**) (unnamed): Device: "/dev/vboxguest"
+/var/log/Xorg.0.log.old:[    95.782] (II) XINPUT: Adding extended input device "(unnamed)" (type: MOUSE, id 10)
+/var/log/Xorg.0.log.old:[    95.782] (**) (unnamed): (accel) keeping acceleration scheme 1
+/var/log/Xorg.0.log.old:[    95.782] (**) (unnamed): (accel) acceleration profile 0
+/var/log/Xorg.0.log.old:[    95.782] (**) (unnamed): (accel) acceleration factor: 2.000
+/var/log/Xorg.0.log.old:[    95.782] (**) (unnamed): (accel) acceleration threshold: 4
+/var/log/Xorg.0.log.old:[    95.782] (II) (unnamed): On.
+/var/log/bsdinstall_log:DEBUG: Found network device named em0
+/var/log/bsdinstall_log:DEBUG: Found network device named em1
+/var/log/bsdinstall_log:DEBUG: Found disk device named ada0
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: starting BIND 9.18.30 (Extended Support Version) <id:>
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: running on FreeBSD amd64 14.1-RELEASE FreeBSD 14.1-RELEASE releng/14.1-n267679-10e31f0946d8 GENERIC
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: built with  '--disable-linux-caps' '--localstatedir=/var' '--sysconfdir=/usr/local/etc/namedb' '--with-dlopen=yes' '--with-libxml2' '--with-openssl=/usr' '--enable-dnsrps' '--with-readline=libedit' '--enable-dnstap' '--disable-fixed-rrset' '--disable-geoip' '--without-maxminddb' '--without-gssapi' '--with-libidn2=/usr/local' '--with-json-c' '--disable-largefile' '--with-lmdb=/usr/local' '--disable-querytrace' '--enable-tcp-fastopen' '--prefix=/usr/local' '--mandir=/usr/local/share/man' '--disable-silent-rules' '--infodir=/usr/local/share/info/' '--build=amd64-portbld-freebsd14.1' 'build_alias=amd64-portbld-freebsd14.1' 'CC=cc' 'CFLAGS=-O2 -pipe  -DLIBICONV_PLUG -fstack-protector-strong -isystem /usr/local/include -fno-strict-aliasing ' 'LDFLAGS= -L/usr/local/lib -ljson-c  -fstack-protector-strong ' 'LIBS=-L/usr/local/lib' 'CPPFLAGS=-DLIBICONV_PLUG -isystem /usr/local/include' 'CPP=cpp' 'PKG_CONFIG=pkgconf' 'PKG_CONFIG_LIBDIR=/wrkdirs/usr/ports/dns/bind918/work/.pkgconfig:/usr/local/libdata/pkgconfig:/usr/local/share/pkgconfig:/usr/libdata/pkgconfig' 'PYTHON=/usr/local/bin/python3.11' 'READLINE_CFLAGS=-L/usr/local/lib'
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: running as: named -4 -u bind -c /usr/local/etc/namedb/named.conf
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled by CLANG FreeBSD Clang 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled with OpenSSL version: OpenSSL 3.0.13 30 Jan 2024
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: linked to OpenSSL version: OpenSSL 3.0.13 30 Jan 2024
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled with libuv version: 1.49.0
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: linked to libuv version: 1.49.0
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled with libxml2 version: 2.11.9
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: linked to libxml2 version: 21109
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled with json-c version: 0.18
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: linked to json-c version: 0.18
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled with zlib version: 1.3.1
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: linked to zlib version: 1.3.1
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: ----------------------------------------------------
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: BIND 9 is maintained by Internet Systems Consortium,
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: corporation.  Support and training for BIND 9 are 
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: available at https://www.isc.org/support
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: ----------------------------------------------------
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: found 2 CPUs, using 2 worker threads
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: using 2 UDP listeners per interface
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: DNSSEC algorithms: RSASHA1 NSEC3RSASHA1 RSASHA256 RSASHA512 ECDSAP256SHA256 ECDSAP384SHA384 ED25519 ED448
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: DS algorithms: SHA-1 SHA-256 SHA-384
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: HMAC algorithms: HMAC-MD5 HMAC-SHA1 HMAC-SHA224 HMAC-SHA256 HMAC-SHA384 HMAC-SHA512
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: TKEY mode 2 support (Diffie-Hellman): yes
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: TKEY mode 3 support (GSS-API): no
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: the initial working directory is '/'
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: loading configuration from '/usr/local/etc/namedb/named.conf'
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: the working directory is now '/usr/local/etc/namedb/working'
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: reading built-in trust anchors from file '/usr/local/etc/namedb/bind.keys'
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: using default UDP/IPv4 port range: [49152, 65535]
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: listening on IPv4 interface em1, 192.168.24.42#53
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: listening on IPv4 interface lo0, 127.0.0.1#53
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: generating session key for dynamic DNS
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: sizing zone task pool based on 2 zones
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: none:99: 'max-cache-size 90%' - setting to 4225MB (out of 4694MB)
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: obtaining root key for view _default from '/usr/local/etc/namedb/bind.keys'
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: set up managed keys zone for view _default, file 'managed-keys.bind'
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 10.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 16.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 17.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 18.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 19.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 20.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 21.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 22.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 23.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 24.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 25.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 26.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 27.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 28.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 29.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 30.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 31.172.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 168.192.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 64.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 65.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 66.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 67.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 68.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 69.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 70.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 71.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 72.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 73.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 74.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 75.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 76.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 77.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 78.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 79.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 80.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 81.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 82.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 83.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 84.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 85.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 86.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 87.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 88.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 89.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 90.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 91.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 92.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 93.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 94.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 95.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 96.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 97.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 98.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 99.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 100.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 101.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 102.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 103.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 104.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 105.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 106.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 107.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 108.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 109.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 110.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 111.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 112.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 113.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 114.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 115.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 116.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 117.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 118.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 119.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 120.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 121.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 122.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 123.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 124.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 125.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 126.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 127.100.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 0.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 127.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 254.169.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: D.F.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 8.E.F.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 9.E.F.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: A.E.F.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: B.E.F.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: EMPTY.AS112.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: HOME.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: automatic empty zone: RESOLVER.ARPA
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: configuring command channel from '/usr/local/etc/namedb/rndc.key'
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: command channel listening on 127.0.0.1#953
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: managed-keys-zone: loaded serial 0
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: zone midominio.local/IN: loaded serial 2023112001
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: zone 24.168.192.in-addr.arpa/IN: loaded serial 2023112001
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: all zones loaded
+/var/log/daemon.log:Nov 16 00:13:59 freebsd named[2427]: running
+/var/log/daemon.log:Nov 16 00:14:00 freebsd named[2427]: timed out resolving './DNSKEY/IN': 84.88.0.37#53
+/var/log/daemon.log:Nov 16 00:14:01 freebsd named[2427]: timed out resolving './DNSKEY/IN': 84.88.0.38#53
+/var/log/daemon.log:Nov 16 00:14:01 freebsd named[2427]: managed-keys-zone: Initializing automatic trust anchor management for zone '.'; DNSKEY ID 20326 is now trusted, waiving the normal 30-day waiting period.
+/var/log/daemon.log:Nov 16 00:15:23 freebsd named[2427]: timed out resolving 'www.ua.es/A/IN': 84.88.0.38#53
+/var/log/daemon.log:Nov 16 00:15:24 freebsd named[2427]: timed out resolving 'www.ua.es/A/IN': 84.88.0.37#53
+/var/log/daemon.log:Nov 16 00:15:27 freebsd named[2427]: timed out resolving 'ua.es/NS/IN': 84.88.0.38#53
+/var/log/daemon.log:Nov 16 00:15:28 freebsd named[2427]: timed out resolving 'ua.es/NS/IN': 84.88.0.37#53
+/var/log/daemon.log:Nov 16 00:15:29 freebsd named[2427]: timed out resolving 'ua.es/DS/IN': 84.88.0.38#53
+/var/log/daemon.log:Nov 16 00:15:30 freebsd named[2427]: timed out resolving 'ua.es/DS/IN': 84.88.0.37#53
+/var/log/daemon.log:Nov 16 00:15:32 freebsd named[2427]: timed out resolving 'es/DNSKEY/IN': 84.88.0.38#53
+/var/log/daemon.log:Nov 16 00:15:33 freebsd named[2427]: timed out resolving 'es/DNSKEY/IN': 84.88.0.37#53
+/var/log/daemon.log:Nov 16 00:15:34 freebsd named[2427]: timed out resolving 'vuala.ua.es/A/IN': 84.88.0.37#53
+/var/log/daemon.log:Nov 16 00:15:35 freebsd named[2427]: timed out resolving 'vuala.ua.es/A/IN': 84.88.0.38#53
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: starting BIND 9.18.30 (Extended Support Version) <id:>
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: running on FreeBSD amd64 14.1-RELEASE FreeBSD 14.1-RELEASE releng/14.1-n267679-10e31f0946d8 GENERIC
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: built with  '--disable-linux-caps' '--localstatedir=/var' '--sysconfdir=/usr/local/etc/namedb' '--with-dlopen=yes' '--with-libxml2' '--with-openssl=/usr' '--enable-dnsrps' '--with-readline=libedit' '--enable-dnstap' '--disable-fixed-rrset' '--disable-geoip' '--without-maxminddb' '--without-gssapi' '--with-libidn2=/usr/local' '--with-json-c' '--disable-largefile' '--with-lmdb=/usr/local' '--disable-querytrace' '--enable-tcp-fastopen' '--prefix=/usr/local' '--mandir=/usr/local/share/man' '--disable-silent-rules' '--infodir=/usr/local/share/info/' '--build=amd64-portbld-freebsd14.1' 'build_alias=amd64-portbld-freebsd14.1' 'CC=cc' 'CFLAGS=-O2 -pipe  -DLIBICONV_PLUG -fstack-protector-strong -isystem /usr/local/include -fno-strict-aliasing ' 'LDFLAGS= -L/usr/local/lib -ljson-c  -fstack-protector-strong ' 'LIBS=-L/usr/local/lib' 'CPPFLAGS=-DLIBICONV_PLUG -isystem /usr/local/include' 'CPP=cpp' 'PKG_CONFIG=pkgconf' 'PKG_CONFIG_LIBDIR=/wrkdirs/usr/ports/dns/bind918/work/.pkgconfig:/usr/local/libdata/pkgconfig:/usr/local/share/pkgconfig:/usr/libdata/pkgconfig' 'PYTHON=/usr/local/bin/python3.11' 'READLINE_CFLAGS=-L/usr/local/lib'
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: running as: named -4 -u bind -c /usr/local/etc/namedb/named.conf
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled by CLANG FreeBSD Clang 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled with OpenSSL version: OpenSSL 3.0.13 30 Jan 2024
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: linked to OpenSSL version: OpenSSL 3.0.13 30 Jan 2024
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled with libuv version: 1.49.0
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: linked to libuv version: 1.49.0
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled with libxml2 version: 2.11.9
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: linked to libxml2 version: 21109
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled with json-c version: 0.18
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: linked to json-c version: 0.18
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled with zlib version: 1.3.1
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: linked to zlib version: 1.3.1
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: ----------------------------------------------------
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: BIND 9 is maintained by Internet Systems Consortium,
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: Inc. (ISC), a non-profit 501(c)(3) public-benefit 
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: corporation.  Support and training for BIND 9 are 
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: available at https://www.isc.org/support
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: ----------------------------------------------------
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: DNSSEC algorithms: RSASHA1 NSEC3RSASHA1 RSASHA256 RSASHA512 ECDSAP256SHA256 ECDSAP384SHA384 ED25519 ED448
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: DS algorithms: SHA-1 SHA-256 SHA-384
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: HMAC algorithms: HMAC-MD5 HMAC-SHA1 HMAC-SHA224 HMAC-SHA256 HMAC-SHA384 HMAC-SHA512
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: TKEY mode 2 support (Diffie-Hellman): yes
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: TKEY mode 3 support (GSS-API): no
+/var/log/messages:Nov 16 00:13:59 freebsd named[2427]: command channel listening on 127.0.0.1#953
+/var/log/messages:Nov 16 00:13:59 freebsd named[2427]: all zones loaded
+/var/log/messages:Nov 16 00:13:59 freebsd named[2427]: running
+/var/log/messages:Nov 16 00:14:01 freebsd named[2427]: managed-keys-zone: Initializing automatic trust anchor management for zone '.'; DNSKEY ID 20326 is now trusted, waiving the normal 30-day waiting period.

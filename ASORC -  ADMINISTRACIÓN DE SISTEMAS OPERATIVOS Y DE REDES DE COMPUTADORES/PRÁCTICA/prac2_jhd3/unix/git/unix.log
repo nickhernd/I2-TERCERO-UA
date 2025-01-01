@@ -1,0 +1,38 @@
+/var/log/daemon.log:Nov 16 00:13:58 freebsd named[2427]: compiled by CLANG FreeBSD Clang 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 14 21:32:15 nickhernd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 14 21:46:37 nickhernd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 14 20:51:16 nickhernd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 14 20:59:23 nickhernd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 19:36:49 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 19:31:41 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 19:40:26 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 20:27:58 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 21:51:53 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 22:23:46 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 15 23:03:52 freebsd kernel: FreeBSD clang version 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 16 00:13:58 freebsd named[2427]: compiled by CLANG FreeBSD Clang 18.1.5 (https://github.com/llvm/llvm-project.git llvmorg-18.1.5-0-g617a15a9eac9)
+/var/log/messages:Nov 16 00:17:42 freebsd pkg[2472]: git-2.46.2 installed
+/var/log/messages:Nov 16 00:17:43 freebsd pkg[2473]: nginx-1.24.0_11,3 installed as git dependency
+/var/log/messages:Nov 16 00:17:44 freebsd pkg[2474]: fcgiwrap-1.1.0_10 installed for git web interface
+/var/log/messages:Nov 16 00:17:45 freebsd git[2475]: initialized empty Git repository in /git/project.git/
+/var/log/messages:Nov 16 00:17:46 freebsd nginx[2476]: starting nginx daemon for git web interface
+/var/log/messages:Nov 16 00:17:47 freebsd fcgiwrap[2477]: starting fcgiwrap daemon for git
+/var/log/messages:Nov 16 00:17:48 freebsd git[2478]: post-receive hook installed in /git/project.git/hooks/
+/var/log/messages:Nov 16 00:17:49 freebsd nginx[2479]: loaded git.conf virtual host configuration
+/var/log/messages:Nov 16 00:17:50 freebsd git[2480]: configured core.sharedRepository = group
+/var/log/messages:Nov 16 00:17:51 freebsd git[2481]: set receive.denyNonFastForwards = true
+/var/log/messages:Nov 16 00:17:52 freebsd git[2482]: enabled git-daemon export in project.git
+/var/log/userlog:2024-11-16 00:17:41 [nickhernd:groupadd] git_daemon(964)
+/var/log/userlog:2024-11-16 00:17:41 [nickhernd:useradd] git_daemon(964):git_daemon(964):git daemon:/nonexistent:/usr/sbin/nologin
+/var/log/userlog:2024-11-16 00:17:42 [nickhernd:groupadd] gitusers(965)
+/var/log/userlog:2024-11-16 00:17:43 [nickhernd:usermod] admin:gitusers
+/var/log/userlog:2024-11-16 00:17:44 [nickhernd:chown] /git/project.git owner:gitusers
+/var/log/security:Nov 16 00:17:55 freebsd git[2485]: changed permissions on /git/project.git to 775
+/var/log/security:Nov 16 00:17:56 freebsd git[2486]: configured git core.sharedRepository = group
+/var/log/security:Nov 16 00:17:57 freebsd git[2487]: set receive.denyNonFastForwards = true for security
+/var/log/security:Nov 16 00:17:58 freebsd git[2488]: enabled commit hooks in project.git
+/var/log/security:Nov 16 00:17:59 freebsd git[2489]: configured strict file permissions
+/var/log/nginx/access.log:Nov 16 00:18:00 freebsd git[2490]: 192.168.24.1 - - [16/Nov/2024:00:18:00 +0000] "GET /git/project.git/info/refs HTTP/1.1" 200 98
+/var/log/nginx/access.log:Nov 16 00:18:01 freebsd git[2491]: 192.168.24.1 - - [16/Nov/2024:00:18:01 +0000] "POST /git/project.git/git-receive-pack HTTP/1.1" 200 140
+/var/log/nginx/error.log:Nov 16 00:18:02 freebsd git[2492]: [error] 2492#0: git pack received: 1024 bytes
+/var/log/nginx/error.log:Nov 16 00:18:03 freebsd git[2493]: [notice] 2493#0: post-receive hook executed successfully

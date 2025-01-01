@@ -1,0 +1,16 @@
+  218 mkdir -p /var/run/openldap
+  219 chown -R ldap:ldap /var/db/openldap-data
+  220 chown -R ldap:ldap /var/run/openldap
+  221 chmod 700 /var/db/openldap-data
+  222 ee /tmp/base.ldif
+  223 ldapadd -x -D "cn=admin,dc=midominio,dc=local" -W -f /tmp/base.ldif
+  224 clear
+  225 ldapadd -x -D "cn=admin,dc=midominio,dc=local" -W -f /tmp/base.ldif
+  226 ee /tmp/usuario.ldif
+  227 ldapsearch -x -b "dc=midominio,dc=local" -H ldap://localhost
+  228 ldapwhoami -x -D "uid=usuario1,ou=usuarios,dc=midominio,dc=local" -W
+  229 mkdir -p /memoria/unix/ldap/ficheros_configuracion
+  230 cp /usr/local/etc/openldap/slapd.conf /memoria/unix/ldap/ficheros_configuracion/
+  231 cp -r /usr/local/etc/openldap/schema /memoria/unix/ldap/ficheros_configuracion/
+  232 cp /tmp/base.ldif /memoria/unix/ldap/ficheros_configuracion/
+  233 cp /tmp/usuario.ldif /memoria/unix/ldap/ficheros_configuracion/

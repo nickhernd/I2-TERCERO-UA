@@ -1,0 +1,16 @@
+  110 ee /usr/local/pgsql/data/postgresql.conf
+  111 clear
+  112 ee /usr/local/pgsql/data/pg_hba.conf
+  113 chown -R postgres:postgres /usr/local/pgsql/data
+  114 service postgresql start
+  115 clear
+  116 service postgresql status
+  117 ps aux | grep postgres
+  118 netstat -an | grep 
+  119 clear
+  120 su - postgres
+  121 ee /usr/local/www/apache24/data/test_db.php
+  122 mkdir -p /memoria/unix/bd/ficheros_configuracion
+  123 cp /usr/local/pgsql/data/postgresql.conf /memoria/unix/bd/ficheros_configuracion/
+  124 cp /usr/local/pgsql/data/pg_hba.conf /memoria/unix/bd/ficheros_configuracion/
+  125 cp /usr/local/www/apache24/data/test_db.php /memoria/unix/bd/ficheros_configuracion/

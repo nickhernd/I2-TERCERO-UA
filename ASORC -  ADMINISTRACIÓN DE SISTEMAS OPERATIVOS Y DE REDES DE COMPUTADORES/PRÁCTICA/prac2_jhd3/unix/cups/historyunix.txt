@@ -1,0 +1,21 @@
+80 pkg update
+   81 pkg install -y cups cups-pdf
+   82 sysrc cupsd_enable="YES"
+   83 service cupsd start
+   84 cupsctl --debug-logging
+   85 mkdir -p /var/spool/cups-pdf/ANONYMOUS
+   86 chown -R root:cups /var/spool/cups-pdf
+   87 chmod -R 770 /var/spool/cups-pdf
+   88 lpadmin -p PDF -v cups-pdf:/ -m CUPS-PDF.ppd -E
+   89 lpadmin -p PDF -o printer-is-shared=true
+   90 cupsenable PDF
+   91 cupsaccept PDF
+   92 lpstat -p PDF
+   93 lpstat -t
+   94 cupsctl --share-printers
+   95 cupsctl --remote-admin --remote-any
+   96 service cupsd restart
+   97 tail -f /var/log/cups/access_log
+   98 tail -f /var/log/cups/error_log
+   99 lpinfo -v
+  100 lp -d PDF /etc/motd

@@ -1,0 +1,98 @@
+100 pkg update
+101 pkg install -y git
+102 pkg install -y nginx
+103 pkg install -y fcgiwrap
+104 cd /usr/local/etc/nginx
+105 cp nginx.conf.sample nginx.conf
+106 mkdir -p /git/project.git
+107 cd /git/project.git
+108 git init --bare
+109 chown -R www:www /git
+110 ee /usr/local/etc/nginx/nginx.conf
+111 sysrc nginx_enable="YES"
+112 sysrc fcgiwrap_enable="YES"
+113 service nginx start
+114 service fcgiwrap start
+115 git config --system user.name "FreeBSD Admin"
+116 git config --system user.email "admin@freebsd.local"
+117 ee /git/project.git/hooks/post-receive
+118 chmod +x /git/project.git/hooks/post-receive
+119 mkdir -p /usr/local/www/git
+120 chown -R www:www /usr/local/www/git
+121 ee /usr/local/etc/nginx/git.conf
+122 nginx -t
+123 service nginx reload
+124 pw groupadd gitusers
+125 pw usermod admin -G gitusers
+126 chown -R :gitusers /git
+127 chmod -R g+rw /git
+128 cd /home/admin
+129 git clone http://localhost/git/project.git
+130 cd project
+131 touch README.md
+132 git add README.md
+133 mkdir -p /memoria/unix/git
+134 mkdir -p /memoria/unix/nextcloud
+135 history > /memoria/unix/git/historyunix.txt
+136 history > /memoria/unix/nextcloud/historyunix.txt
+137 grep -R "git" /var/log/* > /memoria/unix/git/unix.log
+138 grep -R "nextcloud" /var/log/* > /memoria/unix/nextcloud/unix.log
+139 git status
+140 cd
+141 git clone /git/project.git
+142 cd project
+143 touch README.md
+144 git commit -m "initial commit"
+145 git push
+146 mkdir -p /memoria/unix/git/ficheros_configuracion
+147 cp /etc/gitconfig /memoria/unix/git/ficheros_configuracion/
+148 cp -r /git/project.git/config /memoria/unix/git/ficheros_configuracion/
+150 pkg install -y php80 php80-zip php80-zlib php80-xmlwriter
+151 pkg install -y php80-xml php80-pdo_mysql php80-pecl-redis
+152 pkg install -y mariadb106-server redis
+153 pkg install -y nextcloud-php80
+154 sysrc mysql_enable="YES"
+155 sysrc redis_enable="YES"
+156 service mysql-server start
+157 service redis start
+158 mysql_secure_installation
+159 mysql -u root -p
+160 CREATE DATABASE nextcloud;
+161 GRANT ALL PRIVILEGES ON nextcloud.* TO 'nextcloud'@'localhost' IDENTIFIED BY 'nextcloudpass';
+162 FLUSH PRIVILEGES;
+163 exit
+164 cd /usr/local/www/nextcloud
+165 cp config/config.sample.php config/config.php
+166 chown -R www:www /usr/local/www/nextcloud
+167 ee /usr/local/etc/php.ini
+168 ee /usr/local/etc/nginx/nginx.conf
+169 mkdir -p /usr/local/www/nextcloud/data
+170 chown -R www:www /usr/local/www/nextcloud/data
+171 chmod -R 770 /usr/local/www/nextcloud/data
+172 ee /usr/local/etc/php-fpm.d/www.conf
+173 sysrc php_fpm_enable="YES"
+174 service php-fpm start
+175 service nginx restart
+176 ee /usr/local/etc/nginx/nextcloud.conf
+177 nginx -t
+178 service nginx reload
+179 curl -k https://localhost/nextcloud/
+180 tail -f /var/log/nginx/error.log
+181 mkdir -p /memoria/unix/nextcloud/ficheros_configuracion
+182 cp /usr/local/etc/nginx/nextcloud.conf /memoria/unix/nextcloud/ficheros_configuracion/
+183 cp /usr/local/www/nextcloud/config/config.php /memoria/unix/nextcloud/ficheros_configuracion/
+184 cp /usr/local/etc/php.ini /memoria/unix/nextcloud/ficheros_configuracion/
+185 cp /usr/local/etc/php-fpm.d/www.conf /memoria/unix/nextcloud/ficheros_configuracion/
+186 service nginx status
+187 service php-fpm status
+188 service mysql-server status
+189 service redis status
+190 tail -f /var/log/nginx/nextcloud_access.log
+191 tail -f /var/log/nginx/nextcloud_error.log
+192 chown -R www:www /memoria/unix/nextcloud/ficheros_configuracion
+193 chmod -R 640 /memoria/unix/nextcloud/ficheros_configuracion
+194 occ maintenance:mode --on
+195 occ upgrade
+196 occ maintenance:mode --off
+197 occ status
+198 occ app:list

@@ -1,0 +1,16 @@
+  144 ee /etc/rc.conf
+  145 service apache24 start
+  146 service apache24 status
+  147 mv /usr/local/etc/apache24/Includes/nextcloud.conf /usr/local/etc/apache24/Includes/nextcloud.conf.bak
+  148 rm /usr/local/etc/apache24/Includes/nextcloud.conf
+  149 service apache24 start
+  150 mkdir -p /usr/local/etc/apache24/Includes
+  151 ee /usr/local/etc/apache24/Includes/site1.conf
+  152 ee /usr/local/etc/apache24/Includes/site2.conf
+  153 apachectl configtest
+  154 service apache24 restart
+  155 clear
+  156 mkdir -p /memoria/unix/web/ficheros_configuracion
+  157 cp /usr/local/etc/apache24/httpd.conf /memoria/unix/web/ficheros_configuracion/
+  158 cp /usr/local/etc/apache24/Includes/site1.conf /memoria/unix/web/ficheros_configuracion/
+  159 cp /usr/local/etc/apache24/Includes/site2.conf /memoria/unix/web/ficheros_configuracion/

@@ -1,0 +1,193 @@
+    1  sudo apt update
+    2  clear
+    3  ip 
+    4  clear
+    5  ip a
+    6  clear
+    7  ifconfig
+    8  clea
+    9  clear
+   10  sudo apt install net-tools
+   11  cleear
+   12  cleaer
+   13  clear
+   14  ifconfig
+   15  clear
+   16  hostname -I
+   17  ping www.hola.es
+   18  ping hola.com
+   19  clear
+   20  ping /c 4 google.com
+   21  clear
+   22  ping -c google.com
+   23  ping -c google.coclearm
+   24  clear
+   25  ping -c 4 google.com
+   26  ping -c 4 hola.com
+   27  clear
+   28  su root
+   29  ls
+   30  ls -la
+   31  su root
+   32  ip a
+   33  clear
+   34  sudo nano /etc/network/interfaces
+   35  ip a
+   36  clear
+   37  ip a > ./memoria/linux/network/config_red.txt
+   38  clear
+   39  ip a > ./memoria/linux/network/config_red.txt
+   40  mkdir -p memoria/{linux,unix,windows}
+   41  cd memoria/linux/
+   42  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   43  cd ../unix/
+   44  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   45  cd ../windows/
+   46  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   47  cd ../../
+   48  ip a > ./memoria/linux/network/config_red.txt
+   49  history > ./memoria/linux/network/historylinux.txt
+   50  sudo journal --since "1 hour ago" | grep -i network > ./memoria/linux/network/linux.log
+   51  sudo journalctl --since "1 hour ago" | grep -i network > ./memoria/linux/network/linux.log
+   52  clera
+   53  clear
+   54  sudo nano /etc/network/interfaces
+   55  clear
+   56  sudo systemctl restart networking
+   57  ip a
+   58  ip a > ./memoria/linux/network/config_red_final.txt 
+   59  journalctl -u networking --since "1 hour ago" > ./memoria/linux/network/linux.log
+   60  clear
+   61  sudo apt update
+   62  clear
+   63  sudo apt install openssh-server
+   64  clear
+   65  sudo nano /etc/ssh/sshd_config
+   66  sudo systemctl start sshd
+   67  sudo systemctl enable sshd
+   68  sudo apt list oppenssh-server
+   69  sudo apt install aponss-server -y
+   70  sudo apt install openssh-server -y
+   71  sudo systemctl status ssh
+   72  sudo systemctl enable ssh
+   73  sudo systemctl start ssh
+   74  ss -tunlp | grep ssh
+   75  sudo systemctl status sshd
+   76  clear
+   77  mkdir -p /root/memoria/linux/ssh/
+   78  clear
+   79  su root
+   80  SU ROOT
+   81  clear
+   82  su root
+   83  clear
+   84  ip a > ./memoria/linux/ssh/networ_config.txt
+   85  history > ./memoria/linux/ssh/historylinux.txt
+   86  journalctl -u networking --since "1 hour ago" > ./memoria/linux/network/linux.log
+   87  clear
+   88  ssh-keygen -t rsa -b 4096
+   89  clear
+   90  ss -tunlp | grep ssh
+   91  sudo cat /var/log/auth.log | grep sshd
+   92  sudo nano /etc/ssh/sshd_config
+   93  sudo systemctl restart ssh
+   94  clear
+   95  ssh-keygen -t rsa -b 4096
+   96  ssh-copy-id nick@192.168.24.41
+   97  CLEAR
+   98  clear
+   99  ssh nick@192.168.24.41
+  100  sudo mkdir -p /root/memoria/linux/vnc_rdp/
+  101  su root
+  102  clear
+  103  cñear
+  104  clear
+  105  scp archivo.xt nick@192.168.21.41:/home/nick/
+  106  sftp nick@192.168.24.41
+  107  clear
+  108  sudo cp /etc/ssh/sshd_config /root/memoria/linux/ssh/
+  109  clear
+  110  sudo apt update
+  111  clear
+  112  sudo apt install isc-dhcp-server
+  113  clear
+  114  sudo apt-get updage
+  115  sudo apt-get update
+  116  sudo apt-get upgrade
+  117  sudo apt install isc-dhcp-server
+  118  ping 8.8.8.8
+  119  sudo apt update --fix-missing
+  120  clear
+  121  ping 8.8.8.8
+  122  sudo nano /etc/network/interfaces
+  123  sudo systemctl restart networking.service 
+  124  su 
+  125  clear
+  126  ee /etc/network/interfaces
+  127  vi /etc/network/interfaces
+  128  nano /etc/network/interfaces
+  129  cat /etc/network/interfaces
+  130  scp /etc/prueba.txt ramaj@192.168.56.123:046404 /Users/ramaj
+  131  scp /etc/prueba.txt ramaj@192.168.56.123:046404 /Windows
+  132  scp /etc/prueba.txt ramaj@192.168.56.123:046404 /
+  133  scp /etc/prueba.txt ramaj@192.168.56.123:046404 \
+  134  scp /etc/prueba.txt ramaj@192.168.56.123:046404 \Users\ramaj
+  135  scp /etc/prueba.txt ramaj@192.168.56.123:046404 \Users
+  136  ssudo apt update
+  137  sudo apt install xfce4 xfce4-goodies
+  138  sudo apt install tigervnc-standalone-server tigervnc-common
+  139  sudo apt install xdp
+  140  sudo apt install xrdp
+  141  clear
+  142  vncserver
+  143  echo "archivo de preba" > test.txt
+  144  scp test.txt nick@192.168.24.41:~/
+  145  sftp nick@192.168.24.41
+  146  exit
+  147  ping 8.8.8.8
+  148  clear
+  149  sudo apt install xserver-xorg-core xorgxrdp
+  150  clear
+  151  sudo nano /etc/xrdp/xrdp.ini
+  152  sudo nano /etc/xrdp/startwm.sh
+  153  sudo nano /etc/gdm3/custom.conf 
+  154  sudo systemctl restart gm3
+  155  sudo systemctl restart gdm3
+  156  clear
+  157  sudo systemctl restart netwoeking
+  158  sudo systemctl restart networking
+  159  clera
+  160  clear
+  161  sudo apt update
+  162  reboot
+  163  sudo reboot
+  164  sudo apt install apache2 php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+  165  sudo mkdir -p /var/www/wordpress.practica
+  166  sudo mkdir -p /var/www/joomla.practica
+  167  clear
+  168  sudo nano /etc/apache2/sites-available/wordpress.practica.conf
+  169  sudo nano /etc/apache2/sites-available/joomla.practica.conf
+  170  clear
+  171  cd /tmp/
+  172  wget https://wordpress.org/latest.tar.gz
+  173  tar xzvf latest.tar.gz 
+  174  sudo cp -R wordpress/* /var/www/wordpress.practica/
+  175  sudo chown -R www-data:www-data /var/www/wordpress.practica
+  176  sudo chmod -R 755 /var/www/wordpress.practica
+  177  clear
+  178  cd
+  179  sudo mysql -u root
+  180  clear
+  181  sudo reboot
+  182  ping 192.168.24.1
+  183  vncserver
+  184  nano ~/.vnc/xstartup 
+  185  sudo nano ~/.vnc/xstartup 
+  186  vncserer -geometry 1280x700
+  187  vncserver -geometry 1280x700
+  188  clear
+  189  sudo apt update
+  190  sudo apt install -y tightsvncserver xfe4 xfce4-goodies
+  191  sudo apt install -y tightsvncserver xfce4 xfce4-goodies
+  192  sudo apt install -y tightvncserver xfce4 xfce4-goodies
+  193  history > ./memoria/linux/vnc_rdp/vnc_history.txt

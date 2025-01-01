@@ -1,0 +1,70 @@
+/var/log/daemon.log:Nov 15 19:49:43 freebsd dhclient[1480]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 19:49:43 freebsd dhclient[1480]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 19:49:45 freebsd dhclient[1480]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 19:49:45 freebsd dhclient[1480]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 19:50:43 freebsd dhclient[1743]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 19:50:43 freebsd dhclient[1743]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 19:54:38 freebsd dhclient[2247]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 19:54:38 freebsd dhclient[2247]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 19:59:45 freebsd dhclient[3170]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 19:59:45 freebsd dhclient[3170]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 19:59:47 freebsd dhclient[3170]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 19:59:47 freebsd dhclient[3170]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:01:10 freebsd dhclient[3641]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:01:10 freebsd dhclient[3641]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:05:30 freebsd dhclient[4221]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:05:30 freebsd dhclient[4221]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:08:56 freebsd dhclient[4703]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:08:56 freebsd dhclient[4703]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:10:05 freebsd dhclient[5199]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:10:05 freebsd dhclient[5199]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:12:29 freebsd dhclient[5669]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:12:29 freebsd dhclient[5669]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:14:24 freebsd dhclient[6084]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:14:24 freebsd dhclient[6084]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:15:55 freebsd dhclient[6506]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:15:55 freebsd dhclient[6506]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:18:08 freebsd dhclient[6925]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:18:08 freebsd dhclient[6925]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 15 20:21:26 freebsd dhclient[7399]: unknown dhcp option value 0x64
+/var/log/daemon.log:Nov 15 20:21:26 freebsd dhclient[7399]: unknown dhcp option value 0x78
+/var/log/daemon.log:Nov 16 00:03:20 freebsd dhcpd[2167]: Internet Systems Consortium DHCP Server 4.4.3-P1
+/var/log/daemon.log:Nov 16 00:03:20 freebsd dhcpd[2167]: Copyright 2004-2022 Internet Systems Consortium.
+/var/log/daemon.log:Nov 16 00:03:20 freebsd dhcpd[2167]: All rights reserved.
+/var/log/daemon.log:Nov 16 00:03:20 freebsd dhcpd[2167]: For info, please visit https://www.isc.org/software/dhcp/
+/var/log/daemon.log:Nov 16 00:03:21 freebsd dhcpd[2167]: Config file: /usr/local/etc/dhcpd.conf
+/var/log/daemon.log:Nov 16 00:03:21 freebsd dhcpd[2167]: Database file: /var/db/dhcpd/dhcpd.leases
+/var/log/daemon.log:Nov 16 00:03:21 freebsd dhcpd[2167]: PID file: /var/run/dhcpd/dhcpd.pid
+/var/log/messages:Nov 15 19:49:43 freebsd dhclient[1480]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 19:49:43 freebsd dhclient[1480]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 19:49:45 freebsd dhclient[1480]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 19:49:45 freebsd dhclient[1480]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 19:50:43 freebsd dhclient[1743]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 19:50:43 freebsd dhclient[1743]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 19:54:38 freebsd dhclient[2247]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 19:54:38 freebsd dhclient[2247]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 19:59:45 freebsd dhclient[3170]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 19:59:45 freebsd dhclient[3170]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 19:59:47 freebsd dhclient[3170]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 19:59:47 freebsd dhclient[3170]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:01:10 freebsd dhclient[3641]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:01:10 freebsd dhclient[3641]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:05:30 freebsd dhclient[4221]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:05:30 freebsd dhclient[4221]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:08:56 freebsd dhclient[4703]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:08:56 freebsd dhclient[4703]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:10:05 freebsd dhclient[5199]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:10:05 freebsd dhclient[5199]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:12:29 freebsd dhclient[5669]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:12:29 freebsd dhclient[5669]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:14:24 freebsd dhclient[6084]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:14:24 freebsd dhclient[6084]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:15:55 freebsd dhclient[6506]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:15:55 freebsd dhclient[6506]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:18:08 freebsd dhclient[6925]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:18:08 freebsd dhclient[6925]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 20:21:26 freebsd dhclient[7399]: unknown dhcp option value 0x64
+/var/log/messages:Nov 15 20:21:26 freebsd dhclient[7399]: unknown dhcp option value 0x78
+/var/log/messages:Nov 15 23:59:53 freebsd pkg[2109]: isc-dhcp44-server-4.4.3P1_2 installed
+/var/log/userlog:2024-11-15 23:59:51 [nickhernd:groupadd] dhcpd(136)
+/var/log/userlog:2024-11-15 23:59:51 [nickhernd:useradd] dhcpd(136):dhcpd(136):ISC DHCP daemon:/nonexistent:/usr/sbin/nologin

@@ -1,0 +1,15 @@
+1  dnf install -y iscsi-initiator-utils
+  2  systemctl enable --now iscsid
+  3  systemctl status iscsid
+  4  iscsiadm -m discovery -t sendtargets -p 192.168.24.42
+  5  iscsiadm -m node -T iqn.2024-11.local.freenas:target0 -p 192.168.24.42 -l
+  6  fdisk -l
+  7  fdisk /dev/sdb
+  8  mkfs.ext4 /dev/sdb1
+  9  mkdir /mnt/iscsi
+ 10  mount /dev/sdb1 /mnt/iscsi
+ 11  df -h
+ 12  iscsiadm -m session
+ 13  iscsiadm -m session -P 3
+ 14  systemctl status iscsid
+ 15  history > /memoria/linux/iscsi/historylinux.txt

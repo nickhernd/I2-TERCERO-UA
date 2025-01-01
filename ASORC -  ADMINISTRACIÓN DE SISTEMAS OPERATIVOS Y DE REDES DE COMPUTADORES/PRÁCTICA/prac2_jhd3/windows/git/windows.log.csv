@@ -1,0 +1,16 @@
+Nivel,Fecha y hora,Origen,Id. del evento,Categoría de la tarea,Descripción
+"Información,17/11/2024 17:04:41,Service Control Manager,7045,Ninguno,""Se instaló un servicio en el sistema. Nombre del servicio: Git Service, Nombre del archivo del servicio: """"C:\Program Files\Git\bin\git.exe"""" --service, Tipo de servicio: servicio de modo usuario, Tipo de inicio de servicio: inicio automático, Cuenta de servicio: LocalSystem"""
+"Información,17/11/2024 17:04:42,Service Control Manager,7036,Ninguno,""El servicio Git Service entró en estado """"en ejecución""""."""
+Información,17/11/2024 17:05:15,Application,0,Ninguno,Git for Windows instalado correctamente versión 2.42.0
+Error,17/11/2024 17:05:30,Application,1001,Ninguno,Error validando certificado SSL para repositorio remoto
+Información,17/11/2024 17:06:45,Application,0,Ninguno,Configuración de repositorio Git completada en C:\repository
+Información,17/11/2024 17:08:12,Application,0,Ninguno,Primer commit realizado al repositorio local
+Información,17/11/2024 17:10:23,Application,0,Ninguno,Push exitoso al repositorio remoto
+"Información,17/11/2024 17:15:41,Service Control Manager,7045,Ninguno,""Se instaló un servicio en el sistema. Nombre del servicio: Nextcloud, Nombre del archivo del servicio: """"C:\Program Files\Nextcloud\nextcloud.exe"""" --service, Tipo de servicio: servicio de modo usuario, Tipo de inicio de servicio: inicio automático, Cuenta de servicio: LocalSystem"""
+"Información,17/11/2024 17:15:42,Service Control Manager,7036,Ninguno,""El servicio Nextcloud entró en estado """"en ejecución""""."""
+Información,17/11/2024 17:16:01,Application,0,Ninguno,Nextcloud Client instalado correctamente versión 3.9.0
+Error,17/11/2024 17:16:15,Application,1002,Ninguno,Error de conexión con el servidor Nextcloud
+Información,17/11/2024 17:17:30,Application,0,Ninguno,Sincronización inicial de archivos completada
+Información,17/11/2024 17:20:45,Application,0,Ninguno,Nueva carpeta configurada para sincronización
+Advertencia,17/11/2024 17:25:12,Application,1003,Ninguno,Conflicto de sincronización detectado en archivo users.txt
+Información,17/11/2024 17:30:33,Application,0,Ninguno,Sincronización de archivos completada exitosamente

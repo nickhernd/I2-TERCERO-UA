@@ -1,0 +1,16 @@
+  122 vi /etc/rc.conf
+  123 ee /etc/rc.conf
+  124 clear
+  125 ee /usr/local/etc/rc.d/vncserver
+  126 chmod 755 /usr/local/etc/rc.d/vncserver
+  127 mkdir -p ~/.vnc
+  128 ee ~/.vnc/config
+  129 chmod +x ~/.vnc/xstartup
+  130 vncpasswd
+  131 service vncserver start
+  132 clera
+  133 clear
+  134 ps aux | grep vnc
+  135 netstat -an | grep 5901
+  136 pass in on em1 proto tcp to port 5901
+  137 # Guarda el historial de comandos

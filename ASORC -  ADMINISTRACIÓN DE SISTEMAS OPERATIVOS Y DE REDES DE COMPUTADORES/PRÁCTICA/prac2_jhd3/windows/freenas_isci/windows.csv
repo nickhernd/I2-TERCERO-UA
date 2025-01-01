@@ -1,0 +1,28 @@
+Application Log:
+11/17/2024 09:15:23 Microsoft-Windows-iSCSI/Operational,Information,1,iSCSIProv service started
+11/17/2024 09:15:24 Microsoft-Windows-iSCSI/Operational,Information,2,Successfully added target portal 192.168.24.42:3260
+11/17/2024 09:15:25 Microsoft-Windows-iSCSI/Operational,Information,3,New iSCSI target discovered: iqn.2024-11.local.freenas:target0
+11/17/2024 09:15:26 Microsoft-Windows-iSCSI/Operational,Information,4,Connection established with target iqn.2024-11.local.freenas:target0
+11/17/2024 09:15:27 Microsoft-Windows-iSCSI/Operational,Information,5,New iSCSI disk detected (Disk 1)
+
+System Log:
+11/17/2024 09:15:28 Disk,Information,1,Disk 1 has been initialized
+11/17/2024 09:15:29 Volume,Information,2,New volume E: created on Disk 1
+11/17/2024 09:15:30 NTFS,Information,3,Volume E: formatted with NTFS filesystem
+11/17/2024 09:20:15 Microsoft-Windows-iSCSI/Operational,Information,6,I/O statistics - Read: 256MB, Write: 128MB
+
+PowerShell Output:
+Get-IscsiConnection
+
+InitiatorNodeAddress : iqn.1991-05.com.microsoft:win-srv2024-01
+TargetNodeAddress   : iqn.2024-11.local.freenas:target0
+InitiatorAddress    : 192.168.24.43
+TargetAddress       : 192.168.24.42
+ConnectionState     : Connected
+ConnectionStartTime : 11/17/2024 09:15:26
+
+"Get-Disk | Where BusType -eq ""iSCSI"""
+
+Number Friendly Name           OperationalStatus Total Size Partition Style
+------ -------------           ----------------- ---------- ---------------
+1      iSCSI Disk             Online            50 GB      GPT

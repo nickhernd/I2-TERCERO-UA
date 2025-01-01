@@ -1,0 +1,58 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {paragraph}{•}{1}{section*.1}%
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Herramientas y tecnologías utilizadas}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Bibliotecaa principal}{4}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Bibliotecas de apoyo}{4}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Dataset}{4}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Control de versiones y documentación}{5}{subsubsection.1.2.4}%
+\contentsline {section}{\numberline {2}Desarrollo}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Preprocesamiento de datos}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Carga del dataset}{6}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Normalización de las imágenes}{6}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Preprocesamiento específico para MLP}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Codificación de etiquetas}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Consideraciones para CNN}{7}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Validación de los datos}{7}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}Tarea A: Implementación básica de MLP}{7}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Fundamentos teóricos}{7}{subsubsection.2.2.1}%
+\contentsline {paragraph}{Estructura básica:}{7}{section*.3}%
+\contentsline {paragraph}{Funcionamiento:}{7}{section*.4}%
+\contentsline {paragraph}{Función de activación:}{8}{section*.5}%
+\contentsline {paragraph}{Proceso de aprendizaje:}{8}{section*.6}%
+\contentsline {subsection}{\numberline {2.3}Tarea B: Ajuste del número de épocas}{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Fundamentos teóricos}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Experimentación}{10}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Resultados y análisis}{10}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Tarea C: Ajuste del tamaño de batch}{10}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Fundamentos teóricos}{10}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Experimentación}{10}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Resultados y análisis}{10}{subsubsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.5}Tarea D: Funciones de activación}{10}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Fundamentos teóricos}{10}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Experimentación}{10}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Resultados y análisis}{10}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Tarea E: Ajuste del número de neuronas}{10}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Fundamentos teóricos}{10}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Experimentación}{10}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Resultados y análisis}{10}{subsubsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.7}Tarea F: Optimización de MLP multicapa}{10}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Fundamentos teóricos}{10}{subsubsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.2}Experimentación}{10}{subsubsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.3}Resultados y análisis}{10}{subsubsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.8}Tarea G: Implementación de CNN}{10}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Fundamentos teóricos}{10}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Experimentación}{10}{subsubsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.3}Resultados y análisis}{10}{subsubsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.9}Tarea H: Ajuste del tamaño de kernel}{10}{subsection.2.9}%
+\contentsline {subsubsection}{\numberline {2.9.1}Fundamentos teóricos}{10}{subsubsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.2}Experimentación}{10}{subsubsection.2.9.2}%
+\contentsline {subsubsection}{\numberline {2.9.3}Resultados y análisis}{10}{subsubsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.10}Tarea I: Optimización de la arquitectura CNN}{10}{subsection.2.10}%
+\contentsline {subsubsection}{\numberline {2.10.1}Fundamentos teóricos}{10}{subsubsection.2.10.1}%
+\contentsline {subsubsection}{\numberline {2.10.2}Experimentación}{10}{subsubsection.2.10.2}%
+\contentsline {subsubsection}{\numberline {2.10.3}Resultados y análisis}{10}{subsubsection.2.10.3}%
+\contentsline {section}{\numberline {3}Conclusiones}{10}{section.3}%
+\contentsline {section}{\numberline {4}Bibliografía}{10}{section.4}%
+\contentsline {section}{\numberline {A}Anexos}{11}{appendix.Alph1}%

@@ -1,0 +1,190 @@
+# /etc/exports
+###############################################################################
+# NFS Exports Configuration File
+# See exports(5) for more information
+###############################################################################
+
+# Public share with read-only access
+/usr/share/public -ro -alldirs -network 192.168.24.0 -mask 255.255.255.0
+
+# Development share with read-write access
+/usr/local/development -maproot=root -network 192.168.24.0/24 \
+    -security=sys:krb5:krb5i:krb5p
+
+# Backup share for specific hosts
+/backup -mapall=backup -sec=sys \
+    192.168.24.100 \
+    192.168.24.101 \
+    192.168.24.102
+
+# /etc/rc.conf NFS-related settings
+###############################################################################
+# FreeBSD RC Configuration for NFS Server
+###############################################################################
+rpcbind_enable="YES"
+nfs_server_enable="YES"
+nfs_server_flags="-u -t -n 6"
+nfsv4_server_enable="YES"
+nfsuserd_enable="YES"
+mountd_flags="-r"
+nfs_client_enable="YES"
+
+# /etc/sysctl.conf NFS tuning parameters
+###############################################################################
+# System Configuration for NFS Performance
+###############################################################################
+vfs.nfs.access_cache_timeout=300
+vfs.nfs.bufpackets=512
+vfs.nfsd.tcpthread_count=8
+kern.maxfilesperproc=32768
+kern.maxfiles=65536
+
+# /usr/local/etc/samba/smb.conf
+###############################################################################
+# Samba Configuration File
+# See smb.conf(5) for detailed information
+###############################################################################
+[global]
+    # Server identification
+    workgroup = WORKGROUP
+    server string = FreeBSD Samba Server
+    netbios name = FREEBSDSERVER
+    dns proxy = no
+
+    # Network configuration
+    interfaces = 192.168.24.42/24
+    bind interfaces only = yes
+
+    # Authentication
+    security = user
+    passdb backend = tdbsam
+    encrypt passwords = yes
+    
+    # Protocol configuration
+    server min protocol = SMB2
+    server max protocol = SMB3
+    
+    # Logging configuration
+    log file = /var/log/samba/log.%m
+    max log size = 50
+    logging = syslog@1 file
+    syslog = 1
+    syslog only = no
+    
+    # Performance tuning
+    socket options = TCP_NODELAY IPTOS_LOWDELAY SO_RCVBUF=65536 SO_SNDBUF=65536
+    read raw = yes
+    write raw = yes
+    oplocks = yes
+    level2 oplocks = yes
+    kernel oplocks = yes
+    max xmit = 65536
+    dead time = 15
+    
+    # Security features
+    server signing = auto
+    client signing = auto
+    client ipc signing = auto
+    restrict anonymous = 2
+    map to guest = Never
+
+# Share definitions
+[public]
+    comment = Public Share
+    path = /usr/share/public
+    browseable = yes
+    writable = no
+    guest ok = no
+    valid users = @smbgroup
+    create mask = 0644
+    directory mask = 0755
+
+[development]
+    comment = Development Share
+    path = /usr/local/development
+    browseable = yes
+    writable = yes
+    guest ok = no
+    valid users = @developers
+    create mask = 0664
+    directory mask = 0775
+    vfs objects = recycle
+    recycle:repository = .recycle
+    recycle:keeptree = yes
+    recycle:versions = yes
+
+[backup]
+    comment = Backup Share
+    path = /backup
+    browseable = no
+    writable = yes
+    guest ok = no
+    valid users = @backup
+    write list = @backup
+    create mask = 0600
+    directory mask = 0700
+
+# /usr/local/etc/samba/smbusers
+###############################################################################
+# Samba Users Configuration
+# Maps Unix usernames to Windows usernames
+###############################################################################
+root = administrator admin
+backup = backup_admin
+
+# /etc/nsswitch.conf
+###############################################################################
+# Name Service Switch Configuration
+# Configure name resolution order for Samba
+###############################################################################
+passwd: files winbind
+group: files winbind
+hosts: files dns wins
+
+# /usr/local/etc/smb.conf.include
+###############################################################################
+# Samba Include Configuration
+# Additional settings for specific scenarios
+###############################################################################
+# Advanced auditing
+vfs objects = full_audit
+full_audit:prefix = %u|%I|%m|%S
+full_audit:success = mkdir rename unlink rmdir pwrite
+full_audit:failure = none
+full_audit:facility = local7
+full_audit:priority = NOTICE
+
+# /etc/pam.d/samba
+###############################################################################
+# PAM Configuration for Samba
+###############################################################################
+auth    required    pam_unix.so     try_first_pass
+auth    required    pam_winbind.so  try_first_pass
+
+account required    pam_unix.so
+account required    pam_winbind.so
+
+session required    pam_unix.so
+session required    pam_winbind.so
+
+# /etc/nfsd.conf
+###############################################################################
+# NFSd Configuration File
+# Advanced settings for NFS daemon
+###############################################################################
+threads=8
+host_lookup=1
+tcp=1
+udp=1
+server_delegation=1
+nfs_reserved_port_only=0
+mountd_port=1024
+
+# /etc/nfs.map
+###############################################################################
+# NFS UID/GID Mapping Configuration
+###############################################################################
+uid 0-99 -1
+gid 0-99 -1
+uid 100-65535 1:1
+gid 100-65535 1:1

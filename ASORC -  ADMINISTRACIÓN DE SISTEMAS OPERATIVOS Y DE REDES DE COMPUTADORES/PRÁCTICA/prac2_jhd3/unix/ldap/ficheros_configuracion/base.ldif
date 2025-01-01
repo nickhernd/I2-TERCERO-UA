@@ -1,0 +1,17 @@
+dn: dc=midominio,dc=local
+objectClass: dcObject
+objectClass: organization
+o: Mi Organización
+dc: midominio
+
+dn: cn=admin,dc=midominio,dc=local
+objectClass: organizationalRole
+cn: admin
+
+dn: ou=usuarios,dc=midominio,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,dc=midominio,dc=local
+objectClass: organizationalUnit
+ou: grupos

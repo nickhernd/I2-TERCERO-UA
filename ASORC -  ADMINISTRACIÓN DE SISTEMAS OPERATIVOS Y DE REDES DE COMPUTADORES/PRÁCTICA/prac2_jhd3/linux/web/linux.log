@@ -1,0 +1,139 @@
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   alsa-ucm-conf alsa-utils anacron apache2-bin apg appstream apt-config-icons
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   libapache2-mod-dnssd libappstream4 libapr1 libaprutil1
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   | system-log-daemon powermgmt-base apache2-doc apache2-suexec-pristine
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   | apache2-suexec-custom aspell-doc spellutils bluez-cups bluez-meshd
+/var/log/installer/syslog:Oct  3 07:31:30 in-target:   wbritish ibus-clutter ibus-doc isoquery spell apache2 | lighttpd | httpd
+/var/log/installer/syslog:Oct  3 07:31:31 in-target:   alsa-ucm-conf alsa-utils anacron apache2-bin apg appstream apt-config-icons
+/var/log/installer/syslog:Oct  3 07:31:31 in-target:   libadwaita-1-0 libao-common libao4 libaom3 libapache2-mod-dnssd
+/var/log/installer/syslog:Oct  3 07:36:11 in-target: Get:373 http://deb.debian.org/debian bookworm/main amd64 apache2-bin amd64 2.4.62-1~deb12u1 [1,385 kB]
+/var/log/installer/syslog:Oct  3 07:40:38 in-target: Get:1011 http://deb.debian.org/debian bookworm/main amd64 libapache2-mod-dnssd amd64 0.6-4 [13.5 kB]
+/var/log/installer/syslog:Oct  3 07:44:01 in-target: Selecting previously unselected package apache2-bin.^M
+/var/log/installer/syslog:Oct  3 07:44:01 in-target: Preparing to unpack .../0165-apache2-bin_2.4.62-1~deb12u1_amd64.deb ...^M
+/var/log/installer/syslog:Oct  3 07:44:01 in-target: Unpacking apache2-bin (2.4.62-1~deb12u1) ...^M
+/var/log/installer/syslog:Oct  3 07:45:28 in-target: Selecting previously unselected package libapache2-mod-dnssd.^M
+/var/log/installer/syslog:Oct  3 07:45:28 in-target: Preparing to unpack .../0870-libapache2-mod-dnssd_0.6-4_amd64.deb ...
+/var/log/installer/syslog:Oct  3 07:45:28 in-target: Unpacking libapache2-mod-dnssd (0.6-4) ...^M
+/var/log/installer/syslog:Oct  3 07:47:12 in-target: Setting up apache2-bin (2.4.62-1~deb12u1) ...^M
+/var/log/installer/syslog:Oct  3 07:47:17 in-target: Setting up libapache2-mod-dnssd (0.6-4) ...^M
+/var/log/dpkg.log:2024-11-14 10:46:56 install apache2-data:all <none> 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:56 status half-installed apache2-data:all 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:56 status unpacked apache2-data:all 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:57 install apache2-utils:amd64 <none> 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:57 status half-installed apache2-utils:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:57 status unpacked apache2-utils:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:57 install apache2:amd64 <none> 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:57 status half-installed apache2:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:57 status unpacked apache2:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 configure apache2-data:all 2.4.62-1~deb12u2 <none>
+/var/log/dpkg.log:2024-11-14 10:46:59 status unpacked apache2-data:all 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 status half-configured apache2-data:all 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 status installed apache2-data:all 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 configure apache2-utils:amd64 2.4.62-1~deb12u2 <none>
+/var/log/dpkg.log:2024-11-14 10:46:59 status unpacked apache2-utils:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 status half-configured apache2-utils:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 status installed apache2-utils:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:46:59 configure apache2:amd64 2.4.62-1~deb12u2 <none>
+/var/log/dpkg.log:2024-11-14 10:46:59 status unpacked apache2:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:48:12 conffile /etc/apache2/ports.conf install
+/var/log/dpkg.log:2024-11-14 10:48:12 status half-configured apache2:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:48:17 status installed apache2:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log:2024-11-14 10:59:54 install libapache2-mod-php8.2:amd64 <none> 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 10:59:54 status half-installed libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 10:59:55 status unpacked libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 10:59:55 install libapache2-mod-php:all <none> 2:8.2+93
+/var/log/dpkg.log:2024-11-14 10:59:55 status half-installed libapache2-mod-php:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 10:59:55 status unpacked libapache2-mod-php:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:37 configure libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1 <none>
+/var/log/dpkg.log:2024-11-14 11:00:37 status unpacked libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:37 status half-configured libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:42 status installed libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:42 status triggers-pending libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:42 configure libapache2-mod-php:all 2:8.2+93 <none>
+/var/log/dpkg.log:2024-11-14 11:00:42 status unpacked libapache2-mod-php:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:42 status half-configured libapache2-mod-php:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:42 status installed libapache2-mod-php:all 2:8.2+93
+/var/log/dpkg.log:2024-11-14 11:00:58 trigproc libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1 <none>
+/var/log/dpkg.log:2024-11-14 11:00:58 status half-configured libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:00:58 status installed libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:52:55 status triggers-pending libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:52:57 trigproc libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1 <none>
+/var/log/dpkg.log:2024-11-14 11:52:57 status half-configured libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/dpkg.log:2024-11-14 11:52:57 status installed libapache2-mod-php8.2:amd64 8.2.24-1~deb12u1
+/var/log/apache2/error.log:[Thu Nov 14 10:48:15.847337 2024] [core:notice] [pid 3358:tid 3358] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 10:54:16.500028 2024] [core:notice] [pid 4279:tid 4279] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.24.41. Set the 'ServerName' directive globally to suppress this message
+/var/log/apache2/error.log:[Thu Nov 14 10:54:54.914575 2024] [core:notice] [pid 4279:tid 4279] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 10:56:16.711532 2024] [core:notice] [pid 4503:tid 4503] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 10:57:52.828287 2024] [core:notice] [pid 877:tid 877] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:00:42.381770 2024] [core:notice] [pid 15240:tid 15240] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:00:43.358497 2024] [core:notice] [pid 15281:tid 15281] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:09:03.864860 2024] [core:notice] [pid 988:tid 988] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:16:49.494283 2024] [core:notice] [pid 3818:tid 3818] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:29:31.269392 2024] [core:notice] [pid 946:tid 946] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:43:02.481826 2024] [core:notice] [pid 4096:tid 4096] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 11:50:26.614979 2024] [core:notice] [pid 956:tid 956] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 12:01:53.965769 2024] [core:notice] [pid 965:tid 965] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/apache2/error.log:[Thu Nov 14 12:08:00.436417 2024] [core:notice] [pid 3688:tid 3688] AH00094: Command line: '/usr/sbin/apache2'
+/var/log/boot.log:         Starting [0;1;39mapache2.service[0m - The Apache HTTP Server...
+/var/log/boot.log:         Starting [0;1;39mapache2.service[0m - The Apache HTTP Server...
+/var/log/boot.log:         Starting [0;1;39mapache2.service[0m - The Apache HTTP Server...
+/var/log/boot.log:         Starting [0;1;39mapache2.service[0m - The Apache HTTP Server...
+/var/log/boot.log:         Starting [0;1;39mapache2.service[0m - The Apache HTTP Server...
+/var/log/dpkg.log.1:2024-10-03 09:44:01 install apache2-bin:amd64 <none> 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:44:01 status half-installed apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:44:02 status unpacked apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:45:28 install libapache2-mod-dnssd:amd64 <none> 0.6-4
+/var/log/dpkg.log.1:2024-10-03 09:45:28 status half-installed libapache2-mod-dnssd:amd64 0.6-4
+/var/log/dpkg.log.1:2024-10-03 09:45:28 status unpacked libapache2-mod-dnssd:amd64 0.6-4
+/var/log/dpkg.log.1:2024-10-03 09:47:12 configure apache2-bin:amd64 2.4.62-1~deb12u1 <none>
+/var/log/dpkg.log.1:2024-10-03 09:47:12 status unpacked apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:47:12 status half-configured apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:47:12 status installed apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-03 09:47:17 configure libapache2-mod-dnssd:amd64 0.6-4 <none>
+/var/log/dpkg.log.1:2024-10-03 09:47:17 status unpacked libapache2-mod-dnssd:amd64 0.6-4
+/var/log/dpkg.log.1:2024-10-03 09:47:17 status half-configured libapache2-mod-dnssd:amd64 0.6-4
+/var/log/dpkg.log.1:2024-10-03 09:47:17 status installed libapache2-mod-dnssd:amd64 0.6-4
+/var/log/dpkg.log.1:2024-10-29 18:34:19 upgrade apache2-bin:amd64 2.4.62-1~deb12u1 2.4.62-1~deb12u2
+/var/log/dpkg.log.1:2024-10-29 18:34:19 status half-configured apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-29 18:34:19 status unpacked apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-29 18:34:19 status half-installed apache2-bin:amd64 2.4.62-1~deb12u1
+/var/log/dpkg.log.1:2024-10-29 18:34:20 status unpacked apache2-bin:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log.1:2024-10-29 18:35:05 configure apache2-bin:amd64 2.4.62-1~deb12u2 <none>
+/var/log/dpkg.log.1:2024-10-29 18:35:05 status unpacked apache2-bin:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log.1:2024-10-29 18:35:05 status half-configured apache2-bin:amd64 2.4.62-1~deb12u2
+/var/log/dpkg.log.1:2024-10-29 18:35:05 status installed apache2-bin:amd64 2.4.62-1~deb12u2
+/var/log/apt/term.log:Selecting previously unselected package apache2-data.
+/var/log/apt/term.log:Preparing to unpack .../0-apache2-data_2.4.62-1~deb12u2_all.deb ...
+/var/log/apt/term.log:Unpacking apache2-data (2.4.62-1~deb12u2) ...
+/var/log/apt/term.log:Selecting previously unselected package apache2-utils.
+/var/log/apt/term.log:Preparing to unpack .../1-apache2-utils_2.4.62-1~deb12u2_amd64.deb ...
+/var/log/apt/term.log:Unpacking apache2-utils (2.4.62-1~deb12u2) ...
+/var/log/apt/term.log:Selecting previously unselected package apache2.
+/var/log/apt/term.log:Preparing to unpack .../2-apache2_2.4.62-1~deb12u2_amd64.deb ...
+/var/log/apt/term.log:Unpacking apache2 (2.4.62-1~deb12u2) ...
+/var/log/apt/term.log:Package apache2 is not configured yet. Will defer actions by package gitweb.
+/var/log/apt/term.log:Setting up apache2-data (2.4.62-1~deb12u2) ...
+/var/log/apt/term.log:Setting up apache2-utils (2.4.62-1~deb12u2) ...
+/var/log/apt/term.log:Setting up apache2 (2.4.62-1~deb12u2) ...
+/var/log/apt/term.log:Configuration file '/etc/apache2/ports.conf'
+/var/log/apt/term.log:Installing new version of config file /etc/apache2/ports.conf ...
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+/var/log/apt/term.log:Selecting previously unselected package libapache2-mod-php8.2.
+/var/log/apt/term.log:Preparing to unpack .../06-libapache2-mod-php8.2_8.2.24-1~deb12u1_amd64.deb ...
+/var/log/apt/term.log:Unpacking libapache2-mod-php8.2 (8.2.24-1~deb12u1) ...
+/var/log/apt/term.log:Selecting previously unselected package libapache2-mod-php.
+/var/log/apt/term.log:Preparing to unpack .../07-libapache2-mod-php_2%3a8.2+93_all.deb ...
+/var/log/apt/term.log:Unpacking libapache2-mod-php (2:8.2+93) ...
+/var/log/apt/term.log:Setting up libapache2-mod-php8.2 (8.2.24-1~deb12u1) ...
+/var/log/apt/term.log:Creating config file /etc/php/8.2/apache2/php.ini with new version
+/var/log/apt/term.log:apache2_switch_mpm Switch to prefork
+/var/log/apt/term.log:apache2_invoke: Enable module php8.2
+/var/log/apt/term.log:Setting up libapache2-mod-php (2:8.2+93) ...
+/var/log/apt/term.log:Processing triggers for libapache2-mod-php8.2 (8.2.24-1~deb12u1) ...
+/var/log/apt/term.log:Processing triggers for libapache2-mod-php8.2 (8.2.24-1~deb12u1) ...
+/var/log/apt/history.log:Commandline: apt install git apache2 git-core gitweb
+/var/log/apt/history.log:Install: libfcgi-perl:amd64 (0.82+ds-2, automatic), apache2-data:amd64 (2.4.62-1~deb12u2, automatic), libfcgi0ldbl:amd64 (2.4.2-2, automatic), libcgi-fast-perl:amd64 (1:2.15-1, automatic), apache2-utils:amd64 (2.4.62-1~deb12u2, automatic), apache2:amd64 (2.4.62-1~deb12u2), gitweb:amd64 (1:2.39.5-0+deb12u1), libfcgi-bin:amd64 (2.4.2-2, automatic), libcgi-pm-perl:amd64 (4.55-1, automatic)
+/var/log/apt/history.log:Commandline: apt install apache2 mariadb-server libapache2-mod-php php-gd php-mysql php-curl php-mbstring php-intl php-gmp php-bcmath php-xml php-zip php-json
+/var/log/apt/history.log:Install: mariadb-plugin-provider-bzip2:amd64 (1:10.11.6-0+deb12u1, automatic), mariadb-server:amd64 (1:10.11.6-0+deb12u1), php8.2-mysql:amd64 (8.2.24-1~deb12u1, automatic), libdbi-perl:amd64 (1.643-4, automatic), mariadb-client-core:amd64 (1:10.11.6-0+deb12u1, automatic), libdbd-mariadb-perl:amd64 (1.22-1+b1, automatic), galera-4:amd64 (26.4.18-0+deb12u1, automatic), mysql-common:amd64 (5.8+1.1.0, automatic), php-gd:amd64 (2:8.2+93), libapache2-mod-php:amd64 (2:8.2+93), php-common:amd64 (2:93, automatic), mariadb-plugin-provider-lzma:amd64 (1:10.11.6-0+deb12u1, automatic), libapache2-mod-php8.2:amd64 (8.2.24-1~deb12u1, automatic), libsigsegv2:amd64 (2.14-1, automatic), mariadb-server-core:amd64 (1:10.11.6-0+deb12u1, automatic), php8.2-mbstring:amd64 (8.2.24-1~deb12u1, automatic), php8.2-curl:amd64 (8.2.24-1~deb12u1, automatic), php8.2-bcmath:amd64 (8.2.24-1~deb12u1, automatic), php8.2-opcache:amd64 (8.2.24-1~deb12u1, automatic), php-curl:amd64 (2:8.2+93), php8.2-intl:amd64 (8.2.24-1~deb12u1, automatic), php8.2-readline:amd64 (8.2.24-1~deb12u1, automatic), php-intl:amd64 (2:8.2+93), libhtml-template-perl:amd64 (2.97-2, automatic), gawk:amd64 (1:5.2.1-2, automatic), libdaxctl1:amd64 (76.1-1, automatic), php-mbstring:amd64 (2:8.2+93), libterm-readkey-perl:amd64 (2.38-2+b1, automatic), php-gmp:amd64 (2:8.2+93), mariadb-plugin-provider-snappy:amd64 (1:10.11.6-0+deb12u1, automatic), php-mysql:amd64 (2:8.2+93), rsync:amd64 (3.2.7-1, automatic), libconfig-inifiles-perl:amd64 (3.000003-2, automatic), mariadb-common:amd64 (1:10.11.6-0+deb12u1, automatic), php-xml:amd64 (2:8.2+93), php-json:amd64 (2:8.2+93), php-zip:amd64 (2:8.2+93), libzip4:amd64 (1.7.3-1+b1, automatic), libndctl6:amd64 (76.1-1, automatic), libmariadb3:amd64 (1:10.11.6-0+deb12u1, automatic), php-bcmath:amd64 (2:8.2+93), mariadb-client:amd64 (1:10.11.6-0+deb12u1, automatic), mariadb-plugin-provider-lz4:amd64 (1:10.11.6-0+deb12u1, automatic), mariadb-plugin-provider-lzo:amd64 (1:10.11.6-0+deb12u1, automatic), php8.2-gd:amd64 (8.2.24-1~deb12u1, automatic), socat:amd64 (1.7.4.4-2, automatic), pv:amd64 (1.6.20-1, automatic), php8.2-cli:amd64 (8.2.24-1~deb12u1, automatic), php8.2-common:amd64 (8.2.24-1~deb12u1, automatic), php8.2-gmp:amd64 (8.2.24-1~deb12u1, automatic), libpmem1:amd64 (1.12.1-2, automatic), php8.2-xml:amd64 (8.2.24-1~deb12u1, automatic), php8.2-zip:amd64 (8.2.24-1~deb12u1, automatic)
+/var/log/apt/history.log:Commandline: apt install apache2 php php-mysql php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip

@@ -1,0 +1,49 @@
+    1  sudo apt update
+    2  clear
+    3  ip 
+    4  clear
+    5  ip a
+    6  clear
+    7  ifconfig
+    8  clea
+    9  clear
+   10  sudo apt install net-tools
+   11  cleear
+   12  cleaer
+   13  clear
+   14  ifconfig
+   15  clear
+   16  hostname -I
+   17  ping www.hola.es
+   18  ping hola.com
+   19  clear
+   20  ping /c 4 google.com
+   21  clear
+   22  ping -c google.com
+   23  ping -c google.coclearm
+   24  clear
+   25  ping -c 4 google.com
+   26  ping -c 4 hola.com
+   27  clear
+   28  su root
+   29  ls
+   30  ls -la
+   31  su root
+   32  ip a
+   33  clear
+   34  sudo nano /etc/network/interfaces
+   35  ip a
+   36  clear
+   37  ip a > ./memoria/linux/network/config_red.txt
+   38  clear
+   39  ip a > ./memoria/linux/network/config_red.txt
+   40  mkdir -p memoria/{linux,unix,windows}
+   41  cd memoria/linux/
+   42  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   43  cd ../unix/
+   44  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   45  cd ../windows/
+   46  mkdir -p {network,ssh,vnc_rdp,nfs_samba,FreeNAS,cup,dns,git,bd,web,ldap}
+   47  cd ../../
+   48  ip a > ./memoria/linux/network/config_red.txt
+   49  history > ./memoria/linux/network/historylinux.txt

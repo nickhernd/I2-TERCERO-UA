@@ -1,0 +1,23 @@
+   45 apt update
+   46 apt install cups cups-pdf cups-filters
+   47 systemctl status cups
+   48 usermod -aG lpadmin admin
+   49 mkdir -p /var/spool/cups-pdf/ANONYMOUS
+   50 chown -R root:lpadmin /var/spool/cups-pdf
+   51 chmod -R 770 /var/spool/cups-pdf
+   52 cupsctl --debug-logging
+   53 lpadmin -p PDF -v cups-pdf:/ -m CUPS-PDF.ppd -E
+   54 cupsenable PDF
+   55 cupsaccept PDF
+   56 systemctl restart cups
+   57 lpstat -t
+   58 cp /etc/cups/cupsd.conf /etc/cups/cupsd.conf.bak
+   59 nano /etc/cups/cupsd.conf
+   60 cupsctl --share-printers --remote-admin
+   61 systemctl restart cups
+   62 tail -f /var/log/cups/access_log
+   63 tail -f /var/log/cups/error_log
+   64 lpinfo -v
+   65 lp -d PDF /etc/hosts
+   66 ls -l ~/PDF/
+   67 grep -R "cups" /var/log/

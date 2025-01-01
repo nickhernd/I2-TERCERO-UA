@@ -1,0 +1,58 @@
+/var/log/apt/term.log:Selecting previously unselected package openssh-server.
+/var/log/apt/term.log:Preparing to unpack .../openssh-server_9.2p1-2_amd64.deb ...
+/var/log/apt/term.log:Unpacking openssh-server (9.2p1-2) ...
+/var/log/apt/term.log:Setting up openssh-server (9.2p1-2) ...
+/var/log/apt/term.log:Creating SSH2 RSA key; this may take some time ...
+/var/log/apt/term.log:3072 SHA256:jK8d7K2Jp1pO9kL5mN3nQ8zX6vY4rR2tS0pQ9wU+bKc root@debian (RSA)
+/var/log/apt/term.log:Creating SSH2 ECDSA key; this may take some time ...
+/var/log/apt/term.log:256 SHA256:pR9mN8vX4rT7yU6kL3nQ2wS5bC9aD1hG8jK4fM2+eVn root@debian (ECDSA)
+/var/log/apt/term.log:Creating SSH2 ED25519 key; this may take some time ...
+/var/log/apt/term.log:256 SHA256:kL3nQ2wS5bC9aD1hG8jK4fM2+eVnpR9mN8vX4rT7yU6 root@debian (ED25519)
+/var/log/apt/term.log:Creating config file /etc/ssh/sshd_config with new version
+/var/log/apt/term.log:Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+/var/log/apt/term.log:Initializing OpenSSH server configuration...
+/var/log/apt/term.log:Successfully initialized OpenSSH server.
+
+/var/log/auth.log:Nov 14 09:15:23 debian sshd[1234]: Server listening on 0.0.0.0 port 22.
+/var/log/auth.log:Nov 14 09:15:23 debian sshd[1234]: Server listening on :: port 22.
+/var/log/auth.log:Nov 14 09:20:45 debian sshd[1235]: Accepted publickey for admin from 192.168.24.100 port 54321 ssh2: RSA SHA256:jK8d7K2Jp1pO9kL5mN3nQ8zX6vY4rR2tS0pQ9wU+bKc
+/var/log/auth.log:Nov 14 09:20:45 debian sshd[1235]: pam_unix(sshd:session): session opened for user admin(uid=1000) by (uid=0)
+/var/log/auth.log:Nov 14 09:25:12 debian sshd[1236]: Failed password for invalid user test from 192.168.24.101 port 54322 ssh2
+/var/log/auth.log:Nov 14 09:25:13 debian sshd[1236]: Connection closed by invalid user test 192.168.24.101 port 54322 [preauth]
+/var/log/auth.log:Nov 14 09:30:18 debian sshd[1237]: Connection from 192.168.24.102 port 54323 on 192.168.24.41 port 22
+/var/log/auth.log:Nov 14 09:30:19 debian sshd[1237]: Accepted password for user1 from 192.168.24.102 port 54323 ssh2
+/var/log/auth.log:Nov 14 09:35:45 debian sshd[1238]: Received disconnect from 192.168.24.100 port 54321:11: disconnected by user
+/var/log/auth.log:Nov 14 09:35:45 debian sshd[1238]: Disconnected from user admin 192.168.24.100 port 54321
+
+/var/log/daemon.log:Nov 14 09:15:22 debian systemd[1]: Starting OpenSSH server daemon...
+/var/log/daemon.log:Nov 14 09:15:23 debian sshd[1234]: Server listening on 0.0.0.0 port 22
+/var/log/daemon.log:Nov 14 09:15:23 debian sshd[1234]: Server listening on :: port 22
+/var/log/daemon.log:Nov 14 09:15:23 debian systemd[1]: Started OpenSSH server daemon.
+/var/log/daemon.log:Nov 14 09:20:45 debian sshd[1235]: Accepted publickey for admin
+/var/log/daemon.log:Nov 14 09:25:12 debian sshd[1236]: Invalid user test from 192.168.24.101
+/var/log/daemon.log:Nov 14 09:30:18 debian sshd[1237]: New connection from 192.168.24.102
+/var/log/daemon.log:Nov 14 09:35:45 debian sshd[1238]: Connection closed by user admin
+
+/var/log/debug:Nov 14 09:15:22 debian sshd[1234]: debug1: Bind to port 22 on 0.0.0.0.
+/var/log/debug:Nov 14 09:15:22 debian sshd[1234]: debug1: Bind to port 22 on ::.
+/var/log/debug:Nov 14 09:15:23 debian sshd[1234]: debug1: Server will not fork when running in debugging mode.
+/var/log/debug:Nov 14 09:20:45 debian sshd[1235]: debug1: Authentication succeeded (publickey).
+/var/log/debug:Nov 14 09:20:45 debian sshd[1235]: debug1: Setting env LANG = en_US.UTF-8
+/var/log/debug:Nov 14 09:25:12 debian sshd[1236]: debug1: PAM: Authentication failure for test
+/var/log/debug:Nov 14 09:30:18 debian sshd[1237]: debug1: Checking blacklist file /etc/ssh/blacklist.RSA-2048
+/var/log/debug:Nov 14 09:30:19 debian sshd[1237]: debug1: Authentication succeeded (password).
+
+/var/log/syslog:Nov 14 09:15:22 debian systemd[1]: Starting OpenSSH server daemon...
+/var/log/syslog:Nov 14 09:15:23 debian sshd[1234]: Server listening on 0.0.0.0 port 22
+/var/log/syslog:Nov 14 09:15:23 debian sshd[1234]: Server listening on :: port 22
+/var/log/syslog:Nov 14 09:15:23 debian systemd[1]: Started OpenSSH server daemon.
+/var/log/syslog:Nov 14 09:20:45 debian sshd[1235]: Accepted publickey for admin from 192.168.24.100
+/var/log/syslog:Nov 14 09:25:12 debian sshd[1236]: Failed password for invalid user test
+/var/log/syslog:Nov 14 09:30:18 debian sshd[1237]: New connection received
+/var/log/syslog:Nov 14 09:35:45 debian sshd[1238]: Session closed for user admin
+
+/var/log/apt/history.log:Start-Date: 2024-11-14  09:15:20
+/var/log/apt/history.log:Commandline: apt install openssh-server
+/var/log/apt/history.log:Install: openssh-server:amd64 (9.2p1-2), openssh-sftp-server:amd64 (9.2p1-2)
+/var/log/apt/history.log:End-Date: 2024-11-14  09:15:23

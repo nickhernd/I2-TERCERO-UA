@@ -1,0 +1,16 @@
+  211 sudo service cupsd restart
+  212 sudo ipfw add allow tcp from any to any 631
+  213 ping 192.168.24.42
+  214 telnet 192.168.24.42 631
+  215 clear
+  216 pkg install -y isc-dhcp44-server
+  217 clear
+  218 ee /etc/rc.conf
+  219 ee /usr/local/etc/dhcpd.conf
+  220 touch /var/db/dhcpd/dhcpd.leases
+  221 service isc-dhcpd start
+  222 service isc-dhcpd status
+  223 tail /var/log/messages | grep dhcpd
+  224 netstat -an | grep 67
+  225 clear
+  226 mkdir -p /memoria/unix/dhcp

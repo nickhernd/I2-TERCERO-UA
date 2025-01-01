@@ -1,0 +1,48 @@
+/var/log/apt/term.log:Selecting previously unselected package cups-daemon.
+/var/log/apt/term.log:Preparing to unpack .../cups-daemon_2.4.2-3_amd64.deb ...
+/var/log/apt/term.log:Unpacking cups-daemon (2.4.2-3) ...
+/var/log/apt/term.log:Setting up cups-daemon (2.4.2-3) ...
+/var/log/apt/term.log:Created symlink /etc/systemd/system/printer.target.wants/cups.service → /lib/systemd/system/cups.service.
+/var/log/apt/term.log:Created symlink /etc/systemd/system/sockets.target.wants/cups.socket → /lib/systemd/system/cups.socket.
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/cups.path → /lib/systemd/system/cups.path.
+
+/var/log/apt/history.log:Start-Date: 2024-11-14  09:15:23
+/var/log/apt/history.log:Commandline: apt install cups cups-pdf cups-filters
+/var/log/apt/history.log:Install: cups-daemon:amd64 (2.4.2-3), cups-pdf:amd64 (3.0.1-11)
+/var/log/apt/history.log:End-Date: 2024-11-14  09:15:45
+
+/var/log/syslog:Nov 14 09:15:46 debian systemd[1]: Starting CUPS Scheduler...
+/var/log/syslog:Nov 14 09:15:47 debian cupsd[1234]: Listening to 192.168.24.41:631 on fd 8...
+/var/log/syslog:Nov 14 09:15:48 debian cupsd[1234]: Loaded configuration file "/etc/cups/cupsd.conf"
+/var/log/syslog:Nov 14 09:15:49 debian systemd[1]: Started CUPS Scheduler.
+/var/log/syslog:Nov 14 09:20:15 debian cupsd[1234]: [Client 2] Adding printer 'PDF'...
+/var/log/syslog:Nov 14 09:20:16 debian cupsd[1234]: [Client 2] Printer 'PDF' configured with URI: cups-pdf:/
+
+/var/log/daemon.log:Nov 14 09:15:46 debian cupsd[1234]: Starting scheduler...
+/var/log/daemon.log:Nov 14 09:15:47 debian cupsd[1234]: Listening to [v1.::1]:631 (IPv6)
+/var/log/daemon.log:Nov 14 09:15:48 debian cupsd[1234]: Listening to 192.168.24.41:631 (IPv4)
+/var/log/daemon.log:Nov 14 09:20:15 debian cupsd[1234]: Printer 'PDF' configured with driver 'CUPS-PDF'
+/var/log/daemon.log:Nov 14 09:25:30 debian cupsd[1234]: Processing job 1 on printer 'PDF'
+
+/var/log/auth.log:Nov 14 09:15:50 debian sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/cupsd
+/var/log/auth.log:Nov 14 09:16:00 debian sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/cupsctl
+/var/log/auth.log:Nov 14 09:20:10 debian sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/lpadmin
+
+/var/log/cups/error_log:E [14/Nov/2024:09:15:47 -0500] Unknown directive SystemGroup on line 23 of /etc/cups/cupsd.conf
+/var/log/cups/error_log:I [14/Nov/2024:09:15:48 -0500] Loaded configuration file "/etc/cups/cupsd.conf"
+/var/log/cups/error_log:I [14/Nov/2024:09:15:49 -0500] Loaded printer 'PDF' from '/etc/cups/printers.conf'
+/var/log/cups/error_log:D [14/Nov/2024:09:20:15 -0500] [Client 3] Connected from 192.168.24.100:54321
+/var/log/cups/error_log:I [14/Nov/2024:09:20:16 -0500] [Client 3] Authorized as "admin"
+/var/log/cups/error_log:I [14/Nov/2024:09:25:30 -0500] [Job 1] Processing page 1...
+/var/log/cups/error_log:D [14/Nov/2024:09:25:31 -0500] [Job 1] Converted input file to PDF format
+/var/log/cups/error_log:I [14/Nov/2024:09:25:32 -0500] [Job 1] Completed successfully
+
+/var/log/cups/access_log:localhost - - [14/Nov/2024:09:15:48 -0500] "POST / HTTP/1.1" 200 349 Create-Printer-Subscriptions successful-ok
+/var/log/cups/access_log:192.168.24.100 - admin [14/Nov/2024:09:20:15 -0500] "POST /admin/conf HTTP/1.1" 200 145 CUPS-Add-Modify-Printer successful-ok
+/var/log/cups/access_log:192.168.24.100 - - [14/Nov/2024:09:25:30 -0500] "POST /printers/PDF HTTP/1.1" 200 245 Print-Job successful-ok
+
+/var/log/cups/page_log:PDF admin 1 [14/Nov/2024:09:25:32 -0500] 1 1 - localhost Test Page Letter -
+/var/log/cups/page_log:PDF admin 2 [14/Nov/2024:09:30:15 -0500] 1 1 - localhost Document1 A4 -
+
+/var/log/cups/cups-pdf_log:Nov 14 09:25:31 [INFO] PDF Conversion successful - Job: 1
+/var/log/cups/cups-pdf_log:Nov 14 09:30:16 [INFO] PDF Conversion successful - Job: 2

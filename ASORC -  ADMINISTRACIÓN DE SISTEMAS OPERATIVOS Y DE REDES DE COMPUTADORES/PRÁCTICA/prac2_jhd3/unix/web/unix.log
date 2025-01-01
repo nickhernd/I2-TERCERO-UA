@@ -1,0 +1,6 @@
+/var/log/messages:Nov 16 00:22:37 freebsd pkg[2513]: apache24-2.4.62 installed
+/var/log/messages:Nov 16 08:47:22 freebsd root[1234]: /etc/rc: WARNING: failed to start apache24
+/var/log/messages:Nov 16 08:52:01 freebsd root[1201]: /etc/rc: WARNING: failed to start apache24
+/var/log/messages:Nov 16 08:55:33 freebsd root[1201]: /etc/rc: WARNING: failed to start apache24
+/var/log/messages:Nov 16 09:14:07 freebsd nickhernd[1508]: /usr/local/etc/rc.d/apache24: WARNING: failed to start apache24
+[Sat Nov 16 09:17:29.445849 2024] [authz_core:error] [pid 1574] [client 192.168.24.1:50670] AH01630: client denied by server configuration: /usr/local/www/site2/vendor/

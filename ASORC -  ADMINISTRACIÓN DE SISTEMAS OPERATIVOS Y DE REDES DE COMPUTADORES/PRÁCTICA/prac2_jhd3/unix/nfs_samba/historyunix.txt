@@ -1,0 +1,16 @@
+  120 ee /etc/rc.conf
+  121 ee /usr/local/etc/smb4.conf
+  122 pw useradd ncikehrnd -m
+  123 smbpasswd -a ncikehrnd
+  124 CLEAR
+  125 clear
+  126 service samba_server start
+  127 clear
+  128 showmount -e localhost
+  129 rpcinfo -p
+  130 clear
+  131 smbstatus
+  132 netstat -an | grep 445
+  133 celar
+  134 clear
+  135 mkdir -p /memoria/unix/nfs_samba

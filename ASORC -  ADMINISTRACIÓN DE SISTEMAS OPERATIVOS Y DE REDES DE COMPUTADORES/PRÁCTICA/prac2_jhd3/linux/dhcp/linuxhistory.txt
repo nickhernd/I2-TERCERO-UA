@@ -1,0 +1,48 @@
+50 apt update
+   51 apt install isc-dhcp-server
+   52 systemctl status isc-dhcp-server
+   53 cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.backup
+   54 nano /etc/dhcp/dhcpd.conf
+   55 ip addr show
+   56 nano /etc/default/isc-dhcp-server
+   57 mkdir -p /etc/dhcp/backup
+   58 touch /var/lib/dhcp/dhcpd.leases
+   59 chown dhcpd:dhcpd /var/lib/dhcp/dhcpd.leases
+   60 systemctl restart isc-dhcp-server
+   61 systemctl status isc-dhcp-server
+   62 tail -f /var/log/syslog | grep dhcp
+   63 netstat -tuln | grep 67
+   64 dhcpd -t -cf /etc/dhcp/dhcpd.conf
+   65 mkdir /var/log/dhcp
+   66 touch /var/log/dhcp/dhcpd.log
+   67 chown -R dhcpd:dhcpd /var/log/dhcp
+   68 chmod 755 /var/log/dhcp
+   69 nano /etc/logrotate.d/isc-dhcp-server
+   70 systemctl restart isc-dhcp-server
+   71 tail -f /var/log/dhcp/dhcpd.log
+   72 dhcpd -T
+   73 ip link set enp0s3 up
+   74 journalctl -u isc-dhcp-server
+   75 ps aux | grep dhcp
+   76 netstat -tulpn | grep dhcp
+   77 dhcpd -4 -T -cf /etc/dhcp/dhcpd.conf
+   78 systemctl enable isc-dhcp-server
+   79 cat /var/lib/dhcp/dhcpd.leases
+   80 dhcpd -t
+   81 systemctl restart networking
+   82 systemctl restart isc-dhcp-server
+   83 tail -f /var/log/syslog
+   84 arp -a
+   85 tcpdump -i enp0s3 port 67 or port 68 -n
+   86 omshell
+   87 dhcpd -d -f
+   88 cat /etc/dhcp/dhcpd.conf | grep range
+   89 ls -l /var/lib/dhcp/
+   90 chmod 664 /var/lib/dhcp/dhcpd.leases
+   91 systemctl status isc-dhcp-server
+   92 dhcpd -4 -q -cf /etc/dhcp/dhcpd.conf -lf /var/lib/dhcp/dhcpd.leases
+   93 ifconfig enp0s3
+   94 route -n
+   95 nano /etc/network/interfaces
+   96 ip route show
+   97 history | grep dhcp

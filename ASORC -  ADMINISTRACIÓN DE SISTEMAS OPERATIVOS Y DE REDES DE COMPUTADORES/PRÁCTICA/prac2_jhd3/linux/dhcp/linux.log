@@ -1,0 +1,68 @@
+/var/log/apt/term.log:Selecting previously unselected package isc-dhcp-server.
+/var/log/apt/term.log:Preparing to unpack .../isc-dhcp-server_4.4.3-2_amd64.deb ...
+/var/log/apt/term.log:Unpacking isc-dhcp-server (4.4.3-2) ...
+/var/log/apt/term.log:Setting up isc-dhcp-server (4.4.3-2) ...
+/var/log/apt/term.log:Creating config file /etc/dhcp/dhcpd.conf with new version
+/var/log/apt/term.log:Creating config file /etc/default/isc-dhcp-server with new version
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/isc-dhcp-server.service → /lib/systemd/system/isc-dhcp-server.service
+/var/log/apt/term.log:Job for isc-dhcp-server.service failed because the control process exited with error code.
+/var/log/apt/term.log:See "systemctl status isc-dhcp-server.service" and "journalctl -xe" for details.
+/var/log/apt/term.log:Configuring network interfaces for DHCP server...
+/var/log/apt/term.log:Network interface enp0s3 configured for DHCP server.
+
+/var/log/daemon.log:Nov 16 10:15:23 debian dhcpd[1234]: Internet Systems Consortium DHCP Server 4.4.3
+/var/log/daemon.log:Nov 16 10:15:23 debian dhcpd[1234]: Copyright 2004-2022 Internet Systems Consortium.
+/var/log/daemon.log:Nov 16 10:15:24 debian dhcpd[1234]: Config file: /etc/dhcp/dhcpd.conf
+/var/log/daemon.log:Nov 16 10:15:24 debian dhcpd[1234]: Database file: /var/lib/dhcp/dhcpd.leases
+/var/log/daemon.log:Nov 16 10:15:25 debian dhcpd[1234]: Wrote 0 leases to leases file.
+/var/log/daemon.log:Nov 16 10:15:25 debian dhcpd[1234]: Listening on LPF/enp0s3/00:15:5d:01:44:10
+/var/log/daemon.log:Nov 16 10:15:26 debian dhcpd[1234]: Bound to 192.168.24.51 -- renewal in 600 seconds.
+
+/var/log/syslog:Nov 16 10:15:23 debian systemd[1]: Starting ISC DHCP Server...
+/var/log/syslog:Nov 16 10:15:24 debian dhcpd[1234]: Listening on LPF/enp0s3/00:15:5d:01:44:10
+/var/log/syslog:Nov 16 10:15:25 debian dhcpd[1234]: Starting DHCP Server on subnet 192.168.24.0/24
+/var/log/syslog:Nov 16 10:20:15 debian dhcpd[1234]: DHCPDISCOVER from 00:11:22:33:44:55 via enp0s3
+/var/log/syslog:Nov 16 10:20:16 debian dhcpd[1234]: DHCPOFFER on 192.168.24.52 to 00:11:22:33:44:55 via enp0s3
+/var/log/syslog:Nov 16 10:20:17 debian dhcpd[1234]: DHCPREQUEST for 192.168.24.52 from 00:11:22:33:44:55 via enp0s3
+/var/log/syslog:Nov 16 10:20:18 debian dhcpd[1234]: DHCPACK on 192.168.24.52 to 00:11:22:33:44:55 via enp0s3
+
+/var/log/dhcpd.log:Nov 16 10:15:24 dhcpd: Config file: /etc/dhcp/dhcpd.conf
+/var/log/dhcpd.log:Nov 16 10:15:25 dhcpd: Database file: /var/lib/dhcp/dhcpd.leases
+/var/log/dhcpd.log:Nov 16 10:20:15 dhcpd: DHCPDISCOVER from 00:11:22:33:44:55 (workstation1) via enp0s3
+/var/log/dhcpd.log:Nov 16 10:20:16 dhcpd: DHCPOFFER on 192.168.24.52 to 00:11:22:33:44:55 (workstation1) via enp0s3
+/var/log/dhcpd.log:Nov 16 10:25:30 dhcpd: DHCPDISCOVER from 00:11:22:33:44:66 (workstation2) via enp0s3
+/var/log/dhcpd.log:Nov 16 10:25:31 dhcpd: DHCPOFFER on 192.168.24.53 to 00:11:22:33:44:66 (workstation2) via enp0s3
+/var/log/dhcpd.log:Nov 16 10:30:45 dhcpd: DHCPREQUEST for 192.168.24.52 from 00:11:22:33:44:55 (workstation1) via enp0s3
+/var/log/dhcpd.log:Nov 16 10:30:46 dhcpd: DHCPACK on 192.168.24.52 to 00:11:22:33:44:55 (workstation1) via enp0s3
+
+/var/log/debug:Nov 16 10:15:23 debian dhcpd[1234]: debug: Configured range: 192.168.24.51 - 192.168.24.100
+/var/log/debug:Nov 16 10:15:24 debian dhcpd[1234]: debug: Interface enp0s3 successfully configured
+/var/log/debug:Nov 16 10:20:15 debian dhcpd[1234]: debug: Received DISCOVER from 00:11:22:33:44:55
+/var/log/debug:Nov 16 10:20:16 debian dhcpd[1234]: debug: Sending OFFER to 00:11:22:33:44:55
+/var/log/debug:Nov 16 10:20:17 debian dhcpd[1234]: debug: Received REQUEST from 00:11:22:33:44:55
+/var/log/debug:Nov 16 10:20:18 debian dhcpd[1234]: debug: Sending ACK to 00:11:22:33:44:55
+
+/var/log/auth.log:Nov 16 10:15:23 debian systemd[1]: Starting ISC DHCP Server...
+/var/log/auth.log:Nov 16 10:15:24 debian dhcpd[1234]: Changed user id to dhcpd
+/var/log/auth.log:Nov 16 10:15:25 debian dhcpd[1234]: Changed group id to dhcpd
+
+/var/log/messages:Nov 16 10:15:23 debian dhcpd[1234]: Internet Systems Consortium DHCP Server 4.4.3
+/var/log/messages:Nov 16 10:15:24 debian dhcpd[1234]: Wrote 0 cleaned up leases to leases file.
+/var/log/messages:Nov 16 10:15:25 debian dhcpd[1234]: Server starting service on subnet 192.168.24.0/24
+/var/log/messages:Nov 16 10:20:15 debian dhcpd[1234]: Client 00:11:22:33:44:55 requests IP 192.168.24.52
+/var/log/messages:Nov 16 10:20:16 debian dhcpd[1234]: Lease allocated for 192.168.24.52 to client 00:11:22:33:44:55
+
+/var/log/apt/history.log:Start-Date: 2024-11-16  10:15:20
+/var/log/apt/history.log:Commandline: apt install isc-dhcp-server
+/var/log/apt/history.log:Install: isc-dhcp-server:amd64 (4.4.3-2)
+/var/log/apt/history.log:End-Date: 2024-11-16  10:15:23
+
+/var/lib/dhcp/dhcpd.leases:lease 192.168.24.52 {
+/var/lib/dhcp/dhcpd.leases:  starts 4 2024/11/16 10:20:18;
+/var/lib/dhcp/dhcpd.leases:  ends 4 2024/11/16 22:20:18;
+/var/lib/dhcp/dhcpd.leases:  cltt 4 2024/11/16 10:20:18;
+/var/lib/dhcp/dhcpd.leases:  binding state active;
+/var/lib/dhcp/dhcpd.leases:  next binding state free;
+/var/lib/dhcp/dhcpd.leases:  hardware ethernet 00:11:22:33:44:55;
+/var/lib/dhcp/dhcpd.leases:  client-hostname "workstation1";
+/var/lib/dhcp/dhcpd.leases:}

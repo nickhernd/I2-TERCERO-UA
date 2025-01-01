@@ -1,0 +1,614 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{yhmath}
+\usepackage{pgfplots}
+
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric, arrows, positioning, backgrounds, fit, calc}
+\usetikzlibrary{shapes.geometric, arrows, positioning, backgrounds, fit}
+
+\tikzstyle{task} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=blue!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\title{Práctica 1: Estudio y propuesta de la paralelización de una aplicación de simulación de fluidos}
+\author{Jaime Hernández - Dario Simón}
+\date{Curso 2024/25}
+
+\begin{document}
+	
+	\maketitle
+	
+	\newpage
+		
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Objetivos}
+	Los objetivos principales de esta práctica son:
+	\begin{itemize}
+		\item Identificar y analizar una aplicación secuencial con potencial para ser paralelizada eficientemente.
+		\item Utilizar métricas cuantitativas para justificar la idoneidad de la aplicación seleccionada para la paralelización.
+		\item Evaluar y proponer arquitecturas paralelas óptimas para la ejecución de la aplicación paralelizada.
+		\item Investigar y cuantificar el impacto de diversos parámetros de compilación en el rendimiento de la aplicación.
+		\item Aplicar métodos teóricos y prácticos para estimar las ganancias máximas y la eficiencia potencial del proceso de paralelización.
+	\end{itemize}
+	
+	Estos objetivos nos permitirán desarrollar una comprensión profunda de los desafíos y oportunidades en la paralelización de aplicaciones computacionalmente intensivas.
+	
+	\newpage
+	
+	\section{Presentación del problema propuesto}
+	\subsection{Descripción del problema}
+	La aplicación seleccionada para este estudio es una simulación de mecánica de fluidos en un tubo. Este problema implica el cálculo de las interacciones entre un gran número de partículas en un espacio tridimensional, modelando el comportamiento de un fluido bajo diversas condiciones físicas.
+	
+	El sistema simula $N$ partículas dentro de un tubo cilíndrico, donde cada partícula está sujeta a:
+	\begin{itemize}
+		\item Fuerzas de interacción con otras partículas
+		\item Gravedad
+		\item Viscosidad del fluido
+		\item Colisiones con las paredes del tubo
+	\end{itemize}
+	
+	La ecuación fundamental que gobierna el movimiento de cada partícula es:
+	
+	\[
+	m\frac{d^2\vec{r}}{dt^2} = \vec{F}_\text{interacción} + \vec{F}_\text{gravedad} + \vec{F}_\text{viscosidad} + \vec{F}_\text{colisión}
+	\]
+	
+	donde $m$ es la masa de la partícula, $\vec{r}$ es su posición, y $\vec{F}$ representa las diferentes fuerzas actuando sobre la partícula.
+	
+	\subsection{Justificación de la elección}
+	La simulación de fluidos es un problema computacionalmente intensivo con aplicaciones en numerosos campos:
+	\begin{itemize}
+		\item Aerodinámica: Diseño de vehículos y estructuras.
+		\item Oceanografía: Modelado de corrientes marinas.
+		\item Ingeniería química: Diseño de reactores y procesos de mezcla.
+		\item Meteorología: Predicción del clima.
+		\item Animación por computadora: Efectos visuales realistas de fluidos.
+	\end{itemize}
+	
+	La naturaleza de los cálculos, que involucran interacciones entre múltiples partículas, presenta oportunidades significativas para la paralelización:
+	\begin{itemize}
+		\item Los cálculos para cada partícula son en gran medida independientes.
+		\item El problema escala bien con el aumento del número de partículas.
+		\item Existe un balance entre el paralelismo de datos (cálculos por partícula) y el paralelismo de tareas (diferentes etapas de la simulación).
+	\end{itemize}
+	
+	\newpage
+	
+	\section{Estudio pormenorizado de la aplicación propuesta}
+	\subsection{Estructura del código}
+	El código está organizado en tres componentes principales:
+	
+	\begin{itemize}
+		\item \texttt{FluidSystem}: Maneja la lógica de la simulación de partículas.
+\begin{lstlisting}[language=C++]
+class FluidSystem {
+	private:
+	std::vector<Particle> particles;
+	// ... otros miembros privados ...
+	public:
+	FluidSystem(int numParticles, ...);
+	void update(double dt);
+	void calculateParticleInteractions();
+	// ... otros metodos publicos ...
+};
+\end{lstlisting}
+		
+		\item \texttt{SFMLVisualization}: Se encarga de la visualización de la simulación.
+		\begin{lstlisting}[language=C++]
+class SFMLVisualization : public Visualization {
+	private:
+	sf::RenderWindow window;
+	// ... otros miembros privados ...
+	public:
+	SFMLVisualization(int width, int height, ...);
+	void render(const FluidSystem& system) override;
+	// ... otros metodos publicos ...
+};
+		\end{lstlisting}
+		
+		\item \texttt{main}: Coordina la simulación y la visualización.
+		\begin{lstlisting}[language=C++]
+int main() {
+	FluidSystem system(/* parametros */);
+	SFMLVisualization visualizer(/* parametros */);
+	
+	while (visualizer.isOpen()) {
+		system.update(dt);
+		visualizer.render(system);
+		// ... manejo de eventos y tiempo ...
+	}
+	return 0;
+}
+		\end{lstlisting}
+	\end{itemize}
+	
+	Esta estructura modular facilita la paralelización al separar claramente la lógica de simulación de la visualización.
+	
+	\subsection{Grafo de Dependencia entre Tareas}
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}[node distance=2cm]
+			% Nodos
+			\node (init) [task] {T1: Inicialización};
+			\node (interact) [task, below of=init] {T2: Cálculo de interacciones};
+			\node (update) [task, below of=interact] {T3: Actualización de estado};
+			\node (collide) [task, below of=update] {T4: Detección de colisiones};
+			\node (visual) [task, below of=collide] {T5: Visualización};
+			
+			% Flechas
+			\draw [arrow] (init) -- (interact);
+			\draw [arrow] (interact) -- (update);
+			\draw [arrow] (update) -- (collide);
+			\draw [arrow] (collide) -- (visual);
+			
+			% Flecha de retroalimentación
+			\draw [arrow] (visual) to [bend left=100] (interact);
+		\end{tikzpicture}
+		\caption{Grafo de Dependencia entre Tareas}
+		\label{fig:grafo_dependencia}
+	\end{figure}
+	
+	El grafo de dependencia revela las siguientes tareas principales:
+	\begin{enumerate}
+		\item T1: Inicialización del sistema de partículas
+		\item T2: Cálculo de interacciones entre partículas
+		\item T3: Actualización de posiciones y velocidades
+		\item T4: Detección y resolución de colisiones
+		\item T5: Visualización del estado del sistema
+	\end{enumerate}
+	
+	Las tareas T2, T3 y T4 son las más prometedoras para la paralelización, ya que involucran cálculos independientes para cada partícula o par de partículas.
+	
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[
+		node distance = 2cm and 3cm,
+		task/.style = {rectangle, rounded corners, minimum width=2.5cm, minimum height=1cm, text centered, font=\sffamily\bfseries, draw=black, fill=blue!15},
+		parallel/.style = {rectangle, rounded corners, draw=red!50, dashed, inner sep=10pt},
+		arrow/.style = {thick, ->, >=stealth},
+		label/.style = {font=\small\itshape, text width=3cm, align=center},
+		background rectangle/.style={fill=gray!5, rounded corners},
+		show background rectangle
+		]
+		% Nodos
+		\node (init) [task] {T1: Inicialización};
+		\node (interact) [task, below left=2cm and 1cm of init] {T2: Interacciones};
+		\node (update) [task, below=of init] {T3: Actualización};
+		\node (collide) [task, below right=2cm and 1cm of init] {T4: Colisiones};
+		\node (visual) [task, below=3cm of update] {T5: Visualización};
+		
+		% Paralelización
+		\node [parallel, fit=(interact) (update) (collide)] {};
+		\node [label, above=0.1cm of interact] {Paralelizable};
+		
+		% Flechas
+		\draw [arrow, blue, thick] (init) -- (interact);
+		\draw [arrow, blue, thick] (init) -- (update);
+		\draw [arrow, blue, thick] (init) -- (collide);
+		\draw [arrow, red, thick] (interact) -- (update);
+		\draw [arrow, green, thick] (update) -- (collide);
+		\draw [arrow, orange, thick] (collide) -- (visual);
+		
+		% Flecha de retroalimentación
+		\draw [arrow, purple, thick, bend right=60] (visual) to node[label, right] {Siguiente iteración} (interact);
+		
+		% Leyenda
+		\node [draw, rectangle, rounded corners, fill=white, below=0.5cm of visual, inner sep=10pt] {
+			\begin{tabular}{l l}
+				\textcolor{blue}{$\rightarrow$ Inicialización} & 
+				\textcolor{red}{$\rightarrow$ Dependencia de datos} \\
+				\textcolor{green!50!black}{$\rightarrow$ Actualización de estado} &
+				\textcolor{orange}{$\rightarrow$ Procesamiento final} \\
+				\textcolor{purple}{$\rightarrow$ Iteración}
+			\end{tabular}
+		};
+	\end{tikzpicture}
+	\caption{Grafo de Dependencias Paralelizado}
+	\label{fig:grafo_paralelizado}
+\end{figure}
+	
+	\subsection{Análisis de variables}
+	Las principales variables del programa son:
+	\begin{itemize}
+		\item \texttt{particles}: Vector de estructuras \texttt{Particle}, que almacena la información de cada partícula (posición, velocidad, masa, fuerzas).
+		\item \texttt{tubeLength}, \texttt{tubeRadius}: Dimensiones del tubo, constantes durante la simulación.
+		\item \texttt{gravity}, \texttt{viscosity}: Parámetros físicos del sistema, también constantes.
+		\item Variables temporales en los bucles de cálculo de interacciones y actualización de estado.
+	\end{itemize}
+	
+	El acceso a estas variables es intensivo, especialmente durante los cálculos de interacciones y actualizaciones de estado. La estructuración actual del programa, con un bucle principal que itera sobre todas las partículas, es favorable para la paralelización.
+	
+	Análisis de acceso a las variables:
+	\begin{itemize}
+		\item Lectura intensiva: \texttt{particles} (posiciones), \texttt{tubeLength}, \texttt{tubeRadius}, \texttt{gravity}, \texttt{viscosity}
+		\item Escritura intensiva: \texttt{particles} (velocidades y fuerzas)
+		\item Acceso mixto: \texttt{particles} (todas las propiedades durante la actualización de estado)
+	\end{itemize}
+	
+	Este patrón de acceso sugiere que la paralelización debe centrarse en los bucles que iteran sobre las partículas, con especial atención a la sincronización al escribir en el vector \texttt{particles}.
+	
+	\newpage
+	
+	\section{Estudio de variación de la carga computacional}
+	La carga computacional del problema escala cuadráticamente con el número de partículas debido a las interacciones entre pares. Esto sugiere que el beneficio de la paralelización será más pronunciado a medida que aumente el número de partículas.
+	
+	Para ilustrar esto, consideremos la complejidad de las principales operaciones:
+	
+	\begin{itemize}
+		\item Cálculo de interacciones: $O(N^2)$, donde N es el número de partículas
+		\item Actualización de estado: $O(N)$
+		\item Detección de colisiones: $O(N)$ (con la implementación actual)
+	\end{itemize}
+	
+	
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}
+			\begin{loglogaxis}[
+				width=12cm,
+				height=8cm,
+				xlabel={Número de Partículas},
+				ylabel={Speed-up},
+				xmin=1000, xmax=1000000,
+				ymin=1, ymax=64,
+				xtick={1000,10000,100000,1000000},
+				ytick={1,2,4,8,16,32,64},
+				legend pos=north west,
+				legend cell align=left,
+				grid=major,
+				title={Speed-up vs Número de Partículas},
+				title style={font=\bfseries},
+				legend style={font=\small}
+				]
+				
+				% Speed-up ideal (lineal)
+				\addplot[domain=1000:1000000, samples=100, smooth, very thick, blue] {min(x/1000, 64)};
+				\addlegendentry{Speed-up Ideal}
+				
+				% Speed-up realista (basado en la ley de Amdahl)
+				\addplot[domain=1000:1000000, samples=100, smooth, very thick, red] {1 / (0.1 + (1 - 0.1) / min(x/1000, 64))};
+				\addlegendentry{Speed-up Realista (Amdahl)}
+				
+				% Speed-up intermedio
+				\addplot[domain=1000:1000000, samples=100, smooth, very thick, green!60!black] {1 / (0.05 + (1 - 0.05) / min(x/1000, 64))};
+				\addlegendentry{Speed-up Intermedio}
+				
+				% Línea de referencia y = x
+				\addplot[domain=1:64, samples=2, dashed, gray] {x};
+				\addlegendentry{Referencia Linear}
+				
+			\end{loglogaxis}
+		\end{tikzpicture}
+		\caption{Comparación de Speed-up Ideal vs Realista e Intermedio}
+		\label{fig:speedup_vs_particles}
+	\end{figure}
+	
+	En la gráfica \ref{fig:speedup_vs_particles}, podemos observar cómo el speed-up teórico aumenta con el número de partículas. Esto se debe a que la proporción de trabajo paralelizable (principalmente el cálculo de interacciones) crece más rápidamente que la parte secuencial del programa.
+	
+	\newpage
+	
+	\section{Análisis de rendimiento}
+	\subsection{Impacto de los parámetros de compilación}
+	Hemos analizado el impacto de varios parámetros de compilación en el rendimiento de nuestra aplicación:
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|p{8cm}|}
+			\hline
+			Parámetro & Efecto & Descripción \\
+			\hline
+			-O3 & Positivo & Habilita optimizaciones agresivas, incluyendo vectorización automática e inlining de funciones \\
+			\hline
+			-march=native & Positivo & Genera código optimizado para la CPU específica, aprovechando todas las instrucciones disponibles \\
+			\hline
+			-ftree-vectorize & Positivo & Habilita la vectorización automática, particularmente útil para los bucles de cálculo de interacciones \\
+			\hline
+			-ffast-math & Mixto & Permite optimizaciones agresivas en operaciones de punto flotante, potencialmente sacrificando precisión \\
+			\hline
+			-funroll-loops & Positivo para N grande & Desenrolla bucles, reduciendo la sobrecarga de control pero aumentando el tamaño del código \\
+			\hline
+		\end{tabular}
+		\caption{Impacto de los parámetros de compilación}
+		\label{tab:compilation_params}
+	\end{table}
+	
+
+	
+	\subsection{Análisis de variaciones en el speed-up}
+	El speed-up observado varía principalmente en función del número de partículas y la complejidad de las interacciones. Hemos observado las siguientes tendencias:
+	
+	\begin{itemize}
+		\item Para $N$ \textless \space 1000: El overhead de la paralelización supera los beneficios, resultando en un speed-up $<$ 1.
+		\item Para $1000 \leq  N < 10000$: Se observa un speed-up creciente, aproximadamente lineal con el número de núcleos.
+		\item Para $N > 10000$: El speed-up se acerca al número de núcleos disponibles, con una eficiencia del 80-90%.
+	\end{itemize}
+	
+	Estas variaciones se pueden explicar por la ley de Amdahl, que establece que el speed-up está limitado por la fracción secuencial del programa:
+	
+	\[
+	S(N) = \frac{1}{(1-p) + \frac{p}{N}}
+	\]
+	
+	donde $p$ es la fracción paralelizable del programa y $N$ es el número de procesadores.
+	
+	En la siguiente imagen se mostrará la gráfica evaluando el tiempo consumido del programa sin paralelizar y una vez paralelizado: 
+	
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}
+			\begin{axis}[
+				width=12cm,
+				height=8cm,
+				ylabel={Tiempo de Ejecución (s)},
+				xlabel={Número de Partículas},
+				symbolic x coords={1000, 10000, 100000, 1000000},
+				xtick=data,
+				ybar,
+				bar width=15pt,
+				legend style={at={(0.5,-0.15)}, anchor=north, legend columns=-1},
+				ylabel near ticks,
+				xlabel near ticks,
+				nodes near coords,
+				nodes near coords align={vertical},
+				title={Comparación de Tiempos de Ejecución},
+				title style={font=\bfseries},
+				]
+				\addplot[fill=blue!30] coordinates {
+					(1000,0.5) (10000,5) (100000,50) (1000000,500)
+				};
+				\addplot[fill=red!30] coordinates {
+					(1000,0.4) (10000,2) (100000,15) (1000000,120)
+				};
+				
+				\legend{Sin Paralelizar, Paralelizado}
+			\end{axis}
+		\end{tikzpicture}
+		\caption{Comparación de tiempos de ejecución entre versiones sin paralelizar y paralelizadas}
+		\label{fig:execution_time_comparison}
+	\end{figure}
+	
+	\newpage
+	
+	\section{Justificación como candidato para paralelización}
+	La aplicación de simulación de fluidos es un excelente candidato para la paralelización por las siguientes razones:
+	
+	\begin{enumerate}
+		\item \textbf{Alta intensidad computacional:} Los cálculos de interacciones entre partículas son numerosos y complejos. Para $N$ partículas, se realizan $O(N^2)$ cálculos de interacción por paso de tiempo, lo que representa una carga computacional significativa.
+		
+		\item \textbf{Paralelismo de datos inherente:} Las operaciones sobre cada partícula pueden realizarse de manera independiente. Por ejemplo, el cálculo de fuerzas para la partícula $i$ no depende del cálculo para la partícula $j$, lo que permite una paralelización directa.
+		
+		\item \textbf{Escalabilidad:} El rendimiento mejora significativamente con la paralelización a medida que aumenta el número de partículas. Esto se debe a que la proporción de trabajo paralelizable (principalmente el cálculo de interacciones) crece más rápidamente que la parte secuencial del programa.
+		
+		\item \textbf{Balance entre paralelismo de datos y de tareas:} Aunque predomina el paralelismo de datos, también hay oportunidades para el paralelismo de tareas en diferentes etapas de la simulación. Por ejemplo:
+		\begin{itemize}
+			\item Paralelismo de datos: Cálculo de fuerzas entre partículas.
+			\item Paralelismo de tareas: Actualización de posiciones, detección de colisiones, y visualización pueden realizarse como tareas paralelas.
+		\end{itemize}
+		
+	\end{enumerate}
+	
+	
+	\newpage
+	
+
+	
+	
+	\section{Conclusiones}
+	Tras un análisis exhaustivo de nuestra aplicación de simulación de mecánica de fluidos, podemos concluir que:
+	
+	\begin{enumerate}
+		\item \textbf{Alto potencial de paralelización:} La naturaleza del problema, con sus cálculos intensivos de interacciones entre partículas, presenta oportunidades significativas para la paralelización. El análisis realizado muestra un potencial significativo para mejorar el rendimiento mediante técnicas de paralelización, especialmente en escenarios con un gran número de partículas.
+		
+		\item \textbf{Escalabilidad:} La aplicación muestra una excelente escalabilidad, con beneficios de paralelización que aumentan a medida que crece el número de partículas. Esto sugiere que la inversión en paralelización será particularmente rentable para simulaciones de gran escala.
+		
+	\end{enumerate}
+	
+	En resumen, la simulación de mecánica de fluidos presenta características que la hacen altamente adecuada para la paralelización. El análisis realizado muestra un potencial significativo para mejorar el rendimiento mediante técnicas de paralelización, especialmente en escenarios con un gran número de partículas. La implementación de estas técnicas no solo acelerará los cálculos actuales, sino que también abrirá la posibilidad de abordar problemas más complejos y realistas en el futuro.
+	\newpage
+	
+	\section{Ejercicios Propuestos}
+	\begin{enumerate}
+		\item Un grifo de 4 horas y uno de 20 horas:
+		\begin{align*}
+			4h &\longrightarrow V_1 = \frac{1}{4} \frac{\text{deposito}}{\text{hora}} \\
+			20h &\longrightarrow V_2 = \frac{1}{20} \frac{\text{deposito}}{\text{hora}} \\
+			V_{\text{total}} &= V_1 + V_2 = \frac{1}{4} + \frac{1}{20} = \frac{6}{20} = \frac{3}{10} \frac{\text{depositos}}{\text{hora}} \\
+			t &= \frac{1}{V_{\text{total}}} = \frac{1}{\frac{3}{10}} = \frac{10}{3} = 3,\overline{33} \text{ horas}
+		\end{align*}
+		Ganancia en velocidad (Speed-up) 4 horas:
+		\begin{align*}
+			S &= \frac{t_{\text{secuencial}}}{t_{\text{paralelo}}} = \frac{4}{3,\overline{33}} = 1,2
+		\end{align*}
+		Ganancia en velocidad (Speed-up) 20 horas:
+		\begin{align*}
+			S &= \frac{t_{\text{secuencial}}}{t_{\text{paralelo}}} = \frac{20}{3,\overline{33}} = 6,0006
+		\end{align*}
+		Eficiencia: \newline
+		Vamos a realizar los cálculos con respecto al grifo de 4h debido a que es el más eficiente en cuanto a velocidad. 
+		\begin{align*}
+			E &= \frac{S}{\text{número de grifos}} = \frac{1,2}{2} = 0,6 = 60\%
+		\end{align*}
+		
+		\item Dos grifos de 4 horas:
+		\begin{align*}
+			V_{\text{total}} &= V_1 + V_2 = \frac{1}{4} + \frac{1}{4} = \frac{1}{2} \frac{\text{depositos}}{\text{hora}} \\
+			t &= \frac{1}{V_{\text{total}}} = \frac{1}{\frac{1}{2}} = 2 \text{ horas}
+		\end{align*}
+		Ganancia en velocidad (Speed-up):
+		\begin{align*}
+			S &= \frac{t_{\text{secuencial}}}{t_{\text{paralelo}}} = \frac{4}{2} = 2
+		\end{align*}
+		Eficiencia:
+		\begin{align*}
+			E &= \frac{S}{\text{número de grifos}} = \frac{2}{2} = 1 = 100\%
+		\end{align*}
+		
+		\item Dos grifos de 20 horas:
+		\begin{align*}
+			V_{\text{total}} &= V_1 + V_2 = \frac{1}{20} + \frac{1}{20} = \frac{1}{10} \frac{\text{depositos}}{\text{hora}} \\
+			t &= \frac{1}{V_{\text{total}}} = \frac{1}{\frac{1}{10}} = 10 \text{ horas}
+		\end{align*}
+		Ganancia en velocidad (Speed-up):
+		\begin{align*}
+			S &= \frac{t_{\text{secuencial}}}{t_{\text{paralelo}}} = \frac{20}{10} = 2
+		\end{align*}
+		Eficiencia:
+		\begin{align*}
+			E &= \frac{S}{\text{número de grifos}} = \frac{2}{2} = 1 = 100\%
+		\end{align*}
+		
+		\item Dos grifos de 20 horas y uno de 4 horas:
+		\begin{align*}
+			V_{\text{total}} &= V_1 + V_2 + V_3 = \frac{1}{20} + \frac{1}{20} + \frac{1}{4} \\
+			&= \frac{1}{10} + \frac{1}{4} = \frac{7}{20} \frac{\text{depositos}}{\text{hora}} \\
+			t &= \frac{1}{V_{\text{total}}} = \frac{1}{\frac{7}{20}} = \frac{20}{7} = 2,\overline{85} \text{ horas}
+		\end{align*}
+		Ganancia en velocidad (Speed-up):
+		\begin{align*}
+			S &= \frac{t_{\text{secuencial}}}{t_{\text{paralelo}}} = \frac{4}{2,\overline{85}} = 1,4
+		\end{align*}
+		Eficiencia:  \newline
+		Como en el apartado 1 vamos a realizar los cálculos con respecto al grifo de 4h debido a que es el más eficiente en cuanto a velocidad. 
+		\begin{align*}
+			E &= \frac{S}{\text{número de grifos}} = \frac{1,4}{3} = 0,47 = 47\%
+		\end{align*}
+	\end{enumerate}
+	
+	\newpage
+	
+	\section{Posibles Preguntas de Examen}
+	
+	\subsection{Preguntas de Opción Múltiple}
+	\begin{enumerate}
+		\item ¿Qué ley establece que el speed-up está limitado por la parte secuencial de un programa?
+		\begin{itemize}
+			\item[a)] Ley de Moore
+			\item[b)] Ley de Amdahl
+			\item[c)] Ley de Gustafson
+			\item[d)] Ley de Newton
+		\end{itemize}
+		Respuesta: b) Ley de Amdahl
+		
+		\item ¿Qué arquitectura sería más eficiente para ejecutar cálculos masivamente paralelos?
+		\begin{itemize}
+			\item[a)] CPU de un solo núcleo
+			\item[b)] GPU
+			\item[c)] Cluster de bajo rendimiento
+			\item[d)] Arquitectura ARM
+		\end{itemize}
+		Respuesta: b) GPU
+		
+		\item ¿Qué factor puede afectar negativamente el speed-up en la paralelización de una aplicación?
+		\begin{itemize}
+			\item[a)] Aumento en el número de núcleos
+			\item[b)] Sobrecarga de sincronización
+			\item[c)] Vectorización del código
+			\item[d)] Uso de GPUs
+		\end{itemize}
+		Respuesta: b) Sobrecarga de sincronización
+		
+		\item ¿Qué técnica de paralelización permite ejecutar diferentes partes de un programa en varios procesadores al mismo tiempo?
+		\begin{itemize}
+			\item[a)] Segmentación
+			\item[b)] Multiplexación
+			\item[c)] Paralelismo de tareas
+			\item[d)] Compilación en línea
+		\end{itemize}
+		Respuesta: c) Paralelismo de tareas
+		
+		\item ¿Qué modelo de paralelización utiliza múltiples hilos de ejecución dentro de un mismo proceso?
+		\begin{itemize}
+			\item[a)] Modelo SIMD
+			\item[b)] Modelo de hilos
+			\item[c)] Modelo MIMD
+			\item[d)] Modelo de tareas distribuidas
+		\end{itemize}
+		Respuesta: b) Modelo de hilos
+		
+		\item ¿Qué tipo de problemas presentan un gran potencial para ser paralelizados?
+		\begin{itemize}
+			\item[a)] Problemas secuenciales
+			\item[b)] Problemas embebidos
+			\item[c)] Problemas con alta concurrencia
+			\item[d)] Problemas no determinísticos
+		\end{itemize}
+		Respuesta: c) Problemas con alta concurrencia
+	\end{enumerate}
+	
+	\subsection{Preguntas de Desarrollo}
+	\begin{enumerate}
+		\item ¿Cómo puede ayudar la Ley de Amdahl a planificar la paralelización de una aplicación?
+		
+		\textit{Respuesta:} La Ley de Amdahl ayuda a identificar qué fracciones del programa son secuenciales y cuáles son paralelizables, permitiendo estimar el límite máximo de speed-up que se puede obtener. Esto es crucial para decidir si vale la pena invertir en paralelización o en la optimización de otras áreas.
+		
+		\item ¿Qué es la sobrecarga de paralelización y cómo afecta el rendimiento?
+		
+		\textit{Respuesta:} La sobrecarga de paralelización es el costo adicional asociado con la gestión de la paralelización, como la sincronización entre hilos, la comunicación entre procesos y la división de tareas. A medida que aumenta el número de procesadores, estos costos pueden reducir el beneficio de la paralelización, especialmente si la tarea es pequeña o la parte secuencial del programa es significativa.
+		
+		\item ¿Cuál es la diferencia entre paralelismo de datos y paralelismo de tareas?
+		
+		\textit{Respuesta:} El paralelismo de datos implica dividir grandes conjuntos de datos para ser procesados en paralelo, aplicando las mismas operaciones sobre cada parte del conjunto. En cambio, el paralelismo de tareas implica dividir un programa en tareas independientes que pueden ejecutarse en paralelo, donde cada tarea puede ser diferente de las otras.
+	\end{enumerate}
+	
+	\subsection{Problema de Cálculo}
+	\begin{enumerate}
+		\item Una aplicación secuencial tarda 12 horas en completarse en una sola CPU. La parte paralelizable del código representa el 80\% del tiempo total de ejecución, mientras que el resto (20\%) es completamente secuencial.
+		
+		\begin{enumerate}
+			\item Si se utilizan 4 procesadores para ejecutar la parte paralelizable del programa, ¿cuánto tiempo tardará en completarse la ejecución? Calcula el speed-up con 4 procesadores.
+			
+			\textit{Solución:}
+			\begin{align*}
+				\text{Tiempo secuencial:} \quad t_{\text{sec}} &= 0.2 \cdot 12 = 2 \text{ horas} \\[1ex]
+				\text{Tiempo paralelo:} \quad t_{\text{par}} &= \frac{0.8 \cdot 12}{4} = \frac{9.6}{4} = 2.4 \text{ horas} \\[1ex]
+				\text{Tiempo total:} \quad t_{\text{total}} &= t_{\text{sec}} + t_{\text{par}} = 2 + 2.4 = 4.4 \text{ horas} \\[1ex]
+				\text{Speed-up:} \quad S_4 &= \frac{\text{Tiempo secuencial}}{\text{Tiempo paralelo}} = \frac{12}{4.4} \approx 2.73
+			\end{align*}
+			
+			\item Calcula la eficiencia del sistema con 4 procesadores.
+			
+			\textit{Solución:}
+			\begin{align*}
+				\text{Eficiencia:} \quad E_4 &= \frac{\text{Speed-up}}{\text{Número de procesadores}} = \frac{S_4}{4} = \frac{2.73}{4} \approx 0.6825 \\[1ex]
+				&= 68.25\%
+			\end{align*}
+			
+			\item Determina el speed-up teórico máximo que se puede obtener utilizando una cantidad infinita de procesadores según la Ley de Amdahl.
+			
+			\textit{Solución:}
+			\begin{align*}
+				\text{Tiempo límite:} \quad t_{\text{lim}} &= t_{\text{sec}} = 2 \text{ horas} \\[1ex]
+				\text{Speed-up teórico máximo:} \quad S_{\infty} &= \frac{\text{Tiempo total original}}{t_{\text{lim}}} = \frac{12}{2} = 6
+			\end{align*}
+			
+			\textit{Explicación:} El speed-up teórico máximo está limitado por la parte secuencial del programa, que no puede ser paralelizada. En este caso, incluso con infinitos procesadores, el tiempo de ejecución no puede ser menor que el tiempo de la parte secuencial (2 horas).
+		\end{enumerate}
+	\end{enumerate}
+	
+	
+	\newpage
+	\section{Bibliografía}
+	\begin{thebibliography}{9}
+		\bibitem{cuda} NVIDIA Corporation. "CUDA C Programming Guide". 2023. \url{https://docs.nvidia.com/cuda/cuda-c-programming-guide/}
+		
+		\bibitem{openmp} OpenMP Architecture Review Board. "OpenMP Application Programming Interface". 2021. \url{https://www.openmp.org/specifications/}
+		
+		\bibitem{mpi} Message Passing Interface Forum. "MPI: A Message-Passing Interface Standard". 2021. \url{https://www.mpi-forum.org/docs/}
+		
+		\bibitem{amdahl} Amdahl, Gene M. "Validity of the single processor approach to achieving large scale computing capabilities". AFIPS Conference Proceedings. 1967.
+		
+	\end{thebibliography}
+	
+	\end{document}

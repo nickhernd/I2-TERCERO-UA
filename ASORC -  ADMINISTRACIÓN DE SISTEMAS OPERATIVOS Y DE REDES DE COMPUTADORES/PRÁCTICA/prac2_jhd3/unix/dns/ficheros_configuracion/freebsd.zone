@@ -1,0 +1,37 @@
+# /var/named/freebsd.zone
+###############################################################################
+# Forward Zone Configuration
+###############################################################################
+
+$TTL 86400
+@       IN      SOA     ns1.freebsd.local. admin.freebsd.local. (
+                2024111601      ; Serial
+                3600           ; Refresh
+                1800           ; Retry
+                604800         ; Expire
+                86400 )        ; Minimum TTL
+
+; Name servers
+@       IN      NS      ns1.freebsd.local.
+@       IN      NS      ns2.freebsd.local.
+
+; A records
+ns1             IN      A       192.168.24.42
+ns2             IN      A       192.168.24.42
+www             IN      A       192.168.24.42
+git             IN      A       192.168.24.42
+nextcloud       IN      A       192.168.24.42
+ldap            IN      A       192.168.24.42
+print           IN      A       192.168.24.42
+
+; CNAME records
+ftp             IN      CNAME   www
+mail            IN      CNAME   www
+
+; MX records
+@               IN      MX      10      mail.freebsd.local.
+
+; Service records
+_ldap._tcp      IN      SRV     0 0 389    ldap
+_http._tcp      IN      SRV     0 0 80     www
+_https._tcp     IN      SRV     0 0 443    www

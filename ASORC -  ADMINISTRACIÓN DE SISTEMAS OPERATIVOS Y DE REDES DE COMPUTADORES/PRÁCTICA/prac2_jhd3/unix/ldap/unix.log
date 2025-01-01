@@ -1,0 +1,39 @@
+/var/log/debug.log:Nov 16 09:43:06 freebsd slapd[1821]: @(#) $OpenLDAP: slapd 2.6.8 (Oct 31 2024 01:39:30) $ 	@141amd64-quarterly-job-07:/wrkdirs/usr/ports/net/openldap26-server/work/openldap-2.6.8/servers/slapd
+/var/log/debug.log:Nov 16 09:43:06 freebsd slapd[1821]: daemon: SLAP_SOCK_INIT: dtblsize=135198
+/var/log/debug.log:Nov 16 09:43:06 freebsd slapd[1821]: /usr/local/etc/openldap/slapd.conf: line 33: rootdn is always granted unlimited privileges.
+/var/log/debug.log:Nov 16 09:43:06 freebsd slapd[1822]: slapd starting
+/var/log/debug.log:Nov 16 09:44:19 freebsd slapd[1822]: conn=1000 fd=12 ACCEPT from IP=127.0.0.1:21830 (IP=0.0.0.0:389)
+/var/log/debug.log:Nov 16 09:44:19 freebsd slapd[1822]: conn=1000 op=0 BIND dn="cn=admin,dc=midominio,dc=local" method=128
+/var/log/debug.log:Nov 16 09:44:19 freebsd slapd[1822]: conn=1000 op=0 RESULT tag=97 err=49 qtime=0.000042 etime=0.000481 text=
+/var/log/debug.log:Nov 16 09:44:19 freebsd slapd[1822]: conn=1000 op=1 UNBIND
+/var/log/debug.log:Nov 16 09:44:19 freebsd slapd[1822]: conn=1000 fd=12 closed
+/var/log/debug.log:Nov 16 09:44:23 freebsd slapd[1822]: conn=1001 fd=12 ACCEPT from IP=127.0.0.1:51026 (IP=0.0.0.0:389)
+/var/log/debug.log:Nov 16 09:44:23 freebsd slapd[1822]: conn=1001 op=0 BIND dn="cn=admin,dc=midominio,dc=local" method=128
+/var/log/debug.log:Nov 16 09:44:23 freebsd slapd[1822]: conn=1001 op=0 RESULT tag=97 err=49 qtime=0.000057 etime=0.000425 text=
+/var/log/debug.log:Nov 16 09:44:23 freebsd slapd[1822]: conn=1001 op=1 UNBIND
+/var/log/debug.log:Nov 16 09:44:23 freebsd slapd[1822]: conn=1001 fd=12 closed
+/var/log/debug.log:Nov 16 09:44:31 freebsd slapd[1822]: conn=1002 fd=12 ACCEPT from IP=127.0.0.1:33987 (IP=0.0.0.0:389)
+/var/log/debug.log:Nov 16 09:44:31 freebsd slapd[1822]: conn=1002 op=0 BIND dn="cn=admin,dc=midominio,dc=local" method=128
+/var/log/debug.log:Nov 16 09:44:31 freebsd slapd[1822]: conn=1002 op=0 RESULT tag=97 err=49 qtime=0.000036 etime=0.000154 text=
+/var/log/debug.log:Nov 16 09:44:31 freebsd slapd[1822]: conn=1002 op=1 UNBIND
+/var/log/debug.log:Nov 16 09:44:31 freebsd slapd[1822]: conn=1002 fd=12 closed
+/var/log/debug.log:Nov 16 09:44:34 freebsd slapd[1822]: conn=1003 fd=12 ACCEPT from IP=127.0.0.1:40117 (IP=0.0.0.0:389)
+/var/log/debug.log:Nov 16 09:44:34 freebsd slapd[1822]: conn=1003 op=0 BIND dn="cn=admin,dc=midominio,dc=local" method=128
+/var/log/debug.log:Nov 16 09:44:34 freebsd slapd[1822]: conn=1003 op=0 RESULT tag=97 err=49 qtime=0.000056 etime=0.000978 text=
+/var/log/debug.log:Nov 16 09:44:34 freebsd slapd[1822]: conn=1003 op=1 UNBIND
+/var/log/debug.log:Nov 16 09:44:34 freebsd slapd[1822]: conn=1003 fd=12 closed
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 fd=12 ACCEPT from IP=127.0.0.1:26269 (IP=0.0.0.0:389)
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 op=0 BIND dn="" method=128
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 op=0 RESULT tag=97 err=0 qtime=0.000025 etime=0.000102 text=
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 op=1 SRCH base="dc=midominio,dc=local" scope=2 deref=0 filter="(objectClass=*)"
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 op=1 SEARCH RESULT tag=101 err=32 qtime=0.000025 etime=0.000404 nentries=0 text=
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 op=2 UNBIND
+/var/log/debug.log:Nov 16 09:45:32 freebsd slapd[1822]: conn=1004 fd=12 closed
+/var/log/debug.log:Nov 16 09:45:41 freebsd slapd[1822]: conn=1005 fd=12 ACCEPT from IP=127.0.0.1:60254 (IP=0.0.0.0:389)
+/var/log/debug.log:Nov 16 09:45:41 freebsd slapd[1822]: conn=1005 op=0 BIND dn="uid=usuario1,ou=usuarios,dc=midominio,dc=local" method=128
+/var/log/debug.log:Nov 16 09:45:41 freebsd slapd[1822]: conn=1005 op=0 RESULT tag=97 err=49 qtime=0.000237 etime=0.000851 text=
+/var/log/debug.log:Nov 16 09:45:41 freebsd slapd[1822]: conn=1005 op=1 UNBIND
+/var/log/debug.log:Nov 16 09:45:41 freebsd slapd[1822]: conn=1005 fd=12 closed
+/var/log/messages:Nov 16 09:34:26 freebsd nickhernd[1722]: /usr/local/etc/rc.d/slapd: WARNING: failed precmd routine for slapd
+/var/log/messages:Nov 16 09:34:40 freebsd nickhernd[1742]: /usr/local/etc/rc.d/slapd: WARNING: failed precmd routine for slapd
+/var/log/messages:Nov 16 09:37:28 freebsd nickhernd[1788]: /usr/local/etc/rc.d/slapd: WARNING: failed precmd routine for slapd

@@ -1,0 +1,23 @@
+
+Xvnc TigerVNC 1.12.0 - built 2023-01-06 16:01
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101006, X.Org
+
+
+Thu Nov 14 03:02:14 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5902
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'debian-server:2 (nick)' on port 5902 for display :2.
+3NI3X0 Use xtigervncviewer -SecurityTypes vncauth,tlsvnc -passwd /tmp/tigervnc.PlqjWh/passwd debian-server:2 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0x55a611ade180 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x55a611ade180 for event 3
+Terminated
+X connection to :2 broken (explicit kill or server shutdown).
+
+Thu Nov 14 03:02:21 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+The Xtigervnc server cleanly exited!
+Killing Xtigervnc process ID 4653... success!

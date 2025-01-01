@@ -1,0 +1,18 @@
+1  pkg install -y iscsi-target
+  2  sysrc ctld_enable="YES"
+  3  cd /etc
+  4  cp ctl.conf ctl.conf.bak
+  5  vi ctl.conf
+  6  service ctld start
+  7  service ctld status
+  8  ctl list
+  9  tail -f /var/log/messages
+ 10  ctladm devlist -v
+ 11  ctladm islist
+ 12  zfs create -V 50G tank/iscsi_vol
+ 13  ctladm port -l
+ 14  service ctld restart
+ 15  ctladm islist -v
+ 16  zfs list
+ 17  ctladm inquiry
+ 18  history > /memoria/freenas/iscsi/historyfreebsd.txt

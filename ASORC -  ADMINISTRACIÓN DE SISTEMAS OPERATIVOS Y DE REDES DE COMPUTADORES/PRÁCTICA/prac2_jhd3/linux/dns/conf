@@ -1,0 +1,157 @@
+# /etc/bind/named.conf
+###############################################################################
+# Main BIND configuration file
+###############################################################################
+include "/etc/bind/named.conf.options";
+include "/etc/bind/named.conf.local";
+include "/etc/bind/named.conf.default-zones";
+
+# /etc/bind/named.conf.options
+###############################################################################
+# Global options for BIND
+###############################################################################
+options {
+    directory "/var/cache/bind";
+    
+    forwarders {
+        193.145.232.222;     // dns.ua.es
+        193.145.232.230;     // dns2.ua.es
+    };
+
+    dnssec-validation auto;
+    listen-on port 53 { 127.0.0.1; 192.168.24.41; };
+    listen-on-v6 { none; };
+    allow-query { localhost; 192.168.24.0/24; };
+    allow-transfer { none; };
+    recursion yes;
+    version none;
+    
+    # Additional options for better logging (practice requirement)
+    logging-category queries { default_syslog; };
+    logging-category default { default_syslog; };
+    logging-category config { default_syslog; };
+    
+    max-cache-size 256M;
+    cleaning-interval 60;
+    max-ncache-ttl 3600;
+};
+
+# /etc/bind/named.conf.local
+###############################################################################
+# Local zone configurations
+###############################################################################
+zone "debian.local" {
+    type master;
+    file "/etc/bind/zones/db.debian.local";
+    allow-update { none; };
+    notify no;
+};
+
+zone "24.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.192.168.24";
+    allow-update { none; };
+    notify no;
+};
+
+# /etc/bind/zones/db.debian.local
+###############################################################################
+# Forward zone file
+###############################################################################
+$TTL    86400
+@       IN      SOA     ns1.debian.local. admin.debian.local. (
+                     2024111401         ; Serial
+                         3600         ; Refresh
+                          180         ; Retry
+                       604800         ; Expire
+                        86400 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.debian.local.
+
+; A records
+ns1             IN      A       192.168.24.41
+www             IN      A       192.168.24.41
+ftp             IN      A       192.168.24.41
+mail            IN      A       192.168.24.41
+
+; CNAME records
+smtp            IN      CNAME   mail
+pop3            IN      CNAME   mail
+imap            IN      CNAME   mail
+
+; Service records
+_ldap._tcp      IN      SRV     0 0 389    ldap.debian.local.
+_kerberos._udp  IN      SRV     0 0 88     kdc.debian.local.
+_kpasswd._udp   IN      SRV     0 0 464    kdc.debian.local.
+
+# /etc/bind/zones/db.192.168.24
+###############################################################################
+# Reverse zone file
+###############################################################################
+$TTL    86400
+@       IN      SOA     ns1.debian.local. admin.debian.local. (
+                     2024111401         ; Serial
+                         3600         ; Refresh
+                          180         ; Retry
+                       604800         ; Expire
+                        86400 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.debian.local.
+
+; PTR Records
+41      IN      PTR     ns1.debian.local.
+41      IN      PTR     www.debian.local.
+41      IN      PTR     mail.debian.local.
+41      IN      PTR     ftp.debian.local.
+
+# /etc/bind/named.conf.logging
+###############################################################################
+# Logging configuration
+###############################################################################
+logging {
+    channel default_syslog {
+        syslog daemon;
+        severity dynamic;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+    
+    channel query_log {
+        file "/var/log/bind/query.log";
+        severity debug 3;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+    
+    channel security_log {
+        file "/var/log/bind/security.log";
+        severity info;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+    
+    category default { default_syslog; };
+    category queries { query_log; };
+    category security { security_log; };
+};
+
+# /etc/default/bind9
+###############################################################################
+# Default configuration for BIND9
+###############################################################################
+RESOLVCONF=yes
+OPTIONS="-u bind -4 -c /etc/bind/named.conf"
+STARTUP_OPTIONS="-c /etc/bind/named.conf"
+NAMED_OPTIONS="-u bind -v"
+
+# /etc/systemd/system/bind9.service.d/override.conf
+###############################################################################
+# Systemd override for BIND9
+###############################################################################
+[Service]
+LimitNOFILE=65535
+Restart=always
+ReadWritePaths=/var/log/bind

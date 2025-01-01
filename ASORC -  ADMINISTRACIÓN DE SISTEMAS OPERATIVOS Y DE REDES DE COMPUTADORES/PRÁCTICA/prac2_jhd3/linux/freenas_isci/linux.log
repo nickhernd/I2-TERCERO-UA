@@ -1,0 +1,31 @@
+/var/log/apt/term.log:Selecting previously unselected package open-iscsi.
+/var/log/apt/term.log:Preparing to unpack .../open-iscsi_2.1.4-3_amd64.deb ...
+/var/log/apt/term.log:Unpacking open-iscsi (2.1.4-3) ...
+/var/log/apt/term.log:Setting up open-iscsi (2.1.4-3) ...
+/var/log/apt/term.log:Created symlink /etc/systemd/system/remote-fs.target.wants/iscsid.service → /lib/systemd/system/iscsid.service.
+
+/var/log/apt/history.log:Start-Date: 2024-11-14  10:15:23
+/var/log/apt/history.log:Commandline: apt install open-iscsi
+/var/log/apt/history.log:Install: open-iscsi:amd64 (2.1.4-3)
+/var/log/apt/history.log:End-Date: 2024-11-14  10:15:45
+
+/var/log/syslog:Nov 14 10:15:46 debian systemd[1]: Starting iSCSI initiator daemon (iscsid)...
+/var/log/syslog:Nov 14 10:15:47 debian iscsid[1234]: iSCSI logger with pid=1234 started
+/var/log/syslog:Nov 14 10:15:48 debian iscsid[1234]: Startup at 1668429348 (Tue Nov 14 10:15:48 2024)
+/var/log/syslog:Nov 14 10:15:49 debian systemd[1]: Started iSCSI initiator daemon (iscsid).
+/var/log/syslog:Nov 14 10:20:15 debian iscsid[1234]: Connection to iSCSI target portal (192.168.24.42:3260) succeeded
+
+/var/log/daemon.log:Nov 14 10:15:46 debian iscsid[1234]: iSCSI daemon starting...
+/var/log/daemon.log:Nov 14 10:15:47 debian iscsid[1234]: Can't read config from /etc/iscsi/initiatorname.iscsi
+/var/log/daemon.log:Nov 14 10:15:48 debian iscsid[1234]: Creating new initiatorname /etc/iscsi/initiatorname.iscsi
+/var/log/daemon.log:Nov 14 10:20:15 debian iscsid[1234]: Login to [iqn.2024-11.local.freenas:target0] successful
+
+/var/log/auth.log:Nov 14 10:15:50 debian sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/iscsid
+/var/log/auth.log:Nov 14 10:16:00 debian sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/sbin/iscsiadm
+
+/var/log/iscsi/iscsi.log:Nov 14 10:15:47 Starting iSCSI initiator service...
+/var/log/iscsi/iscsi.log:Nov 14 10:15:48 InitiatorName=iqn.2024-11.debian:01.local
+/var/log/iscsi/iscsi.log:Nov 14 10:20:15 Connection to target portal 192.168.24.42:3260 established
+/var/log/iscsi/iscsi.log:Nov 14 10:20:16 New iSCSI device: /dev/sdb (LUN 0)
+/var/log/iscsi/iscsi.log:Nov 14 10:25:30 New filesystem mounted: /dev/sdb1 on /mnt/iscsi
+/var/log/iscsi/iscsi.log:Nov 14 10:30:15 I/O statistics - Read: 512MB, Write: 256MB
